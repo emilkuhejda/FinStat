@@ -9,9 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.Mobile.Android", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.Mobile.iOS", "FinStat.Mobile\FinStat.Mobile.iOS\FinStat.Mobile.iOS.csproj", "{3582F260-F13D-4EE9-BCB3-EC4D4318CC73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.Mobile", "FinStat.Mobile\FinStat.Mobile\FinStat.Mobile.csproj", "{A37FEEBD-9B43-44AD-946F-DC0B74390803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinStat.Mobile", "FinStat.Mobile\FinStat.Mobile\FinStat.Mobile.csproj", "{A37FEEBD-9B43-44AD-946F-DC0B74390803}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{F10E2DE0-3126-45EF-B6E4-A83F7FDA80FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{B301CE38-6587-47C9-878D-BEE452DE5D5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_global", "_global", "{C7472D77-C317-471C-A1F5-8A4955CAE587}"
+	ProjectSection(SolutionItems) = preProject
+		Global\AssemblyInfo.cs = Global\AssemblyInfo.cs
+		Global\FinStat.CodeAnalysis.ruleset = Global\FinStat.CodeAnalysis.ruleset
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
