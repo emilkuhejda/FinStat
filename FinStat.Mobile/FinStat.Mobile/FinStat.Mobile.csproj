@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <PackageReference Include="Prism.Unity.Forms" Version="8.1.97" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="19.2.0.59" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
@@ -32,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Components\FinStat.Business\FinStat.Business.csproj" />
     <ProjectReference Include="..\..\Components\FinStat.Common\FinStat.Common.csproj" />
     <ProjectReference Include="..\..\Components\FinStat.Domain\FinStat.Domain.csproj" />
     <ProjectReference Include="..\..\Components\FinStat.Resources\FinStat.Resources.csproj" />

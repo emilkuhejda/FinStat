@@ -1,4 +1,5 @@
-﻿using FinStat.Domain.Interfaces.Required;
+﻿using FinStat.Business;
+using FinStat.Domain.Interfaces.Required;
 using FinStat.Mobile.Localization;
 using Prism;
 using Prism.Ioc;
@@ -13,6 +14,9 @@ namespace FinStat.Mobile.Configuration
         {
             var mobileModule = new MobileModule();
             mobileModule.RegisterServices(containerRegistry);
+
+            var businessModule = new BusinessModule();
+            businessModule.RegisterServices(containerRegistry);
 
             RegisterPlatformServices(containerRegistry);
             InitializeServices(containerRegistry);

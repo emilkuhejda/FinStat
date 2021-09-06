@@ -8,7 +8,8 @@
                         xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                         xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Autofac.Forms"
                         xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
-                        xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
+                        xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
+                        xmlns:xForms="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms">
     <prism:PrismApplication.Resources>
         <ResourceDictionary>
             <!--  Paddings  -->
@@ -378,7 +379,7 @@
                                             VerticalOptions="FillAndExpand" />
 
                     <!--  Activity indicator  -->
-                    <!--<Grid Grid.Row="0"
+                    <Grid Grid.Row="0"
                           Grid.RowSpan="3"
                           IsVisible="{TemplateBinding BindingContext.OperationScope.IsBusy}">
                         <xForms:SfBusyIndicator Title="{TemplateBinding BindingContext.IndicatorCaption}"
@@ -390,7 +391,7 @@
                                                 TextColor="{StaticResource ColorWhite}"
                                                 ViewBoxHeight="50"
                                                 ViewBoxWidth="50" />
-                    </Grid>-->
+                    </Grid>
                 </Grid>
             </ControlTemplate>
         </ResourceDictionary>

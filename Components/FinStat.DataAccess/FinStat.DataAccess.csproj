@@ -8,4 +8,8 @@
     <CodeAnalysisRuleSet>..\..\Global\FinStat.CodeAnalysis.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity.Forms" Version="8.1.97" />
+  </ItemGroup>
+
 </Project>
