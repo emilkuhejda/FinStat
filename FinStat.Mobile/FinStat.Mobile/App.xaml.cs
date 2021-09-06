@@ -25,7 +25,7 @@ namespace FinStat.Mobile
 
             InitializeComponent();
 
-            NavigationService.NavigateWithoutAnimationAsync($"/{Pages.Main}").ConfigureAwait(false);
+            NavigationService.NavigateWithoutAnimationAsync($"/{Pages.Navigation}/{Pages.Main}").ConfigureAwait(false);
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

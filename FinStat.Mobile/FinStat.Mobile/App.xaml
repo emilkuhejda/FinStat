@@ -91,14 +91,12 @@
             <Color x:Key="ColorBlack">#000000</Color>
             <Color x:Key="ColorWhite">#FFFFFF</Color>
 
-            <Color x:Key="ColorPrimary">#FFE67E22</Color>
+            <Color x:Key="ColorPrimary">#FF00BFFF</Color>
             <Color x:Key="BackgroundColor">#FFFFFF</Color>
             <Color x:Key="WindowBackground">#FFFFFF</Color>
             <Color x:Key="PrimaryTextColor">#616161</Color>
             <Color x:Key="GreyBackgroundColor">#F2F3F4</Color>
             <Color x:Key="Divider">#EEEEEE</Color>
-            <Color x:Key="HeaderBackgroundColor">#D4F3EF</Color>
-            <Color x:Key="SearchBoxBackgroundColor">#00BFFF</Color>
 
             <!--  Styles  -->
             <Style TargetType="Label">
