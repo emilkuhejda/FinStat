@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using FFImageLoading.Forms.Platform;
 
 namespace FinStat.Mobile.UWP
 {
@@ -58,6 +59,8 @@ namespace FinStat.Mobile.UWP
                 rootFrame.NavigationFailed += OnNavigationFailed;
                 global::Xamarin.Forms.Forms.SetFlags("Shell_UWP_Experimental");
                 Xamarin.Forms.Forms.Init(e);
+
+                CachedImageRenderer.Init();
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

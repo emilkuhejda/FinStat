@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+﻿using FinStat.Mobile.UWP.Configuration;
+using Application = FinStat.Mobile.App;
 
 namespace FinStat.Mobile.UWP
 {
@@ -21,7 +9,8 @@ namespace FinStat.Mobile.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new FinStat.Mobile.App());
+            var bootstrapper = new UwpBootstrapper();
+            LoadApplication(new Application(bootstrapper));
         }
     }
 }
