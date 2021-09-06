@@ -7,7 +7,8 @@
                         xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
                         xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                         xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Autofac.Forms"
-                        xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources">
+                        xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
+                        xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
     <prism:PrismApplication.Resources>
         <ResourceDictionary>
             <!--  Paddings  -->
@@ -370,11 +371,11 @@
                     </Grid>
 
                     <!--  Bottom navigation  -->
-                    <!--<views:BottomNavigation Grid.Row="2"
+                    <views:BottomNavigation Grid.Row="2"
                                             BindingContext="{TemplateBinding BindingContext.BottomNavigation}"
                                             HorizontalOptions="FillAndExpand"
                                             IsVisible="{TemplateBinding BindingContext.HasBottomNavigation}"
-                                            VerticalOptions="FillAndExpand" />-->
+                                            VerticalOptions="FillAndExpand" />
 
                     <!--  Activity indicator  -->
                     <!--<Grid Grid.Row="0"

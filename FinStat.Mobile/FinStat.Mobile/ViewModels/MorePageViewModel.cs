@@ -2,9 +2,9 @@
 
 namespace FinStat.Mobile.ViewModels
 {
-    public class MainPageViewModel : ViewModelBase
+    public class MorePageViewModel : ViewModelBase
     {
-        public MainPageViewModel(
+        public MorePageViewModel(
             INavigationService navigationService)
             : base(navigationService)
         {

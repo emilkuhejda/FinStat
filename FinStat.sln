@@ -21,15 +21,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_global", "_global", "{C747
 		Global\FinStat.CodeAnalysis.ruleset = Global\FinStat.CodeAnalysis.ruleset
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.Business", "Components\FinStat.Business\FinStat.Business.csproj", "{82FA2A19-0AA3-47D1-A058-EE0D31892A06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinStat.Business", "Components\FinStat.Business\FinStat.Business.csproj", "{82FA2A19-0AA3-47D1-A058-EE0D31892A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.Common", "Components\FinStat.Common\FinStat.Common.csproj", "{52DE4E75-4888-4BB9-BBD5-1DDAA8A008C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinStat.Common", "Components\FinStat.Common\FinStat.Common.csproj", "{52DE4E75-4888-4BB9-BBD5-1DDAA8A008C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.DataAccess", "Components\FinStat.DataAccess\FinStat.DataAccess.csproj", "{A6FFE375-76CF-436D-9C09-9784FC1284C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinStat.DataAccess", "Components\FinStat.DataAccess\FinStat.DataAccess.csproj", "{A6FFE375-76CF-436D-9C09-9784FC1284C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.Domain", "Components\FinStat.Domain\FinStat.Domain.csproj", "{D1FFB448-F85D-4758-8554-DA0BD766299A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinStat.Domain", "Components\FinStat.Domain\FinStat.Domain.csproj", "{D1FFB448-F85D-4758-8554-DA0BD766299A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinStat.Resources", "Components\FinStat.Resources\FinStat.Resources.csproj", "{43E4D672-31A6-43B5-A1CD-917442132A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinStat.Resources", "Components\FinStat.Resources\FinStat.Resources.csproj", "{43E4D672-31A6-43B5-A1CD-917442132A09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
