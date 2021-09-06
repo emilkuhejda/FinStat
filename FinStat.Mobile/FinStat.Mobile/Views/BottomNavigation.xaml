@@ -28,7 +28,7 @@
                                   HorizontalOptions="Center"
                                   InputTransparent="True"
                                   IsVisible="{Binding IsMainPageActive}"
-                                  Source="resource://VsuSokol.Mobile.Resources.Images.Main-Active.svg"
+                                  Source="resource://FinStat.Mobile.Resources.Images.Main-Active.svg"
                                   VerticalOptions="Center" />
 
             <forms:SvgCachedImage Margin="0"
@@ -38,7 +38,7 @@
                                   HorizontalOptions="Center"
                                   InputTransparent="True"
                                   IsVisible="{Binding IsMainPageActive, Converter={StaticResource InvertedBoolConverter}}"
-                                  Source="resource://VsuSokol.Mobile.Resources.Images.Main.svg"
+                                  Source="resource://FinStat.Mobile.Resources.Images.Main.svg"
                                   VerticalOptions="Center" />
 
             <Label Style="{StaticResource NavigationItemLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Main}}" />
@@ -57,7 +57,7 @@
                                   HorizontalOptions="Center"
                                   InputTransparent="True"
                                   IsVisible="{Binding IsMorePageActive}"
-                                  Source="resource://VsuSokol.Mobile.Resources.Images.More-Active.svg"
+                                  Source="resource://FinStat.Mobile.Resources.Images.More-Active.svg"
                                   VerticalOptions="Center" />
 
             <forms:SvgCachedImage Margin="0"
@@ -67,7 +67,7 @@
                                   HorizontalOptions="Center"
                                   InputTransparent="True"
                                   IsVisible="{Binding IsMorePageActive, Converter={StaticResource InvertedBoolConverter}}"
-                                  Source="resource://VsuSokol.Mobile.Resources.Images.More.svg"
+                                  Source="resource://FinStat.Mobile.Resources.Images.More.svg"
                                   VerticalOptions="Center" />
 
             <Label Style="{StaticResource NavigationItemLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.More}}" />

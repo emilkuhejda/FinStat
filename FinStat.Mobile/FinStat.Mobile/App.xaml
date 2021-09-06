@@ -263,7 +263,7 @@
                                                   HeightRequest="30"
                                                   HorizontalOptions="CenterAndExpand"
                                                   InputTransparent="True"
-                                                  Source="resource://VsuSokol.Mobile.Resources.Images.Back.svg"
+                                                  Source="resource://FinStat.Mobile.Resources.Images.Back.svg"
                                                   VerticalOptions="CenterAndExpand" />
 
                             <Grid.GestureRecognizers>
@@ -358,7 +358,7 @@
                                                   Margin="0,20,0,20"
                                                   Aspect="AspectFit"
                                                   HorizontalOptions="Center"
-                                                  Source="resource://VsuSokol.Mobile.Resources.Images.NoAccess.svg"
+                                                  Source="resource://FinStat.Mobile.Resources.Images.NoAccess.svg"
                                                   VerticalOptions="End"
                                                   WidthRequest="250" />
 
