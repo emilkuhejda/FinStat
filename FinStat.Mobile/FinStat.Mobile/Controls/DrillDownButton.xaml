@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView x:Class="FinStat.Mobile.Controls.DrillDownButton"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:FinStat.Mobile.Converters;assembly=FinStat.Mobile"
+             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <converters:ColumnSpanConverter x:Key="ColumnSpanConverter" />
+            <converters:DoubleToGridLengthConverter x:Key="DoubleToGridLengthConverter" />
+        </ResourceDictionary>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Frame Padding="0"
+               BackgroundColor="{Binding BackgroundColor, Source={x:Reference Control}}"
+               CornerRadius="0"
+               HasShadow="False"
+               OutlineColor="{Binding OutlineColor, Source={x:Reference Control}}"
+               VerticalOptions="FillAndExpand">
+
+            <StackLayout Margin="8" Spacing="0">
+                <Grid BackgroundColor="{Binding BackgroundColor, Source={x:Reference Control}}" IsEnabled="{Binding IsEnabled, Source={x:Reference Control}}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="25" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="{Binding RowHeight, Source={x:Reference Control}, Converter={StaticResource DoubleToGridLengthConverter}}" />
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0"
+                           Grid.ColumnSpan="{Binding Content, Source={x:Reference ContentPresenter}, Mode=OneWay, Converter={StaticResource ColumnSpanConverter}}"
+                           BackgroundColor="Transparent"
+                           HorizontalOptions="StartAndExpand"
+                           HorizontalTextAlignment="Start"
+                           Style="{StaticResource LabelStyle}"
+                           Text="{Binding Text, Source={x:Reference Control}, Mode=OneWay}"
+                           VerticalOptions="CenterAndExpand"
+                           VerticalTextAlignment="Center" />
+
+                    <Frame x:Name="ContentPresenter"
+                           Grid.Column="1"
+                           Margin="0"
+                           Padding="0"
+                           BackgroundColor="Transparent"
+                           CornerRadius="0"
+                           HasShadow="False"
+                           HorizontalOptions="End" />
+
+                    <forms:SvgCachedImage Grid.Column="2"
+                                          HeightRequest="16"
+                                          HorizontalOptions="EndAndExpand"
+                                          IsVisible="{Binding IsBusy, Source={x:Reference Control}, Mode=OneWay, Converter={StaticResource InvertedBoolConverter}}"
+                                          Source="{Binding ImageSource, Source={x:Reference Control}, Mode=OneWay}"
+                                          VerticalOptions="CenterAndExpand"
+                                          WidthRequest="16" />
+
+                    <ActivityIndicator Grid.Column="1"
+                                       Grid.ColumnSpan="2"
+                                       HorizontalOptions="EndAndExpand"
+                                       IsRunning="{Binding IsBusy, Source={x:Reference Control}, Mode=OneWay}"
+                                       IsVisible="{Binding IsBusy, Source={x:Reference Control}, Mode=OneWay}"
+                                       VerticalOptions="CenterAndExpand">
+                        <ActivityIndicator.WidthRequest>
+                            <OnPlatform x:TypeArguments="x:Double"
+                                        Android="24"
+                                        WinPhone="100"
+                                        iOS="24" />
+                        </ActivityIndicator.WidthRequest>
+                        <ActivityIndicator.Color>
+                            <OnPlatform x:TypeArguments="Color"
+                                        Android="{StaticResource ColorPrimary}"
+                                        WinPhone="{StaticResource ColorPrimary}" />
+                        </ActivityIndicator.Color>
+                    </ActivityIndicator>
+
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Command, Source={x:Reference Control}, Mode=OneWay}"
+                                              CommandParameter="{Binding CommandParameter, Source={x:Reference Control}, Mode=OneWay}"
+                                              NumberOfTapsRequired="1" />
+                    </Grid.GestureRecognizers>
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

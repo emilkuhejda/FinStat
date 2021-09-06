@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
+﻿using FFImageLoading.Forms.Platform;
+using FinStat.Mobile.iOS.Configuration;
 using Foundation;
+using Syncfusion.SfBusyIndicator.XForms.iOS;
 using UIKit;
+using Xamarin.Forms;
 
 namespace FinStat.Mobile.iOS
 {
@@ -22,10 +22,26 @@ namespace FinStat.Mobile.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            Initialize();
+            InitializeSyncfusionControls();
+
+            var bootstrapper = new OsxBootstrapper();
+            var application = new App(bootstrapper);
+            LoadApplication(application);
 
             return base.FinishedLaunching(app, options);
+        }
+
+        private void Initialize()
+        {
+            Forms.Init();
+
+            CachedImageRenderer.Init();
+        }
+
+        private void InitializeSyncfusionControls()
+        {
+            using (var busyIndicatorRenderer = new SfBusyIndicatorRenderer()) { }
         }
     }
 }

@@ -1,31 +1,34 @@
-﻿using FinStat.Mobile.Services;
-using FinStat.Mobile.Views;
-using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using FinStat.Domain.Interfaces.Configuration;
+using FinStat.Mobile.Extensions;
+using FinStat.Mobile.Navigation;
+using Prism;
+using Prism.Ioc;
+using Prism.Unity;
+using Syncfusion.Licensing;
 
 namespace FinStat.Mobile
 {
-    public partial class App : Application
+    public partial class App : PrismApplication
     {
+        private IApplicationSettings _applicationSettings;
 
-        public App()
+        public App(IPlatformInitializer platformInitializer)
+            : base(platformInitializer)
         {
+        }
+
+        protected override void OnInitialized()
+        {
+            _applicationSettings = Container.Resolve<IApplicationSettings>();
+
+            SyncfusionLicenseProvider.RegisterLicense(_applicationSettings.SyncfusionKey);
+
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            NavigationService.NavigateWithoutAnimationAsync($"/{Pages.Navigation}/{Pages.Main}").ConfigureAwait(false);
         }
 
-        protected override void OnStart()
-        {
-        }
-
-        protected override void OnSleep()
-        {
-        }
-
-        protected override void OnResume()
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
         }
     }

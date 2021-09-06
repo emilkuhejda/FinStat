@@ -1,32 +1,397 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinStat.Mobile.App">
-    <!--
-        Define global resources and styles here, that apply to all pages in your app.
-    -->
-    <Application.Resources>
+<prism:PrismApplication x:Class="FinStat.Mobile.App"
+                        xmlns="http://xamarin.com/schemas/2014/forms"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                        xmlns:controls="clr-namespace:FinStat.Mobile.Controls;assembly=FinStat.Mobile"
+                        xmlns:converters="clr-namespace:FinStat.Mobile.Converters;assembly=FinStat.Mobile"
+                        xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+                        xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+                        xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Autofac.Forms"
+                        xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
+                        xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
+                        xmlns:xForms="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms">
+    <prism:PrismApplication.Resources>
         <ResourceDictionary>
-            <Color x:Key="Primary">#2196F3</Color>
-            <Style TargetType="Button">
-                <Setter Property="TextColor" Value="White"></Setter>
-                <Setter Property="VisualStateManager.VisualStateGroups">
-                    <VisualStateGroupList>
-                        <VisualStateGroup x:Name="CommonStates">
-                            <VisualState x:Name="Normal">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
-                                </VisualState.Setters>
-                            </VisualState>
-                            <VisualState x:Name="Disabled">
-                                <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="#332196F3" />
-                                </VisualState.Setters>
-                            </VisualState>
-                        </VisualStateGroup>
-                    </VisualStateGroupList>
-                </Setter>
+            <!--  Paddings  -->
+            <x:Double x:Key="SmallSpacing">4</x:Double>
+            <x:Double x:Key="MediumSpacing">8</x:Double>
+            <x:Double x:Key="StandardSpacing">20</x:Double>
+
+            <Thickness x:Key="SmallPadding">4</Thickness>
+            <Thickness x:Key="MediumPadding">8</Thickness>
+            <Thickness x:Key="StandardPadding"
+                       Bottom="{StaticResource StandardSpacing}"
+                       Left="{StaticResource StandardSpacing}"
+                       Right="{StaticResource StandardSpacing}"
+                       Top="{StaticResource StandardSpacing}" />
+
+            <!--  Font Sizes  -->
+            <OnPlatform x:Key="LittleSize"
+                        x:TypeArguments="x:Double"
+                        Android="12"
+                        WinPhone="12"
+                        iOS="11" />
+
+            <OnPlatform x:Key="MidMediumSize"
+                        x:TypeArguments="x:Double"
+                        Android="14"
+                        WinPhone="14"
+                        iOS="12" />
+
+            <OnPlatform x:Key="MediumSize"
+                        x:TypeArguments="x:Double"
+                        Android="16"
+                        WinPhone="16"
+                        iOS="14" />
+
+            <OnPlatform x:Key="LargeSize"
+                        x:TypeArguments="x:Double"
+                        Android="18"
+                        WinPhone="18"
+                        iOS="16" />
+
+            <OnPlatform x:Key="LargerSize"
+                        x:TypeArguments="x:Double"
+                        Android="20"
+                        WinPhone="20"
+                        iOS="18" />
+
+            <OnPlatform x:Key="BigSize"
+                        x:TypeArguments="x:Double"
+                        Android="24"
+                        WinPhone="24"
+                        iOS="20" />
+
+            <OnPlatform x:Key="ExtraBigSize"
+                        x:TypeArguments="x:Double"
+                        Android="32"
+                        WinPhone="32"
+                        iOS="24" />
+
+            <OnPlatform x:Key="HugeSize"
+                        x:TypeArguments="x:Double"
+                        Android="48"
+                        WinPhone="48"
+                        iOS="32" />
+
+            <!--  Converters  -->
+            <converters:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+
+            <!--  Colors  -->
+            <Color x:Key="ColorGrey50">#FAFAFA</Color>
+            <Color x:Key="ColorGrey100">#F5F5F5</Color>
+            <Color x:Key="ColorGrey200">#EEEEEE</Color>
+            <Color x:Key="ColorGrey300">#E0E0E0</Color>
+            <Color x:Key="ColorGrey400">#BDBDBD</Color>
+            <Color x:Key="ColorGrey500">#9E9E9E</Color>
+            <Color x:Key="ColorGrey600">#757575</Color>
+            <Color x:Key="ColorGrey700">#616161</Color>
+            <Color x:Key="ColorGrey800">#424242</Color>
+            <Color x:Key="ColorGrey900">#212121</Color>
+            <Color x:Key="ColorBlack">#000000</Color>
+            <Color x:Key="ColorWhite">#FFFFFF</Color>
+
+            <Color x:Key="ColorPrimary">#FF00BFFF</Color>
+            <Color x:Key="BackgroundColor">#FFFFFF</Color>
+            <Color x:Key="WindowBackground">#FFFFFF</Color>
+            <Color x:Key="PrimaryTextColor">#616161</Color>
+            <Color x:Key="GreyBackgroundColor">#F2F3F4</Color>
+            <Color x:Key="Divider">#EEEEEE</Color>
+
+            <!--  Styles  -->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource PrimaryTextColor}" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="FontSize" Value="{StaticResource MediumSize}" />
+                <Setter Property="FontAttributes" Value="None" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="LineBreakMode" Value="TailTruncation" />
             </Style>
-        </ResourceDictionary>        
-    </Application.Resources>
-</Application>
+
+            <Style x:Key="LabelSmall" TargetType="Label">
+                <Setter Property="FontSize" Value="{StaticResource LittleSize}" />
+            </Style>
+
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource PrimaryTextColor}" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="FontSize" Value="{StaticResource MediumSize}" />
+                <Setter Property="FontAttributes" Value="None" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="Opacity" Value="1.0" />
+                <Setter Property="LineBreakMode" Value="TailTruncation" />
+                <Setter Property="Margin">
+                    <OnPlatform x:TypeArguments="Thickness"
+                                Android="4, 0, 0, 0"
+                                WinPhone="0, 0, 0, 0"
+                                iOS="0, 0, 0, 0" />
+                </Setter>
+                <Setter Property="HeightRequest" Value="48" />
+            </Style>
+
+            <Style x:Key="LabelBoldStyle"
+                   BasedOn="{StaticResource LabelStyle}"
+                   TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+            </Style>
+
+            <Style x:Key="DrillDownItemLabelStyle"
+                   BasedOn="{StaticResource LabelStyle}"
+                   TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource ColorGrey500}" />
+                <Setter Property="FontSize" Value="{StaticResource MidMediumSize}" />
+            </Style>
+
+            <Style x:Key="CustomButtonStyle" TargetType="controls:CustomButton">
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="BorderRadius" Value="6" />
+                <Setter Property="TextColor" Value="{StaticResource ColorPrimary}" />
+                <Setter Property="FontSize" Value="{StaticResource MediumSize}" />
+                <Setter Property="FontAttributes" Value="None" />
+            </Style>
+
+            <Style x:Key="CustomButtonPrimaryStyle"
+                   BasedOn="{StaticResource CustomButtonStyle}"
+                   TargetType="controls:CustomButton">
+                <Setter Property="BackgroundColor" Value="{StaticResource ColorPrimary}" />
+                <Setter Property="BorderColor" Value="{StaticResource ColorPrimary}" />
+                <Setter Property="BackgroundColorPressed" Value="{StaticResource ColorPrimary}" />
+                <Setter Property="BorderColorPressed" Value="{StaticResource ColorPrimary}" />
+                <Setter Property="TextColor" Value="{StaticResource ColorWhite}" />
+                <Style.Triggers>
+                    <Trigger TargetType="Button" Property="IsEnabled" Value="True">
+                        <Setter Property="BackgroundColor" Value="{StaticResource ColorPrimary}" />
+                        <Setter Property="BorderColor" Value="{StaticResource ColorPrimary}" />
+                    </Trigger>
+                    <Trigger TargetType="Button" Property="IsEnabled" Value="False">
+                        <Setter Property="BackgroundColor" Value="{StaticResource ColorGrey300}" />
+                        <Setter Property="BorderColor" Value="{StaticResource ColorGrey300}" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <Style x:Key="CustomButtonSecondaryStyle"
+                   BasedOn="{StaticResource CustomButtonStyle}"
+                   TargetType="controls:CustomButton">
+                <Setter Property="BackgroundColor" Value="{StaticResource WindowBackground}" />
+                <Setter Property="BackgroundColorPressed" Value="{StaticResource WindowBackground}" />
+                <Setter Property="BorderColor" Value="{StaticResource ColorPrimary}" />
+                <Setter Property="BorderColorPressed" Value="{StaticResource ColorPrimary}" />
+                <Style.Triggers>
+                    <Trigger TargetType="Button" Property="IsEnabled" Value="True">
+                        <Setter Property="BackgroundColor" Value="{StaticResource ColorWhite}" />
+                        <Setter Property="BorderColor" Value="{StaticResource ColorPrimary}" />
+                    </Trigger>
+                    <Trigger TargetType="Button" Property="IsEnabled" Value="False">
+                        <Setter Property="BackgroundColor" Value="{StaticResource WindowBackground}" />
+                        <Setter Property="BorderColor" Value="{StaticResource ColorGrey300}" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <!--  Navigation Bar  -->
+            <x:Double x:Key="HeaderImageHeight">60</x:Double>
+            <GridLength x:Key="NavigationBarRow1Height">52</GridLength>
+            <converters:BoolToGridLengthConverter x:Key="BoolToNavigationBarRow1HeightConverter"
+                                                  FalseValue="0"
+                                                  TrueValue="{StaticResource NavigationBarRow1Height}" />
+
+            <ControlTemplate x:Key="MainPageTemplate">
+                <Grid x:Name="MainHeaderGrid"
+                      Margin="0"
+                      Padding="0"
+                      BackgroundColor="{StaticResource ColorWhite}"
+                      BindingContext="{TemplateBinding BindingContext}"
+                      ColumnSpacing="0"
+                      HorizontalOptions="FillAndExpand"
+                      RowSpacing="0"
+                      VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <!--  Headline row  -->
+                        <RowDefinition Height="{Binding HasTitleBar, Mode=OneWay, Converter={StaticResource BoolToNavigationBarRow1HeightConverter}}" />
+                        <!--  Content row  -->
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--  Header Row  -->
+                    <Grid Grid.Row="0"
+                          Margin="0"
+                          Padding="0"
+                          BackgroundColor="{StaticResource ColorWhite}"
+                          BindingContext="{TemplateBinding BindingContext}"
+                          ColumnSpacing="0"
+                          HorizontalOptions="FillAndExpand"
+                          IsVisible="{TemplateBinding BindingContext.HasTitleBar}"
+                          RowSpacing="0"
+                          VerticalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="{StaticResource NavigationBarRow1Height}" />
+                        </Grid.RowDefinitions>
+
+                        <!--  Back navigation icon  -->
+                        <Grid Grid.Row="0"
+                              Grid.Column="0"
+                              Margin="0"
+                              Padding="0"
+                              BackgroundColor="Transparent"
+                              ColumnSpacing="0"
+                              HeightRequest="39"
+                              HorizontalOptions="StartAndExpand"
+                              IsVisible="{TemplateBinding BindingContext.CanGoBack}"
+                              RowSpacing="0"
+                              VerticalOptions="CenterAndExpand"
+                              WidthRequest="39">
+                            <forms:SvgCachedImage Margin="0"
+                                                  Aspect="AspectFit"
+                                                  BackgroundColor="Transparent"
+                                                  BindingContext="{TemplateBinding BindingContext}"
+                                                  HeightRequest="30"
+                                                  HorizontalOptions="CenterAndExpand"
+                                                  InputTransparent="True"
+                                                  Source="resource://FinStat.Mobile.Resources.Images.Back.svg"
+                                                  VerticalOptions="CenterAndExpand" />
+
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer BindingContext="{TemplateBinding BindingContext}" Command="{TemplateBinding BindingContext.NavigateBackCommand}" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+
+                        <!--  Title  -->
+                        <Label Grid.Row="0"
+                               Grid.Column="1"
+                               Margin="0"
+                               Padding="0"
+                               BackgroundColor="Transparent"
+                               HorizontalOptions="Center"
+                               Text="{TemplateBinding BindingContext.Title}"
+                               VerticalOptions="Center" />
+
+                        <!--  Action buttons  -->
+                        <Grid Grid.Row="0"
+                              Grid.Column="2"
+                              IsVisible="{Binding NoAccessToContent, Converter={StaticResource InvertedBoolConverter}}">
+                            <controls:StackedList Margin="0"
+                                                  BackgroundColor="Transparent"
+                                                  BindingContext="{TemplateBinding Parent}"
+                                                  HorizontalOptions="EndAndExpand"
+                                                  ItemsSource="{TemplateBinding RightNavigationToolbarItems,
+                                                                                Mode=OneWay}"
+                                                  ListOrientation="Horizontal"
+                                                  Spacing="0"
+                                                  VerticalOptions="CenterAndExpand">
+                                <controls:StackedList.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Margin="0"
+                                              Padding="0"
+                                              ColumnSpacing="0"
+                                              HeightRequest="39"
+                                              RowSpacing="0"
+                                              WidthRequest="39">
+                                            <StackLayout Padding="0" Orientation="Vertical">
+                                                <Grid BackgroundColor="Transparent"
+                                                      HeightRequest="30"
+                                                      HorizontalOptions="CenterAndExpand"
+                                                      VerticalOptions="CenterAndExpand"
+                                                      WidthRequest="30">
+                                                    <forms:SvgCachedImage Margin="0"
+                                                                          Aspect="AspectFit"
+                                                                          BackgroundColor="Transparent"
+                                                                          HeightRequest="30"
+                                                                          HorizontalOptions="CenterAndExpand"
+                                                                          InputTransparent="True"
+                                                                          Source="{Binding Source, Mode=OneWay}"
+                                                                          VerticalOptions="CenterAndExpand" />
+                                                    <Grid.GestureRecognizers>
+                                                        <TapGestureRecognizer Command="{Binding Command}" />
+                                                    </Grid.GestureRecognizers>
+                                                </Grid>
+                                            </StackLayout>
+                                        </Grid>
+                                    </DataTemplate>
+                                </controls:StackedList.ItemTemplate>
+                            </controls:StackedList>
+                        </Grid>
+
+                        <!--  Bottom separator  -->
+                        <Grid Grid.Row="0"
+                              Grid.Column="0"
+                              Grid.ColumnSpan="3"
+                              BackgroundColor="{StaticResource ColorPrimary}"
+                              HeightRequest="1"
+                              VerticalOptions="End" />
+                    </Grid>
+
+                    <!--  Page Content  -->
+                    <ContentPresenter Grid.Row="1"
+                                      Grid.Column="0"
+                                      HorizontalOptions="FillAndExpand"
+                                      IsVisible="{Binding NoAccessToContent, Converter={StaticResource InvertedBoolConverter}}"
+                                      VerticalOptions="FillAndExpand" />
+
+                    <!--  No Access Page  -->
+                    <Grid Grid.Row="1"
+                          Grid.Column="0"
+                          IsVisible="{Binding NoAccessToContent}">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <forms:SvgCachedImage Grid.Row="0"
+                                                  Grid.Column="0"
+                                                  Margin="0,20,0,20"
+                                                  Aspect="AspectFit"
+                                                  HorizontalOptions="Center"
+                                                  Source="resource://FinStat.Mobile.Resources.Images.NoAccess.svg"
+                                                  VerticalOptions="End"
+                                                  WidthRequest="250" />
+
+                            <Label Grid.Row="1"
+                                   Grid.Column="0"
+                                   HorizontalOptions="Center"
+                                   Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAccessToPage}}"
+                                   VerticalOptions="Start" />
+                        </Grid>
+                    </Grid>
+
+                    <!--  Bottom navigation  -->
+                    <views:BottomNavigation Grid.Row="2"
+                                            BindingContext="{TemplateBinding BindingContext.BottomNavigation}"
+                                            HorizontalOptions="FillAndExpand"
+                                            IsVisible="{TemplateBinding BindingContext.HasBottomNavigation}"
+                                            VerticalOptions="FillAndExpand" />
+
+                    <!--  Activity indicator  -->
+                    <Grid Grid.Row="0"
+                          Grid.RowSpan="3"
+                          IsVisible="{TemplateBinding BindingContext.OperationScope.IsBusy}">
+                        <xForms:SfBusyIndicator Title="{TemplateBinding BindingContext.IndicatorCaption}"
+                                                AnimationType="Gear"
+                                                BackgroundColor="{StaticResource ColorBlack}"
+                                                IsBusy="{TemplateBinding BindingContext.OperationScope.IsBusy}"
+                                                IsVisible="{TemplateBinding BindingContext.OperationScope.IsBusy}"
+                                                Opacity="0.6"
+                                                TextColor="{StaticResource ColorWhite}"
+                                                ViewBoxHeight="50"
+                                                ViewBoxWidth="50" />
+                    </Grid>
+                </Grid>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </prism:PrismApplication.Resources>
+</prism:PrismApplication>

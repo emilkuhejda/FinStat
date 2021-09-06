@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView x:Class="FinStat.Mobile.Views.BottomNavigation"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+             xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources">
+    <ContentView.Resources>
+        <Style x:Key="NavigationItemLabelStyle" TargetType="Label">
+            <Setter Property="FontSize" Value="{StaticResource LittleSize}" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="TextColor" Value="{StaticResource ColorGrey900}" />
+        </Style>
+    </ContentView.Resources>
+
+    <Grid Padding="5,10,5,10" BackgroundColor="{StaticResource GreyBackgroundColor}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!--  Main  -->
+        <StackLayout Grid.Column="0">
+            <forms:SvgCachedImage Margin="0"
+                                  Aspect="AspectFit"
+                                  BackgroundColor="Transparent"
+                                  HeightRequest="25"
+                                  HorizontalOptions="Center"
+                                  InputTransparent="True"
+                                  IsVisible="{Binding IsMainPageActive}"
+                                  Source="resource://FinStat.Mobile.Resources.Images.Main-Active.svg"
+                                  VerticalOptions="Center" />
+
+            <forms:SvgCachedImage Margin="0"
+                                  Aspect="AspectFit"
+                                  BackgroundColor="Transparent"
+                                  HeightRequest="25"
+                                  HorizontalOptions="Center"
+                                  InputTransparent="True"
+                                  IsVisible="{Binding IsMainPageActive, Converter={StaticResource InvertedBoolConverter}}"
+                                  Source="resource://FinStat.Mobile.Resources.Images.Main.svg"
+                                  VerticalOptions="Center" />
+
+            <Label Style="{StaticResource NavigationItemLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Main}}" />
+
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding NavigateToMainPageCommand}" />
+            </StackLayout.GestureRecognizers>
+        </StackLayout>
+
+        <!--  More  -->
+        <StackLayout Grid.Column="4">
+            <forms:SvgCachedImage Margin="0"
+                                  Aspect="AspectFit"
+                                  BackgroundColor="Transparent"
+                                  HeightRequest="25"
+                                  HorizontalOptions="Center"
+                                  InputTransparent="True"
+                                  IsVisible="{Binding IsMorePageActive}"
+                                  Source="resource://FinStat.Mobile.Resources.Images.More-Active.svg"
+                                  VerticalOptions="Center" />
+
+            <forms:SvgCachedImage Margin="0"
+                                  Aspect="AspectFit"
+                                  BackgroundColor="Transparent"
+                                  HeightRequest="25"
+                                  HorizontalOptions="Center"
+                                  InputTransparent="True"
+                                  IsVisible="{Binding IsMorePageActive, Converter={StaticResource InvertedBoolConverter}}"
+                                  Source="resource://FinStat.Mobile.Resources.Images.More.svg"
+                                  VerticalOptions="Center" />
+
+            <Label Style="{StaticResource NavigationItemLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.More}}" />
+
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding NavigateToMorePageCommand}" />
+            </StackLayout.GestureRecognizers>
+        </StackLayout>
+    </Grid>
+</ContentView>

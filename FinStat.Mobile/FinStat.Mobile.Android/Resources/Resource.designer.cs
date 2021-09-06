@@ -25,6 +25,3722 @@ namespace FinStat.Mobile.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Prism.Resource.Animation.abc_fade_in = global::FinStat.Mobile.Droid.Resource.Animation.abc_fade_in;
+			global::Prism.Resource.Animation.abc_fade_out = global::FinStat.Mobile.Droid.Resource.Animation.abc_fade_out;
+			global::Prism.Resource.Animation.abc_grow_fade_in_from_bottom = global::FinStat.Mobile.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Prism.Resource.Animation.abc_popup_enter = global::FinStat.Mobile.Droid.Resource.Animation.abc_popup_enter;
+			global::Prism.Resource.Animation.abc_popup_exit = global::FinStat.Mobile.Droid.Resource.Animation.abc_popup_exit;
+			global::Prism.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FinStat.Mobile.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Prism.Resource.Animation.abc_slide_in_bottom = global::FinStat.Mobile.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Prism.Resource.Animation.abc_slide_in_top = global::FinStat.Mobile.Droid.Resource.Animation.abc_slide_in_top;
+			global::Prism.Resource.Animation.abc_slide_out_bottom = global::FinStat.Mobile.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Prism.Resource.Animation.abc_slide_out_top = global::FinStat.Mobile.Droid.Resource.Animation.abc_slide_out_top;
+			global::Prism.Resource.Animation.abc_tooltip_enter = global::FinStat.Mobile.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Prism.Resource.Animation.abc_tooltip_exit = global::FinStat.Mobile.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Prism.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Prism.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Prism.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Prism.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Prism.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Prism.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Prism.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Prism.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Prism.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Prism.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Prism.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Prism.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::FinStat.Mobile.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Prism.Resource.Animation.design_bottom_sheet_slide_in = global::FinStat.Mobile.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Prism.Resource.Animation.design_bottom_sheet_slide_out = global::FinStat.Mobile.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Prism.Resource.Animation.design_snackbar_in = global::FinStat.Mobile.Droid.Resource.Animation.design_snackbar_in;
+			global::Prism.Resource.Animation.design_snackbar_out = global::FinStat.Mobile.Droid.Resource.Animation.design_snackbar_out;
+			global::Prism.Resource.Animation.EnterFromLeft = global::FinStat.Mobile.Droid.Resource.Animation.EnterFromLeft;
+			global::Prism.Resource.Animation.EnterFromRight = global::FinStat.Mobile.Droid.Resource.Animation.EnterFromRight;
+			global::Prism.Resource.Animation.ExitToLeft = global::FinStat.Mobile.Droid.Resource.Animation.ExitToLeft;
+			global::Prism.Resource.Animation.ExitToRight = global::FinStat.Mobile.Droid.Resource.Animation.ExitToRight;
+			global::Prism.Resource.Animation.fragment_close_enter = global::FinStat.Mobile.Droid.Resource.Animation.fragment_close_enter;
+			global::Prism.Resource.Animation.fragment_close_exit = global::FinStat.Mobile.Droid.Resource.Animation.fragment_close_exit;
+			global::Prism.Resource.Animation.fragment_fade_enter = global::FinStat.Mobile.Droid.Resource.Animation.fragment_fade_enter;
+			global::Prism.Resource.Animation.fragment_fade_exit = global::FinStat.Mobile.Droid.Resource.Animation.fragment_fade_exit;
+			global::Prism.Resource.Animation.fragment_fast_out_extra_slow_in = global::FinStat.Mobile.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Prism.Resource.Animation.fragment_open_enter = global::FinStat.Mobile.Droid.Resource.Animation.fragment_open_enter;
+			global::Prism.Resource.Animation.fragment_open_exit = global::FinStat.Mobile.Droid.Resource.Animation.fragment_open_exit;
+			global::Prism.Resource.Animation.mtrl_bottom_sheet_slide_in = global::FinStat.Mobile.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Prism.Resource.Animation.mtrl_bottom_sheet_slide_out = global::FinStat.Mobile.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Prism.Resource.Animation.mtrl_card_lowers_interpolator = global::FinStat.Mobile.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::Prism.Resource.Animator.design_appbar_state_list_animator = global::FinStat.Mobile.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Prism.Resource.Animator.design_fab_hide_motion_spec = global::FinStat.Mobile.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Prism.Resource.Animator.design_fab_show_motion_spec = global::FinStat.Mobile.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Prism.Resource.Animator.mtrl_btn_state_list_anim = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Prism.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Prism.Resource.Animator.mtrl_card_state_list_anim = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_card_state_list_anim;
+			global::Prism.Resource.Animator.mtrl_chip_state_list_anim = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Prism.Resource.Animator.mtrl_extended_fab_change_size_motion_spec = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_extended_fab_change_size_motion_spec;
+			global::Prism.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Prism.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Prism.Resource.Animator.mtrl_extended_fab_state_list_animator = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
+			global::Prism.Resource.Animator.mtrl_fab_hide_motion_spec = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Prism.Resource.Animator.mtrl_fab_show_motion_spec = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Prism.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Prism.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::FinStat.Mobile.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Prism.Resource.Attribute.actionBarDivider = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarDivider;
+			global::Prism.Resource.Attribute.actionBarItemBackground = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Prism.Resource.Attribute.actionBarPopupTheme = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Prism.Resource.Attribute.actionBarSize = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarSize;
+			global::Prism.Resource.Attribute.actionBarSplitStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Prism.Resource.Attribute.actionBarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarStyle;
+			global::Prism.Resource.Attribute.actionBarTabBarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Prism.Resource.Attribute.actionBarTabStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Prism.Resource.Attribute.actionBarTabTextStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Prism.Resource.Attribute.actionBarTheme = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarTheme;
+			global::Prism.Resource.Attribute.actionBarWidgetTheme = global::FinStat.Mobile.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Prism.Resource.Attribute.actionButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionButtonStyle;
+			global::Prism.Resource.Attribute.actionDropDownStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Prism.Resource.Attribute.actionLayout = global::FinStat.Mobile.Droid.Resource.Attribute.actionLayout;
+			global::Prism.Resource.Attribute.actionMenuTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Prism.Resource.Attribute.actionMenuTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Prism.Resource.Attribute.actionModeBackground = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeBackground;
+			global::Prism.Resource.Attribute.actionModeCloseButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Prism.Resource.Attribute.actionModeCloseDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Prism.Resource.Attribute.actionModeCopyDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Prism.Resource.Attribute.actionModeCutDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Prism.Resource.Attribute.actionModeFindDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Prism.Resource.Attribute.actionModePasteDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Prism.Resource.Attribute.actionModePopupWindowStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Prism.Resource.Attribute.actionModeSelectAllDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Prism.Resource.Attribute.actionModeShareDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Prism.Resource.Attribute.actionModeSplitBackground = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Prism.Resource.Attribute.actionModeStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeStyle;
+			global::Prism.Resource.Attribute.actionModeWebSearchDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Prism.Resource.Attribute.actionOverflowButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Prism.Resource.Attribute.actionOverflowMenuStyle = global::FinStat.Mobile.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Prism.Resource.Attribute.actionProviderClass = global::FinStat.Mobile.Droid.Resource.Attribute.actionProviderClass;
+			global::Prism.Resource.Attribute.actionTextColorAlpha = global::FinStat.Mobile.Droid.Resource.Attribute.actionTextColorAlpha;
+			global::Prism.Resource.Attribute.actionViewClass = global::FinStat.Mobile.Droid.Resource.Attribute.actionViewClass;
+			global::Prism.Resource.Attribute.activityChooserViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Prism.Resource.Attribute.alertDialogButtonGroupStyle = global::FinStat.Mobile.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Prism.Resource.Attribute.alertDialogCenterButtons = global::FinStat.Mobile.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Prism.Resource.Attribute.alertDialogStyle = global::FinStat.Mobile.Droid.Resource.Attribute.alertDialogStyle;
+			global::Prism.Resource.Attribute.alertDialogTheme = global::FinStat.Mobile.Droid.Resource.Attribute.alertDialogTheme;
+			global::Prism.Resource.Attribute.allowStacking = global::FinStat.Mobile.Droid.Resource.Attribute.allowStacking;
+			global::Prism.Resource.Attribute.alpha = global::FinStat.Mobile.Droid.Resource.Attribute.alpha;
+			global::Prism.Resource.Attribute.alphabeticModifiers = global::FinStat.Mobile.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Prism.Resource.Attribute.animationMode = global::FinStat.Mobile.Droid.Resource.Attribute.animationMode;
+			global::Prism.Resource.Attribute.appBarLayoutStyle = global::FinStat.Mobile.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Prism.Resource.Attribute.arrowHeadLength = global::FinStat.Mobile.Droid.Resource.Attribute.arrowHeadLength;
+			global::Prism.Resource.Attribute.arrowShaftLength = global::FinStat.Mobile.Droid.Resource.Attribute.arrowShaftLength;
+			global::Prism.Resource.Attribute.autoCompleteTextViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Prism.Resource.Attribute.autoSizeMaxTextSize = global::FinStat.Mobile.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Prism.Resource.Attribute.autoSizeMinTextSize = global::FinStat.Mobile.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Prism.Resource.Attribute.autoSizePresetSizes = global::FinStat.Mobile.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Prism.Resource.Attribute.autoSizeStepGranularity = global::FinStat.Mobile.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Prism.Resource.Attribute.autoSizeTextType = global::FinStat.Mobile.Droid.Resource.Attribute.autoSizeTextType;
+			global::Prism.Resource.Attribute.background = global::FinStat.Mobile.Droid.Resource.Attribute.background;
+			global::Prism.Resource.Attribute.backgroundColor = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundColor;
+			global::Prism.Resource.Attribute.backgroundInsetBottom = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Prism.Resource.Attribute.backgroundInsetEnd = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Prism.Resource.Attribute.backgroundInsetStart = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Prism.Resource.Attribute.backgroundInsetTop = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Prism.Resource.Attribute.backgroundOverlayColorAlpha = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
+			global::Prism.Resource.Attribute.backgroundSplit = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundSplit;
+			global::Prism.Resource.Attribute.backgroundStacked = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundStacked;
+			global::Prism.Resource.Attribute.backgroundTint = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundTint;
+			global::Prism.Resource.Attribute.backgroundTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.backgroundTintMode;
+			global::Prism.Resource.Attribute.badgeGravity = global::FinStat.Mobile.Droid.Resource.Attribute.badgeGravity;
+			global::Prism.Resource.Attribute.badgeStyle = global::FinStat.Mobile.Droid.Resource.Attribute.badgeStyle;
+			global::Prism.Resource.Attribute.badgeTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.badgeTextColor;
+			global::Prism.Resource.Attribute.barLength = global::FinStat.Mobile.Droid.Resource.Attribute.barLength;
+			global::Prism.Resource.Attribute.behavior_autoHide = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_autoHide;
+			global::Prism.Resource.Attribute.behavior_autoShrink = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Prism.Resource.Attribute.behavior_draggable = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_draggable;
+			global::Prism.Resource.Attribute.behavior_expandedOffset = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_expandedOffset;
+			global::Prism.Resource.Attribute.behavior_fitToContents = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Prism.Resource.Attribute.behavior_halfExpandedRatio = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_halfExpandedRatio;
+			global::Prism.Resource.Attribute.behavior_hideable = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_hideable;
+			global::Prism.Resource.Attribute.behavior_overlapTop = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Prism.Resource.Attribute.behavior_peekHeight = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Prism.Resource.Attribute.behavior_saveFlags = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_saveFlags;
+			global::Prism.Resource.Attribute.behavior_skipCollapsed = global::FinStat.Mobile.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Prism.Resource.Attribute.borderlessButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Prism.Resource.Attribute.borderWidth = global::FinStat.Mobile.Droid.Resource.Attribute.borderWidth;
+			global::Prism.Resource.Attribute.bottomAppBarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Prism.Resource.Attribute.bottomNavigationStyle = global::FinStat.Mobile.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Prism.Resource.Attribute.bottomSheetDialogTheme = global::FinStat.Mobile.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Prism.Resource.Attribute.bottomSheetStyle = global::FinStat.Mobile.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Prism.Resource.Attribute.boxBackgroundColor = global::FinStat.Mobile.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Prism.Resource.Attribute.boxBackgroundMode = global::FinStat.Mobile.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Prism.Resource.Attribute.boxCollapsedPaddingTop = global::FinStat.Mobile.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Prism.Resource.Attribute.boxCornerRadiusBottomEnd = global::FinStat.Mobile.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Prism.Resource.Attribute.boxCornerRadiusBottomStart = global::FinStat.Mobile.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Prism.Resource.Attribute.boxCornerRadiusTopEnd = global::FinStat.Mobile.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Prism.Resource.Attribute.boxCornerRadiusTopStart = global::FinStat.Mobile.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Prism.Resource.Attribute.boxStrokeColor = global::FinStat.Mobile.Droid.Resource.Attribute.boxStrokeColor;
+			global::Prism.Resource.Attribute.boxStrokeErrorColor = global::FinStat.Mobile.Droid.Resource.Attribute.boxStrokeErrorColor;
+			global::Prism.Resource.Attribute.boxStrokeWidth = global::FinStat.Mobile.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Prism.Resource.Attribute.boxStrokeWidthFocused = global::FinStat.Mobile.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Prism.Resource.Attribute.buttonBarButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Prism.Resource.Attribute.buttonBarNegativeButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Prism.Resource.Attribute.buttonBarNeutralButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Prism.Resource.Attribute.buttonBarPositiveButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Prism.Resource.Attribute.buttonBarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.buttonBarStyle;
+			global::Prism.Resource.Attribute.buttonCompat = global::FinStat.Mobile.Droid.Resource.Attribute.buttonCompat;
+			global::Prism.Resource.Attribute.buttonGravity = global::FinStat.Mobile.Droid.Resource.Attribute.buttonGravity;
+			global::Prism.Resource.Attribute.buttonIconDimen = global::FinStat.Mobile.Droid.Resource.Attribute.buttonIconDimen;
+			global::Prism.Resource.Attribute.buttonPanelSideLayout = global::FinStat.Mobile.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Prism.Resource.Attribute.buttonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.buttonStyle;
+			global::Prism.Resource.Attribute.buttonStyleSmall = global::FinStat.Mobile.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Prism.Resource.Attribute.buttonTint = global::FinStat.Mobile.Droid.Resource.Attribute.buttonTint;
+			global::Prism.Resource.Attribute.buttonTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.buttonTintMode;
+			global::Prism.Resource.Attribute.cardBackgroundColor = global::FinStat.Mobile.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Prism.Resource.Attribute.cardCornerRadius = global::FinStat.Mobile.Droid.Resource.Attribute.cardCornerRadius;
+			global::Prism.Resource.Attribute.cardElevation = global::FinStat.Mobile.Droid.Resource.Attribute.cardElevation;
+			global::Prism.Resource.Attribute.cardForegroundColor = global::FinStat.Mobile.Droid.Resource.Attribute.cardForegroundColor;
+			global::Prism.Resource.Attribute.cardMaxElevation = global::FinStat.Mobile.Droid.Resource.Attribute.cardMaxElevation;
+			global::Prism.Resource.Attribute.cardPreventCornerOverlap = global::FinStat.Mobile.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Prism.Resource.Attribute.cardUseCompatPadding = global::FinStat.Mobile.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Prism.Resource.Attribute.cardViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.cardViewStyle;
+			global::Prism.Resource.Attribute.checkboxStyle = global::FinStat.Mobile.Droid.Resource.Attribute.checkboxStyle;
+			global::Prism.Resource.Attribute.checkedButton = global::FinStat.Mobile.Droid.Resource.Attribute.checkedButton;
+			global::Prism.Resource.Attribute.checkedChip = global::FinStat.Mobile.Droid.Resource.Attribute.checkedChip;
+			global::Prism.Resource.Attribute.checkedIcon = global::FinStat.Mobile.Droid.Resource.Attribute.checkedIcon;
+			global::Prism.Resource.Attribute.checkedIconEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Prism.Resource.Attribute.checkedIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.checkedIconTint;
+			global::Prism.Resource.Attribute.checkedIconVisible = global::FinStat.Mobile.Droid.Resource.Attribute.checkedIconVisible;
+			global::Prism.Resource.Attribute.checkedTextViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Prism.Resource.Attribute.chipBackgroundColor = global::FinStat.Mobile.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Prism.Resource.Attribute.chipCornerRadius = global::FinStat.Mobile.Droid.Resource.Attribute.chipCornerRadius;
+			global::Prism.Resource.Attribute.chipEndPadding = global::FinStat.Mobile.Droid.Resource.Attribute.chipEndPadding;
+			global::Prism.Resource.Attribute.chipGroupStyle = global::FinStat.Mobile.Droid.Resource.Attribute.chipGroupStyle;
+			global::Prism.Resource.Attribute.chipIcon = global::FinStat.Mobile.Droid.Resource.Attribute.chipIcon;
+			global::Prism.Resource.Attribute.chipIconEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.chipIconEnabled;
+			global::Prism.Resource.Attribute.chipIconSize = global::FinStat.Mobile.Droid.Resource.Attribute.chipIconSize;
+			global::Prism.Resource.Attribute.chipIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.chipIconTint;
+			global::Prism.Resource.Attribute.chipIconVisible = global::FinStat.Mobile.Droid.Resource.Attribute.chipIconVisible;
+			global::Prism.Resource.Attribute.chipMinHeight = global::FinStat.Mobile.Droid.Resource.Attribute.chipMinHeight;
+			global::Prism.Resource.Attribute.chipMinTouchTargetSize = global::FinStat.Mobile.Droid.Resource.Attribute.chipMinTouchTargetSize;
+			global::Prism.Resource.Attribute.chipSpacing = global::FinStat.Mobile.Droid.Resource.Attribute.chipSpacing;
+			global::Prism.Resource.Attribute.chipSpacingHorizontal = global::FinStat.Mobile.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Prism.Resource.Attribute.chipSpacingVertical = global::FinStat.Mobile.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Prism.Resource.Attribute.chipStandaloneStyle = global::FinStat.Mobile.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Prism.Resource.Attribute.chipStartPadding = global::FinStat.Mobile.Droid.Resource.Attribute.chipStartPadding;
+			global::Prism.Resource.Attribute.chipStrokeColor = global::FinStat.Mobile.Droid.Resource.Attribute.chipStrokeColor;
+			global::Prism.Resource.Attribute.chipStrokeWidth = global::FinStat.Mobile.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Prism.Resource.Attribute.chipStyle = global::FinStat.Mobile.Droid.Resource.Attribute.chipStyle;
+			global::Prism.Resource.Attribute.chipSurfaceColor = global::FinStat.Mobile.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Prism.Resource.Attribute.closeIcon = global::FinStat.Mobile.Droid.Resource.Attribute.closeIcon;
+			global::Prism.Resource.Attribute.closeIconEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.closeIconEnabled;
+			global::Prism.Resource.Attribute.closeIconEndPadding = global::FinStat.Mobile.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Prism.Resource.Attribute.closeIconSize = global::FinStat.Mobile.Droid.Resource.Attribute.closeIconSize;
+			global::Prism.Resource.Attribute.closeIconStartPadding = global::FinStat.Mobile.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Prism.Resource.Attribute.closeIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.closeIconTint;
+			global::Prism.Resource.Attribute.closeIconVisible = global::FinStat.Mobile.Droid.Resource.Attribute.closeIconVisible;
+			global::Prism.Resource.Attribute.closeItemLayout = global::FinStat.Mobile.Droid.Resource.Attribute.closeItemLayout;
+			global::Prism.Resource.Attribute.collapseContentDescription = global::FinStat.Mobile.Droid.Resource.Attribute.collapseContentDescription;
+			global::Prism.Resource.Attribute.collapsedTitleGravity = global::FinStat.Mobile.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Prism.Resource.Attribute.collapsedTitleTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Prism.Resource.Attribute.collapseIcon = global::FinStat.Mobile.Droid.Resource.Attribute.collapseIcon;
+			global::Prism.Resource.Attribute.collectionViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.collectionViewStyle;
+			global::Prism.Resource.Attribute.color = global::FinStat.Mobile.Droid.Resource.Attribute.color;
+			global::Prism.Resource.Attribute.colorAccent = global::FinStat.Mobile.Droid.Resource.Attribute.colorAccent;
+			global::Prism.Resource.Attribute.colorBackgroundFloating = global::FinStat.Mobile.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Prism.Resource.Attribute.colorButtonNormal = global::FinStat.Mobile.Droid.Resource.Attribute.colorButtonNormal;
+			global::Prism.Resource.Attribute.colorControlActivated = global::FinStat.Mobile.Droid.Resource.Attribute.colorControlActivated;
+			global::Prism.Resource.Attribute.colorControlHighlight = global::FinStat.Mobile.Droid.Resource.Attribute.colorControlHighlight;
+			global::Prism.Resource.Attribute.colorControlNormal = global::FinStat.Mobile.Droid.Resource.Attribute.colorControlNormal;
+			global::Prism.Resource.Attribute.colorError = global::FinStat.Mobile.Droid.Resource.Attribute.colorError;
+			global::Prism.Resource.Attribute.colorOnBackground = global::FinStat.Mobile.Droid.Resource.Attribute.colorOnBackground;
+			global::Prism.Resource.Attribute.colorOnError = global::FinStat.Mobile.Droid.Resource.Attribute.colorOnError;
+			global::Prism.Resource.Attribute.colorOnPrimary = global::FinStat.Mobile.Droid.Resource.Attribute.colorOnPrimary;
+			global::Prism.Resource.Attribute.colorOnPrimarySurface = global::FinStat.Mobile.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Prism.Resource.Attribute.colorOnSecondary = global::FinStat.Mobile.Droid.Resource.Attribute.colorOnSecondary;
+			global::Prism.Resource.Attribute.colorOnSurface = global::FinStat.Mobile.Droid.Resource.Attribute.colorOnSurface;
+			global::Prism.Resource.Attribute.colorPrimary = global::FinStat.Mobile.Droid.Resource.Attribute.colorPrimary;
+			global::Prism.Resource.Attribute.colorPrimaryDark = global::FinStat.Mobile.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Prism.Resource.Attribute.colorPrimarySurface = global::FinStat.Mobile.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Prism.Resource.Attribute.colorPrimaryVariant = global::FinStat.Mobile.Droid.Resource.Attribute.colorPrimaryVariant;
+			global::Prism.Resource.Attribute.colorSecondary = global::FinStat.Mobile.Droid.Resource.Attribute.colorSecondary;
+			global::Prism.Resource.Attribute.colorSecondaryVariant = global::FinStat.Mobile.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Prism.Resource.Attribute.colorSurface = global::FinStat.Mobile.Droid.Resource.Attribute.colorSurface;
+			global::Prism.Resource.Attribute.colorSwitchThumbNormal = global::FinStat.Mobile.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Prism.Resource.Attribute.commitIcon = global::FinStat.Mobile.Droid.Resource.Attribute.commitIcon;
+			global::Prism.Resource.Attribute.contentDescription = global::FinStat.Mobile.Droid.Resource.Attribute.contentDescription;
+			global::Prism.Resource.Attribute.contentInsetEnd = global::FinStat.Mobile.Droid.Resource.Attribute.contentInsetEnd;
+			global::Prism.Resource.Attribute.contentInsetEndWithActions = global::FinStat.Mobile.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Prism.Resource.Attribute.contentInsetLeft = global::FinStat.Mobile.Droid.Resource.Attribute.contentInsetLeft;
+			global::Prism.Resource.Attribute.contentInsetRight = global::FinStat.Mobile.Droid.Resource.Attribute.contentInsetRight;
+			global::Prism.Resource.Attribute.contentInsetStart = global::FinStat.Mobile.Droid.Resource.Attribute.contentInsetStart;
+			global::Prism.Resource.Attribute.contentInsetStartWithNavigation = global::FinStat.Mobile.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Prism.Resource.Attribute.contentPadding = global::FinStat.Mobile.Droid.Resource.Attribute.contentPadding;
+			global::Prism.Resource.Attribute.contentPaddingBottom = global::FinStat.Mobile.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Prism.Resource.Attribute.contentPaddingLeft = global::FinStat.Mobile.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Prism.Resource.Attribute.contentPaddingRight = global::FinStat.Mobile.Droid.Resource.Attribute.contentPaddingRight;
+			global::Prism.Resource.Attribute.contentPaddingTop = global::FinStat.Mobile.Droid.Resource.Attribute.contentPaddingTop;
+			global::Prism.Resource.Attribute.contentScrim = global::FinStat.Mobile.Droid.Resource.Attribute.contentScrim;
+			global::Prism.Resource.Attribute.controlBackground = global::FinStat.Mobile.Droid.Resource.Attribute.controlBackground;
+			global::Prism.Resource.Attribute.coordinatorLayoutStyle = global::FinStat.Mobile.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Prism.Resource.Attribute.cornerFamily = global::FinStat.Mobile.Droid.Resource.Attribute.cornerFamily;
+			global::Prism.Resource.Attribute.cornerFamilyBottomLeft = global::FinStat.Mobile.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Prism.Resource.Attribute.cornerFamilyBottomRight = global::FinStat.Mobile.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Prism.Resource.Attribute.cornerFamilyTopLeft = global::FinStat.Mobile.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Prism.Resource.Attribute.cornerFamilyTopRight = global::FinStat.Mobile.Droid.Resource.Attribute.cornerFamilyTopRight;
+			global::Prism.Resource.Attribute.cornerRadius = global::FinStat.Mobile.Droid.Resource.Attribute.cornerRadius;
+			global::Prism.Resource.Attribute.cornerSize = global::FinStat.Mobile.Droid.Resource.Attribute.cornerSize;
+			global::Prism.Resource.Attribute.cornerSizeBottomLeft = global::FinStat.Mobile.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Prism.Resource.Attribute.cornerSizeBottomRight = global::FinStat.Mobile.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Prism.Resource.Attribute.cornerSizeTopLeft = global::FinStat.Mobile.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Prism.Resource.Attribute.cornerSizeTopRight = global::FinStat.Mobile.Droid.Resource.Attribute.cornerSizeTopRight;
+			global::Prism.Resource.Attribute.counterEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.counterEnabled;
+			global::Prism.Resource.Attribute.counterMaxLength = global::FinStat.Mobile.Droid.Resource.Attribute.counterMaxLength;
+			global::Prism.Resource.Attribute.counterOverflowTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Prism.Resource.Attribute.counterOverflowTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.counterOverflowTextColor;
+			global::Prism.Resource.Attribute.counterTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.counterTextAppearance;
+			global::Prism.Resource.Attribute.counterTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.counterTextColor;
+			global::Prism.Resource.Attribute.customNavigationLayout = global::FinStat.Mobile.Droid.Resource.Attribute.customNavigationLayout;
+			global::Prism.Resource.Attribute.dayInvalidStyle = global::FinStat.Mobile.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Prism.Resource.Attribute.daySelectedStyle = global::FinStat.Mobile.Droid.Resource.Attribute.daySelectedStyle;
+			global::Prism.Resource.Attribute.dayStyle = global::FinStat.Mobile.Droid.Resource.Attribute.dayStyle;
+			global::Prism.Resource.Attribute.dayTodayStyle = global::FinStat.Mobile.Droid.Resource.Attribute.dayTodayStyle;
+			global::Prism.Resource.Attribute.defaultQueryHint = global::FinStat.Mobile.Droid.Resource.Attribute.defaultQueryHint;
+			global::Prism.Resource.Attribute.dialogCornerRadius = global::FinStat.Mobile.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Prism.Resource.Attribute.dialogPreferredPadding = global::FinStat.Mobile.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Prism.Resource.Attribute.dialogTheme = global::FinStat.Mobile.Droid.Resource.Attribute.dialogTheme;
+			global::Prism.Resource.Attribute.displayOptions = global::FinStat.Mobile.Droid.Resource.Attribute.displayOptions;
+			global::Prism.Resource.Attribute.divider = global::FinStat.Mobile.Droid.Resource.Attribute.divider;
+			global::Prism.Resource.Attribute.dividerHorizontal = global::FinStat.Mobile.Droid.Resource.Attribute.dividerHorizontal;
+			global::Prism.Resource.Attribute.dividerPadding = global::FinStat.Mobile.Droid.Resource.Attribute.dividerPadding;
+			global::Prism.Resource.Attribute.dividerVertical = global::FinStat.Mobile.Droid.Resource.Attribute.dividerVertical;
+			global::Prism.Resource.Attribute.drawableBottomCompat = global::FinStat.Mobile.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Prism.Resource.Attribute.drawableEndCompat = global::FinStat.Mobile.Droid.Resource.Attribute.drawableEndCompat;
+			global::Prism.Resource.Attribute.drawableLeftCompat = global::FinStat.Mobile.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Prism.Resource.Attribute.drawableRightCompat = global::FinStat.Mobile.Droid.Resource.Attribute.drawableRightCompat;
+			global::Prism.Resource.Attribute.drawableSize = global::FinStat.Mobile.Droid.Resource.Attribute.drawableSize;
+			global::Prism.Resource.Attribute.drawableStartCompat = global::FinStat.Mobile.Droid.Resource.Attribute.drawableStartCompat;
+			global::Prism.Resource.Attribute.drawableTint = global::FinStat.Mobile.Droid.Resource.Attribute.drawableTint;
+			global::Prism.Resource.Attribute.drawableTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.drawableTintMode;
+			global::Prism.Resource.Attribute.drawableTopCompat = global::FinStat.Mobile.Droid.Resource.Attribute.drawableTopCompat;
+			global::Prism.Resource.Attribute.drawerArrowStyle = global::FinStat.Mobile.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Prism.Resource.Attribute.drawerLayoutStyle = global::FinStat.Mobile.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Prism.Resource.Attribute.dropdownListPreferredItemHeight = global::FinStat.Mobile.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Prism.Resource.Attribute.dropDownListViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Prism.Resource.Attribute.editTextBackground = global::FinStat.Mobile.Droid.Resource.Attribute.editTextBackground;
+			global::Prism.Resource.Attribute.editTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.editTextColor;
+			global::Prism.Resource.Attribute.editTextStyle = global::FinStat.Mobile.Droid.Resource.Attribute.editTextStyle;
+			global::Prism.Resource.Attribute.elevation = global::FinStat.Mobile.Droid.Resource.Attribute.elevation;
+			global::Prism.Resource.Attribute.elevationOverlayColor = global::FinStat.Mobile.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Prism.Resource.Attribute.elevationOverlayEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Prism.Resource.Attribute.endIconCheckable = global::FinStat.Mobile.Droid.Resource.Attribute.endIconCheckable;
+			global::Prism.Resource.Attribute.endIconContentDescription = global::FinStat.Mobile.Droid.Resource.Attribute.endIconContentDescription;
+			global::Prism.Resource.Attribute.endIconDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.endIconDrawable;
+			global::Prism.Resource.Attribute.endIconMode = global::FinStat.Mobile.Droid.Resource.Attribute.endIconMode;
+			global::Prism.Resource.Attribute.endIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.endIconTint;
+			global::Prism.Resource.Attribute.endIconTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.endIconTintMode;
+			global::Prism.Resource.Attribute.enforceMaterialTheme = global::FinStat.Mobile.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Prism.Resource.Attribute.enforceTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Prism.Resource.Attribute.ensureMinTouchTargetSize = global::FinStat.Mobile.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Prism.Resource.Attribute.errorContentDescription = global::FinStat.Mobile.Droid.Resource.Attribute.errorContentDescription;
+			global::Prism.Resource.Attribute.errorEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.errorEnabled;
+			global::Prism.Resource.Attribute.errorIconDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.errorIconDrawable;
+			global::Prism.Resource.Attribute.errorIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.errorIconTint;
+			global::Prism.Resource.Attribute.errorIconTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.errorIconTintMode;
+			global::Prism.Resource.Attribute.errorTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.errorTextAppearance;
+			global::Prism.Resource.Attribute.errorTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.errorTextColor;
+			global::Prism.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Prism.Resource.Attribute.expanded = global::FinStat.Mobile.Droid.Resource.Attribute.expanded;
+			global::Prism.Resource.Attribute.expandedTitleGravity = global::FinStat.Mobile.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Prism.Resource.Attribute.expandedTitleMargin = global::FinStat.Mobile.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Prism.Resource.Attribute.expandedTitleMarginBottom = global::FinStat.Mobile.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Prism.Resource.Attribute.expandedTitleMarginEnd = global::FinStat.Mobile.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Prism.Resource.Attribute.expandedTitleMarginStart = global::FinStat.Mobile.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Prism.Resource.Attribute.expandedTitleMarginTop = global::FinStat.Mobile.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Prism.Resource.Attribute.expandedTitleTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Prism.Resource.Attribute.extendedFloatingActionButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Prism.Resource.Attribute.extendMotionSpec = global::FinStat.Mobile.Droid.Resource.Attribute.extendMotionSpec;
+			global::Prism.Resource.Attribute.fabAlignmentMode = global::FinStat.Mobile.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Prism.Resource.Attribute.fabAnimationMode = global::FinStat.Mobile.Droid.Resource.Attribute.fabAnimationMode;
+			global::Prism.Resource.Attribute.fabCradleMargin = global::FinStat.Mobile.Droid.Resource.Attribute.fabCradleMargin;
+			global::Prism.Resource.Attribute.fabCradleRoundedCornerRadius = global::FinStat.Mobile.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Prism.Resource.Attribute.fabCradleVerticalOffset = global::FinStat.Mobile.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Prism.Resource.Attribute.fabCustomSize = global::FinStat.Mobile.Droid.Resource.Attribute.fabCustomSize;
+			global::Prism.Resource.Attribute.fabSize = global::FinStat.Mobile.Droid.Resource.Attribute.fabSize;
+			global::Prism.Resource.Attribute.fastScrollEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Prism.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Prism.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Prism.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Prism.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Prism.Resource.Attribute.firstBaselineToTopHeight = global::FinStat.Mobile.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Prism.Resource.Attribute.floatingActionButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Prism.Resource.Attribute.font = global::FinStat.Mobile.Droid.Resource.Attribute.font;
+			global::Prism.Resource.Attribute.fontFamily = global::FinStat.Mobile.Droid.Resource.Attribute.fontFamily;
+			global::Prism.Resource.Attribute.fontProviderAuthority = global::FinStat.Mobile.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Prism.Resource.Attribute.fontProviderCerts = global::FinStat.Mobile.Droid.Resource.Attribute.fontProviderCerts;
+			global::Prism.Resource.Attribute.fontProviderFetchStrategy = global::FinStat.Mobile.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Prism.Resource.Attribute.fontProviderFetchTimeout = global::FinStat.Mobile.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Prism.Resource.Attribute.fontProviderPackage = global::FinStat.Mobile.Droid.Resource.Attribute.fontProviderPackage;
+			global::Prism.Resource.Attribute.fontProviderQuery = global::FinStat.Mobile.Droid.Resource.Attribute.fontProviderQuery;
+			global::Prism.Resource.Attribute.fontStyle = global::FinStat.Mobile.Droid.Resource.Attribute.fontStyle;
+			global::Prism.Resource.Attribute.fontVariationSettings = global::FinStat.Mobile.Droid.Resource.Attribute.fontVariationSettings;
+			global::Prism.Resource.Attribute.fontWeight = global::FinStat.Mobile.Droid.Resource.Attribute.fontWeight;
+			global::Prism.Resource.Attribute.foregroundInsidePadding = global::FinStat.Mobile.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Prism.Resource.Attribute.gapBetweenBars = global::FinStat.Mobile.Droid.Resource.Attribute.gapBetweenBars;
+			global::Prism.Resource.Attribute.gestureInsetBottomIgnored = global::FinStat.Mobile.Droid.Resource.Attribute.gestureInsetBottomIgnored;
+			global::Prism.Resource.Attribute.goIcon = global::FinStat.Mobile.Droid.Resource.Attribute.goIcon;
+			global::Prism.Resource.Attribute.haloColor = global::FinStat.Mobile.Droid.Resource.Attribute.haloColor;
+			global::Prism.Resource.Attribute.haloRadius = global::FinStat.Mobile.Droid.Resource.Attribute.haloRadius;
+			global::Prism.Resource.Attribute.headerLayout = global::FinStat.Mobile.Droid.Resource.Attribute.headerLayout;
+			global::Prism.Resource.Attribute.height = global::FinStat.Mobile.Droid.Resource.Attribute.height;
+			global::Prism.Resource.Attribute.helperText = global::FinStat.Mobile.Droid.Resource.Attribute.helperText;
+			global::Prism.Resource.Attribute.helperTextEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.helperTextEnabled;
+			global::Prism.Resource.Attribute.helperTextTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Prism.Resource.Attribute.helperTextTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.helperTextTextColor;
+			global::Prism.Resource.Attribute.hideMotionSpec = global::FinStat.Mobile.Droid.Resource.Attribute.hideMotionSpec;
+			global::Prism.Resource.Attribute.hideOnContentScroll = global::FinStat.Mobile.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Prism.Resource.Attribute.hideOnScroll = global::FinStat.Mobile.Droid.Resource.Attribute.hideOnScroll;
+			global::Prism.Resource.Attribute.hintAnimationEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Prism.Resource.Attribute.hintEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.hintEnabled;
+			global::Prism.Resource.Attribute.hintTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.hintTextAppearance;
+			global::Prism.Resource.Attribute.hintTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.hintTextColor;
+			global::Prism.Resource.Attribute.homeAsUpIndicator = global::FinStat.Mobile.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Prism.Resource.Attribute.homeLayout = global::FinStat.Mobile.Droid.Resource.Attribute.homeLayout;
+			global::Prism.Resource.Attribute.horizontalOffset = global::FinStat.Mobile.Droid.Resource.Attribute.horizontalOffset;
+			global::Prism.Resource.Attribute.hoveredFocusedTranslationZ = global::FinStat.Mobile.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Prism.Resource.Attribute.icon = global::FinStat.Mobile.Droid.Resource.Attribute.icon;
+			global::Prism.Resource.Attribute.iconEndPadding = global::FinStat.Mobile.Droid.Resource.Attribute.iconEndPadding;
+			global::Prism.Resource.Attribute.iconGravity = global::FinStat.Mobile.Droid.Resource.Attribute.iconGravity;
+			global::Prism.Resource.Attribute.iconifiedByDefault = global::FinStat.Mobile.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Prism.Resource.Attribute.iconPadding = global::FinStat.Mobile.Droid.Resource.Attribute.iconPadding;
+			global::Prism.Resource.Attribute.iconSize = global::FinStat.Mobile.Droid.Resource.Attribute.iconSize;
+			global::Prism.Resource.Attribute.iconStartPadding = global::FinStat.Mobile.Droid.Resource.Attribute.iconStartPadding;
+			global::Prism.Resource.Attribute.iconTint = global::FinStat.Mobile.Droid.Resource.Attribute.iconTint;
+			global::Prism.Resource.Attribute.iconTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.iconTintMode;
+			global::Prism.Resource.Attribute.imageButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.imageButtonStyle;
+			global::Prism.Resource.Attribute.indeterminateProgressStyle = global::FinStat.Mobile.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Prism.Resource.Attribute.initialActivityCount = global::FinStat.Mobile.Droid.Resource.Attribute.initialActivityCount;
+			global::Prism.Resource.Attribute.insetForeground = global::FinStat.Mobile.Droid.Resource.Attribute.insetForeground;
+			global::Prism.Resource.Attribute.isLightTheme = global::FinStat.Mobile.Droid.Resource.Attribute.isLightTheme;
+			global::Prism.Resource.Attribute.isMaterialTheme = global::FinStat.Mobile.Droid.Resource.Attribute.isMaterialTheme;
+			global::Prism.Resource.Attribute.itemBackground = global::FinStat.Mobile.Droid.Resource.Attribute.itemBackground;
+			global::Prism.Resource.Attribute.itemFillColor = global::FinStat.Mobile.Droid.Resource.Attribute.itemFillColor;
+			global::Prism.Resource.Attribute.itemHorizontalPadding = global::FinStat.Mobile.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Prism.Resource.Attribute.itemHorizontalTranslationEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Prism.Resource.Attribute.itemIconPadding = global::FinStat.Mobile.Droid.Resource.Attribute.itemIconPadding;
+			global::Prism.Resource.Attribute.itemIconSize = global::FinStat.Mobile.Droid.Resource.Attribute.itemIconSize;
+			global::Prism.Resource.Attribute.itemIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.itemIconTint;
+			global::Prism.Resource.Attribute.itemMaxLines = global::FinStat.Mobile.Droid.Resource.Attribute.itemMaxLines;
+			global::Prism.Resource.Attribute.itemPadding = global::FinStat.Mobile.Droid.Resource.Attribute.itemPadding;
+			global::Prism.Resource.Attribute.itemRippleColor = global::FinStat.Mobile.Droid.Resource.Attribute.itemRippleColor;
+			global::Prism.Resource.Attribute.itemShapeAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Prism.Resource.Attribute.itemShapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Prism.Resource.Attribute.itemShapeFillColor = global::FinStat.Mobile.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Prism.Resource.Attribute.itemShapeInsetBottom = global::FinStat.Mobile.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Prism.Resource.Attribute.itemShapeInsetEnd = global::FinStat.Mobile.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Prism.Resource.Attribute.itemShapeInsetStart = global::FinStat.Mobile.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Prism.Resource.Attribute.itemShapeInsetTop = global::FinStat.Mobile.Droid.Resource.Attribute.itemShapeInsetTop;
+			global::Prism.Resource.Attribute.itemSpacing = global::FinStat.Mobile.Droid.Resource.Attribute.itemSpacing;
+			global::Prism.Resource.Attribute.itemStrokeColor = global::FinStat.Mobile.Droid.Resource.Attribute.itemStrokeColor;
+			global::Prism.Resource.Attribute.itemStrokeWidth = global::FinStat.Mobile.Droid.Resource.Attribute.itemStrokeWidth;
+			global::Prism.Resource.Attribute.itemTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.itemTextAppearance;
+			global::Prism.Resource.Attribute.itemTextAppearanceActive = global::FinStat.Mobile.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Prism.Resource.Attribute.itemTextAppearanceInactive = global::FinStat.Mobile.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Prism.Resource.Attribute.itemTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.itemTextColor;
+			global::Prism.Resource.Attribute.keylines = global::FinStat.Mobile.Droid.Resource.Attribute.keylines;
+			global::Prism.Resource.Attribute.labelBehavior = global::FinStat.Mobile.Droid.Resource.Attribute.labelBehavior;
+			global::Prism.Resource.Attribute.labelStyle = global::FinStat.Mobile.Droid.Resource.Attribute.labelStyle;
+			global::Prism.Resource.Attribute.labelVisibilityMode = global::FinStat.Mobile.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Prism.Resource.Attribute.lastBaselineToBottomHeight = global::FinStat.Mobile.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Prism.Resource.Attribute.layout = global::FinStat.Mobile.Droid.Resource.Attribute.layout;
+			global::Prism.Resource.Attribute.layoutManager = global::FinStat.Mobile.Droid.Resource.Attribute.layoutManager;
+			global::Prism.Resource.Attribute.layout_anchor = global::FinStat.Mobile.Droid.Resource.Attribute.layout_anchor;
+			global::Prism.Resource.Attribute.layout_anchorGravity = global::FinStat.Mobile.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Prism.Resource.Attribute.layout_behavior = global::FinStat.Mobile.Droid.Resource.Attribute.layout_behavior;
+			global::Prism.Resource.Attribute.layout_collapseMode = global::FinStat.Mobile.Droid.Resource.Attribute.layout_collapseMode;
+			global::Prism.Resource.Attribute.layout_collapseParallaxMultiplier = global::FinStat.Mobile.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Prism.Resource.Attribute.layout_dodgeInsetEdges = global::FinStat.Mobile.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Prism.Resource.Attribute.layout_insetEdge = global::FinStat.Mobile.Droid.Resource.Attribute.layout_insetEdge;
+			global::Prism.Resource.Attribute.layout_keyline = global::FinStat.Mobile.Droid.Resource.Attribute.layout_keyline;
+			global::Prism.Resource.Attribute.layout_scrollFlags = global::FinStat.Mobile.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Prism.Resource.Attribute.layout_scrollInterpolator = global::FinStat.Mobile.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Prism.Resource.Attribute.liftOnScroll = global::FinStat.Mobile.Droid.Resource.Attribute.liftOnScroll;
+			global::Prism.Resource.Attribute.liftOnScrollTargetViewId = global::FinStat.Mobile.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Prism.Resource.Attribute.lineHeight = global::FinStat.Mobile.Droid.Resource.Attribute.lineHeight;
+			global::Prism.Resource.Attribute.lineSpacing = global::FinStat.Mobile.Droid.Resource.Attribute.lineSpacing;
+			global::Prism.Resource.Attribute.listChoiceBackgroundIndicator = global::FinStat.Mobile.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Prism.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::FinStat.Mobile.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Prism.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::FinStat.Mobile.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Prism.Resource.Attribute.listDividerAlertDialog = global::FinStat.Mobile.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Prism.Resource.Attribute.listItemLayout = global::FinStat.Mobile.Droid.Resource.Attribute.listItemLayout;
+			global::Prism.Resource.Attribute.listLayout = global::FinStat.Mobile.Droid.Resource.Attribute.listLayout;
+			global::Prism.Resource.Attribute.listMenuViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Prism.Resource.Attribute.listPopupWindowStyle = global::FinStat.Mobile.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Prism.Resource.Attribute.listPreferredItemHeight = global::FinStat.Mobile.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Prism.Resource.Attribute.listPreferredItemHeightLarge = global::FinStat.Mobile.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Prism.Resource.Attribute.listPreferredItemHeightSmall = global::FinStat.Mobile.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Prism.Resource.Attribute.listPreferredItemPaddingEnd = global::FinStat.Mobile.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Prism.Resource.Attribute.listPreferredItemPaddingLeft = global::FinStat.Mobile.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Prism.Resource.Attribute.listPreferredItemPaddingRight = global::FinStat.Mobile.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Prism.Resource.Attribute.listPreferredItemPaddingStart = global::FinStat.Mobile.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Prism.Resource.Attribute.logo = global::FinStat.Mobile.Droid.Resource.Attribute.logo;
+			global::Prism.Resource.Attribute.logoDescription = global::FinStat.Mobile.Droid.Resource.Attribute.logoDescription;
+			global::Prism.Resource.Attribute.materialAlertDialogBodyTextStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Prism.Resource.Attribute.materialAlertDialogTheme = global::FinStat.Mobile.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Prism.Resource.Attribute.materialAlertDialogTitleIconStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Prism.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Prism.Resource.Attribute.materialAlertDialogTitleTextStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Prism.Resource.Attribute.materialButtonOutlinedStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialButtonOutlinedStyle;
+			global::Prism.Resource.Attribute.materialButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialButtonStyle;
+			global::Prism.Resource.Attribute.materialButtonToggleGroupStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Prism.Resource.Attribute.materialCalendarDay = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarDay;
+			global::Prism.Resource.Attribute.materialCalendarFullscreenTheme = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Prism.Resource.Attribute.materialCalendarHeaderConfirmButton = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Prism.Resource.Attribute.materialCalendarHeaderDivider = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Prism.Resource.Attribute.materialCalendarHeaderLayout = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Prism.Resource.Attribute.materialCalendarHeaderSelection = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Prism.Resource.Attribute.materialCalendarHeaderTitle = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Prism.Resource.Attribute.materialCalendarHeaderToggleButton = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Prism.Resource.Attribute.materialCalendarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Prism.Resource.Attribute.materialCalendarTheme = global::FinStat.Mobile.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Prism.Resource.Attribute.materialCardViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Prism.Resource.Attribute.materialThemeOverlay = global::FinStat.Mobile.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Prism.Resource.Attribute.maxActionInlineWidth = global::FinStat.Mobile.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Prism.Resource.Attribute.maxButtonHeight = global::FinStat.Mobile.Droid.Resource.Attribute.maxButtonHeight;
+			global::Prism.Resource.Attribute.maxCharacterCount = global::FinStat.Mobile.Droid.Resource.Attribute.maxCharacterCount;
+			global::Prism.Resource.Attribute.maxImageSize = global::FinStat.Mobile.Droid.Resource.Attribute.maxImageSize;
+			global::Prism.Resource.Attribute.maxLines = global::FinStat.Mobile.Droid.Resource.Attribute.maxLines;
+			global::Prism.Resource.Attribute.measureWithLargestChild = global::FinStat.Mobile.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Prism.Resource.Attribute.menu = global::FinStat.Mobile.Droid.Resource.Attribute.menu;
+			global::Prism.Resource.Attribute.minTouchTargetSize = global::FinStat.Mobile.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Prism.Resource.Attribute.multiChoiceItemLayout = global::FinStat.Mobile.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Prism.Resource.Attribute.navigationContentDescription = global::FinStat.Mobile.Droid.Resource.Attribute.navigationContentDescription;
+			global::Prism.Resource.Attribute.navigationIcon = global::FinStat.Mobile.Droid.Resource.Attribute.navigationIcon;
+			global::Prism.Resource.Attribute.navigationMode = global::FinStat.Mobile.Droid.Resource.Attribute.navigationMode;
+			global::Prism.Resource.Attribute.navigationViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.navigationViewStyle;
+			global::Prism.Resource.Attribute.number = global::FinStat.Mobile.Droid.Resource.Attribute.number;
+			global::Prism.Resource.Attribute.numericModifiers = global::FinStat.Mobile.Droid.Resource.Attribute.numericModifiers;
+			global::Prism.Resource.Attribute.overlapAnchor = global::FinStat.Mobile.Droid.Resource.Attribute.overlapAnchor;
+			global::Prism.Resource.Attribute.paddingBottomNoButtons = global::FinStat.Mobile.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Prism.Resource.Attribute.paddingBottomSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
+			global::Prism.Resource.Attribute.paddingEnd = global::FinStat.Mobile.Droid.Resource.Attribute.paddingEnd;
+			global::Prism.Resource.Attribute.paddingLeftSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Prism.Resource.Attribute.paddingRightSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
+			global::Prism.Resource.Attribute.paddingStart = global::FinStat.Mobile.Droid.Resource.Attribute.paddingStart;
+			global::Prism.Resource.Attribute.paddingTopNoTitle = global::FinStat.Mobile.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Prism.Resource.Attribute.panelBackground = global::FinStat.Mobile.Droid.Resource.Attribute.panelBackground;
+			global::Prism.Resource.Attribute.panelMenuListTheme = global::FinStat.Mobile.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Prism.Resource.Attribute.panelMenuListWidth = global::FinStat.Mobile.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Prism.Resource.Attribute.passwordToggleContentDescription = global::FinStat.Mobile.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Prism.Resource.Attribute.passwordToggleDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Prism.Resource.Attribute.passwordToggleEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Prism.Resource.Attribute.passwordToggleTint = global::FinStat.Mobile.Droid.Resource.Attribute.passwordToggleTint;
+			global::Prism.Resource.Attribute.passwordToggleTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Prism.Resource.Attribute.placeholderText = global::FinStat.Mobile.Droid.Resource.Attribute.placeholderText;
+			global::Prism.Resource.Attribute.placeholderTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Prism.Resource.Attribute.placeholderTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.placeholderTextColor;
+			global::Prism.Resource.Attribute.popupMenuBackground = global::FinStat.Mobile.Droid.Resource.Attribute.popupMenuBackground;
+			global::Prism.Resource.Attribute.popupMenuStyle = global::FinStat.Mobile.Droid.Resource.Attribute.popupMenuStyle;
+			global::Prism.Resource.Attribute.popupTheme = global::FinStat.Mobile.Droid.Resource.Attribute.popupTheme;
+			global::Prism.Resource.Attribute.popupWindowStyle = global::FinStat.Mobile.Droid.Resource.Attribute.popupWindowStyle;
+			global::Prism.Resource.Attribute.prefixText = global::FinStat.Mobile.Droid.Resource.Attribute.prefixText;
+			global::Prism.Resource.Attribute.prefixTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Prism.Resource.Attribute.prefixTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.prefixTextColor;
+			global::Prism.Resource.Attribute.preserveIconSpacing = global::FinStat.Mobile.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Prism.Resource.Attribute.pressedTranslationZ = global::FinStat.Mobile.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Prism.Resource.Attribute.progressBarPadding = global::FinStat.Mobile.Droid.Resource.Attribute.progressBarPadding;
+			global::Prism.Resource.Attribute.progressBarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.progressBarStyle;
+			global::Prism.Resource.Attribute.queryBackground = global::FinStat.Mobile.Droid.Resource.Attribute.queryBackground;
+			global::Prism.Resource.Attribute.queryHint = global::FinStat.Mobile.Droid.Resource.Attribute.queryHint;
+			global::Prism.Resource.Attribute.radioButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.radioButtonStyle;
+			global::Prism.Resource.Attribute.rangeFillColor = global::FinStat.Mobile.Droid.Resource.Attribute.rangeFillColor;
+			global::Prism.Resource.Attribute.ratingBarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.ratingBarStyle;
+			global::Prism.Resource.Attribute.ratingBarStyleIndicator = global::FinStat.Mobile.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Prism.Resource.Attribute.ratingBarStyleSmall = global::FinStat.Mobile.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Prism.Resource.Attribute.recyclerViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Prism.Resource.Attribute.reverseLayout = global::FinStat.Mobile.Droid.Resource.Attribute.reverseLayout;
+			global::Prism.Resource.Attribute.rippleColor = global::FinStat.Mobile.Droid.Resource.Attribute.rippleColor;
+			global::Prism.Resource.Attribute.scrimAnimationDuration = global::FinStat.Mobile.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Prism.Resource.Attribute.scrimBackground = global::FinStat.Mobile.Droid.Resource.Attribute.scrimBackground;
+			global::Prism.Resource.Attribute.scrimVisibleHeightTrigger = global::FinStat.Mobile.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Prism.Resource.Attribute.scrollViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.scrollViewStyle;
+			global::Prism.Resource.Attribute.searchHintIcon = global::FinStat.Mobile.Droid.Resource.Attribute.searchHintIcon;
+			global::Prism.Resource.Attribute.searchIcon = global::FinStat.Mobile.Droid.Resource.Attribute.searchIcon;
+			global::Prism.Resource.Attribute.searchViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.searchViewStyle;
+			global::Prism.Resource.Attribute.seekBarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.seekBarStyle;
+			global::Prism.Resource.Attribute.selectableItemBackground = global::FinStat.Mobile.Droid.Resource.Attribute.selectableItemBackground;
+			global::Prism.Resource.Attribute.selectableItemBackgroundBorderless = global::FinStat.Mobile.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Prism.Resource.Attribute.selectionRequired = global::FinStat.Mobile.Droid.Resource.Attribute.selectionRequired;
+			global::Prism.Resource.Attribute.shapeAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.shapeAppearance;
+			global::Prism.Resource.Attribute.shapeAppearanceLargeComponent = global::FinStat.Mobile.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Prism.Resource.Attribute.shapeAppearanceMediumComponent = global::FinStat.Mobile.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Prism.Resource.Attribute.shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Prism.Resource.Attribute.shapeAppearanceSmallComponent = global::FinStat.Mobile.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Prism.Resource.Attribute.showAsAction = global::FinStat.Mobile.Droid.Resource.Attribute.showAsAction;
+			global::Prism.Resource.Attribute.showDividers = global::FinStat.Mobile.Droid.Resource.Attribute.showDividers;
+			global::Prism.Resource.Attribute.showMotionSpec = global::FinStat.Mobile.Droid.Resource.Attribute.showMotionSpec;
+			global::Prism.Resource.Attribute.showText = global::FinStat.Mobile.Droid.Resource.Attribute.showText;
+			global::Prism.Resource.Attribute.showTitle = global::FinStat.Mobile.Droid.Resource.Attribute.showTitle;
+			global::Prism.Resource.Attribute.shrinkMotionSpec = global::FinStat.Mobile.Droid.Resource.Attribute.shrinkMotionSpec;
+			global::Prism.Resource.Attribute.singleChoiceItemLayout = global::FinStat.Mobile.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Prism.Resource.Attribute.singleLine = global::FinStat.Mobile.Droid.Resource.Attribute.singleLine;
+			global::Prism.Resource.Attribute.singleSelection = global::FinStat.Mobile.Droid.Resource.Attribute.singleSelection;
+			global::Prism.Resource.Attribute.sliderStyle = global::FinStat.Mobile.Droid.Resource.Attribute.sliderStyle;
+			global::Prism.Resource.Attribute.snackbarButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Prism.Resource.Attribute.snackbarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.snackbarStyle;
+			global::Prism.Resource.Attribute.snackbarTextViewStyle = global::FinStat.Mobile.Droid.Resource.Attribute.snackbarTextViewStyle;
+			global::Prism.Resource.Attribute.spanCount = global::FinStat.Mobile.Droid.Resource.Attribute.spanCount;
+			global::Prism.Resource.Attribute.spinBars = global::FinStat.Mobile.Droid.Resource.Attribute.spinBars;
+			global::Prism.Resource.Attribute.spinnerDropDownItemStyle = global::FinStat.Mobile.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Prism.Resource.Attribute.spinnerStyle = global::FinStat.Mobile.Droid.Resource.Attribute.spinnerStyle;
+			global::Prism.Resource.Attribute.splitTrack = global::FinStat.Mobile.Droid.Resource.Attribute.splitTrack;
+			global::Prism.Resource.Attribute.srcCompat = global::FinStat.Mobile.Droid.Resource.Attribute.srcCompat;
+			global::Prism.Resource.Attribute.stackFromEnd = global::FinStat.Mobile.Droid.Resource.Attribute.stackFromEnd;
+			global::Prism.Resource.Attribute.startIconCheckable = global::FinStat.Mobile.Droid.Resource.Attribute.startIconCheckable;
+			global::Prism.Resource.Attribute.startIconContentDescription = global::FinStat.Mobile.Droid.Resource.Attribute.startIconContentDescription;
+			global::Prism.Resource.Attribute.startIconDrawable = global::FinStat.Mobile.Droid.Resource.Attribute.startIconDrawable;
+			global::Prism.Resource.Attribute.startIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.startIconTint;
+			global::Prism.Resource.Attribute.startIconTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.startIconTintMode;
+			global::Prism.Resource.Attribute.state_above_anchor = global::FinStat.Mobile.Droid.Resource.Attribute.state_above_anchor;
+			global::Prism.Resource.Attribute.state_collapsed = global::FinStat.Mobile.Droid.Resource.Attribute.state_collapsed;
+			global::Prism.Resource.Attribute.state_collapsible = global::FinStat.Mobile.Droid.Resource.Attribute.state_collapsible;
+			global::Prism.Resource.Attribute.state_dragged = global::FinStat.Mobile.Droid.Resource.Attribute.state_dragged;
+			global::Prism.Resource.Attribute.state_liftable = global::FinStat.Mobile.Droid.Resource.Attribute.state_liftable;
+			global::Prism.Resource.Attribute.state_lifted = global::FinStat.Mobile.Droid.Resource.Attribute.state_lifted;
+			global::Prism.Resource.Attribute.statusBarBackground = global::FinStat.Mobile.Droid.Resource.Attribute.statusBarBackground;
+			global::Prism.Resource.Attribute.statusBarForeground = global::FinStat.Mobile.Droid.Resource.Attribute.statusBarForeground;
+			global::Prism.Resource.Attribute.statusBarScrim = global::FinStat.Mobile.Droid.Resource.Attribute.statusBarScrim;
+			global::Prism.Resource.Attribute.strokeColor = global::FinStat.Mobile.Droid.Resource.Attribute.strokeColor;
+			global::Prism.Resource.Attribute.strokeWidth = global::FinStat.Mobile.Droid.Resource.Attribute.strokeWidth;
+			global::Prism.Resource.Attribute.subMenuArrow = global::FinStat.Mobile.Droid.Resource.Attribute.subMenuArrow;
+			global::Prism.Resource.Attribute.submitBackground = global::FinStat.Mobile.Droid.Resource.Attribute.submitBackground;
+			global::Prism.Resource.Attribute.subtitle = global::FinStat.Mobile.Droid.Resource.Attribute.subtitle;
+			global::Prism.Resource.Attribute.subtitleTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Prism.Resource.Attribute.subtitleTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.subtitleTextColor;
+			global::Prism.Resource.Attribute.subtitleTextStyle = global::FinStat.Mobile.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Prism.Resource.Attribute.suffixText = global::FinStat.Mobile.Droid.Resource.Attribute.suffixText;
+			global::Prism.Resource.Attribute.suffixTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Prism.Resource.Attribute.suffixTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.suffixTextColor;
+			global::Prism.Resource.Attribute.suggestionRowLayout = global::FinStat.Mobile.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Prism.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::FinStat.Mobile.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Prism.Resource.Attribute.switchMinWidth = global::FinStat.Mobile.Droid.Resource.Attribute.switchMinWidth;
+			global::Prism.Resource.Attribute.switchPadding = global::FinStat.Mobile.Droid.Resource.Attribute.switchPadding;
+			global::Prism.Resource.Attribute.switchStyle = global::FinStat.Mobile.Droid.Resource.Attribute.switchStyle;
+			global::Prism.Resource.Attribute.switchTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.switchTextAppearance;
+			global::Prism.Resource.Attribute.tabBackground = global::FinStat.Mobile.Droid.Resource.Attribute.tabBackground;
+			global::Prism.Resource.Attribute.tabContentStart = global::FinStat.Mobile.Droid.Resource.Attribute.tabContentStart;
+			global::Prism.Resource.Attribute.tabGravity = global::FinStat.Mobile.Droid.Resource.Attribute.tabGravity;
+			global::Prism.Resource.Attribute.tabIconTint = global::FinStat.Mobile.Droid.Resource.Attribute.tabIconTint;
+			global::Prism.Resource.Attribute.tabIconTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.tabIconTintMode;
+			global::Prism.Resource.Attribute.tabIndicator = global::FinStat.Mobile.Droid.Resource.Attribute.tabIndicator;
+			global::Prism.Resource.Attribute.tabIndicatorAnimationDuration = global::FinStat.Mobile.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Prism.Resource.Attribute.tabIndicatorColor = global::FinStat.Mobile.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Prism.Resource.Attribute.tabIndicatorFullWidth = global::FinStat.Mobile.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Prism.Resource.Attribute.tabIndicatorGravity = global::FinStat.Mobile.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Prism.Resource.Attribute.tabIndicatorHeight = global::FinStat.Mobile.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Prism.Resource.Attribute.tabInlineLabel = global::FinStat.Mobile.Droid.Resource.Attribute.tabInlineLabel;
+			global::Prism.Resource.Attribute.tabMaxWidth = global::FinStat.Mobile.Droid.Resource.Attribute.tabMaxWidth;
+			global::Prism.Resource.Attribute.tabMinWidth = global::FinStat.Mobile.Droid.Resource.Attribute.tabMinWidth;
+			global::Prism.Resource.Attribute.tabMode = global::FinStat.Mobile.Droid.Resource.Attribute.tabMode;
+			global::Prism.Resource.Attribute.tabPadding = global::FinStat.Mobile.Droid.Resource.Attribute.tabPadding;
+			global::Prism.Resource.Attribute.tabPaddingBottom = global::FinStat.Mobile.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Prism.Resource.Attribute.tabPaddingEnd = global::FinStat.Mobile.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Prism.Resource.Attribute.tabPaddingStart = global::FinStat.Mobile.Droid.Resource.Attribute.tabPaddingStart;
+			global::Prism.Resource.Attribute.tabPaddingTop = global::FinStat.Mobile.Droid.Resource.Attribute.tabPaddingTop;
+			global::Prism.Resource.Attribute.tabRippleColor = global::FinStat.Mobile.Droid.Resource.Attribute.tabRippleColor;
+			global::Prism.Resource.Attribute.tabSelectedTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Prism.Resource.Attribute.tabStyle = global::FinStat.Mobile.Droid.Resource.Attribute.tabStyle;
+			global::Prism.Resource.Attribute.tabTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.tabTextAppearance;
+			global::Prism.Resource.Attribute.tabTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.tabTextColor;
+			global::Prism.Resource.Attribute.tabUnboundedRipple = global::FinStat.Mobile.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Prism.Resource.Attribute.textAllCaps = global::FinStat.Mobile.Droid.Resource.Attribute.textAllCaps;
+			global::Prism.Resource.Attribute.textAppearanceBody1 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Prism.Resource.Attribute.textAppearanceBody2 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Prism.Resource.Attribute.textAppearanceButton = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceButton;
+			global::Prism.Resource.Attribute.textAppearanceCaption = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Prism.Resource.Attribute.textAppearanceHeadline1 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Prism.Resource.Attribute.textAppearanceHeadline2 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Prism.Resource.Attribute.textAppearanceHeadline3 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Prism.Resource.Attribute.textAppearanceHeadline4 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Prism.Resource.Attribute.textAppearanceHeadline5 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Prism.Resource.Attribute.textAppearanceHeadline6 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Prism.Resource.Attribute.textAppearanceLargePopupMenu = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Prism.Resource.Attribute.textAppearanceLineHeightEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
+			global::Prism.Resource.Attribute.textAppearanceListItem = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Prism.Resource.Attribute.textAppearanceListItemSecondary = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Prism.Resource.Attribute.textAppearanceListItemSmall = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Prism.Resource.Attribute.textAppearanceOverline = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Prism.Resource.Attribute.textAppearancePopupMenuHeader = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Prism.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Prism.Resource.Attribute.textAppearanceSearchResultTitle = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Prism.Resource.Attribute.textAppearanceSmallPopupMenu = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Prism.Resource.Attribute.textAppearanceSubtitle1 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Prism.Resource.Attribute.textAppearanceSubtitle2 = global::FinStat.Mobile.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Prism.Resource.Attribute.textColorAlertDialogListItem = global::FinStat.Mobile.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Prism.Resource.Attribute.textColorSearchUrl = global::FinStat.Mobile.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Prism.Resource.Attribute.textEndPadding = global::FinStat.Mobile.Droid.Resource.Attribute.textEndPadding;
+			global::Prism.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
+			global::Prism.Resource.Attribute.textInputStyle = global::FinStat.Mobile.Droid.Resource.Attribute.textInputStyle;
+			global::Prism.Resource.Attribute.textLocale = global::FinStat.Mobile.Droid.Resource.Attribute.textLocale;
+			global::Prism.Resource.Attribute.textStartPadding = global::FinStat.Mobile.Droid.Resource.Attribute.textStartPadding;
+			global::Prism.Resource.Attribute.theme = global::FinStat.Mobile.Droid.Resource.Attribute.theme;
+			global::Prism.Resource.Attribute.themeLineHeight = global::FinStat.Mobile.Droid.Resource.Attribute.themeLineHeight;
+			global::Prism.Resource.Attribute.thickness = global::FinStat.Mobile.Droid.Resource.Attribute.thickness;
+			global::Prism.Resource.Attribute.thumbColor = global::FinStat.Mobile.Droid.Resource.Attribute.thumbColor;
+			global::Prism.Resource.Attribute.thumbElevation = global::FinStat.Mobile.Droid.Resource.Attribute.thumbElevation;
+			global::Prism.Resource.Attribute.thumbRadius = global::FinStat.Mobile.Droid.Resource.Attribute.thumbRadius;
+			global::Prism.Resource.Attribute.thumbTextPadding = global::FinStat.Mobile.Droid.Resource.Attribute.thumbTextPadding;
+			global::Prism.Resource.Attribute.thumbTint = global::FinStat.Mobile.Droid.Resource.Attribute.thumbTint;
+			global::Prism.Resource.Attribute.thumbTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.thumbTintMode;
+			global::Prism.Resource.Attribute.tickColor = global::FinStat.Mobile.Droid.Resource.Attribute.tickColor;
+			global::Prism.Resource.Attribute.tickColorActive = global::FinStat.Mobile.Droid.Resource.Attribute.tickColorActive;
+			global::Prism.Resource.Attribute.tickColorInactive = global::FinStat.Mobile.Droid.Resource.Attribute.tickColorInactive;
+			global::Prism.Resource.Attribute.tickMark = global::FinStat.Mobile.Droid.Resource.Attribute.tickMark;
+			global::Prism.Resource.Attribute.tickMarkTint = global::FinStat.Mobile.Droid.Resource.Attribute.tickMarkTint;
+			global::Prism.Resource.Attribute.tickMarkTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Prism.Resource.Attribute.tint = global::FinStat.Mobile.Droid.Resource.Attribute.tint;
+			global::Prism.Resource.Attribute.tintMode = global::FinStat.Mobile.Droid.Resource.Attribute.tintMode;
+			global::Prism.Resource.Attribute.title = global::FinStat.Mobile.Droid.Resource.Attribute.title;
+			global::Prism.Resource.Attribute.titleEnabled = global::FinStat.Mobile.Droid.Resource.Attribute.titleEnabled;
+			global::Prism.Resource.Attribute.titleMargin = global::FinStat.Mobile.Droid.Resource.Attribute.titleMargin;
+			global::Prism.Resource.Attribute.titleMarginBottom = global::FinStat.Mobile.Droid.Resource.Attribute.titleMarginBottom;
+			global::Prism.Resource.Attribute.titleMarginEnd = global::FinStat.Mobile.Droid.Resource.Attribute.titleMarginEnd;
+			global::Prism.Resource.Attribute.titleMargins = global::FinStat.Mobile.Droid.Resource.Attribute.titleMargins;
+			global::Prism.Resource.Attribute.titleMarginStart = global::FinStat.Mobile.Droid.Resource.Attribute.titleMarginStart;
+			global::Prism.Resource.Attribute.titleMarginTop = global::FinStat.Mobile.Droid.Resource.Attribute.titleMarginTop;
+			global::Prism.Resource.Attribute.titleTextAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.titleTextAppearance;
+			global::Prism.Resource.Attribute.titleTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.titleTextColor;
+			global::Prism.Resource.Attribute.titleTextStyle = global::FinStat.Mobile.Droid.Resource.Attribute.titleTextStyle;
+			global::Prism.Resource.Attribute.toolbarId = global::FinStat.Mobile.Droid.Resource.Attribute.toolbarId;
+			global::Prism.Resource.Attribute.toolbarNavigationButtonStyle = global::FinStat.Mobile.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Prism.Resource.Attribute.toolbarStyle = global::FinStat.Mobile.Droid.Resource.Attribute.toolbarStyle;
+			global::Prism.Resource.Attribute.tooltipForegroundColor = global::FinStat.Mobile.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Prism.Resource.Attribute.tooltipFrameBackground = global::FinStat.Mobile.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Prism.Resource.Attribute.tooltipStyle = global::FinStat.Mobile.Droid.Resource.Attribute.tooltipStyle;
+			global::Prism.Resource.Attribute.tooltipText = global::FinStat.Mobile.Droid.Resource.Attribute.tooltipText;
+			global::Prism.Resource.Attribute.track = global::FinStat.Mobile.Droid.Resource.Attribute.track;
+			global::Prism.Resource.Attribute.trackColor = global::FinStat.Mobile.Droid.Resource.Attribute.trackColor;
+			global::Prism.Resource.Attribute.trackColorActive = global::FinStat.Mobile.Droid.Resource.Attribute.trackColorActive;
+			global::Prism.Resource.Attribute.trackColorInactive = global::FinStat.Mobile.Droid.Resource.Attribute.trackColorInactive;
+			global::Prism.Resource.Attribute.trackHeight = global::FinStat.Mobile.Droid.Resource.Attribute.trackHeight;
+			global::Prism.Resource.Attribute.trackTint = global::FinStat.Mobile.Droid.Resource.Attribute.trackTint;
+			global::Prism.Resource.Attribute.trackTintMode = global::FinStat.Mobile.Droid.Resource.Attribute.trackTintMode;
+			global::Prism.Resource.Attribute.transitionShapeAppearance = global::FinStat.Mobile.Droid.Resource.Attribute.transitionShapeAppearance;
+			global::Prism.Resource.Attribute.ttcIndex = global::FinStat.Mobile.Droid.Resource.Attribute.ttcIndex;
+			global::Prism.Resource.Attribute.useCompatPadding = global::FinStat.Mobile.Droid.Resource.Attribute.useCompatPadding;
+			global::Prism.Resource.Attribute.useMaterialThemeColors = global::FinStat.Mobile.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Prism.Resource.Attribute.values = global::FinStat.Mobile.Droid.Resource.Attribute.values;
+			global::Prism.Resource.Attribute.verticalOffset = global::FinStat.Mobile.Droid.Resource.Attribute.verticalOffset;
+			global::Prism.Resource.Attribute.viewInflaterClass = global::FinStat.Mobile.Droid.Resource.Attribute.viewInflaterClass;
+			global::Prism.Resource.Attribute.voiceIcon = global::FinStat.Mobile.Droid.Resource.Attribute.voiceIcon;
+			global::Prism.Resource.Attribute.windowActionBar = global::FinStat.Mobile.Droid.Resource.Attribute.windowActionBar;
+			global::Prism.Resource.Attribute.windowActionBarOverlay = global::FinStat.Mobile.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Prism.Resource.Attribute.windowActionModeOverlay = global::FinStat.Mobile.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Prism.Resource.Attribute.windowFixedHeightMajor = global::FinStat.Mobile.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Prism.Resource.Attribute.windowFixedHeightMinor = global::FinStat.Mobile.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Prism.Resource.Attribute.windowFixedWidthMajor = global::FinStat.Mobile.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Prism.Resource.Attribute.windowFixedWidthMinor = global::FinStat.Mobile.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Prism.Resource.Attribute.windowMinWidthMajor = global::FinStat.Mobile.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Prism.Resource.Attribute.windowMinWidthMinor = global::FinStat.Mobile.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Prism.Resource.Attribute.windowNoTitle = global::FinStat.Mobile.Droid.Resource.Attribute.windowNoTitle;
+			global::Prism.Resource.Attribute.yearSelectedStyle = global::FinStat.Mobile.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Prism.Resource.Attribute.yearStyle = global::FinStat.Mobile.Droid.Resource.Attribute.yearStyle;
+			global::Prism.Resource.Attribute.yearTodayStyle = global::FinStat.Mobile.Droid.Resource.Attribute.yearTodayStyle;
+			global::Prism.Resource.Boolean.abc_action_bar_embed_tabs = global::FinStat.Mobile.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Prism.Resource.Boolean.abc_allow_stacked_button_bar = global::FinStat.Mobile.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Prism.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FinStat.Mobile.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Prism.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::FinStat.Mobile.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FinStat.Mobile.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_light = global::FinStat.Mobile.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Prism.Resource.Color.abc_btn_colored_borderless_text_material = global::FinStat.Mobile.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Prism.Resource.Color.abc_btn_colored_text_material = global::FinStat.Mobile.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Prism.Resource.Color.abc_color_highlight_material = global::FinStat.Mobile.Droid.Resource.Color.abc_color_highlight_material;
+			global::Prism.Resource.Color.abc_decor_view_status_guard = global::FinStat.Mobile.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Prism.Resource.Color.abc_decor_view_status_guard_light = global::FinStat.Mobile.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::Prism.Resource.Color.abc_hint_foreground_material_dark = global::FinStat.Mobile.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Prism.Resource.Color.abc_hint_foreground_material_light = global::FinStat.Mobile.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Prism.Resource.Color.abc_primary_text_disable_only_material_dark = global::FinStat.Mobile.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Prism.Resource.Color.abc_primary_text_disable_only_material_light = global::FinStat.Mobile.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Prism.Resource.Color.abc_primary_text_material_dark = global::FinStat.Mobile.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Prism.Resource.Color.abc_primary_text_material_light = global::FinStat.Mobile.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Prism.Resource.Color.abc_search_url_text = global::FinStat.Mobile.Droid.Resource.Color.abc_search_url_text;
+			global::Prism.Resource.Color.abc_search_url_text_normal = global::FinStat.Mobile.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Prism.Resource.Color.abc_search_url_text_pressed = global::FinStat.Mobile.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Prism.Resource.Color.abc_search_url_text_selected = global::FinStat.Mobile.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Prism.Resource.Color.abc_secondary_text_material_dark = global::FinStat.Mobile.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Prism.Resource.Color.abc_secondary_text_material_light = global::FinStat.Mobile.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Prism.Resource.Color.abc_tint_btn_checkable = global::FinStat.Mobile.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Prism.Resource.Color.abc_tint_default = global::FinStat.Mobile.Droid.Resource.Color.abc_tint_default;
+			global::Prism.Resource.Color.abc_tint_edittext = global::FinStat.Mobile.Droid.Resource.Color.abc_tint_edittext;
+			global::Prism.Resource.Color.abc_tint_seek_thumb = global::FinStat.Mobile.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Prism.Resource.Color.abc_tint_spinner = global::FinStat.Mobile.Droid.Resource.Color.abc_tint_spinner;
+			global::Prism.Resource.Color.abc_tint_switch_track = global::FinStat.Mobile.Droid.Resource.Color.abc_tint_switch_track;
+			global::Prism.Resource.Color.accent_material_dark = global::FinStat.Mobile.Droid.Resource.Color.accent_material_dark;
+			global::Prism.Resource.Color.accent_material_light = global::FinStat.Mobile.Droid.Resource.Color.accent_material_light;
+			global::Prism.Resource.Color.androidx_core_ripple_material_light = global::FinStat.Mobile.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Prism.Resource.Color.androidx_core_secondary_text_default_material_light = global::FinStat.Mobile.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Prism.Resource.Color.background_floating_material_dark = global::FinStat.Mobile.Droid.Resource.Color.background_floating_material_dark;
+			global::Prism.Resource.Color.background_floating_material_light = global::FinStat.Mobile.Droid.Resource.Color.background_floating_material_light;
+			global::Prism.Resource.Color.background_material_dark = global::FinStat.Mobile.Droid.Resource.Color.background_material_dark;
+			global::Prism.Resource.Color.background_material_light = global::FinStat.Mobile.Droid.Resource.Color.background_material_light;
+			global::Prism.Resource.Color.bright_foreground_disabled_material_dark = global::FinStat.Mobile.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Prism.Resource.Color.bright_foreground_disabled_material_light = global::FinStat.Mobile.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Prism.Resource.Color.bright_foreground_inverse_material_dark = global::FinStat.Mobile.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Prism.Resource.Color.bright_foreground_inverse_material_light = global::FinStat.Mobile.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Prism.Resource.Color.bright_foreground_material_dark = global::FinStat.Mobile.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Prism.Resource.Color.bright_foreground_material_light = global::FinStat.Mobile.Droid.Resource.Color.bright_foreground_material_light;
+			global::Prism.Resource.Color.browser_actions_bg_grey = global::FinStat.Mobile.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Prism.Resource.Color.browser_actions_divider_color = global::FinStat.Mobile.Droid.Resource.Color.browser_actions_divider_color;
+			global::Prism.Resource.Color.browser_actions_text_color = global::FinStat.Mobile.Droid.Resource.Color.browser_actions_text_color;
+			global::Prism.Resource.Color.browser_actions_title_color = global::FinStat.Mobile.Droid.Resource.Color.browser_actions_title_color;
+			global::Prism.Resource.Color.button_material_dark = global::FinStat.Mobile.Droid.Resource.Color.button_material_dark;
+			global::Prism.Resource.Color.button_material_light = global::FinStat.Mobile.Droid.Resource.Color.button_material_light;
+			global::Prism.Resource.Color.cardview_dark_background = global::FinStat.Mobile.Droid.Resource.Color.cardview_dark_background;
+			global::Prism.Resource.Color.cardview_light_background = global::FinStat.Mobile.Droid.Resource.Color.cardview_light_background;
+			global::Prism.Resource.Color.cardview_shadow_end_color = global::FinStat.Mobile.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Prism.Resource.Color.cardview_shadow_start_color = global::FinStat.Mobile.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Prism.Resource.Color.checkbox_themeable_attribute_color = global::FinStat.Mobile.Droid.Resource.Color.checkbox_themeable_attribute_color;
+			global::Prism.Resource.Color.design_bottom_navigation_shadow_color = global::FinStat.Mobile.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Prism.Resource.Color.design_box_stroke_color = global::FinStat.Mobile.Droid.Resource.Color.design_box_stroke_color;
+			global::Prism.Resource.Color.design_dark_default_color_background = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_background;
+			global::Prism.Resource.Color.design_dark_default_color_error = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_error;
+			global::Prism.Resource.Color.design_dark_default_color_on_background = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Prism.Resource.Color.design_dark_default_color_on_error = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Prism.Resource.Color.design_dark_default_color_on_primary = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Prism.Resource.Color.design_dark_default_color_on_secondary = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Prism.Resource.Color.design_dark_default_color_on_surface = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Prism.Resource.Color.design_dark_default_color_primary = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Prism.Resource.Color.design_dark_default_color_primary_dark = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Prism.Resource.Color.design_dark_default_color_primary_variant = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Prism.Resource.Color.design_dark_default_color_secondary = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Prism.Resource.Color.design_dark_default_color_secondary_variant = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Prism.Resource.Color.design_dark_default_color_surface = global::FinStat.Mobile.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Prism.Resource.Color.design_default_color_background = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_background;
+			global::Prism.Resource.Color.design_default_color_error = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_error;
+			global::Prism.Resource.Color.design_default_color_on_background = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_on_background;
+			global::Prism.Resource.Color.design_default_color_on_error = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_on_error;
+			global::Prism.Resource.Color.design_default_color_on_primary = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_on_primary;
+			global::Prism.Resource.Color.design_default_color_on_secondary = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Prism.Resource.Color.design_default_color_on_surface = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_on_surface;
+			global::Prism.Resource.Color.design_default_color_primary = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_primary;
+			global::Prism.Resource.Color.design_default_color_primary_dark = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Prism.Resource.Color.design_default_color_primary_variant = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Prism.Resource.Color.design_default_color_secondary = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_secondary;
+			global::Prism.Resource.Color.design_default_color_secondary_variant = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Prism.Resource.Color.design_default_color_surface = global::FinStat.Mobile.Droid.Resource.Color.design_default_color_surface;
+			global::Prism.Resource.Color.design_error = global::FinStat.Mobile.Droid.Resource.Color.design_error;
+			global::Prism.Resource.Color.design_fab_shadow_end_color = global::FinStat.Mobile.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Prism.Resource.Color.design_fab_shadow_mid_color = global::FinStat.Mobile.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Prism.Resource.Color.design_fab_shadow_start_color = global::FinStat.Mobile.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Prism.Resource.Color.design_fab_stroke_end_inner_color = global::FinStat.Mobile.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Prism.Resource.Color.design_fab_stroke_end_outer_color = global::FinStat.Mobile.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Prism.Resource.Color.design_fab_stroke_top_inner_color = global::FinStat.Mobile.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Prism.Resource.Color.design_fab_stroke_top_outer_color = global::FinStat.Mobile.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Prism.Resource.Color.design_icon_tint = global::FinStat.Mobile.Droid.Resource.Color.design_icon_tint;
+			global::Prism.Resource.Color.design_snackbar_background_color = global::FinStat.Mobile.Droid.Resource.Color.design_snackbar_background_color;
+			global::Prism.Resource.Color.dim_foreground_disabled_material_dark = global::FinStat.Mobile.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Prism.Resource.Color.dim_foreground_disabled_material_light = global::FinStat.Mobile.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Prism.Resource.Color.dim_foreground_material_dark = global::FinStat.Mobile.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Prism.Resource.Color.dim_foreground_material_light = global::FinStat.Mobile.Droid.Resource.Color.dim_foreground_material_light;
+			global::Prism.Resource.Color.error_color_material_dark = global::FinStat.Mobile.Droid.Resource.Color.error_color_material_dark;
+			global::Prism.Resource.Color.error_color_material_light = global::FinStat.Mobile.Droid.Resource.Color.error_color_material_light;
+			global::Prism.Resource.Color.foreground_material_dark = global::FinStat.Mobile.Droid.Resource.Color.foreground_material_dark;
+			global::Prism.Resource.Color.foreground_material_light = global::FinStat.Mobile.Droid.Resource.Color.foreground_material_light;
+			global::Prism.Resource.Color.highlighted_text_material_dark = global::FinStat.Mobile.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Prism.Resource.Color.highlighted_text_material_light = global::FinStat.Mobile.Droid.Resource.Color.highlighted_text_material_light;
+			global::Prism.Resource.Color.material_blue_grey_800 = global::FinStat.Mobile.Droid.Resource.Color.material_blue_grey_800;
+			global::Prism.Resource.Color.material_blue_grey_900 = global::FinStat.Mobile.Droid.Resource.Color.material_blue_grey_900;
+			global::Prism.Resource.Color.material_blue_grey_950 = global::FinStat.Mobile.Droid.Resource.Color.material_blue_grey_950;
+			global::Prism.Resource.Color.material_deep_teal_200 = global::FinStat.Mobile.Droid.Resource.Color.material_deep_teal_200;
+			global::Prism.Resource.Color.material_deep_teal_500 = global::FinStat.Mobile.Droid.Resource.Color.material_deep_teal_500;
+			global::Prism.Resource.Color.material_grey_100 = global::FinStat.Mobile.Droid.Resource.Color.material_grey_100;
+			global::Prism.Resource.Color.material_grey_300 = global::FinStat.Mobile.Droid.Resource.Color.material_grey_300;
+			global::Prism.Resource.Color.material_grey_50 = global::FinStat.Mobile.Droid.Resource.Color.material_grey_50;
+			global::Prism.Resource.Color.material_grey_600 = global::FinStat.Mobile.Droid.Resource.Color.material_grey_600;
+			global::Prism.Resource.Color.material_grey_800 = global::FinStat.Mobile.Droid.Resource.Color.material_grey_800;
+			global::Prism.Resource.Color.material_grey_850 = global::FinStat.Mobile.Droid.Resource.Color.material_grey_850;
+			global::Prism.Resource.Color.material_grey_900 = global::FinStat.Mobile.Droid.Resource.Color.material_grey_900;
+			global::Prism.Resource.Color.material_on_background_disabled = global::FinStat.Mobile.Droid.Resource.Color.material_on_background_disabled;
+			global::Prism.Resource.Color.material_on_background_emphasis_high_type = global::FinStat.Mobile.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Prism.Resource.Color.material_on_background_emphasis_medium = global::FinStat.Mobile.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Prism.Resource.Color.material_on_primary_disabled = global::FinStat.Mobile.Droid.Resource.Color.material_on_primary_disabled;
+			global::Prism.Resource.Color.material_on_primary_emphasis_high_type = global::FinStat.Mobile.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Prism.Resource.Color.material_on_primary_emphasis_medium = global::FinStat.Mobile.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Prism.Resource.Color.material_on_surface_disabled = global::FinStat.Mobile.Droid.Resource.Color.material_on_surface_disabled;
+			global::Prism.Resource.Color.material_on_surface_emphasis_high_type = global::FinStat.Mobile.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Prism.Resource.Color.material_on_surface_emphasis_medium = global::FinStat.Mobile.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Prism.Resource.Color.material_on_surface_stroke = global::FinStat.Mobile.Droid.Resource.Color.material_on_surface_stroke;
+			global::Prism.Resource.Color.material_slider_active_tick_marks_color = global::FinStat.Mobile.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Prism.Resource.Color.material_slider_active_track_color = global::FinStat.Mobile.Droid.Resource.Color.material_slider_active_track_color;
+			global::Prism.Resource.Color.material_slider_halo_color = global::FinStat.Mobile.Droid.Resource.Color.material_slider_halo_color;
+			global::Prism.Resource.Color.material_slider_inactive_tick_marks_color = global::FinStat.Mobile.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Prism.Resource.Color.material_slider_inactive_track_color = global::FinStat.Mobile.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Prism.Resource.Color.material_slider_thumb_color = global::FinStat.Mobile.Droid.Resource.Color.material_slider_thumb_color;
+			global::Prism.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::FinStat.Mobile.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Prism.Resource.Color.mtrl_bottom_nav_colored_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_bottom_nav_colored_ripple_color;
+			global::Prism.Resource.Color.mtrl_bottom_nav_item_tint = global::FinStat.Mobile.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Prism.Resource.Color.mtrl_bottom_nav_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_bottom_nav_ripple_color;
+			global::Prism.Resource.Color.mtrl_btn_bg_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Prism.Resource.Color.mtrl_btn_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Prism.Resource.Color.mtrl_btn_stroke_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Prism.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
+			global::Prism.Resource.Color.mtrl_btn_text_btn_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Prism.Resource.Color.mtrl_btn_text_color_disabled = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Prism.Resource.Color.mtrl_btn_text_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Prism.Resource.Color.mtrl_btn_transparent_bg_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Prism.Resource.Color.mtrl_calendar_item_stroke_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Prism.Resource.Color.mtrl_calendar_selected_range = global::FinStat.Mobile.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Prism.Resource.Color.mtrl_card_view_foreground = global::FinStat.Mobile.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Prism.Resource.Color.mtrl_card_view_ripple = global::FinStat.Mobile.Droid.Resource.Color.mtrl_card_view_ripple;
+			global::Prism.Resource.Color.mtrl_chip_background_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Prism.Resource.Color.mtrl_chip_close_icon_tint = global::FinStat.Mobile.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Prism.Resource.Color.mtrl_chip_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Prism.Resource.Color.mtrl_chip_surface_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_chip_surface_color;
+			global::Prism.Resource.Color.mtrl_chip_text_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Prism.Resource.Color.mtrl_choice_chip_background_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Prism.Resource.Color.mtrl_choice_chip_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Prism.Resource.Color.mtrl_choice_chip_text_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Prism.Resource.Color.mtrl_error = global::FinStat.Mobile.Droid.Resource.Color.mtrl_error;
+			global::Prism.Resource.Color.mtrl_fab_bg_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Prism.Resource.Color.mtrl_fab_icon_text_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
+			global::Prism.Resource.Color.mtrl_fab_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Prism.Resource.Color.mtrl_filled_background_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Prism.Resource.Color.mtrl_filled_icon_tint = global::FinStat.Mobile.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Prism.Resource.Color.mtrl_filled_stroke_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Prism.Resource.Color.mtrl_indicator_text_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Prism.Resource.Color.mtrl_navigation_item_background_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Prism.Resource.Color.mtrl_navigation_item_icon_tint = global::FinStat.Mobile.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Prism.Resource.Color.mtrl_navigation_item_text_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Prism.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Prism.Resource.Color.mtrl_outlined_icon_tint = global::FinStat.Mobile.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Prism.Resource.Color.mtrl_outlined_stroke_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Prism.Resource.Color.mtrl_popupmenu_overlay_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
+			global::Prism.Resource.Color.mtrl_scrim_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_scrim_color;
+			global::Prism.Resource.Color.mtrl_tabs_colored_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Prism.Resource.Color.mtrl_tabs_icon_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Prism.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::FinStat.Mobile.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Prism.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Prism.Resource.Color.mtrl_tabs_ripple_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Prism.Resource.Color.mtrl_textinput_default_box_stroke_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Prism.Resource.Color.mtrl_textinput_disabled_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Prism.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Prism.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
+			global::Prism.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::FinStat.Mobile.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Prism.Resource.Color.mtrl_text_btn_text_color_selector = global::FinStat.Mobile.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Prism.Resource.Color.notification_action_color_filter = global::FinStat.Mobile.Droid.Resource.Color.notification_action_color_filter;
+			global::Prism.Resource.Color.notification_icon_bg_color = global::FinStat.Mobile.Droid.Resource.Color.notification_icon_bg_color;
+			global::Prism.Resource.Color.notification_material_background_media_default_color = global::FinStat.Mobile.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Prism.Resource.Color.primary_dark_material_dark = global::FinStat.Mobile.Droid.Resource.Color.primary_dark_material_dark;
+			global::Prism.Resource.Color.primary_dark_material_light = global::FinStat.Mobile.Droid.Resource.Color.primary_dark_material_light;
+			global::Prism.Resource.Color.primary_material_dark = global::FinStat.Mobile.Droid.Resource.Color.primary_material_dark;
+			global::Prism.Resource.Color.primary_material_light = global::FinStat.Mobile.Droid.Resource.Color.primary_material_light;
+			global::Prism.Resource.Color.primary_text_default_material_dark = global::FinStat.Mobile.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Prism.Resource.Color.primary_text_default_material_light = global::FinStat.Mobile.Droid.Resource.Color.primary_text_default_material_light;
+			global::Prism.Resource.Color.primary_text_disabled_material_dark = global::FinStat.Mobile.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Prism.Resource.Color.primary_text_disabled_material_light = global::FinStat.Mobile.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Prism.Resource.Color.radiobutton_themeable_attribute_color = global::FinStat.Mobile.Droid.Resource.Color.radiobutton_themeable_attribute_color;
+			global::Prism.Resource.Color.ripple_material_dark = global::FinStat.Mobile.Droid.Resource.Color.ripple_material_dark;
+			global::Prism.Resource.Color.ripple_material_light = global::FinStat.Mobile.Droid.Resource.Color.ripple_material_light;
+			global::Prism.Resource.Color.secondary_text_default_material_dark = global::FinStat.Mobile.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Prism.Resource.Color.secondary_text_default_material_light = global::FinStat.Mobile.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Prism.Resource.Color.secondary_text_disabled_material_dark = global::FinStat.Mobile.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Prism.Resource.Color.secondary_text_disabled_material_light = global::FinStat.Mobile.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Prism.Resource.Color.switch_thumb_disabled_material_dark = global::FinStat.Mobile.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Prism.Resource.Color.switch_thumb_disabled_material_light = global::FinStat.Mobile.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Prism.Resource.Color.switch_thumb_material_dark = global::FinStat.Mobile.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Prism.Resource.Color.switch_thumb_material_light = global::FinStat.Mobile.Droid.Resource.Color.switch_thumb_material_light;
+			global::Prism.Resource.Color.switch_thumb_normal_material_dark = global::FinStat.Mobile.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Prism.Resource.Color.switch_thumb_normal_material_light = global::FinStat.Mobile.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Prism.Resource.Color.test_mtrl_calendar_day = global::FinStat.Mobile.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Prism.Resource.Color.test_mtrl_calendar_day_selected = global::FinStat.Mobile.Droid.Resource.Color.test_mtrl_calendar_day_selected;
+			global::Prism.Resource.Color.tooltip_background_dark = global::FinStat.Mobile.Droid.Resource.Color.tooltip_background_dark;
+			global::Prism.Resource.Color.tooltip_background_light = global::FinStat.Mobile.Droid.Resource.Color.tooltip_background_light;
+			global::Prism.Resource.Dimension.abc_action_bar_content_inset_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Prism.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Prism.Resource.Dimension.abc_action_bar_default_height_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Prism.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Prism.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Prism.Resource.Dimension.abc_action_bar_elevation_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Prism.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Prism.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Prism.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Prism.Resource.Dimension.abc_action_bar_stacked_max_height = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Prism.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Prism.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Prism.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Prism.Resource.Dimension.abc_action_button_min_height_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Prism.Resource.Dimension.abc_action_button_min_width_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Prism.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Prism.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FinStat.Mobile.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Prism.Resource.Dimension.abc_alert_dialog_button_dimen = global::FinStat.Mobile.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Prism.Resource.Dimension.abc_button_inset_horizontal_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Prism.Resource.Dimension.abc_button_inset_vertical_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Prism.Resource.Dimension.abc_button_padding_horizontal_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Prism.Resource.Dimension.abc_button_padding_vertical_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Prism.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FinStat.Mobile.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Prism.Resource.Dimension.abc_config_prefDialogWidth = global::FinStat.Mobile.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Prism.Resource.Dimension.abc_control_corner_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Prism.Resource.Dimension.abc_control_inset_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Prism.Resource.Dimension.abc_control_padding_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Prism.Resource.Dimension.abc_dialog_corner_radius_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Prism.Resource.Dimension.abc_dialog_fixed_height_major = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Prism.Resource.Dimension.abc_dialog_fixed_height_minor = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Prism.Resource.Dimension.abc_dialog_fixed_width_major = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Prism.Resource.Dimension.abc_dialog_fixed_width_minor = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Prism.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Prism.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Prism.Resource.Dimension.abc_dialog_min_width_major = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Prism.Resource.Dimension.abc_dialog_min_width_minor = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Prism.Resource.Dimension.abc_dialog_padding_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Prism.Resource.Dimension.abc_dialog_padding_top_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Prism.Resource.Dimension.abc_dialog_title_divider_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Prism.Resource.Dimension.abc_disabled_alpha_material_dark = global::FinStat.Mobile.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Prism.Resource.Dimension.abc_disabled_alpha_material_light = global::FinStat.Mobile.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Prism.Resource.Dimension.abc_dropdownitem_icon_width = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Prism.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Prism.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FinStat.Mobile.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Prism.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Prism.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Prism.Resource.Dimension.abc_edit_text_inset_top_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Prism.Resource.Dimension.abc_floating_window_z = global::FinStat.Mobile.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Prism.Resource.Dimension.abc_list_item_height_large_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Prism.Resource.Dimension.abc_list_item_height_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Prism.Resource.Dimension.abc_list_item_height_small_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Prism.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Prism.Resource.Dimension.abc_panel_menu_list_width = global::FinStat.Mobile.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Prism.Resource.Dimension.abc_progress_bar_height_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Prism.Resource.Dimension.abc_search_view_preferred_height = global::FinStat.Mobile.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Prism.Resource.Dimension.abc_search_view_preferred_width = global::FinStat.Mobile.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Prism.Resource.Dimension.abc_seekbar_track_background_height_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Prism.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Prism.Resource.Dimension.abc_select_dialog_padding_start_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Prism.Resource.Dimension.abc_switch_padding = global::FinStat.Mobile.Droid.Resource.Dimension.abc_switch_padding;
+			global::Prism.Resource.Dimension.abc_text_size_body_1_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Prism.Resource.Dimension.abc_text_size_body_2_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Prism.Resource.Dimension.abc_text_size_button_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Prism.Resource.Dimension.abc_text_size_caption_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Prism.Resource.Dimension.abc_text_size_display_1_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Prism.Resource.Dimension.abc_text_size_display_2_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Prism.Resource.Dimension.abc_text_size_display_3_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Prism.Resource.Dimension.abc_text_size_display_4_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Prism.Resource.Dimension.abc_text_size_headline_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Prism.Resource.Dimension.abc_text_size_large_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Prism.Resource.Dimension.abc_text_size_medium_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Prism.Resource.Dimension.abc_text_size_menu_header_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Prism.Resource.Dimension.abc_text_size_menu_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Prism.Resource.Dimension.abc_text_size_small_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Prism.Resource.Dimension.abc_text_size_subhead_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Prism.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Prism.Resource.Dimension.abc_text_size_title_material = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Prism.Resource.Dimension.abc_text_size_title_material_toolbar = global::FinStat.Mobile.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Prism.Resource.Dimension.action_bar_size = global::FinStat.Mobile.Droid.Resource.Dimension.action_bar_size;
+			global::Prism.Resource.Dimension.appcompat_dialog_background_inset = global::FinStat.Mobile.Droid.Resource.Dimension.appcompat_dialog_background_inset;
+			global::Prism.Resource.Dimension.browser_actions_context_menu_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Prism.Resource.Dimension.browser_actions_context_menu_min_padding = global::FinStat.Mobile.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Prism.Resource.Dimension.cardview_compat_inset_shadow = global::FinStat.Mobile.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Prism.Resource.Dimension.cardview_default_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Prism.Resource.Dimension.cardview_default_radius = global::FinStat.Mobile.Droid.Resource.Dimension.cardview_default_radius;
+			global::Prism.Resource.Dimension.compat_button_inset_horizontal_material = global::FinStat.Mobile.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Prism.Resource.Dimension.compat_button_inset_vertical_material = global::FinStat.Mobile.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Prism.Resource.Dimension.compat_button_padding_horizontal_material = global::FinStat.Mobile.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Prism.Resource.Dimension.compat_button_padding_vertical_material = global::FinStat.Mobile.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Prism.Resource.Dimension.compat_control_corner_material = global::FinStat.Mobile.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Prism.Resource.Dimension.compat_notification_large_icon_max_height = global::FinStat.Mobile.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Prism.Resource.Dimension.compat_notification_large_icon_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Prism.Resource.Dimension.default_dimension = global::FinStat.Mobile.Droid.Resource.Dimension.default_dimension;
+			global::Prism.Resource.Dimension.def_drawer_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.def_drawer_elevation;
+			global::Prism.Resource.Dimension.design_appbar_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Prism.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Prism.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Prism.Resource.Dimension.design_bottom_navigation_active_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Prism.Resource.Dimension.design_bottom_navigation_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Prism.Resource.Dimension.design_bottom_navigation_height = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Prism.Resource.Dimension.design_bottom_navigation_icon_size = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Prism.Resource.Dimension.design_bottom_navigation_item_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Prism.Resource.Dimension.design_bottom_navigation_item_min_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Prism.Resource.Dimension.design_bottom_navigation_margin = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Prism.Resource.Dimension.design_bottom_navigation_shadow_height = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Prism.Resource.Dimension.design_bottom_navigation_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Prism.Resource.Dimension.design_bottom_sheet_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_sheet_elevation;
+			global::Prism.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Prism.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FinStat.Mobile.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Prism.Resource.Dimension.design_fab_border_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_fab_border_width;
+			global::Prism.Resource.Dimension.design_fab_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.design_fab_elevation;
+			global::Prism.Resource.Dimension.design_fab_image_size = global::FinStat.Mobile.Droid.Resource.Dimension.design_fab_image_size;
+			global::Prism.Resource.Dimension.design_fab_size_mini = global::FinStat.Mobile.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Prism.Resource.Dimension.design_fab_size_normal = global::FinStat.Mobile.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Prism.Resource.Dimension.design_fab_translation_z_hovered_focused = global::FinStat.Mobile.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Prism.Resource.Dimension.design_fab_translation_z_pressed = global::FinStat.Mobile.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Prism.Resource.Dimension.design_navigation_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Prism.Resource.Dimension.design_navigation_icon_padding = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Prism.Resource.Dimension.design_navigation_icon_size = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Prism.Resource.Dimension.design_navigation_item_horizontal_padding = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Prism.Resource.Dimension.design_navigation_item_icon_padding = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Prism.Resource.Dimension.design_navigation_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Prism.Resource.Dimension.design_navigation_padding_bottom = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Prism.Resource.Dimension.design_navigation_separator_vertical_padding = global::FinStat.Mobile.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Prism.Resource.Dimension.design_snackbar_action_inline_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Prism.Resource.Dimension.design_snackbar_action_text_color_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
+			global::Prism.Resource.Dimension.design_snackbar_background_corner_radius = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Prism.Resource.Dimension.design_snackbar_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Prism.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Prism.Resource.Dimension.design_snackbar_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Prism.Resource.Dimension.design_snackbar_min_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Prism.Resource.Dimension.design_snackbar_padding_horizontal = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Prism.Resource.Dimension.design_snackbar_padding_vertical = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Prism.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Prism.Resource.Dimension.design_snackbar_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Prism.Resource.Dimension.design_tab_max_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_tab_max_width;
+			global::Prism.Resource.Dimension.design_tab_scrollable_min_width = global::FinStat.Mobile.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Prism.Resource.Dimension.design_tab_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.design_tab_text_size;
+			global::Prism.Resource.Dimension.design_tab_text_size_2line = global::FinStat.Mobile.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Prism.Resource.Dimension.design_textinput_caption_translate_y = global::FinStat.Mobile.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Prism.Resource.Dimension.disabled_alpha_material_dark = global::FinStat.Mobile.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Prism.Resource.Dimension.disabled_alpha_material_light = global::FinStat.Mobile.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Prism.Resource.Dimension.fastscroll_default_thickness = global::FinStat.Mobile.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Prism.Resource.Dimension.fastscroll_margin = global::FinStat.Mobile.Droid.Resource.Dimension.fastscroll_margin;
+			global::Prism.Resource.Dimension.fastscroll_minimum_range = global::FinStat.Mobile.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Prism.Resource.Dimension.highlight_alpha_material_colored = global::FinStat.Mobile.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Prism.Resource.Dimension.highlight_alpha_material_dark = global::FinStat.Mobile.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Prism.Resource.Dimension.highlight_alpha_material_light = global::FinStat.Mobile.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Prism.Resource.Dimension.hint_alpha_material_dark = global::FinStat.Mobile.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Prism.Resource.Dimension.hint_alpha_material_light = global::FinStat.Mobile.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Prism.Resource.Dimension.hint_pressed_alpha_material_dark = global::FinStat.Mobile.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Prism.Resource.Dimension.hint_pressed_alpha_material_light = global::FinStat.Mobile.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Prism.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FinStat.Mobile.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FinStat.Mobile.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FinStat.Mobile.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Prism.Resource.Dimension.material_emphasis_disabled = global::FinStat.Mobile.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Prism.Resource.Dimension.material_emphasis_high_type = global::FinStat.Mobile.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Prism.Resource.Dimension.material_emphasis_medium = global::FinStat.Mobile.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Prism.Resource.Dimension.material_text_view_test_line_height = global::FinStat.Mobile.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Prism.Resource.Dimension.material_text_view_test_line_height_override = global::FinStat.Mobile.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Prism.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Prism.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Prism.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Prism.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Prism.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Prism.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Prism.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Prism.Resource.Dimension.mtrl_badge_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Prism.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Prism.Resource.Dimension.mtrl_badge_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Prism.Resource.Dimension.mtrl_badge_with_text_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Prism.Resource.Dimension.mtrl_bottomappbar_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Prism.Resource.Dimension.mtrl_btn_corner_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Prism.Resource.Dimension.mtrl_btn_disabled_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Prism.Resource.Dimension.mtrl_btn_disabled_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Prism.Resource.Dimension.mtrl_btn_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Prism.Resource.Dimension.mtrl_btn_focused_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Prism.Resource.Dimension.mtrl_btn_hovered_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Prism.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Prism.Resource.Dimension.mtrl_btn_icon_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Prism.Resource.Dimension.mtrl_btn_inset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Prism.Resource.Dimension.mtrl_btn_letter_spacing = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_bottom = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_left = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_right = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Prism.Resource.Dimension.mtrl_btn_padding_top = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Prism.Resource.Dimension.mtrl_btn_pressed_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Prism.Resource.Dimension.mtrl_btn_stroke_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Prism.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Prism.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Prism.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Prism.Resource.Dimension.mtrl_btn_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Prism.Resource.Dimension.mtrl_btn_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Prism.Resource.Dimension.mtrl_calendar_action_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Prism.Resource.Dimension.mtrl_calendar_action_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_bottom_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_content_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_days_of_week_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Prism.Resource.Dimension.mtrl_calendar_day_corner = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Prism.Resource.Dimension.mtrl_calendar_day_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Prism.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_day_today_stroke = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Prism.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_day_width = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Prism.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_content_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_text_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Prism.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Prism.Resource.Dimension.mtrl_calendar_landscape_header_width = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Prism.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Prism.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_navigation_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Prism.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Prism.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Prism.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Prism.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Prism.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Prism.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Prism.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Prism.Resource.Dimension.mtrl_calendar_year_corner = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Prism.Resource.Dimension.mtrl_calendar_year_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Prism.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Prism.Resource.Dimension.mtrl_calendar_year_width = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Prism.Resource.Dimension.mtrl_card_checked_icon_margin = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Prism.Resource.Dimension.mtrl_card_checked_icon_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Prism.Resource.Dimension.mtrl_card_corner_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_card_dragged_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_card_dragged_z;
+			global::Prism.Resource.Dimension.mtrl_card_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Prism.Resource.Dimension.mtrl_card_spacing = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Prism.Resource.Dimension.mtrl_chip_pressed_translation_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Prism.Resource.Dimension.mtrl_chip_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Prism.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Prism.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Prism.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Prism.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_corner_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_end_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_icon_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_min_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_min_width = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_start_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_top_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Prism.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
+			global::Prism.Resource.Dimension.mtrl_fab_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Prism.Resource.Dimension.mtrl_fab_min_touch_target = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
+			global::Prism.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Prism.Resource.Dimension.mtrl_fab_translation_z_pressed = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Prism.Resource.Dimension.mtrl_high_ripple_default_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Prism.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Prism.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Prism.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Prism.Resource.Dimension.mtrl_large_touch_target = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Prism.Resource.Dimension.mtrl_low_ripple_default_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Prism.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Prism.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Prism.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Prism.Resource.Dimension.mtrl_min_touch_target_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::Prism.Resource.Dimension.mtrl_navigation_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Prism.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Prism.Resource.Dimension.mtrl_navigation_item_icon_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Prism.Resource.Dimension.mtrl_navigation_item_icon_size = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Prism.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Prism.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Prism.Resource.Dimension.mtrl_shape_corner_size_large_component = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Prism.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Prism.Resource.Dimension.mtrl_shape_corner_size_small_component = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Prism.Resource.Dimension.mtrl_slider_halo_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Prism.Resource.Dimension.mtrl_slider_label_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Prism.Resource.Dimension.mtrl_slider_label_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Prism.Resource.Dimension.mtrl_slider_label_square_side = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Prism.Resource.Dimension.mtrl_slider_thumb_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Prism.Resource.Dimension.mtrl_slider_thumb_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Prism.Resource.Dimension.mtrl_slider_track_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Prism.Resource.Dimension.mtrl_slider_track_side_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Prism.Resource.Dimension.mtrl_slider_track_top = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Prism.Resource.Dimension.mtrl_slider_widget_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Prism.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
+			global::Prism.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Prism.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
+			global::Prism.Resource.Dimension.mtrl_snackbar_margin = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Prism.Resource.Dimension.mtrl_switch_thumb_elevation = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Prism.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Prism.Resource.Dimension.mtrl_textinput_counter_margin_start = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Prism.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
+			global::Prism.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Prism.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
+			global::Prism.Resource.Dimension.mtrl_toolbar_default_height = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Prism.Resource.Dimension.mtrl_tooltip_arrowSize = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Prism.Resource.Dimension.mtrl_tooltip_cornerSize = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Prism.Resource.Dimension.mtrl_tooltip_minHeight = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Prism.Resource.Dimension.mtrl_tooltip_minWidth = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Prism.Resource.Dimension.mtrl_tooltip_padding = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Prism.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::FinStat.Mobile.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
+			global::Prism.Resource.Dimension.notification_action_icon_size = global::FinStat.Mobile.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Prism.Resource.Dimension.notification_action_text_size = global::FinStat.Mobile.Droid.Resource.Dimension.notification_action_text_size;
+			global::Prism.Resource.Dimension.notification_big_circle_margin = global::FinStat.Mobile.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Prism.Resource.Dimension.notification_content_margin_start = global::FinStat.Mobile.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Prism.Resource.Dimension.notification_large_icon_height = global::FinStat.Mobile.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Prism.Resource.Dimension.notification_large_icon_width = global::FinStat.Mobile.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Prism.Resource.Dimension.notification_main_column_padding_top = global::FinStat.Mobile.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Prism.Resource.Dimension.notification_media_narrow_margin = global::FinStat.Mobile.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Prism.Resource.Dimension.notification_right_icon_size = global::FinStat.Mobile.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Prism.Resource.Dimension.notification_right_side_padding_top = global::FinStat.Mobile.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Prism.Resource.Dimension.notification_small_icon_background_padding = global::FinStat.Mobile.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Prism.Resource.Dimension.notification_small_icon_size_as_large = global::FinStat.Mobile.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Prism.Resource.Dimension.notification_subtext_size = global::FinStat.Mobile.Droid.Resource.Dimension.notification_subtext_size;
+			global::Prism.Resource.Dimension.notification_top_pad = global::FinStat.Mobile.Droid.Resource.Dimension.notification_top_pad;
+			global::Prism.Resource.Dimension.notification_top_pad_large_text = global::FinStat.Mobile.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Prism.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::FinStat.Mobile.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::Prism.Resource.Dimension.tooltip_corner_radius = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Prism.Resource.Dimension.tooltip_horizontal_padding = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Prism.Resource.Dimension.tooltip_margin = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_margin;
+			global::Prism.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Prism.Resource.Dimension.tooltip_precise_anchor_threshold = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Prism.Resource.Dimension.tooltip_vertical_padding = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Prism.Resource.Dimension.tooltip_y_offset_non_touch = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Prism.Resource.Dimension.tooltip_y_offset_touch = global::FinStat.Mobile.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Prism.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_action_bar_item_background_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Prism.Resource.Drawable.abc_btn_borderless_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Prism.Resource.Drawable.abc_btn_check_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Prism.Resource.Drawable.abc_btn_check_material_anim = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Prism.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Prism.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Prism.Resource.Drawable.abc_btn_colored_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Prism.Resource.Drawable.abc_btn_default_mtrl_shape = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Prism.Resource.Drawable.abc_btn_radio_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Prism.Resource.Drawable.abc_btn_radio_material_anim = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Prism.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Prism.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Prism.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Prism.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Prism.Resource.Drawable.abc_cab_background_internal_bg = global::FinStat.Mobile.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Prism.Resource.Drawable.abc_cab_background_top_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Prism.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_control_background_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_control_background_material;
+			global::Prism.Resource.Drawable.abc_dialog_material_background = global::FinStat.Mobile.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Prism.Resource.Drawable.abc_edit_text_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Prism.Resource.Drawable.abc_ic_ab_back_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Prism.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Prism.Resource.Drawable.abc_ic_clear_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Prism.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_ic_go_search_api_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Prism.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Prism.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_ic_menu_overflow_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Prism.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Prism.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_ic_search_api_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Prism.Resource.Drawable.abc_ic_star_black_16dp = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Prism.Resource.Drawable.abc_ic_star_black_36dp = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Prism.Resource.Drawable.abc_ic_star_black_48dp = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Prism.Resource.Drawable.abc_ic_star_half_black_16dp = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Prism.Resource.Drawable.abc_ic_star_half_black_36dp = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Prism.Resource.Drawable.abc_ic_star_half_black_48dp = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Prism.Resource.Drawable.abc_ic_voice_search_api_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Prism.Resource.Drawable.abc_item_background_holo_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Prism.Resource.Drawable.abc_item_background_holo_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Prism.Resource.Drawable.abc_list_divider_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Prism.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_list_focused_holo = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Prism.Resource.Drawable.abc_list_longpressed_holo = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Prism.Resource.Drawable.abc_list_pressed_holo_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Prism.Resource.Drawable.abc_list_pressed_holo_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Prism.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Prism.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Prism.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Prism.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Prism.Resource.Drawable.abc_list_selector_holo_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Prism.Resource.Drawable.abc_list_selector_holo_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Prism.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FinStat.Mobile.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Prism.Resource.Drawable.abc_popup_background_mtrl_mult = global::FinStat.Mobile.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Prism.Resource.Drawable.abc_ratingbar_indicator_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Prism.Resource.Drawable.abc_ratingbar_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Prism.Resource.Drawable.abc_ratingbar_small_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Prism.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Prism.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FinStat.Mobile.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Prism.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_seekbar_thumb_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Prism.Resource.Drawable.abc_seekbar_tick_mark_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Prism.Resource.Drawable.abc_seekbar_track_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Prism.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Prism.Resource.Drawable.abc_spinner_textfield_background_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Prism.Resource.Drawable.abc_switch_thumb_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Prism.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_tab_indicator_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Prism.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FinStat.Mobile.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Prism.Resource.Drawable.abc_textfield_search_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Prism.Resource.Drawable.abc_text_cursor_material = global::FinStat.Mobile.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Prism.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Prism.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Prism.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Prism.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Prism.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FinStat.Mobile.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Prism.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FinStat.Mobile.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Prism.Resource.Drawable.abc_vector_test = global::FinStat.Mobile.Droid.Resource.Drawable.abc_vector_test;
+			global::Prism.Resource.Drawable.avd_hide_password = global::FinStat.Mobile.Droid.Resource.Drawable.avd_hide_password;
+			global::Prism.Resource.Drawable.avd_show_password = global::FinStat.Mobile.Droid.Resource.Drawable.avd_show_password;
+			global::Prism.Resource.Drawable.btn_checkbox_checked_mtrl = global::FinStat.Mobile.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Prism.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::FinStat.Mobile.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Prism.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::FinStat.Mobile.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Prism.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::FinStat.Mobile.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Prism.Resource.Drawable.btn_radio_off_mtrl = global::FinStat.Mobile.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Prism.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::FinStat.Mobile.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Prism.Resource.Drawable.btn_radio_on_mtrl = global::FinStat.Mobile.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Prism.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::FinStat.Mobile.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Prism.Resource.Drawable.design_bottom_navigation_item_background = global::FinStat.Mobile.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Prism.Resource.Drawable.design_fab_background = global::FinStat.Mobile.Droid.Resource.Drawable.design_fab_background;
+			global::Prism.Resource.Drawable.design_ic_visibility = global::FinStat.Mobile.Droid.Resource.Drawable.design_ic_visibility;
+			global::Prism.Resource.Drawable.design_ic_visibility_off = global::FinStat.Mobile.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Prism.Resource.Drawable.design_password_eye = global::FinStat.Mobile.Droid.Resource.Drawable.design_password_eye;
+			global::Prism.Resource.Drawable.design_snackbar_background = global::FinStat.Mobile.Droid.Resource.Drawable.design_snackbar_background;
+			global::Prism.Resource.Drawable.ic_mtrl_checked_circle = global::FinStat.Mobile.Droid.Resource.Drawable.ic_mtrl_checked_circle;
+			global::Prism.Resource.Drawable.ic_mtrl_chip_checked_black = global::FinStat.Mobile.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Prism.Resource.Drawable.ic_mtrl_chip_checked_circle = global::FinStat.Mobile.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Prism.Resource.Drawable.ic_mtrl_chip_close_circle = global::FinStat.Mobile.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Prism.Resource.Drawable.material_ic_calendar_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Prism.Resource.Drawable.material_ic_clear_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Prism.Resource.Drawable.material_ic_edit_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Prism.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Prism.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Prism.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Prism.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::FinStat.Mobile.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Prism.Resource.Drawable.mtrl_dialog_background = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Prism.Resource.Drawable.mtrl_dropdown_arrow = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Prism.Resource.Drawable.mtrl_ic_arrow_drop_down = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Prism.Resource.Drawable.mtrl_ic_arrow_drop_up = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Prism.Resource.Drawable.mtrl_ic_cancel = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Prism.Resource.Drawable.mtrl_ic_error = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Prism.Resource.Drawable.mtrl_popupmenu_background = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Prism.Resource.Drawable.mtrl_popupmenu_background_dark = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
+			global::Prism.Resource.Drawable.mtrl_tabs_default_indicator = global::FinStat.Mobile.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Prism.Resource.Drawable.navigation_empty_icon = global::FinStat.Mobile.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Prism.Resource.Drawable.notification_action_background = global::FinStat.Mobile.Droid.Resource.Drawable.notification_action_background;
+			global::Prism.Resource.Drawable.notification_bg = global::FinStat.Mobile.Droid.Resource.Drawable.notification_bg;
+			global::Prism.Resource.Drawable.notification_bg_low = global::FinStat.Mobile.Droid.Resource.Drawable.notification_bg_low;
+			global::Prism.Resource.Drawable.notification_bg_low_normal = global::FinStat.Mobile.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Prism.Resource.Drawable.notification_bg_low_pressed = global::FinStat.Mobile.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Prism.Resource.Drawable.notification_bg_normal = global::FinStat.Mobile.Droid.Resource.Drawable.notification_bg_normal;
+			global::Prism.Resource.Drawable.notification_bg_normal_pressed = global::FinStat.Mobile.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Prism.Resource.Drawable.notification_icon_background = global::FinStat.Mobile.Droid.Resource.Drawable.notification_icon_background;
+			global::Prism.Resource.Drawable.notification_template_icon_bg = global::FinStat.Mobile.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Prism.Resource.Drawable.notification_template_icon_low_bg = global::FinStat.Mobile.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Prism.Resource.Drawable.notification_tile_bg = global::FinStat.Mobile.Droid.Resource.Drawable.notification_tile_bg;
+			global::Prism.Resource.Drawable.notify_panel_notification_icon_bg = global::FinStat.Mobile.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Prism.Resource.Drawable.test_custom_background = global::FinStat.Mobile.Droid.Resource.Drawable.test_custom_background;
+			global::Prism.Resource.Drawable.tooltip_frame_dark = global::FinStat.Mobile.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Prism.Resource.Drawable.tooltip_frame_light = global::FinStat.Mobile.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Prism.Resource.Id.accessibility_action_clickable_span = global::FinStat.Mobile.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Prism.Resource.Id.accessibility_custom_action_0 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Prism.Resource.Id.accessibility_custom_action_1 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Prism.Resource.Id.accessibility_custom_action_10 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Prism.Resource.Id.accessibility_custom_action_11 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Prism.Resource.Id.accessibility_custom_action_12 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Prism.Resource.Id.accessibility_custom_action_13 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Prism.Resource.Id.accessibility_custom_action_14 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Prism.Resource.Id.accessibility_custom_action_15 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Prism.Resource.Id.accessibility_custom_action_16 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Prism.Resource.Id.accessibility_custom_action_17 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Prism.Resource.Id.accessibility_custom_action_18 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Prism.Resource.Id.accessibility_custom_action_19 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Prism.Resource.Id.accessibility_custom_action_2 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Prism.Resource.Id.accessibility_custom_action_20 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Prism.Resource.Id.accessibility_custom_action_21 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Prism.Resource.Id.accessibility_custom_action_22 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Prism.Resource.Id.accessibility_custom_action_23 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Prism.Resource.Id.accessibility_custom_action_24 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Prism.Resource.Id.accessibility_custom_action_25 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Prism.Resource.Id.accessibility_custom_action_26 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Prism.Resource.Id.accessibility_custom_action_27 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Prism.Resource.Id.accessibility_custom_action_28 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Prism.Resource.Id.accessibility_custom_action_29 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Prism.Resource.Id.accessibility_custom_action_3 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Prism.Resource.Id.accessibility_custom_action_30 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Prism.Resource.Id.accessibility_custom_action_31 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Prism.Resource.Id.accessibility_custom_action_4 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Prism.Resource.Id.accessibility_custom_action_5 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Prism.Resource.Id.accessibility_custom_action_6 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Prism.Resource.Id.accessibility_custom_action_7 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Prism.Resource.Id.accessibility_custom_action_8 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Prism.Resource.Id.accessibility_custom_action_9 = global::FinStat.Mobile.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Prism.Resource.Id.action0 = global::FinStat.Mobile.Droid.Resource.Id.action0;
+			global::Prism.Resource.Id.actions = global::FinStat.Mobile.Droid.Resource.Id.actions;
+			global::Prism.Resource.Id.action_bar = global::FinStat.Mobile.Droid.Resource.Id.action_bar;
+			global::Prism.Resource.Id.action_bar_activity_content = global::FinStat.Mobile.Droid.Resource.Id.action_bar_activity_content;
+			global::Prism.Resource.Id.action_bar_container = global::FinStat.Mobile.Droid.Resource.Id.action_bar_container;
+			global::Prism.Resource.Id.action_bar_root = global::FinStat.Mobile.Droid.Resource.Id.action_bar_root;
+			global::Prism.Resource.Id.action_bar_spinner = global::FinStat.Mobile.Droid.Resource.Id.action_bar_spinner;
+			global::Prism.Resource.Id.action_bar_subtitle = global::FinStat.Mobile.Droid.Resource.Id.action_bar_subtitle;
+			global::Prism.Resource.Id.action_bar_title = global::FinStat.Mobile.Droid.Resource.Id.action_bar_title;
+			global::Prism.Resource.Id.action_container = global::FinStat.Mobile.Droid.Resource.Id.action_container;
+			global::Prism.Resource.Id.action_context_bar = global::FinStat.Mobile.Droid.Resource.Id.action_context_bar;
+			global::Prism.Resource.Id.action_divider = global::FinStat.Mobile.Droid.Resource.Id.action_divider;
+			global::Prism.Resource.Id.action_image = global::FinStat.Mobile.Droid.Resource.Id.action_image;
+			global::Prism.Resource.Id.action_menu_divider = global::FinStat.Mobile.Droid.Resource.Id.action_menu_divider;
+			global::Prism.Resource.Id.action_menu_presenter = global::FinStat.Mobile.Droid.Resource.Id.action_menu_presenter;
+			global::Prism.Resource.Id.action_mode_bar = global::FinStat.Mobile.Droid.Resource.Id.action_mode_bar;
+			global::Prism.Resource.Id.action_mode_bar_stub = global::FinStat.Mobile.Droid.Resource.Id.action_mode_bar_stub;
+			global::Prism.Resource.Id.action_mode_close_button = global::FinStat.Mobile.Droid.Resource.Id.action_mode_close_button;
+			global::Prism.Resource.Id.action_text = global::FinStat.Mobile.Droid.Resource.Id.action_text;
+			global::Prism.Resource.Id.activity_chooser_view_content = global::FinStat.Mobile.Droid.Resource.Id.activity_chooser_view_content;
+			global::Prism.Resource.Id.add = global::FinStat.Mobile.Droid.Resource.Id.add;
+			global::Prism.Resource.Id.alertTitle = global::FinStat.Mobile.Droid.Resource.Id.alertTitle;
+			global::Prism.Resource.Id.all = global::FinStat.Mobile.Droid.Resource.Id.all;
+			global::Prism.Resource.Id.ALT = global::FinStat.Mobile.Droid.Resource.Id.ALT;
+			global::Prism.Resource.Id.always = global::FinStat.Mobile.Droid.Resource.Id.always;
+			global::Prism.Resource.Id.async = global::FinStat.Mobile.Droid.Resource.Id.async;
+			global::Prism.Resource.Id.auto = global::FinStat.Mobile.Droid.Resource.Id.auto;
+			global::Prism.Resource.Id.beginning = global::FinStat.Mobile.Droid.Resource.Id.beginning;
+			global::Prism.Resource.Id.blocking = global::FinStat.Mobile.Droid.Resource.Id.blocking;
+			global::Prism.Resource.Id.bottom = global::FinStat.Mobile.Droid.Resource.Id.bottom;
+			global::Prism.Resource.Id.bottomtab_navarea = global::FinStat.Mobile.Droid.Resource.Id.bottomtab_navarea;
+			global::Prism.Resource.Id.bottomtab_tabbar = global::FinStat.Mobile.Droid.Resource.Id.bottomtab_tabbar;
+			global::Prism.Resource.Id.BOTTOM_END = global::FinStat.Mobile.Droid.Resource.Id.BOTTOM_END;
+			global::Prism.Resource.Id.BOTTOM_START = global::FinStat.Mobile.Droid.Resource.Id.BOTTOM_START;
+			global::Prism.Resource.Id.browser_actions_header_text = global::FinStat.Mobile.Droid.Resource.Id.browser_actions_header_text;
+			global::Prism.Resource.Id.browser_actions_menu_items = global::FinStat.Mobile.Droid.Resource.Id.browser_actions_menu_items;
+			global::Prism.Resource.Id.browser_actions_menu_item_icon = global::FinStat.Mobile.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Prism.Resource.Id.browser_actions_menu_item_text = global::FinStat.Mobile.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Prism.Resource.Id.browser_actions_menu_view = global::FinStat.Mobile.Droid.Resource.Id.browser_actions_menu_view;
+			global::Prism.Resource.Id.buttonPanel = global::FinStat.Mobile.Droid.Resource.Id.buttonPanel;
+			global::Prism.Resource.Id.cancel_action = global::FinStat.Mobile.Droid.Resource.Id.cancel_action;
+			global::Prism.Resource.Id.cancel_button = global::FinStat.Mobile.Droid.Resource.Id.cancel_button;
+			global::Prism.Resource.Id.center = global::FinStat.Mobile.Droid.Resource.Id.center;
+			global::Prism.Resource.Id.center_horizontal = global::FinStat.Mobile.Droid.Resource.Id.center_horizontal;
+			global::Prism.Resource.Id.center_vertical = global::FinStat.Mobile.Droid.Resource.Id.center_vertical;
+			global::Prism.Resource.Id.checkbox = global::FinStat.Mobile.Droid.Resource.Id.checkbox;
+			global::Prism.Resource.Id.@checked = global::FinStat.Mobile.Droid.Resource.Id.@checked;
+			global::Prism.Resource.Id.chip = global::FinStat.Mobile.Droid.Resource.Id.chip;
+			global::Prism.Resource.Id.chip1 = global::FinStat.Mobile.Droid.Resource.Id.chip1;
+			global::Prism.Resource.Id.chip2 = global::FinStat.Mobile.Droid.Resource.Id.chip2;
+			global::Prism.Resource.Id.chip3 = global::FinStat.Mobile.Droid.Resource.Id.chip3;
+			global::Prism.Resource.Id.chip_group = global::FinStat.Mobile.Droid.Resource.Id.chip_group;
+			global::Prism.Resource.Id.chronometer = global::FinStat.Mobile.Droid.Resource.Id.chronometer;
+			global::Prism.Resource.Id.clear_text = global::FinStat.Mobile.Droid.Resource.Id.clear_text;
+			global::Prism.Resource.Id.clip_horizontal = global::FinStat.Mobile.Droid.Resource.Id.clip_horizontal;
+			global::Prism.Resource.Id.clip_vertical = global::FinStat.Mobile.Droid.Resource.Id.clip_vertical;
+			global::Prism.Resource.Id.collapseActionView = global::FinStat.Mobile.Droid.Resource.Id.collapseActionView;
+			global::Prism.Resource.Id.confirm_button = global::FinStat.Mobile.Droid.Resource.Id.confirm_button;
+			global::Prism.Resource.Id.container = global::FinStat.Mobile.Droid.Resource.Id.container;
+			global::Prism.Resource.Id.content = global::FinStat.Mobile.Droid.Resource.Id.content;
+			global::Prism.Resource.Id.contentPanel = global::FinStat.Mobile.Droid.Resource.Id.contentPanel;
+			global::Prism.Resource.Id.coordinator = global::FinStat.Mobile.Droid.Resource.Id.coordinator;
+			global::Prism.Resource.Id.CTRL = global::FinStat.Mobile.Droid.Resource.Id.CTRL;
+			global::Prism.Resource.Id.custom = global::FinStat.Mobile.Droid.Resource.Id.custom;
+			global::Prism.Resource.Id.customPanel = global::FinStat.Mobile.Droid.Resource.Id.customPanel;
+			global::Prism.Resource.Id.cut = global::FinStat.Mobile.Droid.Resource.Id.cut;
+			global::Prism.Resource.Id.date_picker_actions = global::FinStat.Mobile.Droid.Resource.Id.date_picker_actions;
+			global::Prism.Resource.Id.decor_content_parent = global::FinStat.Mobile.Droid.Resource.Id.decor_content_parent;
+			global::Prism.Resource.Id.default_activity_button = global::FinStat.Mobile.Droid.Resource.Id.default_activity_button;
+			global::Prism.Resource.Id.design_bottom_sheet = global::FinStat.Mobile.Droid.Resource.Id.design_bottom_sheet;
+			global::Prism.Resource.Id.design_menu_item_action_area = global::FinStat.Mobile.Droid.Resource.Id.design_menu_item_action_area;
+			global::Prism.Resource.Id.design_menu_item_action_area_stub = global::FinStat.Mobile.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Prism.Resource.Id.design_menu_item_text = global::FinStat.Mobile.Droid.Resource.Id.design_menu_item_text;
+			global::Prism.Resource.Id.design_navigation_view = global::FinStat.Mobile.Droid.Resource.Id.design_navigation_view;
+			global::Prism.Resource.Id.dialog_button = global::FinStat.Mobile.Droid.Resource.Id.dialog_button;
+			global::Prism.Resource.Id.disableHome = global::FinStat.Mobile.Droid.Resource.Id.disableHome;
+			global::Prism.Resource.Id.dropdown_menu = global::FinStat.Mobile.Droid.Resource.Id.dropdown_menu;
+			global::Prism.Resource.Id.edit_query = global::FinStat.Mobile.Droid.Resource.Id.edit_query;
+			global::Prism.Resource.Id.end = global::FinStat.Mobile.Droid.Resource.Id.end;
+			global::Prism.Resource.Id.end_padder = global::FinStat.Mobile.Droid.Resource.Id.end_padder;
+			global::Prism.Resource.Id.enterAlways = global::FinStat.Mobile.Droid.Resource.Id.enterAlways;
+			global::Prism.Resource.Id.enterAlwaysCollapsed = global::FinStat.Mobile.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Prism.Resource.Id.exitUntilCollapsed = global::FinStat.Mobile.Droid.Resource.Id.exitUntilCollapsed;
+			global::Prism.Resource.Id.expanded_menu = global::FinStat.Mobile.Droid.Resource.Id.expanded_menu;
+			global::Prism.Resource.Id.expand_activities_button = global::FinStat.Mobile.Droid.Resource.Id.expand_activities_button;
+			global::Prism.Resource.Id.fade = global::FinStat.Mobile.Droid.Resource.Id.fade;
+			global::Prism.Resource.Id.fill = global::FinStat.Mobile.Droid.Resource.Id.fill;
+			global::Prism.Resource.Id.filled = global::FinStat.Mobile.Droid.Resource.Id.filled;
+			global::Prism.Resource.Id.fill_horizontal = global::FinStat.Mobile.Droid.Resource.Id.fill_horizontal;
+			global::Prism.Resource.Id.fill_vertical = global::FinStat.Mobile.Droid.Resource.Id.fill_vertical;
+			global::Prism.Resource.Id.fitToContents = global::FinStat.Mobile.Droid.Resource.Id.fitToContents;
+			global::Prism.Resource.Id.@fixed = global::FinStat.Mobile.Droid.Resource.Id.@fixed;
+			global::Prism.Resource.Id.floating = global::FinStat.Mobile.Droid.Resource.Id.floating;
+			global::Prism.Resource.Id.flyoutcontent_appbar = global::FinStat.Mobile.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Prism.Resource.Id.forever = global::FinStat.Mobile.Droid.Resource.Id.forever;
+			global::Prism.Resource.Id.fragment_container_view_tag = global::FinStat.Mobile.Droid.Resource.Id.fragment_container_view_tag;
+			global::Prism.Resource.Id.FUNCTION = global::FinStat.Mobile.Droid.Resource.Id.FUNCTION;
+			global::Prism.Resource.Id.ghost_view = global::FinStat.Mobile.Droid.Resource.Id.ghost_view;
+			global::Prism.Resource.Id.ghost_view_holder = global::FinStat.Mobile.Droid.Resource.Id.ghost_view_holder;
+			global::Prism.Resource.Id.gone = global::FinStat.Mobile.Droid.Resource.Id.gone;
+			global::Prism.Resource.Id.group_divider = global::FinStat.Mobile.Droid.Resource.Id.group_divider;
+			global::Prism.Resource.Id.hideable = global::FinStat.Mobile.Droid.Resource.Id.hideable;
+			global::Prism.Resource.Id.home = global::FinStat.Mobile.Droid.Resource.Id.home;
+			global::Prism.Resource.Id.homeAsUp = global::FinStat.Mobile.Droid.Resource.Id.homeAsUp;
+			global::Prism.Resource.Id.icon = global::FinStat.Mobile.Droid.Resource.Id.icon;
+			global::Prism.Resource.Id.icon_group = global::FinStat.Mobile.Droid.Resource.Id.icon_group;
+			global::Prism.Resource.Id.ifRoom = global::FinStat.Mobile.Droid.Resource.Id.ifRoom;
+			global::Prism.Resource.Id.image = global::FinStat.Mobile.Droid.Resource.Id.image;
+			global::Prism.Resource.Id.info = global::FinStat.Mobile.Droid.Resource.Id.info;
+			global::Prism.Resource.Id.italic = global::FinStat.Mobile.Droid.Resource.Id.italic;
+			global::Prism.Resource.Id.item_touch_helper_previous_elevation = global::FinStat.Mobile.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Prism.Resource.Id.labeled = global::FinStat.Mobile.Droid.Resource.Id.labeled;
+			global::Prism.Resource.Id.largeLabel = global::FinStat.Mobile.Droid.Resource.Id.largeLabel;
+			global::Prism.Resource.Id.left = global::FinStat.Mobile.Droid.Resource.Id.left;
+			global::Prism.Resource.Id.line1 = global::FinStat.Mobile.Droid.Resource.Id.line1;
+			global::Prism.Resource.Id.line3 = global::FinStat.Mobile.Droid.Resource.Id.line3;
+			global::Prism.Resource.Id.listMode = global::FinStat.Mobile.Droid.Resource.Id.listMode;
+			global::Prism.Resource.Id.list_item = global::FinStat.Mobile.Droid.Resource.Id.list_item;
+			global::Prism.Resource.Id.main_appbar = global::FinStat.Mobile.Droid.Resource.Id.main_appbar;
+			global::Prism.Resource.Id.main_tablayout = global::FinStat.Mobile.Droid.Resource.Id.main_tablayout;
+			global::Prism.Resource.Id.main_toolbar = global::FinStat.Mobile.Droid.Resource.Id.main_toolbar;
+			global::Prism.Resource.Id.main_viewpager = global::FinStat.Mobile.Droid.Resource.Id.main_viewpager;
+			global::Prism.Resource.Id.masked = global::FinStat.Mobile.Droid.Resource.Id.masked;
+			global::Prism.Resource.Id.media_actions = global::FinStat.Mobile.Droid.Resource.Id.media_actions;
+			global::Prism.Resource.Id.media_controller_compat_view_tag = global::FinStat.Mobile.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::Prism.Resource.Id.message = global::FinStat.Mobile.Droid.Resource.Id.message;
+			global::Prism.Resource.Id.META = global::FinStat.Mobile.Droid.Resource.Id.META;
+			global::Prism.Resource.Id.middle = global::FinStat.Mobile.Droid.Resource.Id.middle;
+			global::Prism.Resource.Id.mini = global::FinStat.Mobile.Droid.Resource.Id.mini;
+			global::Prism.Resource.Id.month_grid = global::FinStat.Mobile.Droid.Resource.Id.month_grid;
+			global::Prism.Resource.Id.month_navigation_bar = global::FinStat.Mobile.Droid.Resource.Id.month_navigation_bar;
+			global::Prism.Resource.Id.month_navigation_fragment_toggle = global::FinStat.Mobile.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Prism.Resource.Id.month_navigation_next = global::FinStat.Mobile.Droid.Resource.Id.month_navigation_next;
+			global::Prism.Resource.Id.month_navigation_previous = global::FinStat.Mobile.Droid.Resource.Id.month_navigation_previous;
+			global::Prism.Resource.Id.month_title = global::FinStat.Mobile.Droid.Resource.Id.month_title;
+			global::Prism.Resource.Id.mtrl_calendar_days_of_week = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Prism.Resource.Id.mtrl_calendar_day_selector_frame = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Prism.Resource.Id.mtrl_calendar_frame = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Prism.Resource.Id.mtrl_calendar_main_pane = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Prism.Resource.Id.mtrl_calendar_months = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_months;
+			global::Prism.Resource.Id.mtrl_calendar_selection_frame = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Prism.Resource.Id.mtrl_calendar_text_input_frame = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Prism.Resource.Id.mtrl_calendar_year_selector_frame = global::FinStat.Mobile.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Prism.Resource.Id.mtrl_card_checked_layer_id = global::FinStat.Mobile.Droid.Resource.Id.mtrl_card_checked_layer_id;
+			global::Prism.Resource.Id.mtrl_child_content_container = global::FinStat.Mobile.Droid.Resource.Id.mtrl_child_content_container;
+			global::Prism.Resource.Id.mtrl_internal_children_alpha_tag = global::FinStat.Mobile.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Prism.Resource.Id.mtrl_motion_snapshot_view = global::FinStat.Mobile.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Prism.Resource.Id.mtrl_picker_fullscreen = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Prism.Resource.Id.mtrl_picker_header = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_header;
+			global::Prism.Resource.Id.mtrl_picker_header_selection_text = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Prism.Resource.Id.mtrl_picker_header_title_and_selection = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Prism.Resource.Id.mtrl_picker_header_toggle = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Prism.Resource.Id.mtrl_picker_text_input_date = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Prism.Resource.Id.mtrl_picker_text_input_range_end = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Prism.Resource.Id.mtrl_picker_text_input_range_start = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Prism.Resource.Id.mtrl_picker_title_text = global::FinStat.Mobile.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Prism.Resource.Id.multiply = global::FinStat.Mobile.Droid.Resource.Id.multiply;
+			global::Prism.Resource.Id.navigation_header_container = global::FinStat.Mobile.Droid.Resource.Id.navigation_header_container;
+			global::Prism.Resource.Id.never = global::FinStat.Mobile.Droid.Resource.Id.never;
+			global::Prism.Resource.Id.none = global::FinStat.Mobile.Droid.Resource.Id.none;
+			global::Prism.Resource.Id.normal = global::FinStat.Mobile.Droid.Resource.Id.normal;
+			global::Prism.Resource.Id.noScroll = global::FinStat.Mobile.Droid.Resource.Id.noScroll;
+			global::Prism.Resource.Id.notification_background = global::FinStat.Mobile.Droid.Resource.Id.notification_background;
+			global::Prism.Resource.Id.notification_main_column = global::FinStat.Mobile.Droid.Resource.Id.notification_main_column;
+			global::Prism.Resource.Id.notification_main_column_container = global::FinStat.Mobile.Droid.Resource.Id.notification_main_column_container;
+			global::Prism.Resource.Id.off = global::FinStat.Mobile.Droid.Resource.Id.off;
+			global::Prism.Resource.Id.on = global::FinStat.Mobile.Droid.Resource.Id.on;
+			global::Prism.Resource.Id.outline = global::FinStat.Mobile.Droid.Resource.Id.outline;
+			global::Prism.Resource.Id.parallax = global::FinStat.Mobile.Droid.Resource.Id.parallax;
+			global::Prism.Resource.Id.parentPanel = global::FinStat.Mobile.Droid.Resource.Id.parentPanel;
+			global::Prism.Resource.Id.parent_matrix = global::FinStat.Mobile.Droid.Resource.Id.parent_matrix;
+			global::Prism.Resource.Id.password_toggle = global::FinStat.Mobile.Droid.Resource.Id.password_toggle;
+			global::Prism.Resource.Id.peekHeight = global::FinStat.Mobile.Droid.Resource.Id.peekHeight;
+			global::Prism.Resource.Id.pin = global::FinStat.Mobile.Droid.Resource.Id.pin;
+			global::Prism.Resource.Id.progress_circular = global::FinStat.Mobile.Droid.Resource.Id.progress_circular;
+			global::Prism.Resource.Id.progress_horizontal = global::FinStat.Mobile.Droid.Resource.Id.progress_horizontal;
+			global::Prism.Resource.Id.radio = global::FinStat.Mobile.Droid.Resource.Id.radio;
+			global::Prism.Resource.Id.right = global::FinStat.Mobile.Droid.Resource.Id.right;
+			global::Prism.Resource.Id.right_icon = global::FinStat.Mobile.Droid.Resource.Id.right_icon;
+			global::Prism.Resource.Id.right_side = global::FinStat.Mobile.Droid.Resource.Id.right_side;
+			global::Prism.Resource.Id.rounded = global::FinStat.Mobile.Droid.Resource.Id.rounded;
+			global::Prism.Resource.Id.row_index_key = global::FinStat.Mobile.Droid.Resource.Id.row_index_key;
+			global::Prism.Resource.Id.save_non_transition_alpha = global::FinStat.Mobile.Droid.Resource.Id.save_non_transition_alpha;
+			global::Prism.Resource.Id.save_overlay_view = global::FinStat.Mobile.Droid.Resource.Id.save_overlay_view;
+			global::Prism.Resource.Id.scale = global::FinStat.Mobile.Droid.Resource.Id.scale;
+			global::Prism.Resource.Id.screen = global::FinStat.Mobile.Droid.Resource.Id.screen;
+			global::Prism.Resource.Id.scroll = global::FinStat.Mobile.Droid.Resource.Id.scroll;
+			global::Prism.Resource.Id.scrollable = global::FinStat.Mobile.Droid.Resource.Id.scrollable;
+			global::Prism.Resource.Id.scrollIndicatorDown = global::FinStat.Mobile.Droid.Resource.Id.scrollIndicatorDown;
+			global::Prism.Resource.Id.scrollIndicatorUp = global::FinStat.Mobile.Droid.Resource.Id.scrollIndicatorUp;
+			global::Prism.Resource.Id.scrollView = global::FinStat.Mobile.Droid.Resource.Id.scrollView;
+			global::Prism.Resource.Id.search_badge = global::FinStat.Mobile.Droid.Resource.Id.search_badge;
+			global::Prism.Resource.Id.search_bar = global::FinStat.Mobile.Droid.Resource.Id.search_bar;
+			global::Prism.Resource.Id.search_button = global::FinStat.Mobile.Droid.Resource.Id.search_button;
+			global::Prism.Resource.Id.search_close_btn = global::FinStat.Mobile.Droid.Resource.Id.search_close_btn;
+			global::Prism.Resource.Id.search_edit_frame = global::FinStat.Mobile.Droid.Resource.Id.search_edit_frame;
+			global::Prism.Resource.Id.search_go_btn = global::FinStat.Mobile.Droid.Resource.Id.search_go_btn;
+			global::Prism.Resource.Id.search_mag_icon = global::FinStat.Mobile.Droid.Resource.Id.search_mag_icon;
+			global::Prism.Resource.Id.search_plate = global::FinStat.Mobile.Droid.Resource.Id.search_plate;
+			global::Prism.Resource.Id.search_src_text = global::FinStat.Mobile.Droid.Resource.Id.search_src_text;
+			global::Prism.Resource.Id.search_voice_btn = global::FinStat.Mobile.Droid.Resource.Id.search_voice_btn;
+			global::Prism.Resource.Id.selected = global::FinStat.Mobile.Droid.Resource.Id.selected;
+			global::Prism.Resource.Id.select_dialog_listview = global::FinStat.Mobile.Droid.Resource.Id.select_dialog_listview;
+			global::Prism.Resource.Id.shellcontent_appbar = global::FinStat.Mobile.Droid.Resource.Id.shellcontent_appbar;
+			global::Prism.Resource.Id.shellcontent_toolbar = global::FinStat.Mobile.Droid.Resource.Id.shellcontent_toolbar;
+			global::Prism.Resource.Id.SHIFT = global::FinStat.Mobile.Droid.Resource.Id.SHIFT;
+			global::Prism.Resource.Id.shortcut = global::FinStat.Mobile.Droid.Resource.Id.shortcut;
+			global::Prism.Resource.Id.showCustom = global::FinStat.Mobile.Droid.Resource.Id.showCustom;
+			global::Prism.Resource.Id.showHome = global::FinStat.Mobile.Droid.Resource.Id.showHome;
+			global::Prism.Resource.Id.showTitle = global::FinStat.Mobile.Droid.Resource.Id.showTitle;
+			global::Prism.Resource.Id.skipCollapsed = global::FinStat.Mobile.Droid.Resource.Id.skipCollapsed;
+			global::Prism.Resource.Id.slide = global::FinStat.Mobile.Droid.Resource.Id.slide;
+			global::Prism.Resource.Id.sliding_tabs = global::FinStat.Mobile.Droid.Resource.Id.sliding_tabs;
+			global::Prism.Resource.Id.smallLabel = global::FinStat.Mobile.Droid.Resource.Id.smallLabel;
+			global::Prism.Resource.Id.snackbar_action = global::FinStat.Mobile.Droid.Resource.Id.snackbar_action;
+			global::Prism.Resource.Id.snackbar_text = global::FinStat.Mobile.Droid.Resource.Id.snackbar_text;
+			global::Prism.Resource.Id.snap = global::FinStat.Mobile.Droid.Resource.Id.snap;
+			global::Prism.Resource.Id.snapMargins = global::FinStat.Mobile.Droid.Resource.Id.snapMargins;
+			global::Prism.Resource.Id.spacer = global::FinStat.Mobile.Droid.Resource.Id.spacer;
+			global::Prism.Resource.Id.split_action_bar = global::FinStat.Mobile.Droid.Resource.Id.split_action_bar;
+			global::Prism.Resource.Id.src_atop = global::FinStat.Mobile.Droid.Resource.Id.src_atop;
+			global::Prism.Resource.Id.src_in = global::FinStat.Mobile.Droid.Resource.Id.src_in;
+			global::Prism.Resource.Id.src_over = global::FinStat.Mobile.Droid.Resource.Id.src_over;
+			global::Prism.Resource.Id.start = global::FinStat.Mobile.Droid.Resource.Id.start;
+			global::Prism.Resource.Id.status_bar_latest_event_content = global::FinStat.Mobile.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Prism.Resource.Id.stretch = global::FinStat.Mobile.Droid.Resource.Id.stretch;
+			global::Prism.Resource.Id.submenuarrow = global::FinStat.Mobile.Droid.Resource.Id.submenuarrow;
+			global::Prism.Resource.Id.submit_area = global::FinStat.Mobile.Droid.Resource.Id.submit_area;
+			global::Prism.Resource.Id.SYM = global::FinStat.Mobile.Droid.Resource.Id.SYM;
+			global::Prism.Resource.Id.tabMode = global::FinStat.Mobile.Droid.Resource.Id.tabMode;
+			global::Prism.Resource.Id.tag_accessibility_actions = global::FinStat.Mobile.Droid.Resource.Id.tag_accessibility_actions;
+			global::Prism.Resource.Id.tag_accessibility_clickable_spans = global::FinStat.Mobile.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Prism.Resource.Id.tag_accessibility_heading = global::FinStat.Mobile.Droid.Resource.Id.tag_accessibility_heading;
+			global::Prism.Resource.Id.tag_accessibility_pane_title = global::FinStat.Mobile.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Prism.Resource.Id.tag_screen_reader_focusable = global::FinStat.Mobile.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Prism.Resource.Id.tag_transition_group = global::FinStat.Mobile.Droid.Resource.Id.tag_transition_group;
+			global::Prism.Resource.Id.tag_unhandled_key_event_manager = global::FinStat.Mobile.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Prism.Resource.Id.tag_unhandled_key_listeners = global::FinStat.Mobile.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Prism.Resource.Id.test_checkbox_android_button_tint = global::FinStat.Mobile.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Prism.Resource.Id.test_checkbox_app_button_tint = global::FinStat.Mobile.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Prism.Resource.Id.test_radiobutton_android_button_tint = global::FinStat.Mobile.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Prism.Resource.Id.test_radiobutton_app_button_tint = global::FinStat.Mobile.Droid.Resource.Id.test_radiobutton_app_button_tint;
+			global::Prism.Resource.Id.text = global::FinStat.Mobile.Droid.Resource.Id.text;
+			global::Prism.Resource.Id.text2 = global::FinStat.Mobile.Droid.Resource.Id.text2;
+			global::Prism.Resource.Id.textEnd = global::FinStat.Mobile.Droid.Resource.Id.textEnd;
+			global::Prism.Resource.Id.textinput_counter = global::FinStat.Mobile.Droid.Resource.Id.textinput_counter;
+			global::Prism.Resource.Id.textinput_error = global::FinStat.Mobile.Droid.Resource.Id.textinput_error;
+			global::Prism.Resource.Id.textinput_helper_text = global::FinStat.Mobile.Droid.Resource.Id.textinput_helper_text;
+			global::Prism.Resource.Id.textinput_placeholder = global::FinStat.Mobile.Droid.Resource.Id.textinput_placeholder;
+			global::Prism.Resource.Id.textinput_prefix_text = global::FinStat.Mobile.Droid.Resource.Id.textinput_prefix_text;
+			global::Prism.Resource.Id.textinput_suffix_text = global::FinStat.Mobile.Droid.Resource.Id.textinput_suffix_text;
+			global::Prism.Resource.Id.textSpacerNoButtons = global::FinStat.Mobile.Droid.Resource.Id.textSpacerNoButtons;
+			global::Prism.Resource.Id.textSpacerNoTitle = global::FinStat.Mobile.Droid.Resource.Id.textSpacerNoTitle;
+			global::Prism.Resource.Id.textStart = global::FinStat.Mobile.Droid.Resource.Id.textStart;
+			global::Prism.Resource.Id.text_input_end_icon = global::FinStat.Mobile.Droid.Resource.Id.text_input_end_icon;
+			global::Prism.Resource.Id.text_input_start_icon = global::FinStat.Mobile.Droid.Resource.Id.text_input_start_icon;
+			global::Prism.Resource.Id.time = global::FinStat.Mobile.Droid.Resource.Id.time;
+			global::Prism.Resource.Id.title = global::FinStat.Mobile.Droid.Resource.Id.title;
+			global::Prism.Resource.Id.titleDividerNoCustom = global::FinStat.Mobile.Droid.Resource.Id.titleDividerNoCustom;
+			global::Prism.Resource.Id.title_template = global::FinStat.Mobile.Droid.Resource.Id.title_template;
+			global::Prism.Resource.Id.toolbar = global::FinStat.Mobile.Droid.Resource.Id.toolbar;
+			global::Prism.Resource.Id.top = global::FinStat.Mobile.Droid.Resource.Id.top;
+			global::Prism.Resource.Id.topPanel = global::FinStat.Mobile.Droid.Resource.Id.topPanel;
+			global::Prism.Resource.Id.TOP_END = global::FinStat.Mobile.Droid.Resource.Id.TOP_END;
+			global::Prism.Resource.Id.TOP_START = global::FinStat.Mobile.Droid.Resource.Id.TOP_START;
+			global::Prism.Resource.Id.touch_outside = global::FinStat.Mobile.Droid.Resource.Id.touch_outside;
+			global::Prism.Resource.Id.transition_current_scene = global::FinStat.Mobile.Droid.Resource.Id.transition_current_scene;
+			global::Prism.Resource.Id.transition_layout_save = global::FinStat.Mobile.Droid.Resource.Id.transition_layout_save;
+			global::Prism.Resource.Id.transition_position = global::FinStat.Mobile.Droid.Resource.Id.transition_position;
+			global::Prism.Resource.Id.transition_scene_layoutid_cache = global::FinStat.Mobile.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Prism.Resource.Id.transition_transform = global::FinStat.Mobile.Droid.Resource.Id.transition_transform;
+			global::Prism.Resource.Id.@unchecked = global::FinStat.Mobile.Droid.Resource.Id.@unchecked;
+			global::Prism.Resource.Id.uniform = global::FinStat.Mobile.Droid.Resource.Id.uniform;
+			global::Prism.Resource.Id.unlabeled = global::FinStat.Mobile.Droid.Resource.Id.unlabeled;
+			global::Prism.Resource.Id.up = global::FinStat.Mobile.Droid.Resource.Id.up;
+			global::Prism.Resource.Id.useLogo = global::FinStat.Mobile.Droid.Resource.Id.useLogo;
+			global::Prism.Resource.Id.view_offset_helper = global::FinStat.Mobile.Droid.Resource.Id.view_offset_helper;
+			global::Prism.Resource.Id.view_tree_saved_state_registry_owner = global::FinStat.Mobile.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Prism.Resource.Id.visible = global::FinStat.Mobile.Droid.Resource.Id.visible;
+			global::Prism.Resource.Id.visible_removing_fragment_view_tag = global::FinStat.Mobile.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Prism.Resource.Id.withinBounds = global::FinStat.Mobile.Droid.Resource.Id.withinBounds;
+			global::Prism.Resource.Id.withText = global::FinStat.Mobile.Droid.Resource.Id.withText;
+			global::Prism.Resource.Id.wrap_content = global::FinStat.Mobile.Droid.Resource.Id.wrap_content;
+			global::Prism.Resource.Id.zero_corner_chip = global::FinStat.Mobile.Droid.Resource.Id.zero_corner_chip;
+			global::Prism.Resource.Integer.abc_config_activityDefaultDur = global::FinStat.Mobile.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Prism.Resource.Integer.abc_config_activityShortDur = global::FinStat.Mobile.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Prism.Resource.Integer.app_bar_elevation_anim_duration = global::FinStat.Mobile.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Prism.Resource.Integer.bottom_sheet_slide_duration = global::FinStat.Mobile.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Prism.Resource.Integer.cancel_button_image_alpha = global::FinStat.Mobile.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Prism.Resource.Integer.config_tooltipAnimTime = global::FinStat.Mobile.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Prism.Resource.Integer.design_snackbar_text_max_lines = global::FinStat.Mobile.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Prism.Resource.Integer.design_tab_indicator_anim_duration_ms = global::FinStat.Mobile.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Prism.Resource.Integer.hide_password_duration = global::FinStat.Mobile.Droid.Resource.Integer.hide_password_duration;
+			global::Prism.Resource.Integer.mtrl_badge_max_character_count = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_badge_max_character_count;
+			global::Prism.Resource.Integer.mtrl_btn_anim_delay_ms = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Prism.Resource.Integer.mtrl_btn_anim_duration_ms = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Prism.Resource.Integer.mtrl_calendar_header_orientation = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Prism.Resource.Integer.mtrl_calendar_selection_text_lines = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Prism.Resource.Integer.mtrl_calendar_year_selector_span = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Prism.Resource.Integer.mtrl_card_anim_delay_ms = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Prism.Resource.Integer.mtrl_card_anim_duration_ms = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
+			global::Prism.Resource.Integer.mtrl_chip_anim_duration = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Prism.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::FinStat.Mobile.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Prism.Resource.Integer.show_password_duration = global::FinStat.Mobile.Droid.Resource.Integer.show_password_duration;
+			global::Prism.Resource.Integer.status_bar_notification_info_maxnum = global::FinStat.Mobile.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Prism.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::FinStat.Mobile.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Prism.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::FinStat.Mobile.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Prism.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::FinStat.Mobile.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Prism.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::FinStat.Mobile.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Prism.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::FinStat.Mobile.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Prism.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::FinStat.Mobile.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Prism.Resource.Interpolator.fast_out_slow_in = global::FinStat.Mobile.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Prism.Resource.Interpolator.mtrl_fast_out_linear_in = global::FinStat.Mobile.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Prism.Resource.Interpolator.mtrl_fast_out_slow_in = global::FinStat.Mobile.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Prism.Resource.Interpolator.mtrl_linear = global::FinStat.Mobile.Droid.Resource.Interpolator.mtrl_linear;
+			global::Prism.Resource.Interpolator.mtrl_linear_out_slow_in = global::FinStat.Mobile.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Prism.Resource.Layout.abc_action_bar_title_item = global::FinStat.Mobile.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Prism.Resource.Layout.abc_action_bar_up_container = global::FinStat.Mobile.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Prism.Resource.Layout.abc_action_menu_item_layout = global::FinStat.Mobile.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Prism.Resource.Layout.abc_action_menu_layout = global::FinStat.Mobile.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Prism.Resource.Layout.abc_action_mode_bar = global::FinStat.Mobile.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Prism.Resource.Layout.abc_action_mode_close_item_material = global::FinStat.Mobile.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Prism.Resource.Layout.abc_activity_chooser_view = global::FinStat.Mobile.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Prism.Resource.Layout.abc_activity_chooser_view_list_item = global::FinStat.Mobile.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Prism.Resource.Layout.abc_alert_dialog_button_bar_material = global::FinStat.Mobile.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Prism.Resource.Layout.abc_alert_dialog_material = global::FinStat.Mobile.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Prism.Resource.Layout.abc_alert_dialog_title_material = global::FinStat.Mobile.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Prism.Resource.Layout.abc_cascading_menu_item_layout = global::FinStat.Mobile.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Prism.Resource.Layout.abc_dialog_title_material = global::FinStat.Mobile.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Prism.Resource.Layout.abc_expanded_menu_layout = global::FinStat.Mobile.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Prism.Resource.Layout.abc_list_menu_item_checkbox = global::FinStat.Mobile.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Prism.Resource.Layout.abc_list_menu_item_icon = global::FinStat.Mobile.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Prism.Resource.Layout.abc_list_menu_item_layout = global::FinStat.Mobile.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Prism.Resource.Layout.abc_list_menu_item_radio = global::FinStat.Mobile.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Prism.Resource.Layout.abc_popup_menu_header_item_layout = global::FinStat.Mobile.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Prism.Resource.Layout.abc_popup_menu_item_layout = global::FinStat.Mobile.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Prism.Resource.Layout.abc_screen_content_include = global::FinStat.Mobile.Droid.Resource.Layout.abc_screen_content_include;
+			global::Prism.Resource.Layout.abc_screen_simple = global::FinStat.Mobile.Droid.Resource.Layout.abc_screen_simple;
+			global::Prism.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FinStat.Mobile.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Prism.Resource.Layout.abc_screen_toolbar = global::FinStat.Mobile.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Prism.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FinStat.Mobile.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Prism.Resource.Layout.abc_search_view = global::FinStat.Mobile.Droid.Resource.Layout.abc_search_view;
+			global::Prism.Resource.Layout.abc_select_dialog_material = global::FinStat.Mobile.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Prism.Resource.Layout.abc_tooltip = global::FinStat.Mobile.Droid.Resource.Layout.abc_tooltip;
+			global::Prism.Resource.Layout.BottomTabLayout = global::FinStat.Mobile.Droid.Resource.Layout.BottomTabLayout;
+			global::Prism.Resource.Layout.browser_actions_context_menu_page = global::FinStat.Mobile.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Prism.Resource.Layout.browser_actions_context_menu_row = global::FinStat.Mobile.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Prism.Resource.Layout.custom_dialog = global::FinStat.Mobile.Droid.Resource.Layout.custom_dialog;
+			global::Prism.Resource.Layout.design_bottom_navigation_item = global::FinStat.Mobile.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Prism.Resource.Layout.design_bottom_sheet_dialog = global::FinStat.Mobile.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Prism.Resource.Layout.design_layout_snackbar = global::FinStat.Mobile.Droid.Resource.Layout.design_layout_snackbar;
+			global::Prism.Resource.Layout.design_layout_snackbar_include = global::FinStat.Mobile.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Prism.Resource.Layout.design_layout_tab_icon = global::FinStat.Mobile.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Prism.Resource.Layout.design_layout_tab_text = global::FinStat.Mobile.Droid.Resource.Layout.design_layout_tab_text;
+			global::Prism.Resource.Layout.design_menu_item_action_area = global::FinStat.Mobile.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Prism.Resource.Layout.design_navigation_item = global::FinStat.Mobile.Droid.Resource.Layout.design_navigation_item;
+			global::Prism.Resource.Layout.design_navigation_item_header = global::FinStat.Mobile.Droid.Resource.Layout.design_navigation_item_header;
+			global::Prism.Resource.Layout.design_navigation_item_separator = global::FinStat.Mobile.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Prism.Resource.Layout.design_navigation_item_subheader = global::FinStat.Mobile.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Prism.Resource.Layout.design_navigation_menu = global::FinStat.Mobile.Droid.Resource.Layout.design_navigation_menu;
+			global::Prism.Resource.Layout.design_navigation_menu_item = global::FinStat.Mobile.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Prism.Resource.Layout.design_text_input_end_icon = global::FinStat.Mobile.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Prism.Resource.Layout.design_text_input_start_icon = global::FinStat.Mobile.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Prism.Resource.Layout.FallbackTabbarDoNotUse = global::FinStat.Mobile.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Prism.Resource.Layout.FallbackToolbarDoNotUse = global::FinStat.Mobile.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Prism.Resource.Layout.FlyoutContent = global::FinStat.Mobile.Droid.Resource.Layout.FlyoutContent;
+			global::Prism.Resource.Layout.mtrl_alert_dialog = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Prism.Resource.Layout.mtrl_alert_dialog_actions = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Prism.Resource.Layout.mtrl_alert_dialog_title = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Prism.Resource.Layout.mtrl_alert_select_dialog_item = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Prism.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Prism.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Prism.Resource.Layout.mtrl_calendar_day = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Prism.Resource.Layout.mtrl_calendar_days_of_week = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Prism.Resource.Layout.mtrl_calendar_day_of_week = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Prism.Resource.Layout.mtrl_calendar_horizontal = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Prism.Resource.Layout.mtrl_calendar_month = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Prism.Resource.Layout.mtrl_calendar_months = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Prism.Resource.Layout.mtrl_calendar_month_labeled = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Prism.Resource.Layout.mtrl_calendar_month_navigation = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Prism.Resource.Layout.mtrl_calendar_vertical = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Prism.Resource.Layout.mtrl_calendar_year = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_calendar_year;
+			global::Prism.Resource.Layout.mtrl_layout_snackbar = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Prism.Resource.Layout.mtrl_layout_snackbar_include = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Prism.Resource.Layout.mtrl_picker_actions = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Prism.Resource.Layout.mtrl_picker_dialog = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Prism.Resource.Layout.mtrl_picker_fullscreen = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Prism.Resource.Layout.mtrl_picker_header_dialog = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Prism.Resource.Layout.mtrl_picker_header_fullscreen = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Prism.Resource.Layout.mtrl_picker_header_selection_text = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Prism.Resource.Layout.mtrl_picker_header_title_text = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Prism.Resource.Layout.mtrl_picker_header_toggle = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Prism.Resource.Layout.mtrl_picker_text_input_date = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Prism.Resource.Layout.mtrl_picker_text_input_date_range = global::FinStat.Mobile.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
+			global::Prism.Resource.Layout.notification_action = global::FinStat.Mobile.Droid.Resource.Layout.notification_action;
+			global::Prism.Resource.Layout.notification_action_tombstone = global::FinStat.Mobile.Droid.Resource.Layout.notification_action_tombstone;
+			global::Prism.Resource.Layout.notification_media_action = global::FinStat.Mobile.Droid.Resource.Layout.notification_media_action;
+			global::Prism.Resource.Layout.notification_media_cancel_action = global::FinStat.Mobile.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Prism.Resource.Layout.notification_template_big_media = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_big_media;
+			global::Prism.Resource.Layout.notification_template_big_media_custom = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Prism.Resource.Layout.notification_template_big_media_narrow = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Prism.Resource.Layout.notification_template_big_media_narrow_custom = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Prism.Resource.Layout.notification_template_custom_big = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_custom_big;
+			global::Prism.Resource.Layout.notification_template_icon_group = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_icon_group;
+			global::Prism.Resource.Layout.notification_template_lines_media = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_lines_media;
+			global::Prism.Resource.Layout.notification_template_media = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_media;
+			global::Prism.Resource.Layout.notification_template_media_custom = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_media_custom;
+			global::Prism.Resource.Layout.notification_template_part_chronometer = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Prism.Resource.Layout.notification_template_part_time = global::FinStat.Mobile.Droid.Resource.Layout.notification_template_part_time;
+			global::Prism.Resource.Layout.RootLayout = global::FinStat.Mobile.Droid.Resource.Layout.RootLayout;
+			global::Prism.Resource.Layout.select_dialog_item_material = global::FinStat.Mobile.Droid.Resource.Layout.select_dialog_item_material;
+			global::Prism.Resource.Layout.select_dialog_multichoice_material = global::FinStat.Mobile.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Prism.Resource.Layout.select_dialog_singlechoice_material = global::FinStat.Mobile.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Prism.Resource.Layout.ShellContent = global::FinStat.Mobile.Droid.Resource.Layout.ShellContent;
+			global::Prism.Resource.Layout.support_simple_spinner_dropdown_item = global::FinStat.Mobile.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Prism.Resource.Layout.Tabbar = global::FinStat.Mobile.Droid.Resource.Layout.Tabbar;
+			global::Prism.Resource.Layout.test_action_chip = global::FinStat.Mobile.Droid.Resource.Layout.test_action_chip;
+			global::Prism.Resource.Layout.test_chip_zero_corner_radius = global::FinStat.Mobile.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Prism.Resource.Layout.test_design_checkbox = global::FinStat.Mobile.Droid.Resource.Layout.test_design_checkbox;
+			global::Prism.Resource.Layout.test_design_radiobutton = global::FinStat.Mobile.Droid.Resource.Layout.test_design_radiobutton;
+			global::Prism.Resource.Layout.test_reflow_chipgroup = global::FinStat.Mobile.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Prism.Resource.Layout.test_toolbar = global::FinStat.Mobile.Droid.Resource.Layout.test_toolbar;
+			global::Prism.Resource.Layout.test_toolbar_custom_background = global::FinStat.Mobile.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Prism.Resource.Layout.test_toolbar_elevation = global::FinStat.Mobile.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Prism.Resource.Layout.test_toolbar_surface = global::FinStat.Mobile.Droid.Resource.Layout.test_toolbar_surface;
+			global::Prism.Resource.Layout.text_view_without_line_height = global::FinStat.Mobile.Droid.Resource.Layout.text_view_without_line_height;
+			global::Prism.Resource.Layout.text_view_with_line_height_from_appearance = global::FinStat.Mobile.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Prism.Resource.Layout.text_view_with_line_height_from_layout = global::FinStat.Mobile.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Prism.Resource.Layout.text_view_with_line_height_from_style = global::FinStat.Mobile.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Prism.Resource.Layout.text_view_with_theme_line_height = global::FinStat.Mobile.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Prism.Resource.Layout.Toolbar = global::FinStat.Mobile.Droid.Resource.Layout.Toolbar;
+			global::Prism.Resource.Plurals.mtrl_badge_content_description = global::FinStat.Mobile.Droid.Resource.Plurals.mtrl_badge_content_description;
+			global::Prism.Resource.String.abc_action_bar_home_description = global::FinStat.Mobile.Droid.Resource.String.abc_action_bar_home_description;
+			global::Prism.Resource.String.abc_action_bar_up_description = global::FinStat.Mobile.Droid.Resource.String.abc_action_bar_up_description;
+			global::Prism.Resource.String.abc_action_menu_overflow_description = global::FinStat.Mobile.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Prism.Resource.String.abc_action_mode_done = global::FinStat.Mobile.Droid.Resource.String.abc_action_mode_done;
+			global::Prism.Resource.String.abc_activitychooserview_choose_application = global::FinStat.Mobile.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Prism.Resource.String.abc_activity_chooser_view_see_all = global::FinStat.Mobile.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Prism.Resource.String.abc_capital_off = global::FinStat.Mobile.Droid.Resource.String.abc_capital_off;
+			global::Prism.Resource.String.abc_capital_on = global::FinStat.Mobile.Droid.Resource.String.abc_capital_on;
+			global::Prism.Resource.String.abc_menu_alt_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Prism.Resource.String.abc_menu_ctrl_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Prism.Resource.String.abc_menu_delete_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Prism.Resource.String.abc_menu_enter_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Prism.Resource.String.abc_menu_function_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Prism.Resource.String.abc_menu_meta_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Prism.Resource.String.abc_menu_shift_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Prism.Resource.String.abc_menu_space_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Prism.Resource.String.abc_menu_sym_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Prism.Resource.String.abc_prepend_shortcut_label = global::FinStat.Mobile.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Prism.Resource.String.abc_searchview_description_clear = global::FinStat.Mobile.Droid.Resource.String.abc_searchview_description_clear;
+			global::Prism.Resource.String.abc_searchview_description_query = global::FinStat.Mobile.Droid.Resource.String.abc_searchview_description_query;
+			global::Prism.Resource.String.abc_searchview_description_search = global::FinStat.Mobile.Droid.Resource.String.abc_searchview_description_search;
+			global::Prism.Resource.String.abc_searchview_description_submit = global::FinStat.Mobile.Droid.Resource.String.abc_searchview_description_submit;
+			global::Prism.Resource.String.abc_searchview_description_voice = global::FinStat.Mobile.Droid.Resource.String.abc_searchview_description_voice;
+			global::Prism.Resource.String.abc_search_hint = global::FinStat.Mobile.Droid.Resource.String.abc_search_hint;
+			global::Prism.Resource.String.abc_shareactionprovider_share_with = global::FinStat.Mobile.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Prism.Resource.String.abc_shareactionprovider_share_with_application = global::FinStat.Mobile.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Prism.Resource.String.abc_toolbar_collapse_description = global::FinStat.Mobile.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Prism.Resource.String.appbar_scrolling_view_behavior = global::FinStat.Mobile.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Prism.Resource.String.bottom_sheet_behavior = global::FinStat.Mobile.Droid.Resource.String.bottom_sheet_behavior;
+			global::Prism.Resource.String.character_counter_content_description = global::FinStat.Mobile.Droid.Resource.String.character_counter_content_description;
+			global::Prism.Resource.String.character_counter_overflowed_content_description = global::FinStat.Mobile.Droid.Resource.String.character_counter_overflowed_content_description;
+			global::Prism.Resource.String.character_counter_pattern = global::FinStat.Mobile.Droid.Resource.String.character_counter_pattern;
+			global::Prism.Resource.String.chip_text = global::FinStat.Mobile.Droid.Resource.String.chip_text;
+			global::Prism.Resource.String.clear_text_end_icon_content_description = global::FinStat.Mobile.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Prism.Resource.String.copy_toast_msg = global::FinStat.Mobile.Droid.Resource.String.copy_toast_msg;
+			global::Prism.Resource.String.error_icon_content_description = global::FinStat.Mobile.Droid.Resource.String.error_icon_content_description;
+			global::Prism.Resource.String.exposed_dropdown_menu_content_description = global::FinStat.Mobile.Droid.Resource.String.exposed_dropdown_menu_content_description;
+			global::Prism.Resource.String.fab_transformation_scrim_behavior = global::FinStat.Mobile.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Prism.Resource.String.fab_transformation_sheet_behavior = global::FinStat.Mobile.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Prism.Resource.String.fallback_menu_item_copy_link = global::FinStat.Mobile.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Prism.Resource.String.fallback_menu_item_open_in_browser = global::FinStat.Mobile.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Prism.Resource.String.fallback_menu_item_share_link = global::FinStat.Mobile.Droid.Resource.String.fallback_menu_item_share_link;
+			global::Prism.Resource.String.hide_bottom_view_on_scroll_behavior = global::FinStat.Mobile.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Prism.Resource.String.icon_content_description = global::FinStat.Mobile.Droid.Resource.String.icon_content_description;
+			global::Prism.Resource.String.item_view_role_description = global::FinStat.Mobile.Droid.Resource.String.item_view_role_description;
+			global::Prism.Resource.String.material_slider_range_end = global::FinStat.Mobile.Droid.Resource.String.material_slider_range_end;
+			global::Prism.Resource.String.material_slider_range_start = global::FinStat.Mobile.Droid.Resource.String.material_slider_range_start;
+			global::Prism.Resource.String.mtrl_badge_numberless_content_description = global::FinStat.Mobile.Droid.Resource.String.mtrl_badge_numberless_content_description;
+			global::Prism.Resource.String.mtrl_chip_close_icon_content_description = global::FinStat.Mobile.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Prism.Resource.String.mtrl_exceed_max_badge_number_content_description = global::FinStat.Mobile.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Prism.Resource.String.mtrl_exceed_max_badge_number_suffix = global::FinStat.Mobile.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Prism.Resource.String.mtrl_picker_a11y_next_month = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Prism.Resource.String.mtrl_picker_a11y_prev_month = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Prism.Resource.String.mtrl_picker_announce_current_selection = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Prism.Resource.String.mtrl_picker_cancel = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_cancel;
+			global::Prism.Resource.String.mtrl_picker_confirm = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_confirm;
+			global::Prism.Resource.String.mtrl_picker_date_header_selected = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Prism.Resource.String.mtrl_picker_date_header_title = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Prism.Resource.String.mtrl_picker_date_header_unselected = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Prism.Resource.String.mtrl_picker_day_of_week_column_header = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Prism.Resource.String.mtrl_picker_invalid_format = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Prism.Resource.String.mtrl_picker_invalid_format_example = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Prism.Resource.String.mtrl_picker_invalid_format_use = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Prism.Resource.String.mtrl_picker_invalid_range = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Prism.Resource.String.mtrl_picker_navigate_to_year_description = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Prism.Resource.String.mtrl_picker_out_of_range = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Prism.Resource.String.mtrl_picker_range_header_only_end_selected = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Prism.Resource.String.mtrl_picker_range_header_only_start_selected = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Prism.Resource.String.mtrl_picker_range_header_selected = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Prism.Resource.String.mtrl_picker_range_header_title = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Prism.Resource.String.mtrl_picker_range_header_unselected = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Prism.Resource.String.mtrl_picker_save = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_save;
+			global::Prism.Resource.String.mtrl_picker_text_input_date_hint = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Prism.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Prism.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Prism.Resource.String.mtrl_picker_text_input_day_abbr = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Prism.Resource.String.mtrl_picker_text_input_month_abbr = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Prism.Resource.String.mtrl_picker_text_input_year_abbr = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Prism.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Prism.Resource.String.mtrl_picker_toggle_to_day_selection = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Prism.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Prism.Resource.String.mtrl_picker_toggle_to_year_selection = global::FinStat.Mobile.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Prism.Resource.String.overflow_tab_title = global::FinStat.Mobile.Droid.Resource.String.overflow_tab_title;
+			global::Prism.Resource.String.password_toggle_content_description = global::FinStat.Mobile.Droid.Resource.String.password_toggle_content_description;
+			global::Prism.Resource.String.path_password_eye = global::FinStat.Mobile.Droid.Resource.String.path_password_eye;
+			global::Prism.Resource.String.path_password_eye_mask_strike_through = global::FinStat.Mobile.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Prism.Resource.String.path_password_eye_mask_visible = global::FinStat.Mobile.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Prism.Resource.String.path_password_strike_through = global::FinStat.Mobile.Droid.Resource.String.path_password_strike_through;
+			global::Prism.Resource.String.search_menu_title = global::FinStat.Mobile.Droid.Resource.String.search_menu_title;
+			global::Prism.Resource.String.status_bar_notification_info_overflow = global::FinStat.Mobile.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Prism.Resource.Style.AlertDialog_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Prism.Resource.Style.AlertDialog_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Prism.Resource.Style.AndroidThemeColorAccentYellow = global::FinStat.Mobile.Droid.Resource.Style.AndroidThemeColorAccentYellow;
+			global::Prism.Resource.Style.Animation_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Prism.Resource.Style.Animation_AppCompat_DropDownUp = global::FinStat.Mobile.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Prism.Resource.Style.Animation_AppCompat_Tooltip = global::FinStat.Mobile.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Prism.Resource.Style.Animation_Design_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Prism.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Prism.Resource.Style.AppCompatDialogStyle = global::FinStat.Mobile.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Prism.Resource.Style.Base_AlertDialog_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Prism.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Prism.Resource.Style.Base_Animation_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Prism.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FinStat.Mobile.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Prism.Resource.Style.Base_Animation_AppCompat_Tooltip = global::FinStat.Mobile.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Prism.Resource.Style.Base_CardView = global::FinStat.Mobile.Droid.Resource.Style.Base_CardView;
+			global::Prism.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Prism.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Prism.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::FinStat.Mobile.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Prism.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::FinStat.Mobile.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Prism.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::FinStat.Mobile.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Prism.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Prism.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Prism.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Prism.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
+			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FinStat.Mobile.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Prism.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Prism.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Prism.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FinStat.Mobile.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Prism.Resource.Style.Base_Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Prism.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Prism.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Prism.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Prism.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Prism.Resource.Style.Base_V21_Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Prism.Resource.Style.Base_V21_Theme_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Prism.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Prism.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
+			global::Prism.Resource.Style.Base_V22_Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Base_V23_Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Base_V26_Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_V26_Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::FinStat.Mobile.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Prism.Resource.Style.Base_V28_Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_V28_Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Prism.Resource.Style.Base_V7_Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::FinStat.Mobile.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Button = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_EditText = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_SearchView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Spinner = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_TextView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Prism.Resource.Style.Base_Widget_Design_TabLayout = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_Chip = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_Slider = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Prism.Resource.Style.Base_Widget_MaterialComponents_TextView = global::FinStat.Mobile.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
+			global::Prism.Resource.Style.CardView = global::FinStat.Mobile.Droid.Resource.Style.CardView;
+			global::Prism.Resource.Style.CardView_Dark = global::FinStat.Mobile.Droid.Resource.Style.CardView_Dark;
+			global::Prism.Resource.Style.CardView_Light = global::FinStat.Mobile.Droid.Resource.Style.CardView_Light;
+			global::Prism.Resource.Style.collectionViewTheme = global::FinStat.Mobile.Droid.Resource.Style.collectionViewTheme;
+			global::Prism.Resource.Style.EmptyTheme = global::FinStat.Mobile.Droid.Resource.Style.EmptyTheme;
+			global::Prism.Resource.Style.MainTheme = global::FinStat.Mobile.Droid.Resource.Style.MainTheme;
+			global::Prism.Resource.Style.MainTheme_Base = global::FinStat.Mobile.Droid.Resource.Style.MainTheme_Base;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Prism.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::FinStat.Mobile.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
+			global::Prism.Resource.Style.Platform_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Platform_AppCompat;
+			global::Prism.Resource.Style.Platform_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Prism.Resource.Style.Platform_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Prism.Resource.Style.Platform_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Platform_MaterialComponents_Light = global::FinStat.Mobile.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Prism.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FinStat.Mobile.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Prism.Resource.Style.Platform_V21_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Prism.Resource.Style.Platform_V21_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Prism.Resource.Style.Platform_V25_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Prism.Resource.Style.Platform_V25_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Prism.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FinStat.Mobile.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Prism.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FinStat.Mobile.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Prism.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FinStat.Mobile.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Prism.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FinStat.Mobile.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Prism.Resource.Style.scrollViewScrollBars = global::FinStat.Mobile.Droid.Resource.Style.scrollViewScrollBars;
+			global::Prism.Resource.Style.scrollViewTheme = global::FinStat.Mobile.Droid.Resource.Style.scrollViewTheme;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_Cut = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Prism.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Prism.Resource.Style.ShapeAppearance_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Prism.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Prism.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Prism.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Prism.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Prism.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::FinStat.Mobile.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Prism.Resource.Style.TestStyleWithLineHeight = global::FinStat.Mobile.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Prism.Resource.Style.TestStyleWithLineHeightAppearance = global::FinStat.Mobile.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Prism.Resource.Style.TestStyleWithoutLineHeight = global::FinStat.Mobile.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Prism.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::FinStat.Mobile.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Prism.Resource.Style.TestThemeWithLineHeight = global::FinStat.Mobile.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Prism.Resource.Style.TestThemeWithLineHeightDisabled = global::FinStat.Mobile.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Prism.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::FinStat.Mobile.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Prism.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::FinStat.Mobile.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Prism.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::FinStat.Mobile.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Prism.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::FinStat.Mobile.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Prism.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::FinStat.Mobile.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Prism.Resource.Style.TextAppearance_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Body1 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Body2 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Button = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Caption = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Display1 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Display2 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Display3 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Display4 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Headline = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Large = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Medium = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Menu = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Small = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Subhead = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Title = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Tooltip = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Info = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Media = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Time = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Title = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Prism.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Prism.Resource.Style.TextAppearance_Design_Counter = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Prism.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Prism.Resource.Style.TextAppearance_Design_Error = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Prism.Resource.Style.TextAppearance_Design_HelperText = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Prism.Resource.Style.TextAppearance_Design_Hint = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Prism.Resource.Style.TextAppearance_Design_Placeholder = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Prism.Resource.Style.TextAppearance_Design_Prefix = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Prefix;
+			global::Prism.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Prism.Resource.Style.TextAppearance_Design_Suffix = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Suffix;
+			global::Prism.Resource.Style.TextAppearance_Design_Tab = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Badge = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Button = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Caption = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Chip = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Overline = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Prism.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
+			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FinStat.Mobile.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Prism.Resource.Style.ThemeOverlayColorAccentRed = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlayColorAccentRed;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Prism.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_BottomSheetDialog;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Prism.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::FinStat.Mobile.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
+			global::Prism.Resource.Style.Theme_AppCompat = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat;
+			global::Prism.Resource.Style.Theme_AppCompat_CompactMenu = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Prism.Resource.Style.Theme_AppCompat_DayNight = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Prism.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Prism.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Prism.Resource.Style.Theme_AppCompat_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Prism.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_AppCompat_Empty = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::Prism.Resource.Style.Theme_AppCompat_Light = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Prism.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Prism.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Prism.Resource.Style.Theme_AppCompat_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Prism.Resource.Style.Theme_Design = global::FinStat.Mobile.Droid.Resource.Style.Theme_Design;
+			global::Prism.Resource.Style.Theme_Design_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Prism.Resource.Style.Theme_Design_Light = global::FinStat.Mobile.Droid.Resource.Style.Theme_Design_Light;
+			global::Prism.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Prism.Resource.Style.Theme_Design_Light_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Prism.Resource.Style.Theme_Design_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Prism.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_CompactMenu = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Prism.Resource.Style.Theme_MaterialComponents_NoActionBar = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Prism.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::FinStat.Mobile.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Prism.Resource.Style.Widget_AppCompat_ActionMode = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Prism.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Prism.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Prism.Resource.Style.Widget_AppCompat_Button = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Prism.Resource.Style.Widget_AppCompat_ButtonBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Prism.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Prism.Resource.Style.Widget_AppCompat_Button_Borderless = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Prism.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Prism.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Prism.Resource.Style.Widget_AppCompat_Button_Colored = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Prism.Resource.Style.Widget_AppCompat_Button_Small = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Prism.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Prism.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Prism.Resource.Style.Widget_AppCompat_EditText = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Prism.Resource.Style.Widget_AppCompat_ImageButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_SearchView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Prism.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Prism.Resource.Style.Widget_AppCompat_ListMenuView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Prism.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Prism.Resource.Style.Widget_AppCompat_ListView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Prism.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Prism.Resource.Style.Widget_AppCompat_ListView_Menu = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Prism.Resource.Style.Widget_AppCompat_PopupMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Prism.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Prism.Resource.Style.Widget_AppCompat_PopupWindow = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Prism.Resource.Style.Widget_AppCompat_ProgressBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Prism.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Prism.Resource.Style.Widget_AppCompat_RatingBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Prism.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Prism.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Prism.Resource.Style.Widget_AppCompat_SearchView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Prism.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Prism.Resource.Style.Widget_AppCompat_SeekBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Prism.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Prism.Resource.Style.Widget_AppCompat_Spinner = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Prism.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Prism.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Prism.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Prism.Resource.Style.Widget_AppCompat_TextView = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Prism.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Prism.Resource.Style.Widget_AppCompat_Toolbar = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Prism.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FinStat.Mobile.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Prism.Resource.Style.Widget_Compat_NotificationActionContainer = global::FinStat.Mobile.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Prism.Resource.Style.Widget_Compat_NotificationActionText = global::FinStat.Mobile.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Prism.Resource.Style.Widget_Design_AppBarLayout = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Prism.Resource.Style.Widget_Design_BottomNavigationView = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Prism.Resource.Style.Widget_Design_BottomSheet_Modal = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Prism.Resource.Style.Widget_Design_CollapsingToolbar = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Prism.Resource.Style.Widget_Design_FloatingActionButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Prism.Resource.Style.Widget_Design_NavigationView = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Prism.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Prism.Resource.Style.Widget_Design_Snackbar = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Prism.Resource.Style.Widget_Design_TabLayout = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Prism.Resource.Style.Widget_Design_TextInputEditText = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_TextInputEditText;
+			global::Prism.Resource.Style.Widget_Design_TextInputLayout = global::FinStat.Mobile.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Prism.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Badge = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Badge;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomSheet = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
+			global::Prism.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_Icon = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_CardView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ChipGroup = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Action = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Prism.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
+			global::Prism.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Prism.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::Prism.Resource.Style.Widget_MaterialComponents_NavigationView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_PopupMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Prism.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Prism.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Prism.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Prism.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Slider = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Slider;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Snackbar = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TabLayout = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Prism.Resource.Style.Widget_MaterialComponents_TextView = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Toolbar = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Prism.Resource.Style.Widget_MaterialComponents_Tooltip = global::FinStat.Mobile.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
+			global::Prism.Resource.Style.Widget_Support_CoordinatorLayout = global::FinStat.Mobile.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Prism.Resource.Styleable.ActionBar = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar;
+			global::Prism.Resource.Styleable.ActionBarLayout = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBarLayout;
+			global::Prism.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Prism.Resource.Styleable.ActionBar_background = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_background;
+			global::Prism.Resource.Styleable.ActionBar_backgroundSplit = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Prism.Resource.Styleable.ActionBar_backgroundStacked = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Prism.Resource.Styleable.ActionBar_contentInsetEnd = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Prism.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Prism.Resource.Styleable.ActionBar_contentInsetLeft = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Prism.Resource.Styleable.ActionBar_contentInsetRight = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Prism.Resource.Styleable.ActionBar_contentInsetStart = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Prism.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Prism.Resource.Styleable.ActionBar_customNavigationLayout = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Prism.Resource.Styleable.ActionBar_displayOptions = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Prism.Resource.Styleable.ActionBar_divider = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_divider;
+			global::Prism.Resource.Styleable.ActionBar_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Prism.Resource.Styleable.ActionBar_height = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_height;
+			global::Prism.Resource.Styleable.ActionBar_hideOnContentScroll = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Prism.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Prism.Resource.Styleable.ActionBar_homeLayout = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Prism.Resource.Styleable.ActionBar_icon = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_icon;
+			global::Prism.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Prism.Resource.Styleable.ActionBar_itemPadding = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Prism.Resource.Styleable.ActionBar_logo = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_logo;
+			global::Prism.Resource.Styleable.ActionBar_navigationMode = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Prism.Resource.Styleable.ActionBar_popupTheme = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Prism.Resource.Styleable.ActionBar_progressBarPadding = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Prism.Resource.Styleable.ActionBar_progressBarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Prism.Resource.Styleable.ActionBar_subtitle = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Prism.Resource.Styleable.ActionBar_subtitleTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Prism.Resource.Styleable.ActionBar_title = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_title;
+			global::Prism.Resource.Styleable.ActionBar_titleTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Prism.Resource.Styleable.ActionMenuItemView = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Prism.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Prism.Resource.Styleable.ActionMenuView = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMenuView;
+			global::Prism.Resource.Styleable.ActionMode = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMode;
+			global::Prism.Resource.Styleable.ActionMode_background = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMode_background;
+			global::Prism.Resource.Styleable.ActionMode_backgroundSplit = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Prism.Resource.Styleable.ActionMode_closeItemLayout = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Prism.Resource.Styleable.ActionMode_height = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMode_height;
+			global::Prism.Resource.Styleable.ActionMode_subtitleTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Prism.Resource.Styleable.ActionMode_titleTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Prism.Resource.Styleable.ActivityChooserView = global::FinStat.Mobile.Droid.Resource.Styleable.ActivityChooserView;
+			global::Prism.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Prism.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FinStat.Mobile.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Prism.Resource.Styleable.AlertDialog = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog;
+			global::Prism.Resource.Styleable.AlertDialog_android_layout = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Prism.Resource.Styleable.AlertDialog_buttonIconDimen = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Prism.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Prism.Resource.Styleable.AlertDialog_listItemLayout = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Prism.Resource.Styleable.AlertDialog_listLayout = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Prism.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Prism.Resource.Styleable.AlertDialog_showTitle = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Prism.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FinStat.Mobile.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableItem = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Prism.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::FinStat.Mobile.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Prism.Resource.Styleable.AppBarLayout = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout;
+			global::Prism.Resource.Styleable.AppBarLayoutStates = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Prism.Resource.Styleable.AppBarLayoutStates_state_liftable = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Prism.Resource.Styleable.AppBarLayoutStates_state_lifted = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Prism.Resource.Styleable.AppBarLayout_android_background = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Prism.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Prism.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Prism.Resource.Styleable.AppBarLayout_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Prism.Resource.Styleable.AppBarLayout_expanded = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Prism.Resource.Styleable.AppBarLayout_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Prism.Resource.Styleable.AppBarLayout_liftOnScroll = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Prism.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Prism.Resource.Styleable.AppBarLayout_statusBarForeground = global::FinStat.Mobile.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Prism.Resource.Styleable.AppCompatImageView = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatImageView;
+			global::Prism.Resource.Styleable.AppCompatImageView_android_src = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Prism.Resource.Styleable.AppCompatImageView_srcCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Prism.Resource.Styleable.AppCompatImageView_tint = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Prism.Resource.Styleable.AppCompatImageView_tintMode = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Prism.Resource.Styleable.AppCompatSeekBar = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Prism.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMark = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Prism.Resource.Styleable.AppCompatTextHelper = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Prism.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Prism.Resource.Styleable.AppCompatTextView = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView;
+			global::Prism.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Prism.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableTint = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Prism.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Prism.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Prism.Resource.Styleable.AppCompatTextView_fontFamily = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Prism.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Prism.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Prism.Resource.Styleable.AppCompatTextView_lineHeight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Prism.Resource.Styleable.AppCompatTextView_textAllCaps = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Prism.Resource.Styleable.AppCompatTextView_textLocale = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Prism.Resource.Styleable.AppCompatTheme = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarSize = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Prism.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Prism.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_buttonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Prism.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorAccent = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorError = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorPrimary = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Prism.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Prism.Resource.Styleable.AppCompatTheme_controlBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Prism.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Prism.Resource.Styleable.AppCompatTheme_dialogTheme = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Prism.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Prism.Resource.Styleable.AppCompatTheme_dividerVertical = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Prism.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Prism.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_editTextBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_editTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Prism.Resource.Styleable.AppCompatTheme_editTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Prism.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Prism.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Prism.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Prism.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Prism.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Prism.Resource.Styleable.AppCompatTheme_panelBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Prism.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Prism.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Prism.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Prism.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_switchStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Prism.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Prism.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Prism.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Prism.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Prism.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Prism.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBar = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Prism.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FinStat.Mobile.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Prism.Resource.Styleable.Badge = global::FinStat.Mobile.Droid.Resource.Styleable.Badge;
+			global::Prism.Resource.Styleable.Badge_backgroundColor = global::FinStat.Mobile.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Prism.Resource.Styleable.Badge_badgeGravity = global::FinStat.Mobile.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Prism.Resource.Styleable.Badge_badgeTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Prism.Resource.Styleable.Badge_horizontalOffset = global::FinStat.Mobile.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Prism.Resource.Styleable.Badge_maxCharacterCount = global::FinStat.Mobile.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Prism.Resource.Styleable.Badge_number = global::FinStat.Mobile.Droid.Resource.Styleable.Badge_number;
+			global::Prism.Resource.Styleable.Badge_verticalOffset = global::FinStat.Mobile.Droid.Resource.Styleable.Badge_verticalOffset;
+			global::Prism.Resource.Styleable.BottomAppBar = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar;
+			global::Prism.Resource.Styleable.BottomAppBar_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Prism.Resource.Styleable.BottomAppBar_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_elevation;
+			global::Prism.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Prism.Resource.Styleable.BottomAppBar_fabAnimationMode = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
+			global::Prism.Resource.Styleable.BottomAppBar_fabCradleMargin = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Prism.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Prism.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Prism.Resource.Styleable.BottomAppBar_hideOnScroll = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Prism.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Prism.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Prism.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
+			global::Prism.Resource.Styleable.BottomNavigationView = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView;
+			global::Prism.Resource.Styleable.BottomNavigationView_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_backgroundTint;
+			global::Prism.Resource.Styleable.BottomNavigationView_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemBackground = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemIconSize = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemRippleColor = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemRippleColor;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Prism.Resource.Styleable.BottomNavigationView_itemTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Prism.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Prism.Resource.Styleable.BottomNavigationView_menu = global::FinStat.Mobile.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.ButtonBarLayout = global::FinStat.Mobile.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Prism.Resource.Styleable.ButtonBarLayout_allowStacking = global::FinStat.Mobile.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Prism.Resource.Styleable.CardView = global::FinStat.Mobile.Droid.Resource.Styleable.CardView;
+			global::Prism.Resource.Styleable.CardView_android_minHeight = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Prism.Resource.Styleable.CardView_android_minWidth = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Prism.Resource.Styleable.CardView_cardBackgroundColor = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Prism.Resource.Styleable.CardView_cardCornerRadius = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Prism.Resource.Styleable.CardView_cardElevation = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Prism.Resource.Styleable.CardView_cardMaxElevation = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Prism.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Prism.Resource.Styleable.CardView_cardUseCompatPadding = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Prism.Resource.Styleable.CardView_contentPadding = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Prism.Resource.Styleable.CardView_contentPaddingBottom = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Prism.Resource.Styleable.CardView_contentPaddingLeft = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Prism.Resource.Styleable.CardView_contentPaddingRight = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Prism.Resource.Styleable.CardView_contentPaddingTop = global::FinStat.Mobile.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Prism.Resource.Styleable.Chip = global::FinStat.Mobile.Droid.Resource.Styleable.Chip;
+			global::Prism.Resource.Styleable.ChipGroup = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup;
+			global::Prism.Resource.Styleable.ChipGroup_checkedChip = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Prism.Resource.Styleable.ChipGroup_chipSpacing = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Prism.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Prism.Resource.Styleable.ChipGroup_chipSpacingVertical = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Prism.Resource.Styleable.ChipGroup_selectionRequired = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup_selectionRequired;
+			global::Prism.Resource.Styleable.ChipGroup_singleLine = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Prism.Resource.Styleable.ChipGroup_singleSelection = global::FinStat.Mobile.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Prism.Resource.Styleable.Chip_android_checkable = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Prism.Resource.Styleable.Chip_android_ellipsize = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Prism.Resource.Styleable.Chip_android_maxWidth = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Prism.Resource.Styleable.Chip_android_text = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_android_text;
+			global::Prism.Resource.Styleable.Chip_android_textAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Prism.Resource.Styleable.Chip_android_textColor = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Prism.Resource.Styleable.Chip_checkedIcon = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Prism.Resource.Styleable.Chip_checkedIconEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Prism.Resource.Styleable.Chip_checkedIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_checkedIconTint;
+			global::Prism.Resource.Styleable.Chip_checkedIconVisible = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Prism.Resource.Styleable.Chip_chipBackgroundColor = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Prism.Resource.Styleable.Chip_chipCornerRadius = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Prism.Resource.Styleable.Chip_chipEndPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Prism.Resource.Styleable.Chip_chipIcon = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Prism.Resource.Styleable.Chip_chipIconEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Prism.Resource.Styleable.Chip_chipIconSize = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Prism.Resource.Styleable.Chip_chipIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Prism.Resource.Styleable.Chip_chipIconVisible = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Prism.Resource.Styleable.Chip_chipMinHeight = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Prism.Resource.Styleable.Chip_chipMinTouchTargetSize = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
+			global::Prism.Resource.Styleable.Chip_chipStartPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Prism.Resource.Styleable.Chip_chipStrokeColor = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Prism.Resource.Styleable.Chip_chipStrokeWidth = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Prism.Resource.Styleable.Chip_chipSurfaceColor = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_chipSurfaceColor;
+			global::Prism.Resource.Styleable.Chip_closeIcon = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Prism.Resource.Styleable.Chip_closeIconEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Prism.Resource.Styleable.Chip_closeIconEndPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Prism.Resource.Styleable.Chip_closeIconSize = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Prism.Resource.Styleable.Chip_closeIconStartPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Prism.Resource.Styleable.Chip_closeIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Prism.Resource.Styleable.Chip_closeIconVisible = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Prism.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
+			global::Prism.Resource.Styleable.Chip_hideMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Prism.Resource.Styleable.Chip_iconEndPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Prism.Resource.Styleable.Chip_iconStartPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Prism.Resource.Styleable.Chip_rippleColor = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Prism.Resource.Styleable.Chip_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Prism.Resource.Styleable.Chip_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.Chip_showMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Prism.Resource.Styleable.Chip_textEndPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Prism.Resource.Styleable.Chip_textStartPadding = global::FinStat.Mobile.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_title = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Prism.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FinStat.Mobile.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Prism.Resource.Styleable.ColorStateListItem = global::FinStat.Mobile.Droid.Resource.Styleable.ColorStateListItem;
+			global::Prism.Resource.Styleable.ColorStateListItem_alpha = global::FinStat.Mobile.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Prism.Resource.Styleable.ColorStateListItem_android_alpha = global::FinStat.Mobile.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Prism.Resource.Styleable.ColorStateListItem_android_color = global::FinStat.Mobile.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Prism.Resource.Styleable.CompoundButton = global::FinStat.Mobile.Droid.Resource.Styleable.CompoundButton;
+			global::Prism.Resource.Styleable.CompoundButton_android_button = global::FinStat.Mobile.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Prism.Resource.Styleable.CompoundButton_buttonCompat = global::FinStat.Mobile.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Prism.Resource.Styleable.CompoundButton_buttonTint = global::FinStat.Mobile.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Prism.Resource.Styleable.CompoundButton_buttonTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Prism.Resource.Styleable.CoordinatorLayout = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Prism.Resource.Styleable.CoordinatorLayout_keylines = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Prism.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FinStat.Mobile.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Prism.Resource.Styleable.DrawerArrowToggle = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_barLength = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_color = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_spinBars = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Prism.Resource.Styleable.DrawerArrowToggle_thickness = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Prism.Resource.Styleable.DrawerLayout = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerLayout;
+			global::Prism.Resource.Styleable.DrawerLayout_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Prism.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
+			global::Prism.Resource.Styleable.FloatingActionButton = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton;
+			global::Prism.Resource.Styleable.FloatingActionButton_android_enabled = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
+			global::Prism.Resource.Styleable.FloatingActionButton_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Prism.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Prism.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Prism.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Prism.Resource.Styleable.FloatingActionButton_borderWidth = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Prism.Resource.Styleable.FloatingActionButton_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Prism.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
+			global::Prism.Resource.Styleable.FloatingActionButton_fabCustomSize = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Prism.Resource.Styleable.FloatingActionButton_fabSize = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Prism.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Prism.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Prism.Resource.Styleable.FloatingActionButton_maxImageSize = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Prism.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Prism.Resource.Styleable.FloatingActionButton_rippleColor = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Prism.Resource.Styleable.FloatingActionButton_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Prism.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.FloatingActionButton_showMotionSpec = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Prism.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FinStat.Mobile.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Prism.Resource.Styleable.FlowLayout = global::FinStat.Mobile.Droid.Resource.Styleable.FlowLayout;
+			global::Prism.Resource.Styleable.FlowLayout_itemSpacing = global::FinStat.Mobile.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Prism.Resource.Styleable.FlowLayout_lineSpacing = global::FinStat.Mobile.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Prism.Resource.Styleable.FontFamily = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamily;
+			global::Prism.Resource.Styleable.FontFamilyFont = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont;
+			global::Prism.Resource.Styleable.FontFamilyFont_android_font = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Prism.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Prism.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Prism.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Prism.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Prism.Resource.Styleable.FontFamilyFont_font = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Prism.Resource.Styleable.FontFamilyFont_fontStyle = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Prism.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Prism.Resource.Styleable.FontFamilyFont_fontWeight = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Prism.Resource.Styleable.FontFamilyFont_ttcIndex = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Prism.Resource.Styleable.FontFamily_fontProviderAuthority = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Prism.Resource.Styleable.FontFamily_fontProviderCerts = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Prism.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Prism.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Prism.Resource.Styleable.FontFamily_fontProviderPackage = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Prism.Resource.Styleable.FontFamily_fontProviderQuery = global::FinStat.Mobile.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Prism.Resource.Styleable.ForegroundLinearLayout = global::FinStat.Mobile.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FinStat.Mobile.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FinStat.Mobile.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Prism.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FinStat.Mobile.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Prism.Resource.Styleable.Fragment = global::FinStat.Mobile.Droid.Resource.Styleable.Fragment;
+			global::Prism.Resource.Styleable.FragmentContainerView = global::FinStat.Mobile.Droid.Resource.Styleable.FragmentContainerView;
+			global::Prism.Resource.Styleable.FragmentContainerView_android_name = global::FinStat.Mobile.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Prism.Resource.Styleable.FragmentContainerView_android_tag = global::FinStat.Mobile.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Prism.Resource.Styleable.Fragment_android_id = global::FinStat.Mobile.Droid.Resource.Styleable.Fragment_android_id;
+			global::Prism.Resource.Styleable.Fragment_android_name = global::FinStat.Mobile.Droid.Resource.Styleable.Fragment_android_name;
+			global::Prism.Resource.Styleable.Fragment_android_tag = global::FinStat.Mobile.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Prism.Resource.Styleable.GradientColor = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor;
+			global::Prism.Resource.Styleable.GradientColorItem = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColorItem;
+			global::Prism.Resource.Styleable.GradientColorItem_android_color = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Prism.Resource.Styleable.GradientColorItem_android_offset = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Prism.Resource.Styleable.GradientColor_android_centerColor = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Prism.Resource.Styleable.GradientColor_android_centerX = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Prism.Resource.Styleable.GradientColor_android_centerY = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Prism.Resource.Styleable.GradientColor_android_endColor = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Prism.Resource.Styleable.GradientColor_android_endX = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Prism.Resource.Styleable.GradientColor_android_endY = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Prism.Resource.Styleable.GradientColor_android_gradientRadius = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Prism.Resource.Styleable.GradientColor_android_startColor = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Prism.Resource.Styleable.GradientColor_android_startX = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Prism.Resource.Styleable.GradientColor_android_startY = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Prism.Resource.Styleable.GradientColor_android_tileMode = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Prism.Resource.Styleable.GradientColor_android_type = global::FinStat.Mobile.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Prism.Resource.Styleable.Insets = global::FinStat.Mobile.Droid.Resource.Styleable.Insets;
+			global::Prism.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Prism.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Prism.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::FinStat.Mobile.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Prism.Resource.Styleable.ItemsViewRendererTheme = global::FinStat.Mobile.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Prism.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Prism.Resource.Styleable.LinearLayoutCompat = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_divider = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Prism.Resource.Styleable.LinearLayoutCompat_showDividers = global::FinStat.Mobile.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Prism.Resource.Styleable.ListPopupWindow = global::FinStat.Mobile.Droid.Resource.Styleable.ListPopupWindow;
+			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FinStat.Mobile.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FinStat.Mobile.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Prism.Resource.Styleable.MaterialAlertDialog = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Prism.Resource.Styleable.MaterialAlertDialogTheme = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Prism.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Prism.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Prism.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Prism.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Prism.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Prism.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Prism.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Prism.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Prism.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Prism.Resource.Styleable.MaterialAutoCompleteTextView = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Prism.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
+			global::Prism.Resource.Styleable.MaterialButton = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton;
+			global::Prism.Resource.Styleable.MaterialButtonToggleGroup = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Prism.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Prism.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Prism.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Prism.Resource.Styleable.MaterialButton_android_background = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Prism.Resource.Styleable.MaterialButton_android_checkable = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_android_checkable;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetBottom = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetLeft = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetRight = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Prism.Resource.Styleable.MaterialButton_android_insetTop = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Prism.Resource.Styleable.MaterialButton_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Prism.Resource.Styleable.MaterialButton_backgroundTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Prism.Resource.Styleable.MaterialButton_cornerRadius = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Prism.Resource.Styleable.MaterialButton_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_elevation;
+			global::Prism.Resource.Styleable.MaterialButton_icon = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Prism.Resource.Styleable.MaterialButton_iconGravity = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Prism.Resource.Styleable.MaterialButton_iconPadding = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Prism.Resource.Styleable.MaterialButton_iconSize = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Prism.Resource.Styleable.MaterialButton_iconTint = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Prism.Resource.Styleable.MaterialButton_iconTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Prism.Resource.Styleable.MaterialButton_rippleColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Prism.Resource.Styleable.MaterialButton_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Prism.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.MaterialButton_strokeColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Prism.Resource.Styleable.MaterialButton_strokeWidth = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Prism.Resource.Styleable.MaterialCalendar = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar;
+			global::Prism.Resource.Styleable.MaterialCalendarItem = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Prism.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Prism.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Prism.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Prism.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Prism.Resource.Styleable.MaterialCalendar_dayStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Prism.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Prism.Resource.Styleable.MaterialCalendar_rangeFillColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Prism.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Prism.Resource.Styleable.MaterialCalendar_yearStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Prism.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
+			global::Prism.Resource.Styleable.MaterialCardView = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView;
+			global::Prism.Resource.Styleable.MaterialCardView_android_checkable = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Prism.Resource.Styleable.MaterialCardView_cardForegroundColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Prism.Resource.Styleable.MaterialCardView_checkedIcon = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Prism.Resource.Styleable.MaterialCardView_checkedIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Prism.Resource.Styleable.MaterialCardView_rippleColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Prism.Resource.Styleable.MaterialCardView_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Prism.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.MaterialCardView_state_dragged = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_state_dragged;
+			global::Prism.Resource.Styleable.MaterialCardView_strokeColor = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Prism.Resource.Styleable.MaterialCardView_strokeWidth = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Prism.Resource.Styleable.MaterialCheckBox = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Prism.Resource.Styleable.MaterialCheckBox_buttonTint = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Prism.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Prism.Resource.Styleable.MaterialRadioButton = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Prism.Resource.Styleable.MaterialRadioButton_buttonTint = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Prism.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Prism.Resource.Styleable.MaterialShape = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialShape;
+			global::Prism.Resource.Styleable.MaterialShape_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Prism.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.MaterialTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Prism.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Prism.Resource.Styleable.MaterialTextAppearance_lineHeight = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Prism.Resource.Styleable.MaterialTextView = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialTextView;
+			global::Prism.Resource.Styleable.MaterialTextView_android_lineHeight = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Prism.Resource.Styleable.MaterialTextView_android_textAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Prism.Resource.Styleable.MaterialTextView_lineHeight = global::FinStat.Mobile.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Prism.Resource.Styleable.MenuGroup = global::FinStat.Mobile.Droid.Resource.Styleable.MenuGroup;
+			global::Prism.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FinStat.Mobile.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Prism.Resource.Styleable.MenuGroup_android_enabled = global::FinStat.Mobile.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Prism.Resource.Styleable.MenuGroup_android_id = global::FinStat.Mobile.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Prism.Resource.Styleable.MenuGroup_android_menuCategory = global::FinStat.Mobile.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Prism.Resource.Styleable.MenuGroup_android_orderInCategory = global::FinStat.Mobile.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Prism.Resource.Styleable.MenuGroup_android_visible = global::FinStat.Mobile.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Prism.Resource.Styleable.MenuItem = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem;
+			global::Prism.Resource.Styleable.MenuItem_actionLayout = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Prism.Resource.Styleable.MenuItem_actionProviderClass = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Prism.Resource.Styleable.MenuItem_actionViewClass = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Prism.Resource.Styleable.MenuItem_alphabeticModifiers = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Prism.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Prism.Resource.Styleable.MenuItem_android_checkable = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Prism.Resource.Styleable.MenuItem_android_checked = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Prism.Resource.Styleable.MenuItem_android_enabled = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Prism.Resource.Styleable.MenuItem_android_icon = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Prism.Resource.Styleable.MenuItem_android_id = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Prism.Resource.Styleable.MenuItem_android_menuCategory = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Prism.Resource.Styleable.MenuItem_android_numericShortcut = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Prism.Resource.Styleable.MenuItem_android_onClick = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Prism.Resource.Styleable.MenuItem_android_orderInCategory = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Prism.Resource.Styleable.MenuItem_android_title = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Prism.Resource.Styleable.MenuItem_android_titleCondensed = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Prism.Resource.Styleable.MenuItem_android_visible = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Prism.Resource.Styleable.MenuItem_contentDescription = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Prism.Resource.Styleable.MenuItem_iconTint = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Prism.Resource.Styleable.MenuItem_iconTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Prism.Resource.Styleable.MenuItem_numericModifiers = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Prism.Resource.Styleable.MenuItem_showAsAction = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Prism.Resource.Styleable.MenuItem_tooltipText = global::FinStat.Mobile.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Prism.Resource.Styleable.MenuView = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView;
+			global::Prism.Resource.Styleable.MenuView_android_headerBackground = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Prism.Resource.Styleable.MenuView_android_horizontalDivider = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Prism.Resource.Styleable.MenuView_android_itemBackground = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Prism.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Prism.Resource.Styleable.MenuView_android_itemTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Prism.Resource.Styleable.MenuView_android_verticalDivider = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Prism.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Prism.Resource.Styleable.MenuView_preserveIconSpacing = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Prism.Resource.Styleable.MenuView_subMenuArrow = global::FinStat.Mobile.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Prism.Resource.Styleable.NavigationView = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView;
+			global::Prism.Resource.Styleable.NavigationView_android_background = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Prism.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Prism.Resource.Styleable.NavigationView_android_maxWidth = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Prism.Resource.Styleable.NavigationView_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Prism.Resource.Styleable.NavigationView_headerLayout = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Prism.Resource.Styleable.NavigationView_itemBackground = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Prism.Resource.Styleable.NavigationView_itemHorizontalPadding = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Prism.Resource.Styleable.NavigationView_itemIconPadding = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Prism.Resource.Styleable.NavigationView_itemIconSize = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemIconSize;
+			global::Prism.Resource.Styleable.NavigationView_itemIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Prism.Resource.Styleable.NavigationView_itemMaxLines = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Prism.Resource.Styleable.NavigationView_itemShapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Prism.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.NavigationView_itemShapeFillColor = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Prism.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Prism.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Prism.Resource.Styleable.NavigationView_itemShapeInsetStart = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Prism.Resource.Styleable.NavigationView_itemShapeInsetTop = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
+			global::Prism.Resource.Styleable.NavigationView_itemTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Prism.Resource.Styleable.NavigationView_itemTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Prism.Resource.Styleable.NavigationView_menu = global::FinStat.Mobile.Droid.Resource.Styleable.NavigationView_menu;
+			global::Prism.Resource.Styleable.PopupWindow = global::FinStat.Mobile.Droid.Resource.Styleable.PopupWindow;
+			global::Prism.Resource.Styleable.PopupWindowBackgroundState = global::FinStat.Mobile.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Prism.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FinStat.Mobile.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Prism.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FinStat.Mobile.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Prism.Resource.Styleable.PopupWindow_android_popupBackground = global::FinStat.Mobile.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Prism.Resource.Styleable.PopupWindow_overlapAnchor = global::FinStat.Mobile.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Prism.Resource.Styleable.RangeSlider = global::FinStat.Mobile.Droid.Resource.Styleable.RangeSlider;
+			global::Prism.Resource.Styleable.RangeSlider_values = global::FinStat.Mobile.Droid.Resource.Styleable.RangeSlider_values;
+			global::Prism.Resource.Styleable.RecycleListView = global::FinStat.Mobile.Droid.Resource.Styleable.RecycleListView;
+			global::Prism.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FinStat.Mobile.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Prism.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FinStat.Mobile.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Prism.Resource.Styleable.RecyclerView = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView;
+			global::Prism.Resource.Styleable.RecyclerView_android_clipToPadding = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Prism.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Prism.Resource.Styleable.RecyclerView_android_orientation = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Prism.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Prism.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Prism.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Prism.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Prism.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Prism.Resource.Styleable.RecyclerView_layoutManager = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Prism.Resource.Styleable.RecyclerView_reverseLayout = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Prism.Resource.Styleable.RecyclerView_spanCount = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Prism.Resource.Styleable.RecyclerView_stackFromEnd = global::FinStat.Mobile.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Prism.Resource.Styleable.ScrimInsetsFrameLayout = global::FinStat.Mobile.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Prism.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FinStat.Mobile.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Prism.Resource.Styleable.ScrollingViewBehavior_Layout = global::FinStat.Mobile.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Prism.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FinStat.Mobile.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Prism.Resource.Styleable.ScrollViewRendererTheme = global::FinStat.Mobile.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Prism.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Prism.Resource.Styleable.SearchView = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView;
+			global::Prism.Resource.Styleable.SearchView_android_focusable = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Prism.Resource.Styleable.SearchView_android_imeOptions = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Prism.Resource.Styleable.SearchView_android_inputType = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Prism.Resource.Styleable.SearchView_android_maxWidth = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Prism.Resource.Styleable.SearchView_closeIcon = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Prism.Resource.Styleable.SearchView_commitIcon = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Prism.Resource.Styleable.SearchView_defaultQueryHint = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Prism.Resource.Styleable.SearchView_goIcon = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Prism.Resource.Styleable.SearchView_iconifiedByDefault = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Prism.Resource.Styleable.SearchView_layout = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_layout;
+			global::Prism.Resource.Styleable.SearchView_queryBackground = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Prism.Resource.Styleable.SearchView_queryHint = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Prism.Resource.Styleable.SearchView_searchHintIcon = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Prism.Resource.Styleable.SearchView_searchIcon = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Prism.Resource.Styleable.SearchView_submitBackground = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Prism.Resource.Styleable.SearchView_suggestionRowLayout = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Prism.Resource.Styleable.SearchView_voiceIcon = global::FinStat.Mobile.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Prism.Resource.Styleable.ShapeableImageView = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeableImageView;
+			global::Prism.Resource.Styleable.ShapeableImageView_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Prism.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.ShapeableImageView_strokeColor = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Prism.Resource.Styleable.ShapeableImageView_strokeWidth = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Prism.Resource.Styleable.ShapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerFamily = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerSize = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Prism.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::FinStat.Mobile.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Prism.Resource.Styleable.Slider = global::FinStat.Mobile.Droid.Resource.Styleable.Slider;
+			global::Prism.Resource.Styleable.Slider_android_enabled = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Prism.Resource.Styleable.Slider_android_stepSize = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Prism.Resource.Styleable.Slider_android_value = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_android_value;
+			global::Prism.Resource.Styleable.Slider_android_valueFrom = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Prism.Resource.Styleable.Slider_android_valueTo = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Prism.Resource.Styleable.Slider_haloColor = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_haloColor;
+			global::Prism.Resource.Styleable.Slider_haloRadius = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Prism.Resource.Styleable.Slider_labelBehavior = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Prism.Resource.Styleable.Slider_labelStyle = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Prism.Resource.Styleable.Slider_thumbColor = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Prism.Resource.Styleable.Slider_thumbElevation = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Prism.Resource.Styleable.Slider_thumbRadius = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Prism.Resource.Styleable.Slider_tickColor = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_tickColor;
+			global::Prism.Resource.Styleable.Slider_tickColorActive = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Prism.Resource.Styleable.Slider_tickColorInactive = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Prism.Resource.Styleable.Slider_trackColor = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_trackColor;
+			global::Prism.Resource.Styleable.Slider_trackColorActive = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Prism.Resource.Styleable.Slider_trackColorInactive = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Prism.Resource.Styleable.Slider_trackHeight = global::FinStat.Mobile.Droid.Resource.Styleable.Slider_trackHeight;
+			global::Prism.Resource.Styleable.Snackbar = global::FinStat.Mobile.Droid.Resource.Styleable.Snackbar;
+			global::Prism.Resource.Styleable.SnackbarLayout = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout;
+			global::Prism.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
+			global::Prism.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Prism.Resource.Styleable.SnackbarLayout_animationMode = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Prism.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Prism.Resource.Styleable.SnackbarLayout_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Prism.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
+			global::Prism.Resource.Styleable.SnackbarLayout_elevation = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Prism.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FinStat.Mobile.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Prism.Resource.Styleable.Snackbar_snackbarButtonStyle = global::FinStat.Mobile.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Prism.Resource.Styleable.Snackbar_snackbarStyle = global::FinStat.Mobile.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Prism.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::FinStat.Mobile.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
+			global::Prism.Resource.Styleable.Spinner = global::FinStat.Mobile.Droid.Resource.Styleable.Spinner;
+			global::Prism.Resource.Styleable.Spinner_android_dropDownWidth = global::FinStat.Mobile.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Prism.Resource.Styleable.Spinner_android_entries = global::FinStat.Mobile.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Prism.Resource.Styleable.Spinner_android_popupBackground = global::FinStat.Mobile.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Prism.Resource.Styleable.Spinner_android_prompt = global::FinStat.Mobile.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Prism.Resource.Styleable.Spinner_popupTheme = global::FinStat.Mobile.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Prism.Resource.Styleable.StateListDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawable;
+			global::Prism.Resource.Styleable.StateListDrawableItem = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Prism.Resource.Styleable.StateListDrawableItem_android_drawable = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Prism.Resource.Styleable.StateListDrawable_android_constantSize = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Prism.Resource.Styleable.StateListDrawable_android_dither = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Prism.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Prism.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Prism.Resource.Styleable.StateListDrawable_android_variablePadding = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Prism.Resource.Styleable.StateListDrawable_android_visible = global::FinStat.Mobile.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Prism.Resource.Styleable.SwipeRefreshLayout = global::FinStat.Mobile.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Prism.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::FinStat.Mobile.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Prism.Resource.Styleable.SwitchCompat = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat;
+			global::Prism.Resource.Styleable.SwitchCompat_android_textOff = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Prism.Resource.Styleable.SwitchCompat_android_textOn = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Prism.Resource.Styleable.SwitchCompat_android_thumb = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Prism.Resource.Styleable.SwitchCompat_showText = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Prism.Resource.Styleable.SwitchCompat_splitTrack = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Prism.Resource.Styleable.SwitchCompat_switchMinWidth = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Prism.Resource.Styleable.SwitchCompat_switchPadding = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Prism.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Prism.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Prism.Resource.Styleable.SwitchCompat_thumbTint = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Prism.Resource.Styleable.SwitchCompat_thumbTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Prism.Resource.Styleable.SwitchCompat_track = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Prism.Resource.Styleable.SwitchCompat_trackTint = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Prism.Resource.Styleable.SwitchCompat_trackTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Prism.Resource.Styleable.SwitchMaterial = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchMaterial;
+			global::Prism.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::FinStat.Mobile.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::Prism.Resource.Styleable.TabItem = global::FinStat.Mobile.Droid.Resource.Styleable.TabItem;
+			global::Prism.Resource.Styleable.TabItem_android_icon = global::FinStat.Mobile.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Prism.Resource.Styleable.TabItem_android_layout = global::FinStat.Mobile.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Prism.Resource.Styleable.TabItem_android_text = global::FinStat.Mobile.Droid.Resource.Styleable.TabItem_android_text;
+			global::Prism.Resource.Styleable.TabLayout = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout;
+			global::Prism.Resource.Styleable.TabLayout_tabBackground = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Prism.Resource.Styleable.TabLayout_tabContentStart = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Prism.Resource.Styleable.TabLayout_tabGravity = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Prism.Resource.Styleable.TabLayout_tabIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Prism.Resource.Styleable.TabLayout_tabIconTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicator = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorColor = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorGravity = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Prism.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Prism.Resource.Styleable.TabLayout_tabInlineLabel = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Prism.Resource.Styleable.TabLayout_tabMaxWidth = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Prism.Resource.Styleable.TabLayout_tabMinWidth = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Prism.Resource.Styleable.TabLayout_tabMode = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Prism.Resource.Styleable.TabLayout_tabPadding = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Prism.Resource.Styleable.TabLayout_tabPaddingBottom = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Prism.Resource.Styleable.TabLayout_tabPaddingEnd = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Prism.Resource.Styleable.TabLayout_tabPaddingStart = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Prism.Resource.Styleable.TabLayout_tabPaddingTop = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Prism.Resource.Styleable.TabLayout_tabRippleColor = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Prism.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Prism.Resource.Styleable.TabLayout_tabTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Prism.Resource.Styleable.TabLayout_tabTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Prism.Resource.Styleable.TabLayout_tabUnboundedRipple = global::FinStat.Mobile.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Prism.Resource.Styleable.TextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance;
+			global::Prism.Resource.Styleable.TextAppearance_android_fontFamily = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Prism.Resource.Styleable.TextAppearance_android_shadowColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Prism.Resource.Styleable.TextAppearance_android_shadowDx = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Prism.Resource.Styleable.TextAppearance_android_shadowDy = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Prism.Resource.Styleable.TextAppearance_android_shadowRadius = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Prism.Resource.Styleable.TextAppearance_android_textColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Prism.Resource.Styleable.TextAppearance_android_textColorHint = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Prism.Resource.Styleable.TextAppearance_android_textColorLink = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Prism.Resource.Styleable.TextAppearance_android_textFontWeight = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Prism.Resource.Styleable.TextAppearance_android_textSize = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Prism.Resource.Styleable.TextAppearance_android_textStyle = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Prism.Resource.Styleable.TextAppearance_android_typeface = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Prism.Resource.Styleable.TextAppearance_fontFamily = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Prism.Resource.Styleable.TextAppearance_fontVariationSettings = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Prism.Resource.Styleable.TextAppearance_textAllCaps = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Prism.Resource.Styleable.TextAppearance_textLocale = global::FinStat.Mobile.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Prism.Resource.Styleable.TextInputEditText = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputEditText;
+			global::Prism.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout;
+			global::Prism.Resource.Styleable.TextInputLayout_android_enabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_android_enabled;
+			global::Prism.Resource.Styleable.TextInputLayout_android_hint = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Prism.Resource.Styleable.TextInputLayout_android_textColorHint = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Prism.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Prism.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Prism.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Prism.Resource.Styleable.TextInputLayout_boxStrokeColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Prism.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
+			global::Prism.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Prism.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
+			global::Prism.Resource.Styleable.TextInputLayout_counterEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout_counterMaxLength = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Prism.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
+			global::Prism.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_counterTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Prism.Resource.Styleable.TextInputLayout_endIconCheckable = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Prism.Resource.Styleable.TextInputLayout_endIconContentDescription = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Prism.Resource.Styleable.TextInputLayout_endIconDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Prism.Resource.Styleable.TextInputLayout_endIconMode = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Prism.Resource.Styleable.TextInputLayout_endIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Prism.Resource.Styleable.TextInputLayout_endIconTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Prism.Resource.Styleable.TextInputLayout_errorContentDescription = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
+			global::Prism.Resource.Styleable.TextInputLayout_errorEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout_errorIconDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Prism.Resource.Styleable.TextInputLayout_errorIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Prism.Resource.Styleable.TextInputLayout_errorIconTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
+			global::Prism.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_errorTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Prism.Resource.Styleable.TextInputLayout_helperText = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Prism.Resource.Styleable.TextInputLayout_helperTextEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_helperTextTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
+			global::Prism.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout_hintEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_hintTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
+			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Prism.Resource.Styleable.TextInputLayout_placeholderText = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Prism.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_placeholderTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Prism.Resource.Styleable.TextInputLayout_prefixText = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Prism.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_prefixTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Prism.Resource.Styleable.TextInputLayout_shapeAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Prism.Resource.Styleable.TextInputLayout_startIconCheckable = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Prism.Resource.Styleable.TextInputLayout_startIconContentDescription = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Prism.Resource.Styleable.TextInputLayout_startIconDrawable = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Prism.Resource.Styleable.TextInputLayout_startIconTint = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Prism.Resource.Styleable.TextInputLayout_startIconTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Prism.Resource.Styleable.TextInputLayout_suffixText = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Prism.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Prism.Resource.Styleable.TextInputLayout_suffixTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
+			global::Prism.Resource.Styleable.ThemeEnforcement = global::FinStat.Mobile.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Prism.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Prism.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::FinStat.Mobile.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Prism.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Prism.Resource.Styleable.Toolbar = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar;
+			global::Prism.Resource.Styleable.Toolbar_android_gravity = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Prism.Resource.Styleable.Toolbar_android_minHeight = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Prism.Resource.Styleable.Toolbar_buttonGravity = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Prism.Resource.Styleable.Toolbar_collapseContentDescription = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Prism.Resource.Styleable.Toolbar_collapseIcon = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Prism.Resource.Styleable.Toolbar_contentInsetEnd = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Prism.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Prism.Resource.Styleable.Toolbar_contentInsetLeft = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Prism.Resource.Styleable.Toolbar_contentInsetRight = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Prism.Resource.Styleable.Toolbar_contentInsetStart = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Prism.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Prism.Resource.Styleable.Toolbar_logo = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_logo;
+			global::Prism.Resource.Styleable.Toolbar_logoDescription = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Prism.Resource.Styleable.Toolbar_maxButtonHeight = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Prism.Resource.Styleable.Toolbar_menu = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_menu;
+			global::Prism.Resource.Styleable.Toolbar_navigationContentDescription = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Prism.Resource.Styleable.Toolbar_navigationIcon = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Prism.Resource.Styleable.Toolbar_popupTheme = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Prism.Resource.Styleable.Toolbar_subtitle = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Prism.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Prism.Resource.Styleable.Toolbar_subtitleTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Prism.Resource.Styleable.Toolbar_title = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_title;
+			global::Prism.Resource.Styleable.Toolbar_titleMargin = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Prism.Resource.Styleable.Toolbar_titleMarginBottom = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Prism.Resource.Styleable.Toolbar_titleMarginEnd = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Prism.Resource.Styleable.Toolbar_titleMargins = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Prism.Resource.Styleable.Toolbar_titleMarginStart = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Prism.Resource.Styleable.Toolbar_titleMarginTop = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Prism.Resource.Styleable.Toolbar_titleTextAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Prism.Resource.Styleable.Toolbar_titleTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Prism.Resource.Styleable.Tooltip = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip;
+			global::Prism.Resource.Styleable.Tooltip_android_layout_margin = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Prism.Resource.Styleable.Tooltip_android_minHeight = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Prism.Resource.Styleable.Tooltip_android_minWidth = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Prism.Resource.Styleable.Tooltip_android_padding = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Prism.Resource.Styleable.Tooltip_android_text = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Prism.Resource.Styleable.Tooltip_android_textAppearance = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Prism.Resource.Styleable.Tooltip_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.Tooltip_backgroundTint;
+			global::Prism.Resource.Styleable.View = global::FinStat.Mobile.Droid.Resource.Styleable.View;
+			global::Prism.Resource.Styleable.ViewBackgroundHelper = global::FinStat.Mobile.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Prism.Resource.Styleable.ViewBackgroundHelper_android_background = global::FinStat.Mobile.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Prism.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FinStat.Mobile.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Prism.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FinStat.Mobile.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Prism.Resource.Styleable.ViewPager2 = global::FinStat.Mobile.Droid.Resource.Styleable.ViewPager2;
+			global::Prism.Resource.Styleable.ViewPager2_android_orientation = global::FinStat.Mobile.Droid.Resource.Styleable.ViewPager2_android_orientation;
+			global::Prism.Resource.Styleable.ViewStubCompat = global::FinStat.Mobile.Droid.Resource.Styleable.ViewStubCompat;
+			global::Prism.Resource.Styleable.ViewStubCompat_android_id = global::FinStat.Mobile.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Prism.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FinStat.Mobile.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Prism.Resource.Styleable.ViewStubCompat_android_layout = global::FinStat.Mobile.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Prism.Resource.Styleable.View_android_focusable = global::FinStat.Mobile.Droid.Resource.Styleable.View_android_focusable;
+			global::Prism.Resource.Styleable.View_android_theme = global::FinStat.Mobile.Droid.Resource.Styleable.View_android_theme;
+			global::Prism.Resource.Styleable.View_paddingEnd = global::FinStat.Mobile.Droid.Resource.Styleable.View_paddingEnd;
+			global::Prism.Resource.Styleable.View_paddingStart = global::FinStat.Mobile.Droid.Resource.Styleable.View_paddingStart;
+			global::Prism.Resource.Styleable.View_theme = global::FinStat.Mobile.Droid.Resource.Styleable.View_theme;
+			global::Prism.Resource.Xml.image_share_filepaths = global::FinStat.Mobile.Droid.Resource.Xml.image_share_filepaths;
+			global::Prism.Resource.Xml.standalone_badge = global::FinStat.Mobile.Droid.Resource.Xml.standalone_badge;
+			global::Prism.Resource.Xml.standalone_badge_gravity_bottom_end = global::FinStat.Mobile.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Prism.Resource.Xml.standalone_badge_gravity_bottom_start = global::FinStat.Mobile.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Prism.Resource.Xml.standalone_badge_gravity_top_start = global::FinStat.Mobile.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Prism.Resource.Xml.standalone_badge_offset = global::FinStat.Mobile.Droid.Resource.Xml.standalone_badge_offset;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::FinStat.Mobile.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::FinStat.Mobile.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::FinStat.Mobile.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::FinStat.Mobile.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::FinStat.Mobile.Droid.Resource.Drawable.clear_button_icon;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorAnimationTypes = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorAnimationTypes;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorIsBusy = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorIsBusy;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorSecondaryColor = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorSecondaryColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTextColor = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorTextColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTextSize = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorTextSize;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTitle = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorTitle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTitlePlacement = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorTitlePlacement;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorViewBoxHeight = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorViewBoxHeight;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorViewBoxWidth = global::FinStat.Mobile.Droid.Resource.Attribute.busyIndicatorViewBoxWidth;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.ball = global::FinStat.Mobile.Droid.Resource.Id.ball;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.battery = global::FinStat.Mobile.Droid.Resource.Id.battery;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.bottom = global::FinStat.Mobile.Droid.Resource.Id.bottom;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.box = global::FinStat.Mobile.Droid.Resource.Id.box;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.cupertino = global::FinStat.Mobile.Droid.Resource.Id.cupertino;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.doubleCircle = global::FinStat.Mobile.Droid.Resource.Id.doubleCircle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.ecg = global::FinStat.Mobile.Droid.Resource.Id.ecg;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.gearBox = global::FinStat.Mobile.Droid.Resource.Id.gearBox;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.globe = global::FinStat.Mobile.Droid.Resource.Id.globe;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.horizontalPulsingBox = global::FinStat.Mobile.Droid.Resource.Id.horizontalPulsingBox;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.movieTimer = global::FinStat.Mobile.Droid.Resource.Id.movieTimer;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.none = global::FinStat.Mobile.Droid.Resource.Id.none;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.print = global::FinStat.Mobile.Droid.Resource.Id.print;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.rectangle = global::FinStat.Mobile.Droid.Resource.Id.rectangle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.rollingBall = global::FinStat.Mobile.Droid.Resource.Id.rollingBall;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.singleCircle = global::FinStat.Mobile.Droid.Resource.Id.singleCircle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.slicedCircle = global::FinStat.Mobile.Droid.Resource.Id.slicedCircle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.top = global::FinStat.Mobile.Droid.Resource.Id.top;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.zoomingTarget = global::FinStat.Mobile.Droid.Resource.Id.zoomingTarget;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.String.library_name = global::FinStat.Mobile.Droid.Resource.String.library_name;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight;
+			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth = global::FinStat.Mobile.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::FinStat.Mobile.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::FinStat.Mobile.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::FinStat.Mobile.Droid.Resource.Attribute.fontProviderAuthority;
@@ -7953,1693 +11669,1720 @@ namespace FinStat.Mobile.Droid
 			public const int boxStrokeWidthFocused = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int buttonBarButtonStyle = 2130903135;
+			public const int busyIndicatorAnimationTypes = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int buttonBarNegativeButtonStyle = 2130903136;
+			public const int busyIndicatorIsBusy = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int buttonBarNeutralButtonStyle = 2130903137;
+			public const int busyIndicatorSecondaryColor = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int buttonBarPositiveButtonStyle = 2130903138;
+			public const int busyIndicatorTextColor = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int buttonBarStyle = 2130903139;
+			public const int busyIndicatorTextSize = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int buttonCompat = 2130903140;
+			public const int busyIndicatorTitle = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int buttonGravity = 2130903141;
+			public const int busyIndicatorTitlePlacement = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int buttonIconDimen = 2130903142;
+			public const int busyIndicatorViewBoxHeight = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int buttonPanelSideLayout = 2130903143;
+			public const int busyIndicatorViewBoxWidth = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int buttonStyle = 2130903144;
+			public const int buttonBarButtonStyle = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int buttonStyleSmall = 2130903145;
+			public const int buttonBarNegativeButtonStyle = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int buttonTint = 2130903146;
+			public const int buttonBarNeutralButtonStyle = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int buttonTintMode = 2130903147;
+			public const int buttonBarPositiveButtonStyle = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int cardBackgroundColor = 2130903148;
+			public const int buttonBarStyle = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int cardCornerRadius = 2130903149;
+			public const int buttonCompat = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int cardElevation = 2130903150;
+			public const int buttonGravity = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int cardForegroundColor = 2130903151;
+			public const int buttonIconDimen = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int cardMaxElevation = 2130903152;
+			public const int buttonPanelSideLayout = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int cardPreventCornerOverlap = 2130903153;
+			public const int buttonStyle = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int cardUseCompatPadding = 2130903154;
+			public const int buttonStyleSmall = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int cardViewStyle = 2130903155;
+			public const int buttonTint = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int checkboxStyle = 2130903156;
+			public const int buttonTintMode = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int checkedButton = 2130903157;
+			public const int cardBackgroundColor = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int checkedChip = 2130903158;
+			public const int cardCornerRadius = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int checkedIcon = 2130903159;
+			public const int cardElevation = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int checkedIconEnabled = 2130903160;
+			public const int cardForegroundColor = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int checkedIconTint = 2130903161;
+			public const int cardMaxElevation = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int checkedIconVisible = 2130903162;
+			public const int cardPreventCornerOverlap = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int checkedTextViewStyle = 2130903163;
+			public const int cardUseCompatPadding = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int chipBackgroundColor = 2130903164;
+			public const int cardViewStyle = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int chipCornerRadius = 2130903165;
+			public const int checkboxStyle = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int chipEndPadding = 2130903166;
+			public const int checkedButton = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int chipGroupStyle = 2130903167;
+			public const int checkedChip = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int chipIcon = 2130903168;
+			public const int checkedIcon = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int chipIconEnabled = 2130903169;
+			public const int checkedIconEnabled = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int chipIconSize = 2130903170;
+			public const int checkedIconTint = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int chipIconTint = 2130903171;
+			public const int checkedIconVisible = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int chipIconVisible = 2130903172;
+			public const int checkedTextViewStyle = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int chipMinHeight = 2130903173;
+			public const int chipBackgroundColor = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int chipMinTouchTargetSize = 2130903174;
+			public const int chipCornerRadius = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int chipSpacing = 2130903175;
+			public const int chipEndPadding = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int chipSpacingHorizontal = 2130903176;
+			public const int chipGroupStyle = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int chipSpacingVertical = 2130903177;
+			public const int chipIcon = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int chipStandaloneStyle = 2130903178;
+			public const int chipIconEnabled = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int chipStartPadding = 2130903179;
+			public const int chipIconSize = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int chipStrokeColor = 2130903180;
+			public const int chipIconTint = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int chipStrokeWidth = 2130903181;
+			public const int chipIconVisible = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int chipStyle = 2130903182;
+			public const int chipMinHeight = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int chipSurfaceColor = 2130903183;
+			public const int chipMinTouchTargetSize = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int closeIcon = 2130903184;
+			public const int chipSpacing = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int closeIconEnabled = 2130903185;
+			public const int chipSpacingHorizontal = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int closeIconEndPadding = 2130903186;
+			public const int chipSpacingVertical = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int closeIconSize = 2130903187;
+			public const int chipStandaloneStyle = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int closeIconStartPadding = 2130903188;
+			public const int chipStartPadding = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int closeIconTint = 2130903189;
+			public const int chipStrokeColor = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int closeIconVisible = 2130903190;
+			public const int chipStrokeWidth = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int closeItemLayout = 2130903191;
+			public const int chipStyle = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int collapseContentDescription = 2130903192;
-			
-			// aapt resource value: 0x7F03009A
-			public const int collapsedTitleGravity = 2130903194;
-			
-			// aapt resource value: 0x7F03009B
-			public const int collapsedTitleTextAppearance = 2130903195;
+			public const int chipSurfaceColor = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int collapseIcon = 2130903193;
+			public const int closeIcon = 2130903193;
+			
+			// aapt resource value: 0x7F03009A
+			public const int closeIconEnabled = 2130903194;
+			
+			// aapt resource value: 0x7F03009B
+			public const int closeIconEndPadding = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int collectionViewStyle = 2130903196;
+			public const int closeIconSize = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int color = 2130903197;
+			public const int closeIconStartPadding = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int colorAccent = 2130903198;
+			public const int closeIconTint = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int colorBackgroundFloating = 2130903199;
+			public const int closeIconVisible = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int colorButtonNormal = 2130903200;
+			public const int closeItemLayout = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int colorControlActivated = 2130903201;
-			
-			// aapt resource value: 0x7F0300A2
-			public const int colorControlHighlight = 2130903202;
+			public const int collapseContentDescription = 2130903201;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int colorControlNormal = 2130903203;
+			public const int collapsedTitleGravity = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int colorError = 2130903204;
+			public const int collapsedTitleTextAppearance = 2130903204;
+			
+			// aapt resource value: 0x7F0300A2
+			public const int collapseIcon = 2130903202;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int colorOnBackground = 2130903205;
+			public const int collectionViewStyle = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int colorOnError = 2130903206;
+			public const int color = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int colorOnPrimary = 2130903207;
+			public const int colorAccent = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int colorOnPrimarySurface = 2130903208;
+			public const int colorBackgroundFloating = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int colorOnSecondary = 2130903209;
+			public const int colorButtonNormal = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int colorOnSurface = 2130903210;
+			public const int colorControlActivated = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int colorPrimary = 2130903211;
+			public const int colorControlHighlight = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int colorPrimaryDark = 2130903212;
+			public const int colorControlNormal = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int colorPrimarySurface = 2130903213;
+			public const int colorError = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int colorPrimaryVariant = 2130903214;
+			public const int colorOnBackground = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int colorSecondary = 2130903215;
+			public const int colorOnError = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int colorSecondaryVariant = 2130903216;
+			public const int colorOnPrimary = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int colorSurface = 2130903217;
+			public const int colorOnPrimarySurface = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int colorSwitchThumbNormal = 2130903218;
+			public const int colorOnSecondary = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int commitIcon = 2130903219;
+			public const int colorOnSurface = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int contentDescription = 2130903220;
+			public const int colorPrimary = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int contentInsetEnd = 2130903221;
+			public const int colorPrimaryDark = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int contentInsetEndWithActions = 2130903222;
+			public const int colorPrimarySurface = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int contentInsetLeft = 2130903223;
+			public const int colorPrimaryVariant = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int contentInsetRight = 2130903224;
+			public const int colorSecondary = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int contentInsetStart = 2130903225;
+			public const int colorSecondaryVariant = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int contentInsetStartWithNavigation = 2130903226;
+			public const int colorSurface = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int contentPadding = 2130903227;
+			public const int colorSwitchThumbNormal = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int contentPaddingBottom = 2130903228;
+			public const int commitIcon = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int contentPaddingLeft = 2130903229;
+			public const int contentDescription = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int contentPaddingRight = 2130903230;
+			public const int contentInsetEnd = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int contentPaddingTop = 2130903231;
+			public const int contentInsetEndWithActions = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int contentScrim = 2130903232;
+			public const int contentInsetLeft = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int controlBackground = 2130903233;
+			public const int contentInsetRight = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int coordinatorLayoutStyle = 2130903234;
+			public const int contentInsetStart = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int cornerFamily = 2130903235;
+			public const int contentInsetStartWithNavigation = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int cornerFamilyBottomLeft = 2130903236;
+			public const int contentPadding = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int cornerFamilyBottomRight = 2130903237;
+			public const int contentPaddingBottom = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int cornerFamilyTopLeft = 2130903238;
+			public const int contentPaddingLeft = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int cornerFamilyTopRight = 2130903239;
+			public const int contentPaddingRight = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int cornerRadius = 2130903240;
+			public const int contentPaddingTop = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int cornerSize = 2130903241;
+			public const int contentScrim = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int cornerSizeBottomLeft = 2130903242;
+			public const int controlBackground = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int cornerSizeBottomRight = 2130903243;
+			public const int coordinatorLayoutStyle = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int cornerSizeTopLeft = 2130903244;
+			public const int cornerFamily = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int cornerSizeTopRight = 2130903245;
+			public const int cornerFamilyBottomLeft = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int counterEnabled = 2130903246;
+			public const int cornerFamilyBottomRight = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int counterMaxLength = 2130903247;
+			public const int cornerFamilyTopLeft = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int counterOverflowTextAppearance = 2130903248;
+			public const int cornerFamilyTopRight = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int counterOverflowTextColor = 2130903249;
+			public const int cornerRadius = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int counterTextAppearance = 2130903250;
+			public const int cornerSize = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int counterTextColor = 2130903251;
+			public const int cornerSizeBottomLeft = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int customNavigationLayout = 2130903252;
+			public const int cornerSizeBottomRight = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int dayInvalidStyle = 2130903253;
+			public const int cornerSizeTopLeft = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int daySelectedStyle = 2130903254;
+			public const int cornerSizeTopRight = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int dayStyle = 2130903255;
+			public const int counterEnabled = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int dayTodayStyle = 2130903256;
+			public const int counterMaxLength = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int defaultQueryHint = 2130903257;
+			public const int counterOverflowTextAppearance = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int dialogCornerRadius = 2130903258;
+			public const int counterOverflowTextColor = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int dialogPreferredPadding = 2130903259;
+			public const int counterTextAppearance = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int dialogTheme = 2130903260;
+			public const int counterTextColor = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int displayOptions = 2130903261;
+			public const int customNavigationLayout = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int divider = 2130903262;
+			public const int dayInvalidStyle = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int dividerHorizontal = 2130903263;
+			public const int daySelectedStyle = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int dividerPadding = 2130903264;
+			public const int dayStyle = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int dividerVertical = 2130903265;
+			public const int dayTodayStyle = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int drawableBottomCompat = 2130903266;
+			public const int defaultQueryHint = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int drawableEndCompat = 2130903267;
+			public const int dialogCornerRadius = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int drawableLeftCompat = 2130903268;
+			public const int dialogPreferredPadding = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int drawableRightCompat = 2130903269;
+			public const int dialogTheme = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int drawableSize = 2130903270;
+			public const int displayOptions = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int drawableStartCompat = 2130903271;
+			public const int divider = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int drawableTint = 2130903272;
+			public const int dividerHorizontal = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int drawableTintMode = 2130903273;
+			public const int dividerPadding = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int drawableTopCompat = 2130903274;
+			public const int dividerVertical = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int drawerArrowStyle = 2130903275;
+			public const int drawableBottomCompat = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int drawerLayoutStyle = 2130903276;
-			
-			// aapt resource value: 0x7F0300EE
-			public const int dropdownListPreferredItemHeight = 2130903278;
+			public const int drawableEndCompat = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int dropDownListViewStyle = 2130903277;
+			public const int drawableLeftCompat = 2130903277;
+			
+			// aapt resource value: 0x7F0300EE
+			public const int drawableRightCompat = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int editTextBackground = 2130903279;
+			public const int drawableSize = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int editTextColor = 2130903280;
+			public const int drawableStartCompat = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int editTextStyle = 2130903281;
+			public const int drawableTint = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int elevation = 2130903282;
+			public const int drawableTintMode = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int elevationOverlayColor = 2130903283;
+			public const int drawableTopCompat = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int elevationOverlayEnabled = 2130903284;
+			public const int drawerArrowStyle = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int endIconCheckable = 2130903285;
-			
-			// aapt resource value: 0x7F0300F6
-			public const int endIconContentDescription = 2130903286;
+			public const int drawerLayoutStyle = 2130903285;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int endIconDrawable = 2130903287;
+			public const int dropdownListPreferredItemHeight = 2130903287;
+			
+			// aapt resource value: 0x7F0300F6
+			public const int dropDownListViewStyle = 2130903286;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int endIconMode = 2130903288;
+			public const int editTextBackground = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int endIconTint = 2130903289;
+			public const int editTextColor = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int endIconTintMode = 2130903290;
+			public const int editTextStyle = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int enforceMaterialTheme = 2130903291;
+			public const int elevation = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int enforceTextAppearance = 2130903292;
+			public const int elevationOverlayColor = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int ensureMinTouchTargetSize = 2130903293;
+			public const int elevationOverlayEnabled = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int errorContentDescription = 2130903294;
+			public const int endIconCheckable = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int errorEnabled = 2130903295;
+			public const int endIconContentDescription = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int errorIconDrawable = 2130903296;
+			public const int endIconDrawable = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int errorIconTint = 2130903297;
+			public const int endIconMode = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int errorIconTintMode = 2130903298;
+			public const int endIconTint = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int errorTextAppearance = 2130903299;
+			public const int endIconTintMode = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int errorTextColor = 2130903300;
+			public const int enforceMaterialTheme = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int expandActivityOverflowButtonDrawable = 2130903301;
+			public const int enforceTextAppearance = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int expanded = 2130903302;
+			public const int ensureMinTouchTargetSize = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int expandedTitleGravity = 2130903303;
+			public const int errorContentDescription = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int expandedTitleMargin = 2130903304;
+			public const int errorEnabled = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int expandedTitleMarginBottom = 2130903305;
+			public const int errorIconDrawable = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int expandedTitleMarginEnd = 2130903306;
+			public const int errorIconTint = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int expandedTitleMarginStart = 2130903307;
+			public const int errorIconTintMode = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int expandedTitleMarginTop = 2130903308;
+			public const int errorTextAppearance = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int expandedTitleTextAppearance = 2130903309;
-			
-			// aapt resource value: 0x7F03010F
-			public const int extendedFloatingActionButtonStyle = 2130903311;
+			public const int errorTextColor = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int extendMotionSpec = 2130903310;
+			public const int expandActivityOverflowButtonDrawable = 2130903310;
+			
+			// aapt resource value: 0x7F03010F
+			public const int expanded = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int fabAlignmentMode = 2130903312;
+			public const int expandedTitleGravity = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int fabAnimationMode = 2130903313;
+			public const int expandedTitleMargin = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int fabCradleMargin = 2130903314;
+			public const int expandedTitleMarginBottom = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int fabCradleRoundedCornerRadius = 2130903315;
+			public const int expandedTitleMarginEnd = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int fabCradleVerticalOffset = 2130903316;
+			public const int expandedTitleMarginStart = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int fabCustomSize = 2130903317;
+			public const int expandedTitleMarginTop = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int fabSize = 2130903318;
-			
-			// aapt resource value: 0x7F030117
-			public const int fastScrollEnabled = 2130903319;
+			public const int expandedTitleTextAppearance = 2130903318;
 			
 			// aapt resource value: 0x7F030118
-			public const int fastScrollHorizontalThumbDrawable = 2130903320;
+			public const int extendedFloatingActionButtonStyle = 2130903320;
+			
+			// aapt resource value: 0x7F030117
+			public const int extendMotionSpec = 2130903319;
 			
 			// aapt resource value: 0x7F030119
-			public const int fastScrollHorizontalTrackDrawable = 2130903321;
+			public const int fabAlignmentMode = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int fastScrollVerticalThumbDrawable = 2130903322;
+			public const int fabAnimationMode = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int fastScrollVerticalTrackDrawable = 2130903323;
+			public const int fabCradleMargin = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int firstBaselineToTopHeight = 2130903324;
+			public const int fabCradleRoundedCornerRadius = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int floatingActionButtonStyle = 2130903325;
+			public const int fabCradleVerticalOffset = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int font = 2130903326;
+			public const int fabCustomSize = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int fontFamily = 2130903327;
+			public const int fabSize = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int fontProviderAuthority = 2130903328;
+			public const int fastScrollEnabled = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int fontProviderCerts = 2130903329;
+			public const int fastScrollHorizontalThumbDrawable = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int fontProviderFetchStrategy = 2130903330;
+			public const int fastScrollHorizontalTrackDrawable = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int fontProviderFetchTimeout = 2130903331;
+			public const int fastScrollVerticalThumbDrawable = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int fontProviderPackage = 2130903332;
+			public const int fastScrollVerticalTrackDrawable = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int fontProviderQuery = 2130903333;
+			public const int firstBaselineToTopHeight = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int fontStyle = 2130903334;
+			public const int floatingActionButtonStyle = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int fontVariationSettings = 2130903335;
+			public const int font = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int fontWeight = 2130903336;
+			public const int fontFamily = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int foregroundInsidePadding = 2130903337;
+			public const int fontProviderAuthority = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int gapBetweenBars = 2130903338;
+			public const int fontProviderCerts = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int gestureInsetBottomIgnored = 2130903339;
+			public const int fontProviderFetchStrategy = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int goIcon = 2130903340;
+			public const int fontProviderFetchTimeout = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int haloColor = 2130903341;
+			public const int fontProviderPackage = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int haloRadius = 2130903342;
+			public const int fontProviderQuery = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int headerLayout = 2130903343;
+			public const int fontStyle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int height = 2130903344;
+			public const int fontVariationSettings = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int helperText = 2130903345;
+			public const int fontWeight = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int helperTextEnabled = 2130903346;
+			public const int foregroundInsidePadding = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int helperTextTextAppearance = 2130903347;
+			public const int gapBetweenBars = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int helperTextTextColor = 2130903348;
+			public const int gestureInsetBottomIgnored = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int hideMotionSpec = 2130903349;
+			public const int goIcon = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int hideOnContentScroll = 2130903350;
+			public const int haloColor = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int hideOnScroll = 2130903351;
+			public const int haloRadius = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int hintAnimationEnabled = 2130903352;
+			public const int headerLayout = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int hintEnabled = 2130903353;
+			public const int height = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int hintTextAppearance = 2130903354;
+			public const int helperText = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int hintTextColor = 2130903355;
+			public const int helperTextEnabled = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int homeAsUpIndicator = 2130903356;
+			public const int helperTextTextAppearance = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int homeLayout = 2130903357;
+			public const int helperTextTextColor = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int horizontalOffset = 2130903358;
+			public const int hideMotionSpec = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int hoveredFocusedTranslationZ = 2130903359;
+			public const int hideOnContentScroll = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int icon = 2130903360;
+			public const int hideOnScroll = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int iconEndPadding = 2130903361;
+			public const int hintAnimationEnabled = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int iconGravity = 2130903362;
-			
-			// aapt resource value: 0x7F030148
-			public const int iconifiedByDefault = 2130903368;
+			public const int hintEnabled = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int iconPadding = 2130903363;
+			public const int hintTextAppearance = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int iconSize = 2130903364;
+			public const int hintTextColor = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int iconStartPadding = 2130903365;
+			public const int homeAsUpIndicator = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int iconTint = 2130903366;
+			public const int homeLayout = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int iconTintMode = 2130903367;
+			public const int horizontalOffset = 2130903367;
+			
+			// aapt resource value: 0x7F030148
+			public const int hoveredFocusedTranslationZ = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int imageButtonStyle = 2130903369;
+			public const int icon = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int indeterminateProgressStyle = 2130903370;
+			public const int iconEndPadding = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int initialActivityCount = 2130903371;
-			
-			// aapt resource value: 0x7F03014C
-			public const int insetForeground = 2130903372;
-			
-			// aapt resource value: 0x7F03014D
-			public const int isLightTheme = 2130903373;
-			
-			// aapt resource value: 0x7F03014E
-			public const int isMaterialTheme = 2130903374;
-			
-			// aapt resource value: 0x7F03014F
-			public const int itemBackground = 2130903375;
-			
-			// aapt resource value: 0x7F030150
-			public const int itemFillColor = 2130903376;
+			public const int iconGravity = 2130903371;
 			
 			// aapt resource value: 0x7F030151
-			public const int itemHorizontalPadding = 2130903377;
+			public const int iconifiedByDefault = 2130903377;
+			
+			// aapt resource value: 0x7F03014C
+			public const int iconPadding = 2130903372;
+			
+			// aapt resource value: 0x7F03014D
+			public const int iconSize = 2130903373;
+			
+			// aapt resource value: 0x7F03014E
+			public const int iconStartPadding = 2130903374;
+			
+			// aapt resource value: 0x7F03014F
+			public const int iconTint = 2130903375;
+			
+			// aapt resource value: 0x7F030150
+			public const int iconTintMode = 2130903376;
 			
 			// aapt resource value: 0x7F030152
-			public const int itemHorizontalTranslationEnabled = 2130903378;
+			public const int imageButtonStyle = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int itemIconPadding = 2130903379;
+			public const int indeterminateProgressStyle = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int itemIconSize = 2130903380;
+			public const int initialActivityCount = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int itemIconTint = 2130903381;
+			public const int insetForeground = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int itemMaxLines = 2130903382;
+			public const int isLightTheme = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int itemPadding = 2130903383;
+			public const int isMaterialTheme = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int itemRippleColor = 2130903384;
+			public const int itemBackground = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int itemShapeAppearance = 2130903385;
+			public const int itemFillColor = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int itemShapeAppearanceOverlay = 2130903386;
+			public const int itemHorizontalPadding = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int itemShapeFillColor = 2130903387;
+			public const int itemHorizontalTranslationEnabled = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int itemShapeInsetBottom = 2130903388;
+			public const int itemIconPadding = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int itemShapeInsetEnd = 2130903389;
+			public const int itemIconSize = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int itemShapeInsetStart = 2130903390;
+			public const int itemIconTint = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int itemShapeInsetTop = 2130903391;
+			public const int itemMaxLines = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int itemSpacing = 2130903392;
+			public const int itemPadding = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int itemStrokeColor = 2130903393;
+			public const int itemRippleColor = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int itemStrokeWidth = 2130903394;
+			public const int itemShapeAppearance = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int itemTextAppearance = 2130903395;
+			public const int itemShapeAppearanceOverlay = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int itemTextAppearanceActive = 2130903396;
+			public const int itemShapeFillColor = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int itemTextAppearanceInactive = 2130903397;
+			public const int itemShapeInsetBottom = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int itemTextColor = 2130903398;
+			public const int itemShapeInsetEnd = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int keylines = 2130903399;
+			public const int itemShapeInsetStart = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int labelBehavior = 2130903400;
+			public const int itemShapeInsetTop = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int labelStyle = 2130903401;
+			public const int itemSpacing = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int labelVisibilityMode = 2130903402;
+			public const int itemStrokeColor = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int lastBaselineToBottomHeight = 2130903403;
+			public const int itemStrokeWidth = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int layout = 2130903404;
+			public const int itemTextAppearance = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int layoutManager = 2130903405;
+			public const int itemTextAppearanceActive = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int layout_anchor = 2130903406;
+			public const int itemTextAppearanceInactive = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int layout_anchorGravity = 2130903407;
+			public const int itemTextColor = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int layout_behavior = 2130903408;
+			public const int keylines = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int layout_collapseMode = 2130903409;
+			public const int labelBehavior = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int layout_collapseParallaxMultiplier = 2130903410;
+			public const int labelStyle = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int layout_dodgeInsetEdges = 2130903411;
+			public const int labelVisibilityMode = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int layout_insetEdge = 2130903412;
+			public const int lastBaselineToBottomHeight = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int layout_keyline = 2130903413;
+			public const int layout = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int layout_scrollFlags = 2130903414;
+			public const int layoutManager = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int layout_scrollInterpolator = 2130903415;
+			public const int layout_anchor = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int liftOnScroll = 2130903416;
+			public const int layout_anchorGravity = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int liftOnScrollTargetViewId = 2130903417;
+			public const int layout_behavior = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int lineHeight = 2130903418;
+			public const int layout_collapseMode = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int lineSpacing = 2130903419;
+			public const int layout_collapseParallaxMultiplier = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int listChoiceBackgroundIndicator = 2130903420;
+			public const int layout_dodgeInsetEdges = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int listChoiceIndicatorMultipleAnimated = 2130903421;
+			public const int layout_insetEdge = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int listChoiceIndicatorSingleAnimated = 2130903422;
+			public const int layout_keyline = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int listDividerAlertDialog = 2130903423;
+			public const int layout_scrollFlags = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int listItemLayout = 2130903424;
+			public const int layout_scrollInterpolator = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int listLayout = 2130903425;
+			public const int liftOnScroll = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int listMenuViewStyle = 2130903426;
+			public const int liftOnScrollTargetViewId = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int listPopupWindowStyle = 2130903427;
+			public const int lineHeight = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int listPreferredItemHeight = 2130903428;
+			public const int lineSpacing = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int listPreferredItemHeightLarge = 2130903429;
+			public const int listChoiceBackgroundIndicator = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int listPreferredItemHeightSmall = 2130903430;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int listPreferredItemPaddingEnd = 2130903431;
+			public const int listChoiceIndicatorSingleAnimated = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int listPreferredItemPaddingLeft = 2130903432;
+			public const int listDividerAlertDialog = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int listPreferredItemPaddingRight = 2130903433;
+			public const int listItemLayout = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int listPreferredItemPaddingStart = 2130903434;
+			public const int listLayout = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int logo = 2130903435;
+			public const int listMenuViewStyle = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int logoDescription = 2130903436;
+			public const int listPopupWindowStyle = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int materialAlertDialogBodyTextStyle = 2130903437;
+			public const int listPreferredItemHeight = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int materialAlertDialogTheme = 2130903438;
+			public const int listPreferredItemHeightLarge = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int materialAlertDialogTitleIconStyle = 2130903439;
+			public const int listPreferredItemHeightSmall = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int materialAlertDialogTitlePanelStyle = 2130903440;
+			public const int listPreferredItemPaddingEnd = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int materialAlertDialogTitleTextStyle = 2130903441;
+			public const int listPreferredItemPaddingLeft = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int materialButtonOutlinedStyle = 2130903442;
+			public const int listPreferredItemPaddingRight = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int materialButtonStyle = 2130903443;
+			public const int listPreferredItemPaddingStart = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int materialButtonToggleGroupStyle = 2130903444;
+			public const int logo = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int materialCalendarDay = 2130903445;
+			public const int logoDescription = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int materialCalendarFullscreenTheme = 2130903446;
+			public const int materialAlertDialogBodyTextStyle = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int materialCalendarHeaderConfirmButton = 2130903447;
+			public const int materialAlertDialogTheme = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int materialCalendarHeaderDivider = 2130903448;
+			public const int materialAlertDialogTitleIconStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int materialCalendarHeaderLayout = 2130903449;
+			public const int materialAlertDialogTitlePanelStyle = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int materialCalendarHeaderSelection = 2130903450;
+			public const int materialAlertDialogTitleTextStyle = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int materialCalendarHeaderTitle = 2130903451;
+			public const int materialButtonOutlinedStyle = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int materialCalendarHeaderToggleButton = 2130903452;
+			public const int materialButtonStyle = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int materialCalendarStyle = 2130903453;
+			public const int materialButtonToggleGroupStyle = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int materialCalendarTheme = 2130903454;
+			public const int materialCalendarDay = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int materialCardViewStyle = 2130903455;
+			public const int materialCalendarFullscreenTheme = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int materialThemeOverlay = 2130903456;
+			public const int materialCalendarHeaderConfirmButton = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int maxActionInlineWidth = 2130903457;
+			public const int materialCalendarHeaderDivider = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int maxButtonHeight = 2130903458;
+			public const int materialCalendarHeaderLayout = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int maxCharacterCount = 2130903459;
+			public const int materialCalendarHeaderSelection = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int maxImageSize = 2130903460;
+			public const int materialCalendarHeaderTitle = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int maxLines = 2130903461;
+			public const int materialCalendarHeaderToggleButton = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int measureWithLargestChild = 2130903462;
+			public const int materialCalendarStyle = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int menu = 2130903463;
+			public const int materialCalendarTheme = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int minTouchTargetSize = 2130903464;
+			public const int materialCardViewStyle = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int multiChoiceItemLayout = 2130903465;
+			public const int materialThemeOverlay = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int navigationContentDescription = 2130903466;
+			public const int maxActionInlineWidth = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int navigationIcon = 2130903467;
+			public const int maxButtonHeight = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int navigationMode = 2130903468;
+			public const int maxCharacterCount = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int navigationViewStyle = 2130903469;
+			public const int maxImageSize = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int number = 2130903470;
+			public const int maxLines = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int numericModifiers = 2130903471;
+			public const int measureWithLargestChild = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int overlapAnchor = 2130903472;
+			public const int menu = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int paddingBottomNoButtons = 2130903473;
+			public const int minTouchTargetSize = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int paddingBottomSystemWindowInsets = 2130903474;
+			public const int multiChoiceItemLayout = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int paddingEnd = 2130903475;
+			public const int navigationContentDescription = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int paddingLeftSystemWindowInsets = 2130903476;
+			public const int navigationIcon = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int paddingRightSystemWindowInsets = 2130903477;
+			public const int navigationMode = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int paddingStart = 2130903478;
+			public const int navigationViewStyle = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int paddingTopNoTitle = 2130903479;
+			public const int number = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int panelBackground = 2130903480;
+			public const int numericModifiers = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int panelMenuListTheme = 2130903481;
+			public const int overlapAnchor = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int panelMenuListWidth = 2130903482;
+			public const int paddingBottomNoButtons = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int passwordToggleContentDescription = 2130903483;
+			public const int paddingBottomSystemWindowInsets = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int passwordToggleDrawable = 2130903484;
+			public const int paddingEnd = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int passwordToggleEnabled = 2130903485;
+			public const int paddingLeftSystemWindowInsets = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int passwordToggleTint = 2130903486;
+			public const int paddingRightSystemWindowInsets = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int passwordToggleTintMode = 2130903487;
+			public const int paddingStart = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int placeholderText = 2130903488;
+			public const int paddingTopNoTitle = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int placeholderTextAppearance = 2130903489;
+			public const int panelBackground = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int placeholderTextColor = 2130903490;
+			public const int panelMenuListTheme = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int popupMenuBackground = 2130903491;
+			public const int panelMenuListWidth = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int popupMenuStyle = 2130903492;
+			public const int passwordToggleContentDescription = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int popupTheme = 2130903493;
+			public const int passwordToggleDrawable = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int popupWindowStyle = 2130903494;
+			public const int passwordToggleEnabled = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int prefixText = 2130903495;
+			public const int passwordToggleTint = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int prefixTextAppearance = 2130903496;
+			public const int passwordToggleTintMode = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int prefixTextColor = 2130903497;
+			public const int placeholderText = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int preserveIconSpacing = 2130903498;
+			public const int placeholderTextAppearance = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int pressedTranslationZ = 2130903499;
+			public const int placeholderTextColor = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int progressBarPadding = 2130903500;
+			public const int popupMenuBackground = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int progressBarStyle = 2130903501;
+			public const int popupMenuStyle = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int queryBackground = 2130903502;
+			public const int popupTheme = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int queryHint = 2130903503;
+			public const int popupWindowStyle = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int radioButtonStyle = 2130903504;
+			public const int prefixText = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int rangeFillColor = 2130903505;
+			public const int prefixTextAppearance = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int ratingBarStyle = 2130903506;
+			public const int prefixTextColor = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int ratingBarStyleIndicator = 2130903507;
+			public const int preserveIconSpacing = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int ratingBarStyleSmall = 2130903508;
+			public const int pressedTranslationZ = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int recyclerViewStyle = 2130903509;
+			public const int progressBarPadding = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int reverseLayout = 2130903510;
+			public const int progressBarStyle = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int rippleColor = 2130903511;
+			public const int queryBackground = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int scrimAnimationDuration = 2130903512;
+			public const int queryHint = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int scrimBackground = 2130903513;
+			public const int radioButtonStyle = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int scrimVisibleHeightTrigger = 2130903514;
+			public const int rangeFillColor = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int scrollViewStyle = 2130903515;
+			public const int ratingBarStyle = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int searchHintIcon = 2130903516;
+			public const int ratingBarStyleIndicator = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int searchIcon = 2130903517;
+			public const int ratingBarStyleSmall = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int searchViewStyle = 2130903518;
+			public const int recyclerViewStyle = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int seekBarStyle = 2130903519;
+			public const int reverseLayout = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int selectableItemBackground = 2130903520;
+			public const int rippleColor = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int selectableItemBackgroundBorderless = 2130903521;
+			public const int scrimAnimationDuration = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int selectionRequired = 2130903522;
+			public const int scrimBackground = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int shapeAppearance = 2130903523;
+			public const int scrimVisibleHeightTrigger = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int shapeAppearanceLargeComponent = 2130903524;
+			public const int scrollViewStyle = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int shapeAppearanceMediumComponent = 2130903525;
+			public const int searchHintIcon = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int shapeAppearanceOverlay = 2130903526;
+			public const int searchIcon = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int shapeAppearanceSmallComponent = 2130903527;
+			public const int searchViewStyle = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int showAsAction = 2130903528;
+			public const int seekBarStyle = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int showDividers = 2130903529;
+			public const int selectableItemBackground = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int showMotionSpec = 2130903530;
+			public const int selectableItemBackgroundBorderless = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int showText = 2130903531;
+			public const int selectionRequired = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int showTitle = 2130903532;
+			public const int shapeAppearance = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int shrinkMotionSpec = 2130903533;
+			public const int shapeAppearanceLargeComponent = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int singleChoiceItemLayout = 2130903534;
+			public const int shapeAppearanceMediumComponent = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int singleLine = 2130903535;
+			public const int shapeAppearanceOverlay = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int singleSelection = 2130903536;
+			public const int shapeAppearanceSmallComponent = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int sliderStyle = 2130903537;
+			public const int showAsAction = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int snackbarButtonStyle = 2130903538;
+			public const int showDividers = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int snackbarStyle = 2130903539;
+			public const int showMotionSpec = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int snackbarTextViewStyle = 2130903540;
+			public const int showText = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int spanCount = 2130903541;
+			public const int showTitle = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int spinBars = 2130903542;
+			public const int shrinkMotionSpec = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int spinnerDropDownItemStyle = 2130903543;
+			public const int singleChoiceItemLayout = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int spinnerStyle = 2130903544;
+			public const int singleLine = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int splitTrack = 2130903545;
+			public const int singleSelection = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int srcCompat = 2130903546;
+			public const int sliderStyle = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int stackFromEnd = 2130903547;
+			public const int snackbarButtonStyle = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int startIconCheckable = 2130903548;
+			public const int snackbarStyle = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int startIconContentDescription = 2130903549;
+			public const int snackbarTextViewStyle = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int startIconDrawable = 2130903550;
+			public const int spanCount = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int startIconTint = 2130903551;
+			public const int spinBars = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int startIconTintMode = 2130903552;
+			public const int spinnerDropDownItemStyle = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int state_above_anchor = 2130903553;
+			public const int spinnerStyle = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int state_collapsed = 2130903554;
+			public const int splitTrack = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int state_collapsible = 2130903555;
+			public const int srcCompat = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int state_dragged = 2130903556;
+			public const int stackFromEnd = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int state_liftable = 2130903557;
+			public const int startIconCheckable = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int state_lifted = 2130903558;
+			public const int startIconContentDescription = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int statusBarBackground = 2130903559;
+			public const int startIconDrawable = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int statusBarForeground = 2130903560;
+			public const int startIconTint = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int statusBarScrim = 2130903561;
+			public const int startIconTintMode = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int strokeColor = 2130903562;
+			public const int state_above_anchor = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int strokeWidth = 2130903563;
+			public const int state_collapsed = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int subMenuArrow = 2130903564;
+			public const int state_collapsible = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int submitBackground = 2130903565;
+			public const int state_dragged = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int subtitle = 2130903566;
+			public const int state_liftable = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int subtitleTextAppearance = 2130903567;
+			public const int state_lifted = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int subtitleTextColor = 2130903568;
+			public const int statusBarBackground = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int subtitleTextStyle = 2130903569;
+			public const int statusBarForeground = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int suffixText = 2130903570;
+			public const int statusBarScrim = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int suffixTextAppearance = 2130903571;
+			public const int strokeColor = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int suffixTextColor = 2130903572;
+			public const int strokeWidth = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int suggestionRowLayout = 2130903573;
+			public const int subMenuArrow = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903574;
+			public const int submitBackground = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int switchMinWidth = 2130903575;
+			public const int subtitle = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int switchPadding = 2130903576;
+			public const int subtitleTextAppearance = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int switchStyle = 2130903577;
+			public const int subtitleTextColor = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int switchTextAppearance = 2130903578;
+			public const int subtitleTextStyle = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int tabBackground = 2130903579;
+			public const int suffixText = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int tabContentStart = 2130903580;
+			public const int suffixTextAppearance = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int tabGravity = 2130903581;
+			public const int suffixTextColor = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int tabIconTint = 2130903582;
+			public const int suggestionRowLayout = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int tabIconTintMode = 2130903583;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int tabIndicator = 2130903584;
+			public const int switchMinWidth = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int tabIndicatorAnimationDuration = 2130903585;
+			public const int switchPadding = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int tabIndicatorColor = 2130903586;
+			public const int switchStyle = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int tabIndicatorFullWidth = 2130903587;
+			public const int switchTextAppearance = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int tabIndicatorGravity = 2130903588;
+			public const int tabBackground = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int tabIndicatorHeight = 2130903589;
+			public const int tabContentStart = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int tabInlineLabel = 2130903590;
+			public const int tabGravity = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int tabMaxWidth = 2130903591;
+			public const int tabIconTint = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int tabMinWidth = 2130903592;
+			public const int tabIconTintMode = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int tabMode = 2130903593;
+			public const int tabIndicator = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int tabPadding = 2130903594;
+			public const int tabIndicatorAnimationDuration = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int tabPaddingBottom = 2130903595;
+			public const int tabIndicatorColor = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int tabPaddingEnd = 2130903596;
+			public const int tabIndicatorFullWidth = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int tabPaddingStart = 2130903597;
+			public const int tabIndicatorGravity = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int tabPaddingTop = 2130903598;
+			public const int tabIndicatorHeight = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int tabRippleColor = 2130903599;
+			public const int tabInlineLabel = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int tabSelectedTextColor = 2130903600;
+			public const int tabMaxWidth = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int tabStyle = 2130903601;
+			public const int tabMinWidth = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int tabTextAppearance = 2130903602;
+			public const int tabMode = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int tabTextColor = 2130903603;
+			public const int tabPadding = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int tabUnboundedRipple = 2130903604;
+			public const int tabPaddingBottom = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int textAllCaps = 2130903605;
+			public const int tabPaddingEnd = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int textAppearanceBody1 = 2130903606;
+			public const int tabPaddingStart = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int textAppearanceBody2 = 2130903607;
+			public const int tabPaddingTop = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int textAppearanceButton = 2130903608;
+			public const int tabRippleColor = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int textAppearanceCaption = 2130903609;
+			public const int tabSelectedTextColor = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int textAppearanceHeadline1 = 2130903610;
+			public const int tabStyle = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int textAppearanceHeadline2 = 2130903611;
+			public const int tabTextAppearance = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int textAppearanceHeadline3 = 2130903612;
+			public const int tabTextColor = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int textAppearanceHeadline4 = 2130903613;
+			public const int tabUnboundedRipple = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int textAppearanceHeadline5 = 2130903614;
+			public const int textAllCaps = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int textAppearanceHeadline6 = 2130903615;
+			public const int textAppearanceBody1 = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int textAppearanceLargePopupMenu = 2130903616;
+			public const int textAppearanceBody2 = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int textAppearanceLineHeightEnabled = 2130903617;
+			public const int textAppearanceButton = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int textAppearanceListItem = 2130903618;
+			public const int textAppearanceCaption = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int textAppearanceListItemSecondary = 2130903619;
+			public const int textAppearanceHeadline1 = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int textAppearanceListItemSmall = 2130903620;
+			public const int textAppearanceHeadline2 = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int textAppearanceOverline = 2130903621;
+			public const int textAppearanceHeadline3 = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int textAppearancePopupMenuHeader = 2130903622;
+			public const int textAppearanceHeadline4 = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int textAppearanceSearchResultSubtitle = 2130903623;
+			public const int textAppearanceHeadline5 = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int textAppearanceSearchResultTitle = 2130903624;
+			public const int textAppearanceHeadline6 = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int textAppearanceSmallPopupMenu = 2130903625;
+			public const int textAppearanceLargePopupMenu = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int textAppearanceSubtitle1 = 2130903626;
+			public const int textAppearanceLineHeightEnabled = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int textAppearanceSubtitle2 = 2130903627;
+			public const int textAppearanceListItem = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int textColorAlertDialogListItem = 2130903628;
+			public const int textAppearanceListItemSecondary = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int textColorSearchUrl = 2130903629;
+			public const int textAppearanceListItemSmall = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int textEndPadding = 2130903630;
+			public const int textAppearanceOverline = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int textInputLayoutFocusedRectEnabled = 2130903631;
+			public const int textAppearancePopupMenuHeader = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int textInputStyle = 2130903632;
+			public const int textAppearanceSearchResultSubtitle = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int textLocale = 2130903633;
+			public const int textAppearanceSearchResultTitle = 2130903633;
 			
 			// aapt resource value: 0x7F030252
-			public const int textStartPadding = 2130903634;
+			public const int textAppearanceSmallPopupMenu = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int theme = 2130903635;
+			public const int textAppearanceSubtitle1 = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int themeLineHeight = 2130903636;
+			public const int textAppearanceSubtitle2 = 2130903636;
 			
 			// aapt resource value: 0x7F030255
-			public const int thickness = 2130903637;
+			public const int textColorAlertDialogListItem = 2130903637;
 			
 			// aapt resource value: 0x7F030256
-			public const int thumbColor = 2130903638;
+			public const int textColorSearchUrl = 2130903638;
 			
 			// aapt resource value: 0x7F030257
-			public const int thumbElevation = 2130903639;
+			public const int textEndPadding = 2130903639;
 			
 			// aapt resource value: 0x7F030258
-			public const int thumbRadius = 2130903640;
+			public const int textInputLayoutFocusedRectEnabled = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int thumbTextPadding = 2130903641;
+			public const int textInputStyle = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int thumbTint = 2130903642;
+			public const int textLocale = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int thumbTintMode = 2130903643;
+			public const int textStartPadding = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int tickColor = 2130903644;
+			public const int theme = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int tickColorActive = 2130903645;
+			public const int themeLineHeight = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int tickColorInactive = 2130903646;
+			public const int thickness = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int tickMark = 2130903647;
+			public const int thumbColor = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int tickMarkTint = 2130903648;
+			public const int thumbElevation = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int tickMarkTintMode = 2130903649;
+			public const int thumbRadius = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int tint = 2130903650;
+			public const int thumbTextPadding = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int tintMode = 2130903651;
+			public const int thumbTint = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int title = 2130903652;
+			public const int thumbTintMode = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int titleEnabled = 2130903653;
+			public const int tickColor = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int titleMargin = 2130903654;
+			public const int tickColorActive = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int titleMarginBottom = 2130903655;
+			public const int tickColorInactive = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int titleMarginEnd = 2130903656;
-			
-			// aapt resource value: 0x7F03026B
-			public const int titleMargins = 2130903659;
+			public const int tickMark = 2130903656;
 			
 			// aapt resource value: 0x7F030269
-			public const int titleMarginStart = 2130903657;
+			public const int tickMarkTint = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int titleMarginTop = 2130903658;
+			public const int tickMarkTintMode = 2130903658;
+			
+			// aapt resource value: 0x7F03026B
+			public const int tint = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int titleTextAppearance = 2130903660;
+			public const int tintMode = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int titleTextColor = 2130903661;
+			public const int title = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int titleTextStyle = 2130903662;
+			public const int titleEnabled = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int toolbarId = 2130903663;
+			public const int titleMargin = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int toolbarNavigationButtonStyle = 2130903664;
+			public const int titleMarginBottom = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int toolbarStyle = 2130903665;
-			
-			// aapt resource value: 0x7F030272
-			public const int tooltipForegroundColor = 2130903666;
-			
-			// aapt resource value: 0x7F030273
-			public const int tooltipFrameBackground = 2130903667;
+			public const int titleMarginEnd = 2130903665;
 			
 			// aapt resource value: 0x7F030274
-			public const int tooltipStyle = 2130903668;
+			public const int titleMargins = 2130903668;
+			
+			// aapt resource value: 0x7F030272
+			public const int titleMarginStart = 2130903666;
+			
+			// aapt resource value: 0x7F030273
+			public const int titleMarginTop = 2130903667;
 			
 			// aapt resource value: 0x7F030275
-			public const int tooltipText = 2130903669;
+			public const int titleTextAppearance = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int track = 2130903670;
+			public const int titleTextColor = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int trackColor = 2130903671;
+			public const int titleTextStyle = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int trackColorActive = 2130903672;
+			public const int toolbarId = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int trackColorInactive = 2130903673;
+			public const int toolbarNavigationButtonStyle = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int trackHeight = 2130903674;
+			public const int toolbarStyle = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int trackTint = 2130903675;
+			public const int tooltipForegroundColor = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int trackTintMode = 2130903676;
+			public const int tooltipFrameBackground = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int transitionShapeAppearance = 2130903677;
+			public const int tooltipStyle = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int ttcIndex = 2130903678;
+			public const int tooltipText = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int useCompatPadding = 2130903679;
+			public const int track = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int useMaterialThemeColors = 2130903680;
+			public const int trackColor = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int values = 2130903681;
+			public const int trackColorActive = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int verticalOffset = 2130903682;
+			public const int trackColorInactive = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int viewInflaterClass = 2130903683;
+			public const int trackHeight = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int voiceIcon = 2130903684;
+			public const int trackTint = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int windowActionBar = 2130903685;
+			public const int trackTintMode = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int windowActionBarOverlay = 2130903686;
+			public const int transitionShapeAppearance = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int windowActionModeOverlay = 2130903687;
+			public const int ttcIndex = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int windowFixedHeightMajor = 2130903688;
+			public const int useCompatPadding = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int windowFixedHeightMinor = 2130903689;
+			public const int useMaterialThemeColors = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int windowFixedWidthMajor = 2130903690;
+			public const int values = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int windowFixedWidthMinor = 2130903691;
+			public const int verticalOffset = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int windowMinWidthMajor = 2130903692;
+			public const int viewInflaterClass = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int windowMinWidthMinor = 2130903693;
+			public const int voiceIcon = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int windowNoTitle = 2130903694;
+			public const int windowActionBar = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int yearSelectedStyle = 2130903695;
+			public const int windowActionBarOverlay = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int yearStyle = 2130903696;
+			public const int windowActionModeOverlay = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int yearTodayStyle = 2130903697;
+			public const int windowFixedHeightMajor = 2130903697;
+			
+			// aapt resource value: 0x7F030292
+			public const int windowFixedHeightMinor = 2130903698;
+			
+			// aapt resource value: 0x7F030293
+			public const int windowFixedWidthMajor = 2130903699;
+			
+			// aapt resource value: 0x7F030294
+			public const int windowFixedWidthMinor = 2130903700;
+			
+			// aapt resource value: 0x7F030295
+			public const int windowMinWidthMajor = 2130903701;
+			
+			// aapt resource value: 0x7F030296
+			public const int windowMinWidthMinor = 2130903702;
+			
+			// aapt resource value: 0x7F030297
+			public const int windowNoTitle = 2130903703;
+			
+			// aapt resource value: 0x7F030298
+			public const int yearSelectedStyle = 2130903704;
+			
+			// aapt resource value: 0x7F030299
+			public const int yearStyle = 2130903705;
+			
+			// aapt resource value: 0x7F03029A
+			public const int yearTodayStyle = 2130903706;
 			
 			static Attribute()
 			{
@@ -9755,481 +13498,481 @@ namespace FinStat.Mobile.Droid
 			public const int abc_tint_switch_track = 2131034136;
 			
 			// aapt resource value: 0x7F050019
-			public const int accent_material_dark = 2131034137;
+			public const int accent = 2131034137;
 			
 			// aapt resource value: 0x7F05001A
-			public const int accent_material_light = 2131034138;
+			public const int accent_material_dark = 2131034138;
 			
 			// aapt resource value: 0x7F05001B
-			public const int androidx_core_ripple_material_light = 2131034139;
+			public const int accent_material_light = 2131034139;
 			
 			// aapt resource value: 0x7F05001C
-			public const int androidx_core_secondary_text_default_material_light = 2131034140;
+			public const int androidx_core_ripple_material_light = 2131034140;
 			
 			// aapt resource value: 0x7F05001D
-			public const int background_floating_material_dark = 2131034141;
+			public const int androidx_core_secondary_text_default_material_light = 2131034141;
 			
 			// aapt resource value: 0x7F05001E
-			public const int background_floating_material_light = 2131034142;
+			public const int background_floating_material_dark = 2131034142;
 			
 			// aapt resource value: 0x7F05001F
-			public const int background_material_dark = 2131034143;
+			public const int background_floating_material_light = 2131034143;
 			
 			// aapt resource value: 0x7F050020
-			public const int background_material_light = 2131034144;
+			public const int background_material_dark = 2131034144;
 			
 			// aapt resource value: 0x7F050021
-			public const int bright_foreground_disabled_material_dark = 2131034145;
+			public const int background_material_light = 2131034145;
 			
 			// aapt resource value: 0x7F050022
-			public const int bright_foreground_disabled_material_light = 2131034146;
+			public const int bright_foreground_disabled_material_dark = 2131034146;
 			
 			// aapt resource value: 0x7F050023
-			public const int bright_foreground_inverse_material_dark = 2131034147;
+			public const int bright_foreground_disabled_material_light = 2131034147;
 			
 			// aapt resource value: 0x7F050024
-			public const int bright_foreground_inverse_material_light = 2131034148;
+			public const int bright_foreground_inverse_material_dark = 2131034148;
 			
 			// aapt resource value: 0x7F050025
-			public const int bright_foreground_material_dark = 2131034149;
+			public const int bright_foreground_inverse_material_light = 2131034149;
 			
 			// aapt resource value: 0x7F050026
-			public const int bright_foreground_material_light = 2131034150;
+			public const int bright_foreground_material_dark = 2131034150;
 			
 			// aapt resource value: 0x7F050027
-			public const int browser_actions_bg_grey = 2131034151;
+			public const int bright_foreground_material_light = 2131034151;
 			
 			// aapt resource value: 0x7F050028
-			public const int browser_actions_divider_color = 2131034152;
+			public const int browser_actions_bg_grey = 2131034152;
 			
 			// aapt resource value: 0x7F050029
-			public const int browser_actions_text_color = 2131034153;
+			public const int browser_actions_divider_color = 2131034153;
 			
 			// aapt resource value: 0x7F05002A
-			public const int browser_actions_title_color = 2131034154;
+			public const int browser_actions_text_color = 2131034154;
 			
 			// aapt resource value: 0x7F05002B
-			public const int button_material_dark = 2131034155;
+			public const int browser_actions_title_color = 2131034155;
 			
 			// aapt resource value: 0x7F05002C
-			public const int button_material_light = 2131034156;
+			public const int button_material_dark = 2131034156;
 			
 			// aapt resource value: 0x7F05002D
-			public const int cardview_dark_background = 2131034157;
+			public const int button_material_light = 2131034157;
 			
 			// aapt resource value: 0x7F05002E
-			public const int cardview_light_background = 2131034158;
+			public const int cardview_dark_background = 2131034158;
 			
 			// aapt resource value: 0x7F05002F
-			public const int cardview_shadow_end_color = 2131034159;
+			public const int cardview_light_background = 2131034159;
 			
 			// aapt resource value: 0x7F050030
-			public const int cardview_shadow_start_color = 2131034160;
+			public const int cardview_shadow_end_color = 2131034160;
 			
 			// aapt resource value: 0x7F050031
-			public const int checkbox_themeable_attribute_color = 2131034161;
+			public const int cardview_shadow_start_color = 2131034161;
 			
 			// aapt resource value: 0x7F050032
-			public const int colorAccent = 2131034162;
+			public const int checkbox_themeable_attribute_color = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int colorPrimary = 2131034163;
+			public const int design_bottom_navigation_shadow_color = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int colorPrimaryDark = 2131034164;
+			public const int design_box_stroke_color = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int design_bottom_navigation_shadow_color = 2131034165;
+			public const int design_dark_default_color_background = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int design_box_stroke_color = 2131034166;
+			public const int design_dark_default_color_error = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int design_dark_default_color_background = 2131034167;
+			public const int design_dark_default_color_on_background = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int design_dark_default_color_error = 2131034168;
+			public const int design_dark_default_color_on_error = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int design_dark_default_color_on_background = 2131034169;
+			public const int design_dark_default_color_on_primary = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int design_dark_default_color_on_error = 2131034170;
+			public const int design_dark_default_color_on_secondary = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int design_dark_default_color_on_primary = 2131034171;
+			public const int design_dark_default_color_on_surface = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int design_dark_default_color_on_secondary = 2131034172;
+			public const int design_dark_default_color_primary = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int design_dark_default_color_on_surface = 2131034173;
+			public const int design_dark_default_color_primary_dark = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int design_dark_default_color_primary = 2131034174;
+			public const int design_dark_default_color_primary_variant = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int design_dark_default_color_primary_dark = 2131034175;
+			public const int design_dark_default_color_secondary = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int design_dark_default_color_primary_variant = 2131034176;
+			public const int design_dark_default_color_secondary_variant = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int design_dark_default_color_secondary = 2131034177;
+			public const int design_dark_default_color_surface = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int design_dark_default_color_secondary_variant = 2131034178;
+			public const int design_default_color_background = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int design_dark_default_color_surface = 2131034179;
+			public const int design_default_color_error = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int design_default_color_background = 2131034180;
+			public const int design_default_color_on_background = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int design_default_color_error = 2131034181;
+			public const int design_default_color_on_error = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int design_default_color_on_background = 2131034182;
+			public const int design_default_color_on_primary = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int design_default_color_on_error = 2131034183;
+			public const int design_default_color_on_secondary = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int design_default_color_on_primary = 2131034184;
+			public const int design_default_color_on_surface = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int design_default_color_on_secondary = 2131034185;
+			public const int design_default_color_primary = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int design_default_color_on_surface = 2131034186;
+			public const int design_default_color_primary_dark = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int design_default_color_primary = 2131034187;
+			public const int design_default_color_primary_variant = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int design_default_color_primary_dark = 2131034188;
+			public const int design_default_color_secondary = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int design_default_color_primary_variant = 2131034189;
+			public const int design_default_color_secondary_variant = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int design_default_color_secondary = 2131034190;
+			public const int design_default_color_surface = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int design_default_color_secondary_variant = 2131034191;
+			public const int design_error = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int design_default_color_surface = 2131034192;
+			public const int design_fab_shadow_end_color = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int design_error = 2131034193;
+			public const int design_fab_shadow_mid_color = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int design_fab_shadow_end_color = 2131034194;
+			public const int design_fab_shadow_start_color = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int design_fab_shadow_mid_color = 2131034195;
+			public const int design_fab_stroke_end_inner_color = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int design_fab_shadow_start_color = 2131034196;
+			public const int design_fab_stroke_end_outer_color = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int design_fab_stroke_end_inner_color = 2131034197;
+			public const int design_fab_stroke_top_inner_color = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int design_fab_stroke_end_outer_color = 2131034198;
+			public const int design_fab_stroke_top_outer_color = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int design_fab_stroke_top_inner_color = 2131034199;
+			public const int design_icon_tint = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int design_fab_stroke_top_outer_color = 2131034200;
+			public const int design_snackbar_background_color = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int design_icon_tint = 2131034201;
+			public const int dim_foreground_disabled_material_dark = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int design_snackbar_background_color = 2131034202;
+			public const int dim_foreground_disabled_material_light = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int dim_foreground_disabled_material_dark = 2131034203;
+			public const int dim_foreground_material_dark = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int dim_foreground_disabled_material_light = 2131034204;
+			public const int dim_foreground_material_light = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int dim_foreground_material_dark = 2131034205;
+			public const int error_color_material_dark = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int dim_foreground_material_light = 2131034206;
+			public const int error_color_material_light = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int error_color_material_dark = 2131034207;
+			public const int foreground_material_dark = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int error_color_material_light = 2131034208;
+			public const int foreground_material_light = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int foreground_material_dark = 2131034209;
+			public const int highlighted_text_material_dark = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int foreground_material_light = 2131034210;
+			public const int highlighted_text_material_light = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int highlighted_text_material_dark = 2131034211;
+			public const int launcher_background = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int highlighted_text_material_light = 2131034212;
+			public const int material_blue_grey_800 = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int launcher_background = 2131034213;
+			public const int material_blue_grey_900 = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int material_blue_grey_800 = 2131034214;
+			public const int material_blue_grey_950 = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int material_blue_grey_900 = 2131034215;
+			public const int material_deep_teal_200 = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int material_blue_grey_950 = 2131034216;
+			public const int material_deep_teal_500 = 2131034216;
 			
 			// aapt resource value: 0x7F050069
-			public const int material_deep_teal_200 = 2131034217;
+			public const int material_grey_100 = 2131034217;
 			
 			// aapt resource value: 0x7F05006A
-			public const int material_deep_teal_500 = 2131034218;
+			public const int material_grey_300 = 2131034218;
 			
 			// aapt resource value: 0x7F05006B
-			public const int material_grey_100 = 2131034219;
+			public const int material_grey_50 = 2131034219;
 			
 			// aapt resource value: 0x7F05006C
-			public const int material_grey_300 = 2131034220;
+			public const int material_grey_600 = 2131034220;
 			
 			// aapt resource value: 0x7F05006D
-			public const int material_grey_50 = 2131034221;
+			public const int material_grey_800 = 2131034221;
 			
 			// aapt resource value: 0x7F05006E
-			public const int material_grey_600 = 2131034222;
+			public const int material_grey_850 = 2131034222;
 			
 			// aapt resource value: 0x7F05006F
-			public const int material_grey_800 = 2131034223;
+			public const int material_grey_900 = 2131034223;
 			
 			// aapt resource value: 0x7F050070
-			public const int material_grey_850 = 2131034224;
+			public const int material_on_background_disabled = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int material_grey_900 = 2131034225;
+			public const int material_on_background_emphasis_high_type = 2131034225;
 			
 			// aapt resource value: 0x7F050072
-			public const int material_on_background_disabled = 2131034226;
+			public const int material_on_background_emphasis_medium = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int material_on_background_emphasis_high_type = 2131034227;
+			public const int material_on_primary_disabled = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int material_on_background_emphasis_medium = 2131034228;
+			public const int material_on_primary_emphasis_high_type = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int material_on_primary_disabled = 2131034229;
+			public const int material_on_primary_emphasis_medium = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int material_on_primary_emphasis_high_type = 2131034230;
+			public const int material_on_surface_disabled = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int material_on_primary_emphasis_medium = 2131034231;
+			public const int material_on_surface_emphasis_high_type = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int material_on_surface_disabled = 2131034232;
+			public const int material_on_surface_emphasis_medium = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int material_on_surface_emphasis_high_type = 2131034233;
+			public const int material_on_surface_stroke = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int material_on_surface_emphasis_medium = 2131034234;
+			public const int material_slider_active_tick_marks_color = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int material_on_surface_stroke = 2131034235;
+			public const int material_slider_active_track_color = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int material_slider_active_tick_marks_color = 2131034236;
+			public const int material_slider_halo_color = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int material_slider_active_track_color = 2131034237;
+			public const int material_slider_inactive_tick_marks_color = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int material_slider_halo_color = 2131034238;
+			public const int material_slider_inactive_track_color = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int material_slider_inactive_tick_marks_color = 2131034239;
+			public const int material_slider_thumb_color = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int material_slider_inactive_track_color = 2131034240;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int material_slider_thumb_color = 2131034241;
+			public const int mtrl_bottom_nav_colored_ripple_color = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034242;
+			public const int mtrl_bottom_nav_item_tint = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int mtrl_bottom_nav_colored_ripple_color = 2131034243;
+			public const int mtrl_bottom_nav_ripple_color = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int mtrl_bottom_nav_item_tint = 2131034244;
+			public const int mtrl_btn_bg_color_selector = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int mtrl_bottom_nav_ripple_color = 2131034245;
+			public const int mtrl_btn_ripple_color = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int mtrl_btn_bg_color_selector = 2131034246;
+			public const int mtrl_btn_stroke_color_selector = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int mtrl_btn_ripple_color = 2131034247;
+			public const int mtrl_btn_text_btn_bg_color_selector = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int mtrl_btn_stroke_color_selector = 2131034248;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034248;
 			
 			// aapt resource value: 0x7F050089
-			public const int mtrl_btn_text_btn_bg_color_selector = 2131034249;
+			public const int mtrl_btn_text_color_disabled = 2131034249;
 			
 			// aapt resource value: 0x7F05008A
-			public const int mtrl_btn_text_btn_ripple_color = 2131034250;
+			public const int mtrl_btn_text_color_selector = 2131034250;
 			
 			// aapt resource value: 0x7F05008B
-			public const int mtrl_btn_text_color_disabled = 2131034251;
+			public const int mtrl_btn_transparent_bg_color = 2131034251;
 			
 			// aapt resource value: 0x7F05008C
-			public const int mtrl_btn_text_color_selector = 2131034252;
+			public const int mtrl_calendar_item_stroke_color = 2131034252;
 			
 			// aapt resource value: 0x7F05008D
-			public const int mtrl_btn_transparent_bg_color = 2131034253;
+			public const int mtrl_calendar_selected_range = 2131034253;
 			
 			// aapt resource value: 0x7F05008E
-			public const int mtrl_calendar_item_stroke_color = 2131034254;
+			public const int mtrl_card_view_foreground = 2131034254;
 			
 			// aapt resource value: 0x7F05008F
-			public const int mtrl_calendar_selected_range = 2131034255;
+			public const int mtrl_card_view_ripple = 2131034255;
 			
 			// aapt resource value: 0x7F050090
-			public const int mtrl_card_view_foreground = 2131034256;
+			public const int mtrl_chip_background_color = 2131034256;
 			
 			// aapt resource value: 0x7F050091
-			public const int mtrl_card_view_ripple = 2131034257;
+			public const int mtrl_chip_close_icon_tint = 2131034257;
 			
 			// aapt resource value: 0x7F050092
-			public const int mtrl_chip_background_color = 2131034258;
+			public const int mtrl_chip_ripple_color = 2131034258;
 			
 			// aapt resource value: 0x7F050093
-			public const int mtrl_chip_close_icon_tint = 2131034259;
+			public const int mtrl_chip_surface_color = 2131034259;
 			
 			// aapt resource value: 0x7F050094
-			public const int mtrl_chip_ripple_color = 2131034260;
+			public const int mtrl_chip_text_color = 2131034260;
 			
 			// aapt resource value: 0x7F050095
-			public const int mtrl_chip_surface_color = 2131034261;
+			public const int mtrl_choice_chip_background_color = 2131034261;
 			
 			// aapt resource value: 0x7F050096
-			public const int mtrl_chip_text_color = 2131034262;
+			public const int mtrl_choice_chip_ripple_color = 2131034262;
 			
 			// aapt resource value: 0x7F050097
-			public const int mtrl_choice_chip_background_color = 2131034263;
+			public const int mtrl_choice_chip_text_color = 2131034263;
 			
 			// aapt resource value: 0x7F050098
-			public const int mtrl_choice_chip_ripple_color = 2131034264;
+			public const int mtrl_error = 2131034264;
 			
 			// aapt resource value: 0x7F050099
-			public const int mtrl_choice_chip_text_color = 2131034265;
+			public const int mtrl_fab_bg_color_selector = 2131034265;
 			
 			// aapt resource value: 0x7F05009A
-			public const int mtrl_error = 2131034266;
+			public const int mtrl_fab_icon_text_color_selector = 2131034266;
 			
 			// aapt resource value: 0x7F05009B
-			public const int mtrl_fab_bg_color_selector = 2131034267;
+			public const int mtrl_fab_ripple_color = 2131034267;
 			
 			// aapt resource value: 0x7F05009C
-			public const int mtrl_fab_icon_text_color_selector = 2131034268;
+			public const int mtrl_filled_background_color = 2131034268;
 			
 			// aapt resource value: 0x7F05009D
-			public const int mtrl_fab_ripple_color = 2131034269;
+			public const int mtrl_filled_icon_tint = 2131034269;
 			
 			// aapt resource value: 0x7F05009E
-			public const int mtrl_filled_background_color = 2131034270;
+			public const int mtrl_filled_stroke_color = 2131034270;
 			
 			// aapt resource value: 0x7F05009F
-			public const int mtrl_filled_icon_tint = 2131034271;
+			public const int mtrl_indicator_text_color = 2131034271;
 			
 			// aapt resource value: 0x7F0500A0
-			public const int mtrl_filled_stroke_color = 2131034272;
+			public const int mtrl_navigation_item_background_color = 2131034272;
 			
 			// aapt resource value: 0x7F0500A1
-			public const int mtrl_indicator_text_color = 2131034273;
+			public const int mtrl_navigation_item_icon_tint = 2131034273;
 			
 			// aapt resource value: 0x7F0500A2
-			public const int mtrl_navigation_item_background_color = 2131034274;
+			public const int mtrl_navigation_item_text_color = 2131034274;
 			
 			// aapt resource value: 0x7F0500A3
-			public const int mtrl_navigation_item_icon_tint = 2131034275;
+			public const int mtrl_on_primary_text_btn_text_color_selector = 2131034275;
 			
 			// aapt resource value: 0x7F0500A4
-			public const int mtrl_navigation_item_text_color = 2131034276;
+			public const int mtrl_outlined_icon_tint = 2131034276;
 			
 			// aapt resource value: 0x7F0500A5
-			public const int mtrl_on_primary_text_btn_text_color_selector = 2131034277;
+			public const int mtrl_outlined_stroke_color = 2131034277;
 			
 			// aapt resource value: 0x7F0500A6
-			public const int mtrl_outlined_icon_tint = 2131034278;
+			public const int mtrl_popupmenu_overlay_color = 2131034278;
 			
 			// aapt resource value: 0x7F0500A7
-			public const int mtrl_outlined_stroke_color = 2131034279;
+			public const int mtrl_scrim_color = 2131034279;
 			
 			// aapt resource value: 0x7F0500A8
-			public const int mtrl_popupmenu_overlay_color = 2131034280;
+			public const int mtrl_tabs_colored_ripple_color = 2131034280;
 			
 			// aapt resource value: 0x7F0500A9
-			public const int mtrl_scrim_color = 2131034281;
+			public const int mtrl_tabs_icon_color_selector = 2131034281;
 			
 			// aapt resource value: 0x7F0500AA
-			public const int mtrl_tabs_colored_ripple_color = 2131034282;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034282;
 			
 			// aapt resource value: 0x7F0500AB
-			public const int mtrl_tabs_icon_color_selector = 2131034283;
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034283;
 			
 			// aapt resource value: 0x7F0500AC
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034284;
-			
-			// aapt resource value: 0x7F0500AD
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034285;
+			public const int mtrl_tabs_ripple_color = 2131034284;
 			
 			// aapt resource value: 0x7F0500AE
-			public const int mtrl_tabs_ripple_color = 2131034286;
-			
-			// aapt resource value: 0x7F0500B0
-			public const int mtrl_textinput_default_box_stroke_color = 2131034288;
-			
-			// aapt resource value: 0x7F0500B1
-			public const int mtrl_textinput_disabled_color = 2131034289;
-			
-			// aapt resource value: 0x7F0500B2
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034290;
-			
-			// aapt resource value: 0x7F0500B3
-			public const int mtrl_textinput_focused_box_stroke_color = 2131034291;
-			
-			// aapt resource value: 0x7F0500B4
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034292;
+			public const int mtrl_textinput_default_box_stroke_color = 2131034286;
 			
 			// aapt resource value: 0x7F0500AF
-			public const int mtrl_text_btn_text_color_selector = 2131034287;
+			public const int mtrl_textinput_disabled_color = 2131034287;
+			
+			// aapt resource value: 0x7F0500B0
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034288;
+			
+			// aapt resource value: 0x7F0500B1
+			public const int mtrl_textinput_focused_box_stroke_color = 2131034289;
+			
+			// aapt resource value: 0x7F0500B2
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034290;
+			
+			// aapt resource value: 0x7F0500AD
+			public const int mtrl_text_btn_text_color_selector = 2131034285;
+			
+			// aapt resource value: 0x7F0500B3
+			public const int notification_action_color_filter = 2131034291;
+			
+			// aapt resource value: 0x7F0500B4
+			public const int notification_icon_bg_color = 2131034292;
 			
 			// aapt resource value: 0x7F0500B5
-			public const int notification_action_color_filter = 2131034293;
+			public const int notification_material_background_media_default_color = 2131034293;
 			
 			// aapt resource value: 0x7F0500B6
-			public const int notification_icon_bg_color = 2131034294;
+			public const int primary = 2131034294;
 			
 			// aapt resource value: 0x7F0500B7
-			public const int notification_material_background_media_default_color = 2131034295;
+			public const int primaryDark = 2131034295;
 			
 			// aapt resource value: 0x7F0500B8
 			public const int primary_dark_material_dark = 2131034296;
@@ -10277,34 +14020,40 @@ namespace FinStat.Mobile.Droid
 			public const int secondary_text_disabled_material_light = 2131034310;
 			
 			// aapt resource value: 0x7F0500C7
-			public const int switch_thumb_disabled_material_dark = 2131034311;
+			public const int splash_background = 2131034311;
 			
 			// aapt resource value: 0x7F0500C8
-			public const int switch_thumb_disabled_material_light = 2131034312;
+			public const int switch_thumb_disabled_material_dark = 2131034312;
 			
 			// aapt resource value: 0x7F0500C9
-			public const int switch_thumb_material_dark = 2131034313;
+			public const int switch_thumb_disabled_material_light = 2131034313;
 			
 			// aapt resource value: 0x7F0500CA
-			public const int switch_thumb_material_light = 2131034314;
+			public const int switch_thumb_material_dark = 2131034314;
 			
 			// aapt resource value: 0x7F0500CB
-			public const int switch_thumb_normal_material_dark = 2131034315;
+			public const int switch_thumb_material_light = 2131034315;
 			
 			// aapt resource value: 0x7F0500CC
-			public const int switch_thumb_normal_material_light = 2131034316;
+			public const int switch_thumb_normal_material_dark = 2131034316;
 			
 			// aapt resource value: 0x7F0500CD
-			public const int test_mtrl_calendar_day = 2131034317;
+			public const int switch_thumb_normal_material_light = 2131034317;
 			
 			// aapt resource value: 0x7F0500CE
-			public const int test_mtrl_calendar_day_selected = 2131034318;
+			public const int test_mtrl_calendar_day = 2131034318;
 			
 			// aapt resource value: 0x7F0500CF
-			public const int tooltip_background_dark = 2131034319;
+			public const int test_mtrl_calendar_day_selected = 2131034319;
 			
 			// aapt resource value: 0x7F0500D0
-			public const int tooltip_background_light = 2131034320;
+			public const int tooltip_background_dark = 2131034320;
+			
+			// aapt resource value: 0x7F0500D1
+			public const int tooltip_background_light = 2131034321;
+			
+			// aapt resource value: 0x7F0500D2
+			public const int window_background = 2131034322;
 			
 			static Color()
 			{
@@ -11632,169 +15381,271 @@ namespace FinStat.Mobile.Droid
 			public const int abc_vector_test = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int avd_hide_password = 2131165276;
+			public const int Avatar1 = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int avd_show_password = 2131165277;
+			public const int Avatar10 = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_checkbox_checked_mtrl = 2131165278;
+			public const int Avatar11 = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165279;
+			public const int Avatar12 = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int btn_checkbox_unchecked_mtrl = 2131165280;
+			public const int Avatar13 = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165281;
+			public const int Avatar14 = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int btn_radio_off_mtrl = 2131165282;
+			public const int Avatar15 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165283;
+			public const int Avatar16 = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int btn_radio_on_mtrl = 2131165284;
+			public const int Avatar17 = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165285;
+			public const int Avatar18 = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_bottom_navigation_item_background = 2131165286;
+			public const int Avatar19 = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int design_fab_background = 2131165287;
+			public const int Avatar2 = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int design_ic_visibility = 2131165288;
+			public const int Avatar20 = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int design_ic_visibility_off = 2131165289;
+			public const int Avatar21 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int design_password_eye = 2131165290;
+			public const int Avatar22 = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int design_snackbar_background = 2131165291;
-			
-			// aapt resource value: 0x7F070070
-			public const int icon_about = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int icon_feed = 2131165297;
+			public const int Avatar23 = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_mtrl_checked_circle = 2131165292;
+			public const int Avatar24 = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_chip_checked_black = 2131165293;
+			public const int Avatar25 = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_checked_circle = 2131165294;
+			public const int Avatar26 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_close_circle = 2131165295;
+			public const int Avatar27 = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int Avatar28 = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int Avatar29 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_calendar_black_24dp = 2131165298;
+			public const int Avatar3 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_clear_black_24dp = 2131165299;
+			public const int Avatar30 = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_edit_black_24dp = 2131165300;
+			public const int Avatar4 = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165301;
+			public const int Avatar5 = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165302;
+			public const int Avatar6 = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165303;
+			public const int Avatar7 = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165304;
+			public const int Avatar8 = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_dialog_background = 2131165305;
+			public const int Avatar9 = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_dropdown_arrow = 2131165306;
+			public const int avd_hide_password = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_ic_arrow_drop_down = 2131165307;
+			public const int avd_show_password = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_ic_arrow_drop_up = 2131165308;
+			public const int btn_checkbox_checked_mtrl = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_ic_cancel = 2131165309;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_ic_error = 2131165310;
+			public const int btn_checkbox_unchecked_mtrl = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_popupmenu_background = 2131165311;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_popupmenu_background_dark = 2131165312;
+			public const int btn_radio_off_mtrl = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_tabs_default_indicator = 2131165313;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int navigation_empty_icon = 2131165314;
+			public const int btn_radio_on_mtrl = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_action_background = 2131165315;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg = 2131165316;
+			public const int clear_button_icon = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_low = 2131165317;
+			public const int design_bottom_navigation_item_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_normal = 2131165318;
+			public const int design_fab_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_pressed = 2131165319;
+			public const int design_ic_visibility = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal = 2131165320;
+			public const int design_ic_visibility_off = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal_pressed = 2131165321;
+			public const int design_password_eye = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_icon_background = 2131165322;
-			
-			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_bg = 2131165323;
-			
-			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_low_bg = 2131165324;
-			
-			// aapt resource value: 0x7F07008D
-			public const int notification_tile_bg = 2131165325;
-			
-			// aapt resource value: 0x7F07008E
-			public const int notify_panel_notification_icon_bg = 2131165326;
+			public const int design_snackbar_background = 2131165322;
 			
 			// aapt resource value: 0x7F07008F
-			public const int test_custom_background = 2131165327;
+			public const int icon_about = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_dark = 2131165328;
+			public const int icon_feed = 2131165328;
 			
-			// aapt resource value: 0x7F070091
-			public const int tooltip_frame_light = 2131165329;
+			// aapt resource value: 0x7F07008B
+			public const int ic_mtrl_checked_circle = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int ic_mtrl_chip_checked_black = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int ic_mtrl_chip_checked_circle = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int ic_mtrl_chip_close_circle = 2131165326;
 			
 			// aapt resource value: 0x7F070092
-			public const int xamarin_logo = 2131165330;
+			public const int inputlayout_togglecollapseicon = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int inputlayout_togglevisibleicon = 2131165331;
+			
+			// aapt resource value: 0x7F070091
+			public const int input_layout_drop_down_icon = 2131165329;
+			
+			// aapt resource value: 0x7F070094
+			public const int material_ic_calendar_black_24dp = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int material_ic_clear_black_24dp = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int material_ic_edit_black_24dp = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int mtrl_dialog_background = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int mtrl_dropdown_arrow = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int mtrl_ic_arrow_drop_down = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int mtrl_ic_arrow_drop_up = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int mtrl_ic_cancel = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int mtrl_ic_error = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int mtrl_popupmenu_background = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int mtrl_popupmenu_background_dark = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int mtrl_tabs_default_indicator = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int navigation_empty_icon = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int notification_action_background = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int notification_bg = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int notification_bg_low = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int notification_bg_low_normal = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int notification_bg_low_pressed = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int notification_bg_normal = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int notification_bg_normal_pressed = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int notification_icon_background = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int notification_template_icon_bg = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int notification_template_icon_low_bg = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int notification_tile_bg = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int notify_panel_notification_icon_bg = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int test_custom_background = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int tooltip_frame_dark = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int tooltip_frame_light = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int xamarin_logo = 2131165364;
 			
 			static Drawable()
 			{
@@ -11990,19 +15841,25 @@ namespace FinStat.Mobile.Droid
 			public const int auto = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int beginning = 2131230789;
+			public const int ball = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int blocking = 2131230790;
+			public const int battery = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int bottom = 2131230791;
+			public const int beginning = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int bottomtab_navarea = 2131230792;
+			public const int blocking = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int bottomtab_tabbar = 2131230793;
+			public const int bottom = 2131230793;
+			
+			// aapt resource value: 0x7F08004A
+			public const int bottomtab_navarea = 2131230794;
+			
+			// aapt resource value: 0x7F08004B
+			public const int bottomtab_tabbar = 2131230795;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -12010,692 +15867,731 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F08004A
-			public const int browser_actions_header_text = 2131230794;
+			// aapt resource value: 0x7F08004C
+			public const int box = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int browser_actions_menu_items = 2131230797;
-			
-			// aapt resource value: 0x7F08004B
-			public const int browser_actions_menu_item_icon = 2131230795;
-			
-			// aapt resource value: 0x7F08004C
-			public const int browser_actions_menu_item_text = 2131230796;
-			
-			// aapt resource value: 0x7F08004E
-			public const int browser_actions_menu_view = 2131230798;
-			
-			// aapt resource value: 0x7F08004F
-			public const int buttonPanel = 2131230799;
+			public const int browser_actions_header_text = 2131230797;
 			
 			// aapt resource value: 0x7F080050
-			public const int cancel_action = 2131230800;
+			public const int browser_actions_menu_items = 2131230800;
+			
+			// aapt resource value: 0x7F08004E
+			public const int browser_actions_menu_item_icon = 2131230798;
+			
+			// aapt resource value: 0x7F08004F
+			public const int browser_actions_menu_item_text = 2131230799;
 			
 			// aapt resource value: 0x7F080051
-			public const int cancel_button = 2131230801;
+			public const int browser_actions_menu_view = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int center = 2131230802;
+			public const int buttonPanel = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int center_horizontal = 2131230803;
+			public const int cancel_action = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int center_vertical = 2131230804;
+			public const int cancel_button = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int checkbox = 2131230805;
+			public const int center = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int @checked = 2131230806;
+			public const int center_horizontal = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int chip = 2131230807;
+			public const int center_vertical = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int chip1 = 2131230808;
+			public const int checkbox = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int chip2 = 2131230809;
+			public const int @checked = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int chip3 = 2131230810;
+			public const int chip = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int chip_group = 2131230811;
+			public const int chip1 = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int chronometer = 2131230812;
+			public const int chip2 = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int clear_text = 2131230813;
+			public const int chip3 = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int clip_horizontal = 2131230814;
+			public const int chip_group = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int clip_vertical = 2131230815;
+			public const int chronometer = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int collapseActionView = 2131230816;
+			public const int clear_text = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int confirm_button = 2131230817;
+			public const int clip_horizontal = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int container = 2131230818;
+			public const int clip_vertical = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int content = 2131230819;
+			public const int collapseActionView = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int contentPanel = 2131230820;
+			public const int confirm_button = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int coordinator = 2131230821;
+			public const int container = 2131230821;
+			
+			// aapt resource value: 0x7F080066
+			public const int content = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int contentPanel = 2131230823;
+			
+			// aapt resource value: 0x7F080068
+			public const int coordinator = 2131230824;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F080066
-			public const int custom = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int customPanel = 2131230823;
-			
-			// aapt resource value: 0x7F080068
-			public const int cut = 2131230824;
-			
 			// aapt resource value: 0x7F080069
-			public const int date_picker_actions = 2131230825;
+			public const int cupertino = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int decor_content_parent = 2131230826;
+			public const int custom = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int default_activity_button = 2131230827;
+			public const int customPanel = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int design_bottom_sheet = 2131230828;
+			public const int cut = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int design_menu_item_action_area = 2131230829;
+			public const int date_picker_actions = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int design_menu_item_action_area_stub = 2131230830;
+			public const int decor_content_parent = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int design_menu_item_text = 2131230831;
+			public const int default_activity_button = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int design_navigation_view = 2131230832;
+			public const int design_bottom_sheet = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int dialog_button = 2131230833;
+			public const int design_menu_item_action_area = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int disableHome = 2131230834;
+			public const int design_menu_item_action_area_stub = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int dropdown_menu = 2131230835;
+			public const int design_menu_item_text = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int edit_query = 2131230836;
+			public const int design_navigation_view = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int end = 2131230837;
+			public const int dialog_button = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int end_padder = 2131230838;
+			public const int disableHome = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int enterAlways = 2131230839;
+			public const int doubleCircle = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int enterAlwaysCollapsed = 2131230840;
+			public const int dropdown_menu = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int exitUntilCollapsed = 2131230841;
-			
-			// aapt resource value: 0x7F08007B
-			public const int expanded_menu = 2131230843;
+			public const int ecg = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int expand_activities_button = 2131230842;
+			public const int edit_query = 2131230842;
+			
+			// aapt resource value: 0x7F08007B
+			public const int end = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int fade = 2131230844;
+			public const int end_padder = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int fill = 2131230845;
-			
-			// aapt resource value: 0x7F080080
-			public const int filled = 2131230848;
+			public const int enterAlways = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int fill_horizontal = 2131230846;
+			public const int enterAlwaysCollapsed = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int fill_vertical = 2131230847;
+			public const int exitUntilCollapsed = 2131230847;
 			
 			// aapt resource value: 0x7F080081
-			public const int fitToContents = 2131230849;
+			public const int expanded_menu = 2131230849;
+			
+			// aapt resource value: 0x7F080080
+			public const int expand_activities_button = 2131230848;
 			
 			// aapt resource value: 0x7F080082
-			public const int @fixed = 2131230850;
+			public const int fade = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int floating = 2131230851;
-			
-			// aapt resource value: 0x7F080084
-			public const int flyoutcontent_appbar = 2131230852;
-			
-			// aapt resource value: 0x7F080085
-			public const int forever = 2131230853;
+			public const int fill = 2131230851;
 			
 			// aapt resource value: 0x7F080086
-			public const int fragment_container_view_tag = 2131230854;
+			public const int filled = 2131230854;
+			
+			// aapt resource value: 0x7F080084
+			public const int fill_horizontal = 2131230852;
+			
+			// aapt resource value: 0x7F080085
+			public const int fill_vertical = 2131230853;
+			
+			// aapt resource value: 0x7F080087
+			public const int fitToContents = 2131230855;
+			
+			// aapt resource value: 0x7F080088
+			public const int @fixed = 2131230856;
+			
+			// aapt resource value: 0x7F080089
+			public const int floating = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int flyoutcontent_appbar = 2131230858;
+			
+			// aapt resource value: 0x7F08008B
+			public const int forever = 2131230859;
+			
+			// aapt resource value: 0x7F08008C
+			public const int fragment_container_view_tag = 2131230860;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F080087
-			public const int ghost_view = 2131230855;
-			
-			// aapt resource value: 0x7F080088
-			public const int ghost_view_holder = 2131230856;
-			
-			// aapt resource value: 0x7F080089
-			public const int gone = 2131230857;
-			
-			// aapt resource value: 0x7F08008A
-			public const int group_divider = 2131230858;
-			
-			// aapt resource value: 0x7F08008B
-			public const int hideable = 2131230859;
-			
-			// aapt resource value: 0x7F08008C
-			public const int home = 2131230860;
-			
 			// aapt resource value: 0x7F08008D
-			public const int homeAsUp = 2131230861;
+			public const int gearBox = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int icon = 2131230862;
+			public const int ghost_view = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int icon_group = 2131230863;
+			public const int ghost_view_holder = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int ifRoom = 2131230864;
+			public const int globe = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int image = 2131230865;
+			public const int gone = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int info = 2131230866;
+			public const int group_divider = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int italic = 2131230867;
+			public const int hideable = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int item_touch_helper_previous_elevation = 2131230868;
+			public const int home = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int labeled = 2131230869;
+			public const int homeAsUp = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int largeLabel = 2131230870;
+			public const int horizontalPulsingBox = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int left = 2131230871;
+			public const int icon = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int line1 = 2131230872;
+			public const int icon_group = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int line3 = 2131230873;
+			public const int ifRoom = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int listMode = 2131230874;
+			public const int image = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int list_item = 2131230875;
+			public const int info = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int main_appbar = 2131230876;
+			public const int italic = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int main_tablayout = 2131230877;
+			public const int item_touch_helper_previous_elevation = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int main_toolbar = 2131230878;
+			public const int labeled = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int main_viewpager = 2131230879;
+			public const int largeLabel = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int masked = 2131230880;
+			public const int left = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int media_actions = 2131230881;
+			public const int line1 = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int media_controller_compat_view_tag = 2131230882;
+			public const int line3 = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int message = 2131230883;
+			public const int listMode = 2131230883;
+			
+			// aapt resource value: 0x7F0800A4
+			public const int list_item = 2131230884;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int main_appbar = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int main_tablayout = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int main_toolbar = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int main_viewpager = 2131230888;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int masked = 2131230889;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int media_actions = 2131230890;
+			
+			// aapt resource value: 0x7F0800AB
+			public const int media_controller_compat_view_tag = 2131230891;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int message = 2131230892;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F0800A4
-			public const int middle = 2131230884;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int mini = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int month_grid = 2131230886;
-			
-			// aapt resource value: 0x7F0800A7
-			public const int month_navigation_bar = 2131230887;
-			
-			// aapt resource value: 0x7F0800A8
-			public const int month_navigation_fragment_toggle = 2131230888;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int month_navigation_next = 2131230889;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int month_navigation_previous = 2131230890;
-			
-			// aapt resource value: 0x7F0800AB
-			public const int month_title = 2131230891;
-			
 			// aapt resource value: 0x7F0800AD
-			public const int mtrl_calendar_days_of_week = 2131230893;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int mtrl_calendar_day_selector_frame = 2131230892;
+			public const int middle = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int mtrl_calendar_frame = 2131230894;
+			public const int mini = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int mtrl_calendar_main_pane = 2131230895;
+			public const int month_grid = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int mtrl_calendar_months = 2131230896;
+			public const int month_navigation_bar = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int mtrl_calendar_selection_frame = 2131230897;
+			public const int month_navigation_fragment_toggle = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int mtrl_calendar_text_input_frame = 2131230898;
+			public const int month_navigation_next = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int mtrl_calendar_year_selector_frame = 2131230899;
+			public const int month_navigation_previous = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int mtrl_card_checked_layer_id = 2131230900;
+			public const int month_title = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int mtrl_child_content_container = 2131230901;
-			
-			// aapt resource value: 0x7F0800B6
-			public const int mtrl_internal_children_alpha_tag = 2131230902;
+			public const int movieTimer = 2131230901;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int mtrl_motion_snapshot_view = 2131230903;
+			public const int mtrl_calendar_days_of_week = 2131230903;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int mtrl_calendar_day_selector_frame = 2131230902;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int mtrl_picker_fullscreen = 2131230904;
+			public const int mtrl_calendar_frame = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int mtrl_picker_header = 2131230905;
+			public const int mtrl_calendar_main_pane = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int mtrl_picker_header_selection_text = 2131230906;
+			public const int mtrl_calendar_months = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int mtrl_picker_header_title_and_selection = 2131230907;
+			public const int mtrl_calendar_selection_frame = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int mtrl_picker_header_toggle = 2131230908;
+			public const int mtrl_calendar_text_input_frame = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int mtrl_picker_text_input_date = 2131230909;
+			public const int mtrl_calendar_year_selector_frame = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int mtrl_picker_text_input_range_end = 2131230910;
+			public const int mtrl_card_checked_layer_id = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int mtrl_picker_text_input_range_start = 2131230911;
+			public const int mtrl_child_content_container = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int mtrl_picker_title_text = 2131230912;
+			public const int mtrl_internal_children_alpha_tag = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int multiply = 2131230913;
+			public const int mtrl_motion_snapshot_view = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int navigation_header_container = 2131230914;
+			public const int mtrl_picker_fullscreen = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int never = 2131230915;
-			
-			// aapt resource value: 0x7F0800C5
-			public const int none = 2131230917;
-			
-			// aapt resource value: 0x7F0800C6
-			public const int normal = 2131230918;
+			public const int mtrl_picker_header = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int noScroll = 2131230916;
+			public const int mtrl_picker_header_selection_text = 2131230916;
+			
+			// aapt resource value: 0x7F0800C5
+			public const int mtrl_picker_header_title_and_selection = 2131230917;
+			
+			// aapt resource value: 0x7F0800C6
+			public const int mtrl_picker_header_toggle = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int notification_background = 2131230919;
+			public const int mtrl_picker_text_input_date = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int notification_main_column = 2131230920;
+			public const int mtrl_picker_text_input_range_end = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int notification_main_column_container = 2131230921;
+			public const int mtrl_picker_text_input_range_start = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int off = 2131230922;
+			public const int mtrl_picker_title_text = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int on = 2131230923;
+			public const int multiply = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int outline = 2131230924;
+			public const int navigation_header_container = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int parallax = 2131230925;
-			
-			// aapt resource value: 0x7F0800CE
-			public const int parentPanel = 2131230926;
+			public const int never = 2131230925;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int parent_matrix = 2131230927;
+			public const int none = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int password_toggle = 2131230928;
+			public const int normal = 2131230928;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int noScroll = 2131230926;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int peekHeight = 2131230929;
+			public const int notification_background = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int pin = 2131230930;
+			public const int notification_main_column = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int progress_circular = 2131230931;
+			public const int notification_main_column_container = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int progress_horizontal = 2131230932;
+			public const int off = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int radio = 2131230933;
+			public const int on = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int right = 2131230934;
+			public const int outline = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int right_icon = 2131230935;
+			public const int parallax = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int right_side = 2131230936;
+			public const int parentPanel = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int rounded = 2131230937;
+			public const int parent_matrix = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int row_index_key = 2131230938;
+			public const int password_toggle = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int save_non_transition_alpha = 2131230939;
+			public const int peekHeight = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int save_overlay_view = 2131230940;
+			public const int pin = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int scale = 2131230941;
+			public const int print = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int screen = 2131230942;
+			public const int progress_circular = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int scroll = 2131230943;
-			
-			// aapt resource value: 0x7F0800E3
-			public const int scrollable = 2131230947;
+			public const int progress_horizontal = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int scrollIndicatorDown = 2131230944;
+			public const int radio = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int scrollIndicatorUp = 2131230945;
+			public const int rectangle = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int scrollView = 2131230946;
+			public const int right = 2131230946;
+			
+			// aapt resource value: 0x7F0800E3
+			public const int right_icon = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int search_badge = 2131230948;
+			public const int right_side = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int search_bar = 2131230949;
+			public const int rollingBall = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int search_button = 2131230950;
+			public const int rounded = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int search_close_btn = 2131230951;
+			public const int row_index_key = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int search_edit_frame = 2131230952;
+			public const int save_non_transition_alpha = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int search_go_btn = 2131230953;
+			public const int save_overlay_view = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int search_mag_icon = 2131230954;
+			public const int scale = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int search_plate = 2131230955;
+			public const int screen = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int search_src_text = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int search_voice_btn = 2131230957;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int selected = 2131230959;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int select_dialog_listview = 2131230958;
+			public const int scroll = 2131230956;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int shellcontent_appbar = 2131230960;
+			public const int scrollable = 2131230960;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int scrollIndicatorDown = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int scrollIndicatorUp = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int scrollView = 2131230959;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int shellcontent_toolbar = 2131230961;
+			public const int search_badge = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int search_bar = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int search_button = 2131230963;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int search_close_btn = 2131230964;
+			
+			// aapt resource value: 0x7F0800F5
+			public const int search_edit_frame = 2131230965;
+			
+			// aapt resource value: 0x7F0800F6
+			public const int search_go_btn = 2131230966;
+			
+			// aapt resource value: 0x7F0800F7
+			public const int search_mag_icon = 2131230967;
+			
+			// aapt resource value: 0x7F0800F8
+			public const int search_plate = 2131230968;
+			
+			// aapt resource value: 0x7F0800F9
+			public const int search_src_text = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int search_voice_btn = 2131230970;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int selected = 2131230972;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int select_dialog_listview = 2131230971;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int shellcontent_appbar = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int shellcontent_toolbar = 2131230974;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHIFT = 2131230726;
 			
-			// aapt resource value: 0x7F0800F2
-			public const int shortcut = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int showCustom = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int showHome = 2131230964;
-			
-			// aapt resource value: 0x7F0800F5
-			public const int showTitle = 2131230965;
-			
-			// aapt resource value: 0x7F0800F6
-			public const int skipCollapsed = 2131230966;
-			
-			// aapt resource value: 0x7F0800F7
-			public const int slide = 2131230967;
-			
-			// aapt resource value: 0x7F0800F8
-			public const int sliding_tabs = 2131230968;
-			
-			// aapt resource value: 0x7F0800F9
-			public const int smallLabel = 2131230969;
-			
-			// aapt resource value: 0x7F0800FA
-			public const int snackbar_action = 2131230970;
-			
-			// aapt resource value: 0x7F0800FB
-			public const int snackbar_text = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int snap = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int snapMargins = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int spacer = 2131230974;
-			
 			// aapt resource value: 0x7F0800FF
-			public const int split_action_bar = 2131230975;
+			public const int shortcut = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int src_atop = 2131230976;
+			public const int showCustom = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int src_in = 2131230977;
+			public const int showHome = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int src_over = 2131230978;
+			public const int showTitle = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int start = 2131230979;
+			public const int singleCircle = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int status_bar_latest_event_content = 2131230980;
+			public const int skipCollapsed = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int stretch = 2131230981;
+			public const int slicedCircle = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int submenuarrow = 2131230982;
+			public const int slide = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int submit_area = 2131230983;
+			public const int sliding_tabs = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int smallLabel = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int snackbar_action = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int snackbar_text = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int snap = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int snapMargins = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int spacer = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int split_action_bar = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int src_atop = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int src_in = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int src_over = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int start = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int status_bar_latest_event_content = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int stretch = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int submenuarrow = 2131230997;
+			
+			// aapt resource value: 0x7F080116
+			public const int submit_area = 2131230998;
 			
 			// aapt resource value: 0x7F080007
 			public const int SYM = 2131230727;
 			
-			// aapt resource value: 0x7F080108
-			public const int tabMode = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int tag_accessibility_actions = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int tag_accessibility_clickable_spans = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int tag_accessibility_heading = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int tag_accessibility_pane_title = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int tag_screen_reader_focusable = 2131230989;
-			
-			// aapt resource value: 0x7F08010E
-			public const int tag_transition_group = 2131230990;
-			
-			// aapt resource value: 0x7F08010F
-			public const int tag_unhandled_key_event_manager = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int tag_unhandled_key_listeners = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int test_checkbox_android_button_tint = 2131230993;
-			
-			// aapt resource value: 0x7F080112
-			public const int test_checkbox_app_button_tint = 2131230994;
-			
-			// aapt resource value: 0x7F080113
-			public const int test_radiobutton_android_button_tint = 2131230995;
-			
-			// aapt resource value: 0x7F080114
-			public const int test_radiobutton_app_button_tint = 2131230996;
-			
-			// aapt resource value: 0x7F080115
-			public const int text = 2131230997;
-			
-			// aapt resource value: 0x7F080116
-			public const int text2 = 2131230998;
-			
 			// aapt resource value: 0x7F080117
-			public const int textEnd = 2131230999;
-			
-			// aapt resource value: 0x7F08011D
-			public const int textinput_counter = 2131231005;
-			
-			// aapt resource value: 0x7F08011E
-			public const int textinput_error = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int textinput_helper_text = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int textinput_placeholder = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int textinput_prefix_text = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int textinput_suffix_text = 2131231010;
+			public const int tabMode = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int textSpacerNoButtons = 2131231000;
+			public const int tag_accessibility_actions = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int textSpacerNoTitle = 2131231001;
+			public const int tag_accessibility_clickable_spans = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int textStart = 2131231002;
+			public const int tag_accessibility_heading = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int text_input_end_icon = 2131231003;
+			public const int tag_accessibility_pane_title = 2131231003;
 			
 			// aapt resource value: 0x7F08011C
-			public const int text_input_start_icon = 2131231004;
+			public const int tag_screen_reader_focusable = 2131231004;
+			
+			// aapt resource value: 0x7F08011D
+			public const int tag_transition_group = 2131231005;
+			
+			// aapt resource value: 0x7F08011E
+			public const int tag_unhandled_key_event_manager = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int tag_unhandled_key_listeners = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int test_checkbox_android_button_tint = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int test_checkbox_app_button_tint = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int test_radiobutton_android_button_tint = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int time = 2131231011;
+			public const int test_radiobutton_app_button_tint = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int title = 2131231012;
+			public const int text = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int titleDividerNoCustom = 2131231013;
+			public const int text2 = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int title_template = 2131231014;
+			public const int textEnd = 2131231014;
+			
+			// aapt resource value: 0x7F08012C
+			public const int textinput_counter = 2131231020;
+			
+			// aapt resource value: 0x7F08012D
+			public const int textinput_error = 2131231021;
+			
+			// aapt resource value: 0x7F08012E
+			public const int textinput_helper_text = 2131231022;
+			
+			// aapt resource value: 0x7F08012F
+			public const int textinput_placeholder = 2131231023;
+			
+			// aapt resource value: 0x7F080130
+			public const int textinput_prefix_text = 2131231024;
+			
+			// aapt resource value: 0x7F080131
+			public const int textinput_suffix_text = 2131231025;
 			
 			// aapt resource value: 0x7F080127
-			public const int toolbar = 2131231015;
+			public const int textSpacerNoButtons = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int top = 2131231016;
+			public const int textSpacerNoTitle = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int topPanel = 2131231017;
+			public const int textStart = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int text_input_end_icon = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int text_input_start_icon = 2131231019;
+			
+			// aapt resource value: 0x7F080132
+			public const int time = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int title = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int titleDividerNoCustom = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int title_template = 2131231029;
+			
+			// aapt resource value: 0x7F080136
+			public const int toolbar = 2131231030;
+			
+			// aapt resource value: 0x7F080137
+			public const int top = 2131231031;
+			
+			// aapt resource value: 0x7F080138
+			public const int topPanel = 2131231032;
 			
 			// aapt resource value: 0x7F080008
 			public const int TOP_END = 2131230728;
@@ -12703,62 +16599,65 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 0x7F080009
 			public const int TOP_START = 2131230729;
 			
-			// aapt resource value: 0x7F08012A
-			public const int touch_outside = 2131231018;
-			
-			// aapt resource value: 0x7F08012B
-			public const int transition_current_scene = 2131231019;
-			
-			// aapt resource value: 0x7F08012C
-			public const int transition_layout_save = 2131231020;
-			
-			// aapt resource value: 0x7F08012D
-			public const int transition_position = 2131231021;
-			
-			// aapt resource value: 0x7F08012E
-			public const int transition_scene_layoutid_cache = 2131231022;
-			
-			// aapt resource value: 0x7F08012F
-			public const int transition_transform = 2131231023;
-			
-			// aapt resource value: 0x7F080130
-			public const int @unchecked = 2131231024;
-			
-			// aapt resource value: 0x7F080131
-			public const int uniform = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int unlabeled = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int up = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int useLogo = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int view_offset_helper = 2131231029;
-			
-			// aapt resource value: 0x7F080136
-			public const int view_tree_saved_state_registry_owner = 2131231030;
-			
-			// aapt resource value: 0x7F080137
-			public const int visible = 2131231031;
-			
-			// aapt resource value: 0x7F080138
-			public const int visible_removing_fragment_view_tag = 2131231032;
+			// aapt resource value: 0x7F080139
+			public const int touch_outside = 2131231033;
 			
 			// aapt resource value: 0x7F08013A
-			public const int withinBounds = 2131231034;
-			
-			// aapt resource value: 0x7F080139
-			public const int withText = 2131231033;
+			public const int transition_current_scene = 2131231034;
 			
 			// aapt resource value: 0x7F08013B
-			public const int wrap_content = 2131231035;
+			public const int transition_layout_save = 2131231035;
 			
 			// aapt resource value: 0x7F08013C
-			public const int zero_corner_chip = 2131231036;
+			public const int transition_position = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int transition_scene_layoutid_cache = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int transition_transform = 2131231038;
+			
+			// aapt resource value: 0x7F08013F
+			public const int @unchecked = 2131231039;
+			
+			// aapt resource value: 0x7F080140
+			public const int uniform = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int unlabeled = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int up = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int useLogo = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int view_offset_helper = 2131231044;
+			
+			// aapt resource value: 0x7F080145
+			public const int view_tree_saved_state_registry_owner = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int visible = 2131231046;
+			
+			// aapt resource value: 0x7F080147
+			public const int visible_removing_fragment_view_tag = 2131231047;
+			
+			// aapt resource value: 0x7F080149
+			public const int withinBounds = 2131231049;
+			
+			// aapt resource value: 0x7F080148
+			public const int withText = 2131231048;
+			
+			// aapt resource value: 0x7F08014A
+			public const int wrap_content = 2131231050;
+			
+			// aapt resource value: 0x7F08014B
+			public const int zero_corner_chip = 2131231051;
+			
+			// aapt resource value: 0x7F08014C
+			public const int zoomingTarget = 2131231052;
 			
 			static Id()
 			{
@@ -13291,275 +17190,281 @@ namespace FinStat.Mobile.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int abc_action_bar_home_description = 2131623936;
-			
 			// aapt resource value: 0x7F0E0001
-			public const int abc_action_bar_up_description = 2131623937;
+			public const int abc_action_bar_home_description = 2131623937;
 			
 			// aapt resource value: 0x7F0E0002
-			public const int abc_action_menu_overflow_description = 2131623938;
+			public const int abc_action_bar_up_description = 2131623938;
 			
 			// aapt resource value: 0x7F0E0003
-			public const int abc_action_mode_done = 2131623939;
-			
-			// aapt resource value: 0x7F0E0005
-			public const int abc_activitychooserview_choose_application = 2131623941;
+			public const int abc_action_menu_overflow_description = 2131623939;
 			
 			// aapt resource value: 0x7F0E0004
-			public const int abc_activity_chooser_view_see_all = 2131623940;
+			public const int abc_action_mode_done = 2131623940;
 			
 			// aapt resource value: 0x7F0E0006
-			public const int abc_capital_off = 2131623942;
+			public const int abc_activitychooserview_choose_application = 2131623942;
+			
+			// aapt resource value: 0x7F0E0005
+			public const int abc_activity_chooser_view_see_all = 2131623941;
 			
 			// aapt resource value: 0x7F0E0007
-			public const int abc_capital_on = 2131623943;
+			public const int abc_capital_off = 2131623943;
 			
 			// aapt resource value: 0x7F0E0008
-			public const int abc_menu_alt_shortcut_label = 2131623944;
+			public const int abc_capital_on = 2131623944;
 			
 			// aapt resource value: 0x7F0E0009
-			public const int abc_menu_ctrl_shortcut_label = 2131623945;
+			public const int abc_menu_alt_shortcut_label = 2131623945;
 			
 			// aapt resource value: 0x7F0E000A
-			public const int abc_menu_delete_shortcut_label = 2131623946;
+			public const int abc_menu_ctrl_shortcut_label = 2131623946;
 			
 			// aapt resource value: 0x7F0E000B
-			public const int abc_menu_enter_shortcut_label = 2131623947;
+			public const int abc_menu_delete_shortcut_label = 2131623947;
 			
 			// aapt resource value: 0x7F0E000C
-			public const int abc_menu_function_shortcut_label = 2131623948;
+			public const int abc_menu_enter_shortcut_label = 2131623948;
 			
 			// aapt resource value: 0x7F0E000D
-			public const int abc_menu_meta_shortcut_label = 2131623949;
+			public const int abc_menu_function_shortcut_label = 2131623949;
 			
 			// aapt resource value: 0x7F0E000E
-			public const int abc_menu_shift_shortcut_label = 2131623950;
+			public const int abc_menu_meta_shortcut_label = 2131623950;
 			
 			// aapt resource value: 0x7F0E000F
-			public const int abc_menu_space_shortcut_label = 2131623951;
+			public const int abc_menu_shift_shortcut_label = 2131623951;
 			
 			// aapt resource value: 0x7F0E0010
-			public const int abc_menu_sym_shortcut_label = 2131623952;
+			public const int abc_menu_space_shortcut_label = 2131623952;
 			
 			// aapt resource value: 0x7F0E0011
-			public const int abc_prepend_shortcut_label = 2131623953;
-			
-			// aapt resource value: 0x7F0E0013
-			public const int abc_searchview_description_clear = 2131623955;
-			
-			// aapt resource value: 0x7F0E0014
-			public const int abc_searchview_description_query = 2131623956;
-			
-			// aapt resource value: 0x7F0E0015
-			public const int abc_searchview_description_search = 2131623957;
-			
-			// aapt resource value: 0x7F0E0016
-			public const int abc_searchview_description_submit = 2131623958;
-			
-			// aapt resource value: 0x7F0E0017
-			public const int abc_searchview_description_voice = 2131623959;
+			public const int abc_menu_sym_shortcut_label = 2131623953;
 			
 			// aapt resource value: 0x7F0E0012
-			public const int abc_search_hint = 2131623954;
+			public const int abc_prepend_shortcut_label = 2131623954;
+			
+			// aapt resource value: 0x7F0E0014
+			public const int abc_searchview_description_clear = 2131623956;
+			
+			// aapt resource value: 0x7F0E0015
+			public const int abc_searchview_description_query = 2131623957;
+			
+			// aapt resource value: 0x7F0E0016
+			public const int abc_searchview_description_search = 2131623958;
+			
+			// aapt resource value: 0x7F0E0017
+			public const int abc_searchview_description_submit = 2131623959;
 			
 			// aapt resource value: 0x7F0E0018
-			public const int abc_shareactionprovider_share_with = 2131623960;
+			public const int abc_searchview_description_voice = 2131623960;
+			
+			// aapt resource value: 0x7F0E0013
+			public const int abc_search_hint = 2131623955;
 			
 			// aapt resource value: 0x7F0E0019
-			public const int abc_shareactionprovider_share_with_application = 2131623961;
+			public const int abc_shareactionprovider_share_with = 2131623961;
 			
 			// aapt resource value: 0x7F0E001A
-			public const int abc_toolbar_collapse_description = 2131623962;
+			public const int abc_shareactionprovider_share_with_application = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
+			public const int abc_toolbar_collapse_description = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int appbar_scrolling_view_behavior = 2131623964;
+			
+			// aapt resource value: 0x7F0E0000
+			public const int ApplicationName = 2131623936;
 			
 			// aapt resource value: 0x7F0E001D
-			public const int character_counter_content_description = 2131623965;
+			public const int bottom_sheet_behavior = 2131623965;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_overflowed_content_description = 2131623966;
+			public const int character_counter_content_description = 2131623966;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_pattern = 2131623967;
+			public const int character_counter_overflowed_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int chip_text = 2131623968;
+			public const int character_counter_pattern = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int clear_text_end_icon_content_description = 2131623969;
+			public const int chip_text = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int copy_toast_msg = 2131623970;
+			public const int clear_text_end_icon_content_description = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int error_icon_content_description = 2131623971;
+			public const int copy_toast_msg = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int exposed_dropdown_menu_content_description = 2131623972;
+			public const int error_icon_content_description = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int fab_transformation_scrim_behavior = 2131623973;
+			public const int exposed_dropdown_menu_content_description = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int fab_transformation_sheet_behavior = 2131623974;
+			public const int fab_transformation_scrim_behavior = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int fallback_menu_item_copy_link = 2131623975;
+			public const int fab_transformation_sheet_behavior = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fallback_menu_item_open_in_browser = 2131623976;
+			public const int fallback_menu_item_copy_link = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fallback_menu_item_share_link = 2131623977;
+			public const int fallback_menu_item_open_in_browser = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int hide_bottom_view_on_scroll_behavior = 2131623978;
+			public const int fallback_menu_item_share_link = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int icon_content_description = 2131623979;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int item_view_role_description = 2131623980;
+			public const int icon_content_description = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int material_slider_range_end = 2131623981;
+			public const int item_view_role_description = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int material_slider_range_start = 2131623982;
+			public const int library_name = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int mtrl_badge_numberless_content_description = 2131623983;
+			public const int material_slider_range_end = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int mtrl_chip_close_icon_content_description = 2131623984;
+			public const int material_slider_range_start = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int mtrl_exceed_max_badge_number_content_description = 2131623985;
+			public const int mtrl_badge_numberless_content_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int mtrl_exceed_max_badge_number_suffix = 2131623986;
+			public const int mtrl_chip_close_icon_content_description = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int mtrl_picker_a11y_next_month = 2131623987;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int mtrl_picker_a11y_prev_month = 2131623988;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int mtrl_picker_announce_current_selection = 2131623989;
+			public const int mtrl_picker_a11y_next_month = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int mtrl_picker_cancel = 2131623990;
+			public const int mtrl_picker_a11y_prev_month = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int mtrl_picker_confirm = 2131623991;
+			public const int mtrl_picker_announce_current_selection = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int mtrl_picker_date_header_selected = 2131623992;
+			public const int mtrl_picker_cancel = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int mtrl_picker_date_header_title = 2131623993;
+			public const int mtrl_picker_confirm = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int mtrl_picker_date_header_unselected = 2131623994;
+			public const int mtrl_picker_date_header_selected = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int mtrl_picker_day_of_week_column_header = 2131623995;
+			public const int mtrl_picker_date_header_title = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int mtrl_picker_invalid_format = 2131623996;
+			public const int mtrl_picker_date_header_unselected = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int mtrl_picker_invalid_format_example = 2131623997;
+			public const int mtrl_picker_day_of_week_column_header = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int mtrl_picker_invalid_format_use = 2131623998;
+			public const int mtrl_picker_invalid_format = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int mtrl_picker_invalid_range = 2131623999;
+			public const int mtrl_picker_invalid_format_example = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int mtrl_picker_navigate_to_year_description = 2131624000;
+			public const int mtrl_picker_invalid_format_use = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int mtrl_picker_out_of_range = 2131624001;
+			public const int mtrl_picker_invalid_range = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int mtrl_picker_range_header_only_end_selected = 2131624002;
+			public const int mtrl_picker_navigate_to_year_description = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int mtrl_picker_range_header_only_start_selected = 2131624003;
+			public const int mtrl_picker_out_of_range = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_picker_range_header_selected = 2131624004;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_picker_range_header_title = 2131624005;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_picker_range_header_unselected = 2131624006;
+			public const int mtrl_picker_range_header_selected = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_picker_save = 2131624007;
+			public const int mtrl_picker_range_header_title = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_text_input_date_hint = 2131624008;
+			public const int mtrl_picker_range_header_unselected = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624009;
+			public const int mtrl_picker_save = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624010;
+			public const int mtrl_picker_text_input_date_hint = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_text_input_day_abbr = 2131624011;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_text_input_month_abbr = 2131624012;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_text_input_year_abbr = 2131624013;
+			public const int mtrl_picker_text_input_day_abbr = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624014;
+			public const int mtrl_picker_text_input_month_abbr = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_toggle_to_day_selection = 2131624015;
+			public const int mtrl_picker_text_input_year_abbr = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624016;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_toggle_to_year_selection = 2131624017;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int overflow_tab_title = 2131624018;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int password_toggle_content_description = 2131624019;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int path_password_eye = 2131624020;
+			public const int overflow_tab_title = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int path_password_eye_mask_strike_through = 2131624021;
+			public const int password_toggle_content_description = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int path_password_eye_mask_visible = 2131624022;
+			public const int path_password_eye = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int path_password_strike_through = 2131624023;
+			public const int path_password_eye_mask_strike_through = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int search_menu_title = 2131624024;
+			public const int path_password_eye_mask_visible = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int status_bar_notification_info_overflow = 2131624025;
+			public const int path_password_strike_through = 2131624025;
+			
+			// aapt resource value: 0x7F0E005A
+			public const int search_menu_title = 2131624026;
+			
+			// aapt resource value: 0x7F0E005B
+			public const int status_bar_notification_info_overflow = 2131624027;
 			
 			static String()
 			{
@@ -15696,37 +19601,37 @@ namespace FinStat.Mobile.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300D4,0x7F0300DD,0x7F0300DE,0x7F0300F2,0x7F030130,0x7F030136,0x7F03013C,0x7F03013D,0x7F030140,0x7F03014A,0x7F030157,0x7F03018B,0x7F0301AC,0x7F0301C5,0x7F0301CC,0x7F0301CD,0x7F03020E,0x7F030211,0x7F030264,0x7F03026E }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F03003C,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300DD,0x7F0300E6,0x7F0300E7,0x7F0300FB,0x7F030139,0x7F03013F,0x7F030145,0x7F030146,0x7F030149,0x7F030153,0x7F030160,0x7F030194,0x7F0301B5,0x7F0301CE,0x7F0301D5,0x7F0301D6,0x7F030217,0x7F03021A,0x7F03026D,0x7F030277 }
 			public static int[] ActionBar = new int[] {
 					2130903092,
 					2130903099,
 					2130903100,
-					2130903221,
-					2130903222,
-					2130903223,
-					2130903224,
-					2130903225,
-					2130903226,
-					2130903252,
+					2130903230,
+					2130903231,
+					2130903232,
+					2130903233,
+					2130903234,
+					2130903235,
 					2130903261,
-					2130903262,
-					2130903282,
-					2130903344,
-					2130903350,
-					2130903356,
-					2130903357,
-					2130903360,
-					2130903370,
-					2130903383,
-					2130903435,
-					2130903468,
-					2130903493,
-					2130903500,
-					2130903501,
-					2130903566,
-					2130903569,
-					2130903652,
-					2130903662};
+					2130903270,
+					2130903271,
+					2130903291,
+					2130903353,
+					2130903359,
+					2130903365,
+					2130903366,
+					2130903369,
+					2130903379,
+					2130903392,
+					2130903444,
+					2130903477,
+					2130903502,
+					2130903509,
+					2130903510,
+					2130903575,
+					2130903578,
+					2130903661,
+					2130903671};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -15833,14 +19738,14 @@ namespace FinStat.Mobile.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F030097,0x7F030130,0x7F030211,0x7F03026E }
+			// aapt resource value: { 0x7F030034,0x7F03003B,0x7F0300A0,0x7F030139,0x7F03021A,0x7F030277 }
 			public static int[] ActionMode = new int[] {
 					2130903092,
 					2130903099,
-					2130903191,
-					2130903344,
-					2130903569,
-					2130903662};
+					2130903200,
+					2130903353,
+					2130903578,
+					2130903671};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -15860,10 +19765,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F030105,0x7F03014B }
+			// aapt resource value: { 0x7F03010E,0x7F030154 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903301,
-					2130903371};
+					2130903310,
+					2130903380};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -15871,16 +19776,16 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030066,0x7F030067,0x7F030180,0x7F030181,0x7F0301A9,0x7F0301EC,0x7F0301EE }
+			// aapt resource value: { 0x10100F2,0x7F03006F,0x7F030070,0x7F030189,0x7F03018A,0x7F0301B2,0x7F0301F5,0x7F0301F7 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903142,
-					2130903143,
-					2130903424,
-					2130903425,
-					2130903465,
-					2130903532,
-					2130903534};
+					2130903151,
+					2130903152,
+					2130903433,
+					2130903434,
+					2130903474,
+					2130903541,
+					2130903543};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -15963,23 +19868,23 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300F2,0x7F030106,0x7F030178,0x7F030179,0x7F030208 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300FB,0x7F03010F,0x7F030181,0x7F030182,0x7F030211 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903282,
-					2130903302,
-					2130903416,
-					2130903417,
-					2130903560};
+					2130903291,
+					2130903311,
+					2130903425,
+					2130903426,
+					2130903569};
 			
-			// aapt resource value: { 0x7F030202,0x7F030203,0x7F030205,0x7F030206 }
+			// aapt resource value: { 0x7F03020B,0x7F03020C,0x7F03020E,0x7F03020F }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903554,
-					2130903555,
-					2130903557,
-					2130903558};
+					2130903563,
+					2130903564,
+					2130903566,
+					2130903567};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -16008,10 +19913,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030176,0x7F030177 }
+			// aapt resource value: { 0x7F03017F,0x7F030180 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903414,
-					2130903415};
+					2130903423,
+					2130903424};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -16028,12 +19933,12 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F0301FA,0x7F030262,0x7F030263 }
+			// aapt resource value: { 0x1010119,0x7F030203,0x7F03026B,0x7F03026C }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903546,
-					2130903650,
-					2130903651};
+					2130903555,
+					2130903659,
+					2130903660};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -16047,12 +19952,12 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F03025F,0x7F030260,0x7F030261 }
+			// aapt resource value: { 0x1010142,0x7F030268,0x7F030269,0x7F03026A }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903647,
-					2130903648,
-					2130903649};
+					2130903656,
+					2130903657,
+					2130903658};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -16097,7 +20002,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F03011C,0x7F03011F,0x7F030127,0x7F03016B,0x7F03017A,0x7F030235,0x7F030251 }
+			// aapt resource value: { 0x1010034,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300F0,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F030125,0x7F030128,0x7F030130,0x7F030174,0x7F030183,0x7F03023E,0x7F03025A }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903087,
@@ -16105,21 +20010,21 @@ namespace FinStat.Mobile.Droid
 					2130903089,
 					2130903090,
 					2130903091,
-					2130903266,
-					2130903267,
-					2130903268,
-					2130903269,
-					2130903271,
-					2130903272,
-					2130903273,
-					2130903274,
-					2130903324,
-					2130903327,
-					2130903335,
-					2130903403,
-					2130903418,
-					2130903605,
-					2130903633};
+					2130903275,
+					2130903276,
+					2130903277,
+					2130903278,
+					2130903280,
+					2130903281,
+					2130903282,
+					2130903283,
+					2130903333,
+					2130903336,
+					2130903344,
+					2130903412,
+					2130903427,
+					2130903614,
+					2130903642};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -16184,7 +20089,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F03004F,0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030068,0x7F030069,0x7F030074,0x7F03007B,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300AB,0x7F0300AC,0x7F0300B2,0x7F0300C1,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DF,0x7F0300E1,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F03013C,0x7F030149,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301C4,0x7F0301C6,0x7F0301D0,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301DE,0x7F0301DF,0x7F0301E0,0x7F0301E1,0x7F0301F7,0x7F0301F8,0x7F030219,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024C,0x7F03024D,0x7F030270,0x7F030271,0x7F030272,0x7F030273,0x7F030283,0x7F030285,0x7F030286,0x7F030287,0x7F030288,0x7F030289,0x7F03028A,0x7F03028B,0x7F03028C,0x7F03028D,0x7F03028E }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F03002E,0x7F03004F,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F030071,0x7F030072,0x7F03007D,0x7F030084,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300B4,0x7F0300B5,0x7F0300BB,0x7F0300CA,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0300E8,0x7F0300EA,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F030145,0x7F030152,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301CD,0x7F0301CF,0x7F0301D9,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F030200,0x7F030201,0x7F030222,0x7F030249,0x7F03024B,0x7F03024C,0x7F03024D,0x7F03024F,0x7F030250,0x7F030251,0x7F030252,0x7F030255,0x7F030256,0x7F030279,0x7F03027A,0x7F03027B,0x7F03027C,0x7F03028C,0x7F03028E,0x7F03028F,0x7F030290,0x7F030291,0x7F030292,0x7F030293,0x7F030294,0x7F030295,0x7F030296,0x7F030297 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -16225,92 +20130,92 @@ namespace FinStat.Mobile.Droid
 					2130903078,
 					2130903086,
 					2130903119,
-					2130903135,
-					2130903136,
-					2130903137,
-					2130903138,
-					2130903139,
 					2130903144,
 					2130903145,
-					2130903156,
-					2130903163,
-					2130903198,
-					2130903199,
-					2130903200,
-					2130903201,
-					2130903202,
-					2130903203,
-					2130903204,
+					2130903146,
+					2130903147,
+					2130903148,
+					2130903153,
+					2130903154,
+					2130903165,
+					2130903172,
+					2130903207,
+					2130903208,
+					2130903209,
+					2130903210,
 					2130903211,
 					2130903212,
-					2130903218,
-					2130903233,
-					2130903258,
-					2130903259,
-					2130903260,
-					2130903263,
-					2130903265,
-					2130903277,
-					2130903278,
-					2130903279,
-					2130903280,
-					2130903281,
-					2130903356,
-					2130903369,
-					2130903420,
-					2130903421,
-					2130903422,
-					2130903423,
-					2130903426,
-					2130903427,
-					2130903428,
+					2130903213,
+					2130903220,
+					2130903221,
+					2130903227,
+					2130903242,
+					2130903267,
+					2130903268,
+					2130903269,
+					2130903272,
+					2130903274,
+					2130903286,
+					2130903287,
+					2130903288,
+					2130903289,
+					2130903290,
+					2130903365,
+					2130903378,
 					2130903429,
 					2130903430,
 					2130903431,
 					2130903432,
-					2130903433,
-					2130903434,
-					2130903480,
-					2130903481,
-					2130903482,
-					2130903492,
-					2130903494,
-					2130903504,
-					2130903506,
-					2130903507,
-					2130903508,
-					2130903518,
-					2130903519,
-					2130903520,
-					2130903521,
-					2130903543,
-					2130903544,
-					2130903577,
-					2130903616,
-					2130903618,
-					2130903619,
-					2130903620,
-					2130903622,
-					2130903623,
-					2130903624,
+					2130903435,
+					2130903436,
+					2130903437,
+					2130903438,
+					2130903439,
+					2130903440,
+					2130903441,
+					2130903442,
+					2130903443,
+					2130903489,
+					2130903490,
+					2130903491,
+					2130903501,
+					2130903503,
+					2130903513,
+					2130903515,
+					2130903516,
+					2130903517,
+					2130903527,
+					2130903528,
+					2130903529,
+					2130903530,
+					2130903552,
+					2130903553,
+					2130903586,
 					2130903625,
+					2130903627,
 					2130903628,
 					2130903629,
-					2130903664,
-					2130903665,
-					2130903666,
-					2130903667,
-					2130903683,
-					2130903685,
-					2130903686,
-					2130903687,
-					2130903688,
-					2130903689,
-					2130903690,
-					2130903691,
+					2130903631,
+					2130903632,
+					2130903633,
+					2130903634,
+					2130903637,
+					2130903638,
+					2130903673,
+					2130903674,
+					2130903675,
+					2130903676,
 					2130903692,
-					2130903693,
-					2130903694};
+					2130903694,
+					2130903695,
+					2130903696,
+					2130903697,
+					2130903698,
+					2130903699,
+					2130903700,
+					2130903701,
+					2130903702,
+					2130903703};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -16687,15 +20592,15 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 124
 			public const int AppCompatTheme_windowNoTitle = 124;
 			
-			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F03013E,0x7F0301A3,0x7F0301AE,0x7F030282 }
+			// aapt resource value: { 0x7F030035,0x7F03003F,0x7F030041,0x7F030147,0x7F0301AC,0x7F0301B7,0x7F03028B }
 			public static int[] Badge = new int[] {
 					2130903093,
 					2130903103,
 					2130903105,
-					2130903358,
-					2130903459,
-					2130903470,
-					2130903682};
+					2130903367,
+					2130903468,
+					2130903479,
+					2130903691};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -16718,19 +20623,19 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x7F03003D,0x7F0300F2,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F030137,0x7F0301B2,0x7F0301B4,0x7F0301B5 }
+			// aapt resource value: { 0x7F03003D,0x7F0300FB,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F030140,0x7F0301BB,0x7F0301BD,0x7F0301BE }
 			public static int[] BottomAppBar = new int[] {
 					2130903101,
-					2130903282,
-					2130903312,
-					2130903313,
-					2130903314,
-					2130903315,
-					2130903316,
-					2130903351,
-					2130903474,
-					2130903476,
-					2130903477};
+					2130903291,
+					2130903321,
+					2130903322,
+					2130903323,
+					2130903324,
+					2130903325,
+					2130903360,
+					2130903483,
+					2130903485,
+					2130903486};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -16765,20 +20670,20 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F03003D,0x7F0300F2,0x7F03014F,0x7F030152,0x7F030154,0x7F030155,0x7F030158,0x7F030164,0x7F030165,0x7F030166,0x7F03016A,0x7F0301A7 }
+			// aapt resource value: { 0x7F03003D,0x7F0300FB,0x7F030158,0x7F03015B,0x7F03015D,0x7F03015E,0x7F030161,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030173,0x7F0301B0 }
 			public static int[] BottomNavigationView = new int[] {
 					2130903101,
-					2130903282,
-					2130903375,
-					2130903378,
-					2130903380,
-					2130903381,
+					2130903291,
 					2130903384,
-					2130903396,
-					2130903397,
-					2130903398,
-					2130903402,
-					2130903463};
+					2130903387,
+					2130903389,
+					2130903390,
+					2130903393,
+					2130903405,
+					2130903406,
+					2130903407,
+					2130903411,
+					2130903472};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_backgroundTint = 0;
@@ -16816,7 +20721,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 11
 			public const int BottomNavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010440,0x7F03003D,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03012B,0x7F0301E3,0x7F0301E6 }
+			// aapt resource value: { 0x1010440,0x7F03003D,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004B,0x7F03004C,0x7F03004D,0x7F030134,0x7F0301EC,0x7F0301EF }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843840,
 					2130903101,
@@ -16828,9 +20733,9 @@ namespace FinStat.Mobile.Droid
 					2130903115,
 					2130903116,
 					2130903117,
-					2130903339,
-					2130903523,
-					2130903526};
+					2130903348,
+					2130903532,
+					2130903535};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_android_elevation = 0;
@@ -16878,21 +20783,21 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030070,0x7F030071,0x7F030072,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030075,0x7F030076,0x7F030077,0x7F030079,0x7F03007A,0x7F03007B,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903148,
-					2130903149,
-					2130903150,
-					2130903152,
-					2130903153,
-					2130903154,
-					2130903227,
-					2130903228,
-					2130903229,
-					2130903230,
-					2130903231};
+					2130903157,
+					2130903158,
+					2130903159,
+					2130903161,
+					2130903162,
+					2130903163,
+					2130903236,
+					2130903237,
+					2130903238,
+					2130903239,
+					2130903240};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -16933,7 +20838,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300FD,0x7F030135,0x7F030141,0x7F030145,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F0301EA,0x7F03024E,0x7F030252 }
+			// aapt resource value: { 0x1010034,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030085,0x7F030086,0x7F030087,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030094,0x7F030095,0x7F030096,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F030106,0x7F03013E,0x7F03014A,0x7F03014E,0x7F0301E0,0x7F0301EC,0x7F0301EF,0x7F0301F3,0x7F030257,0x7F03025B }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842904,
@@ -16941,51 +20846,51 @@ namespace FinStat.Mobile.Droid
 					16843039,
 					16843087,
 					16843237,
-					2130903159,
-					2130903160,
-					2130903161,
-					2130903162,
-					2130903164,
-					2130903165,
-					2130903166,
 					2130903168,
 					2130903169,
 					2130903170,
 					2130903171,
-					2130903172,
 					2130903173,
 					2130903174,
+					2130903175,
+					2130903177,
+					2130903178,
 					2130903179,
 					2130903180,
 					2130903181,
+					2130903182,
 					2130903183,
-					2130903184,
-					2130903185,
-					2130903186,
-					2130903187,
 					2130903188,
 					2130903189,
 					2130903190,
-					2130903293,
-					2130903349,
-					2130903361,
-					2130903365,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903530,
-					2130903630,
-					2130903634};
-			
-			// aapt resource value: { 0x7F030076,0x7F030087,0x7F030088,0x7F030089,0x7F0301E2,0x7F0301EF,0x7F0301F0 }
-			public static int[] ChipGroup = new int[] {
-					2130903158,
-					2130903175,
-					2130903176,
-					2130903177,
-					2130903522,
+					2130903192,
+					2130903193,
+					2130903194,
+					2130903195,
+					2130903196,
+					2130903197,
+					2130903198,
+					2130903199,
+					2130903302,
+					2130903358,
+					2130903370,
+					2130903374,
+					2130903520,
+					2130903532,
 					2130903535,
-					2130903536};
+					2130903539,
+					2130903639,
+					2130903643};
+			
+			// aapt resource value: { 0x7F03007F,0x7F030090,0x7F030091,0x7F030092,0x7F0301EB,0x7F0301F8,0x7F0301F9 }
+			public static int[] ChipGroup = new int[] {
+					2130903167,
+					2130903184,
+					2130903185,
+					2130903186,
+					2130903531,
+					2130903544,
+					2130903545};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -17131,25 +21036,25 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 40
 			public const int Chip_textStartPadding = 40;
 			
-			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F0300C0,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F0301A5,0x7F0301D8,0x7F0301DA,0x7F030209,0x7F030264,0x7F030265,0x7F03026F }
+			// aapt resource value: { 0x7F0300A3,0x7F0300A4,0x7F0300C9,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F030115,0x7F030116,0x7F0301AE,0x7F0301E1,0x7F0301E3,0x7F030212,0x7F03026D,0x7F03026E,0x7F030278 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903194,
-					2130903195,
-					2130903232,
-					2130903303,
-					2130903304,
-					2130903305,
-					2130903306,
-					2130903307,
-					2130903308,
-					2130903309,
-					2130903461,
-					2130903512,
-					2130903514,
-					2130903561,
-					2130903652,
-					2130903653,
-					2130903663};
+					2130903203,
+					2130903204,
+					2130903241,
+					2130903312,
+					2130903313,
+					2130903314,
+					2130903315,
+					2130903316,
+					2130903317,
+					2130903318,
+					2130903470,
+					2130903521,
+					2130903523,
+					2130903570,
+					2130903661,
+					2130903662,
+					2130903672};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -17181,10 +21086,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F030171,0x7F030172 }
+			// aapt resource value: { 0x7F03017A,0x7F03017B }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903409,
-					2130903410};
+					2130903418,
+					2130903419};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -17228,12 +21133,12 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030064,0x7F03006A,0x7F03006B }
+			// aapt resource value: { 0x1010107,0x7F03006D,0x7F030073,0x7F030074 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903140,
-					2130903146,
-					2130903147};
+					2130903149,
+					2130903155,
+					2130903156};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -17247,23 +21152,23 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F030167,0x7F030207 }
+			// aapt resource value: { 0x7F030170,0x7F030210 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903399,
-					2130903559};
+					2130903408,
+					2130903568};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03016E,0x7F03016F,0x7F030170,0x7F030173,0x7F030174,0x7F030175 }
+			// aapt resource value: { 0x10100B3,0x7F030177,0x7F030178,0x7F030179,0x7F03017C,0x7F03017D,0x7F03017E }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903406,
-					2130903407,
-					2130903408,
-					2130903411,
-					2130903412,
-					2130903413};
+					2130903415,
+					2130903416,
+					2130903417,
+					2130903420,
+					2130903421,
+					2130903422};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -17289,16 +21194,16 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F03009D,0x7F0300E6,0x7F03012A,0x7F0301F6,0x7F030255 }
+			// aapt resource value: { 0x7F03002C,0x7F03002D,0x7F030042,0x7F0300A6,0x7F0300EF,0x7F030133,0x7F0301FF,0x7F03025E }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903084,
 					2130903085,
 					2130903106,
-					2130903197,
-					2130903270,
-					2130903338,
-					2130903542,
-					2130903637};
+					2130903206,
+					2130903279,
+					2130903347,
+					2130903551,
+					2130903646};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -17324,20 +21229,20 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F0300F2 }
+			// aapt resource value: { 0x7F0300FB }
 			public static int[] DrawerLayout = new int[] {
-					2130903282};
+					2130903291};
 			
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F0300F2,0x7F03010E,0x7F030135,0x7F0301EA,0x7F0301ED }
+			// aapt resource value: { 0x7F0300FB,0x7F030117,0x7F03013E,0x7F0301F3,0x7F0301F6 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
-					2130903282,
-					2130903310,
-					2130903349,
-					2130903530,
-					2130903533};
+					2130903291,
+					2130903319,
+					2130903358,
+					2130903539,
+					2130903542};
 			
 			// aapt resource value: { 0x7F030043,0x7F030044 }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -17365,25 +21270,25 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 4
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 4;
 			
-			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F03004E,0x7F0300F2,0x7F0300FD,0x7F030115,0x7F030116,0x7F030135,0x7F03013F,0x7F0301A4,0x7F0301CB,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F0301EA,0x7F03027F }
+			// aapt resource value: { 0x101000E,0x7F03003D,0x7F03003E,0x7F03004E,0x7F0300FB,0x7F030106,0x7F03011E,0x7F03011F,0x7F03013E,0x7F030148,0x7F0301AD,0x7F0301D4,0x7F0301E0,0x7F0301EC,0x7F0301EF,0x7F0301F3,0x7F030288 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903101,
 					2130903102,
 					2130903118,
-					2130903282,
-					2130903293,
-					2130903317,
-					2130903318,
-					2130903349,
-					2130903359,
-					2130903460,
-					2130903499,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903530,
-					2130903679};
+					2130903291,
+					2130903302,
+					2130903326,
+					2130903327,
+					2130903358,
+					2130903368,
+					2130903469,
+					2130903508,
+					2130903520,
+					2130903532,
+					2130903535,
+					2130903539,
+					2130903688};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -17443,10 +21348,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F030160,0x7F03017B }
+			// aapt resource value: { 0x7F030169,0x7F030184 }
 			public static int[] FlowLayout = new int[] {
-					2130903392,
-					2130903419};
+					2130903401,
+					2130903428};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -17454,27 +21359,27 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F030125 }
+			// aapt resource value: { 0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E }
 			public static int[] FontFamily = new int[] {
-					2130903328,
-					2130903329,
-					2130903330,
-					2130903331,
-					2130903332,
-					2130903333};
+					2130903337,
+					2130903338,
+					2130903339,
+					2130903340,
+					2130903341,
+					2130903342};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03011E,0x7F030126,0x7F030127,0x7F030128,0x7F03027E }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F030127,0x7F03012F,0x7F030130,0x7F030131,0x7F030287 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903326,
-					2130903334,
 					2130903335,
-					2130903336,
-					2130903678};
+					2130903343,
+					2130903344,
+					2130903345,
+					2130903687};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -17524,11 +21429,11 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F030129 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F030132 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903337};
+					2130903346};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -17627,11 +21532,11 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F0301B2,0x7F0301B4,0x7F0301B5 }
+			// aapt resource value: { 0x7F0301BB,0x7F0301BD,0x7F0301BE }
 			public static int[] Insets = new int[] {
-					2130903474,
-					2130903476,
-					2130903477};
+					2130903483,
+					2130903485,
+					2130903486};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -17642,24 +21547,24 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 2
 			public const int Insets_paddingRightSystemWindowInsets = 2;
 			
-			// aapt resource value: { 0x7F03009C }
+			// aapt resource value: { 0x7F0300A5 }
 			public static int[] ItemsViewRendererTheme = new int[] {
-					2130903196};
+					2130903205};
 			
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300DE,0x7F0300E0,0x7F0301A6,0x7F0301E9 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300E7,0x7F0300E9,0x7F0301AF,0x7F0301F2 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903262,
-					2130903264,
-					2130903462,
-					2130903529};
+					2130903271,
+					2130903273,
+					2130903471,
+					2130903538};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -17725,13 +21630,13 @@ namespace FinStat.Mobile.Droid
 					2130903096,
 					2130903097};
 			
-			// aapt resource value: { 0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191 }
+			// aapt resource value: { 0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130903437,
-					2130903438,
-					2130903439,
-					2130903440,
-					2130903441};
+					2130903446,
+					2130903447,
+					2130903448,
+					2130903449,
+					2130903450};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -17767,7 +21672,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300C8,0x7F0300F2,0x7F030140,0x7F030142,0x7F030143,0x7F030144,0x7F030146,0x7F030147,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03003D,0x7F03003E,0x7F0300D1,0x7F0300FB,0x7F030149,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03014F,0x7F030150,0x7F0301E0,0x7F0301EC,0x7F0301EF,0x7F030213,0x7F030214 }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -17777,25 +21682,25 @@ namespace FinStat.Mobile.Droid
 					16843237,
 					2130903101,
 					2130903102,
-					2130903240,
-					2130903282,
-					2130903360,
-					2130903362,
-					2130903363,
-					2130903364,
-					2130903366,
-					2130903367,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903562,
-					2130903563};
+					2130903249,
+					2130903291,
+					2130903369,
+					2130903371,
+					2130903372,
+					2130903373,
+					2130903375,
+					2130903376,
+					2130903520,
+					2130903532,
+					2130903535,
+					2130903571,
+					2130903572};
 			
-			// aapt resource value: { 0x7F030075,0x7F0301E2,0x7F0301F0 }
+			// aapt resource value: { 0x7F03007E,0x7F0301EB,0x7F0301F9 }
 			public static int[] MaterialButtonToggleGroup = new int[] {
-					2130903157,
-					2130903522,
-					2130903536};
+					2130903166,
+					2130903531,
+					2130903545};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -17869,30 +21774,30 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0301D1,0x7F03028F,0x7F030290,0x7F030291 }
+			// aapt resource value: { 0x101020D,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0301DA,0x7F030298,0x7F030299,0x7F03029A }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
-					2130903253,
-					2130903254,
-					2130903255,
-					2130903256,
-					2130903505,
-					2130903695,
-					2130903696,
-					2130903697};
+					2130903262,
+					2130903263,
+					2130903264,
+					2130903265,
+					2130903514,
+					2130903704,
+					2130903705,
+					2130903706};
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030150,0x7F030159,0x7F03015A,0x7F030161,0x7F030162,0x7F030166 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030159,0x7F030162,0x7F030163,0x7F03016A,0x7F03016B,0x7F03016F }
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903376,
 					2130903385,
-					2130903386,
-					2130903393,
 					2130903394,
-					2130903398};
+					2130903395,
+					2130903402,
+					2130903403,
+					2130903407};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -17951,18 +21856,18 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 8
 			public const int MaterialCalendar_yearTodayStyle = 8;
 			
-			// aapt resource value: { 0x10101E5,0x7F03006F,0x7F030077,0x7F030079,0x7F0301D7,0x7F0301E3,0x7F0301E6,0x7F030204,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x10101E5,0x7F030078,0x7F030080,0x7F030082,0x7F0301E0,0x7F0301EC,0x7F0301EF,0x7F03020D,0x7F030213,0x7F030214 }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
-					2130903151,
-					2130903159,
-					2130903161,
-					2130903511,
-					2130903523,
-					2130903526,
-					2130903556,
-					2130903562,
-					2130903563};
+					2130903160,
+					2130903168,
+					2130903170,
+					2130903520,
+					2130903532,
+					2130903535,
+					2130903565,
+					2130903571,
+					2130903572};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -17994,10 +21899,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 9
 			public const int MaterialCardView_strokeWidth = 9;
 			
-			// aapt resource value: { 0x7F03006A,0x7F030280 }
+			// aapt resource value: { 0x7F030073,0x7F030289 }
 			public static int[] MaterialCheckBox = new int[] {
-					2130903146,
-					2130903680};
+					2130903155,
+					2130903689};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -18005,10 +21910,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F03006A,0x7F030280 }
+			// aapt resource value: { 0x7F030073,0x7F030289 }
 			public static int[] MaterialRadioButton = new int[] {
-					2130903146,
-					2130903680};
+					2130903155,
+					2130903689};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -18016,10 +21921,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F0301E3,0x7F0301E6 }
+			// aapt resource value: { 0x7F0301EC,0x7F0301EF }
 			public static int[] MaterialShape = new int[] {
-					2130903523,
-					2130903526};
+					2130903532,
+					2130903535};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -18027,10 +21932,10 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x101057F,0x7F03017A }
+			// aapt resource value: { 0x101057F,0x7F030183 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16844159,
-					2130903418};
+					2130903427};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_lineHeight = 0;
@@ -18038,11 +21943,11 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int MaterialTextAppearance_lineHeight = 1;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F03017A }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030183 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130903418};
+					2130903427};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -18080,7 +21985,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300B4,0x7F030146,0x7F030147,0x7F0301AF,0x7F0301E8,0x7F030275 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030021,0x7F030029,0x7F0300BD,0x7F03014F,0x7F030150,0x7F0301B8,0x7F0301F1,0x7F03027E }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -18099,12 +22004,12 @@ namespace FinStat.Mobile.Droid
 					2130903071,
 					2130903073,
 					2130903081,
-					2130903220,
-					2130903366,
-					2130903367,
-					2130903471,
-					2130903528,
-					2130903669};
+					2130903229,
+					2130903375,
+					2130903376,
+					2130903480,
+					2130903537,
+					2130903678};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -18175,7 +22080,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301CA,0x7F03020C }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301D3,0x7F030215 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -18184,8 +22089,8 @@ namespace FinStat.Mobile.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903498,
-					2130903564};
+					2130903507,
+					2130903573};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -18214,29 +22119,29 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300F2,0x7F03012F,0x7F03014F,0x7F030151,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030163,0x7F030166,0x7F0301A7 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300FB,0x7F030138,0x7F030158,0x7F03015A,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F03016C,0x7F03016F,0x7F0301B0 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903282,
-					2130903343,
-					2130903375,
-					2130903377,
-					2130903379,
-					2130903380,
-					2130903381,
-					2130903382,
-					2130903385,
+					2130903291,
+					2130903352,
+					2130903384,
 					2130903386,
-					2130903387,
 					2130903388,
 					2130903389,
 					2130903390,
 					2130903391,
+					2130903394,
 					2130903395,
+					2130903396,
+					2130903397,
 					2130903398,
-					2130903463};
+					2130903399,
+					2130903400,
+					2130903404,
+					2130903407,
+					2130903472};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -18301,15 +22206,15 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 20
 			public const int NavigationView_menu = 20;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0301B0 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0301B9 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903472};
+					2130903481};
 			
-			// aapt resource value: { 0x7F030201 }
+			// aapt resource value: { 0x7F03020A }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903553};
+					2130903562};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -18323,17 +22228,17 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030281 }
+			// aapt resource value: { 0x7F03028A }
 			public static int[] RangeSlider = new int[] {
-					2130903681};
+					2130903690};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_values = 0;
 			
-			// aapt resource value: { 0x7F0301B1,0x7F0301B7 }
+			// aapt resource value: { 0x7F0301BA,0x7F0301C0 }
 			public static int[] RecycleListView = new int[] {
-					2130903473,
-					2130903479};
+					2130903482,
+					2130903488};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -18341,20 +22246,20 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03016D,0x7F0301D6,0x7F0301F5,0x7F0301FB }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030124,0x7F030176,0x7F0301DF,0x7F0301FE,0x7F030204 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903319,
-					2130903320,
-					2130903321,
-					2130903322,
-					2130903323,
-					2130903405,
-					2130903510,
-					2130903541,
-					2130903547};
+					2130903328,
+					2130903329,
+					2130903330,
+					2130903331,
+					2130903332,
+					2130903414,
+					2130903519,
+					2130903550,
+					2130903556};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -18392,9 +22297,9 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F03014C }
+			// aapt resource value: { 0x7F030155 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903372};
+					2130903381};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -18406,32 +22311,32 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F0301DB }
+			// aapt resource value: { 0x7F0301E4 }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903515};
+					2130903524};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030090,0x7F0300B3,0x7F0300D9,0x7F03012C,0x7F030148,0x7F03016C,0x7F0301CE,0x7F0301CF,0x7F0301DC,0x7F0301DD,0x7F03020D,0x7F030215,0x7F030284 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030099,0x7F0300BC,0x7F0300E2,0x7F030135,0x7F030151,0x7F030175,0x7F0301D7,0x7F0301D8,0x7F0301E5,0x7F0301E6,0x7F030216,0x7F03021E,0x7F03028D }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903184,
-					2130903219,
-					2130903257,
-					2130903340,
-					2130903368,
-					2130903404,
-					2130903502,
-					2130903503,
-					2130903516,
-					2130903517,
-					2130903565,
-					2130903573,
-					2130903684};
+					2130903193,
+					2130903228,
+					2130903266,
+					2130903349,
+					2130903377,
+					2130903413,
+					2130903511,
+					2130903512,
+					2130903525,
+					2130903526,
+					2130903574,
+					2130903582,
+					2130903693};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -18484,12 +22389,51 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F0301E3,0x7F0301E6,0x7F03020A,0x7F03020B }
+			// aapt resource value: { 0x7F03005F,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067 }
+			public static int[] SfBusyIndicator = new int[] {
+					2130903135,
+					2130903136,
+					2130903137,
+					2130903138,
+					2130903139,
+					2130903140,
+					2130903141,
+					2130903142,
+					2130903143};
+			
+			// aapt resource value: 0
+			public const int SfBusyIndicator_busyIndicatorAnimationTypes = 0;
+			
+			// aapt resource value: 1
+			public const int SfBusyIndicator_busyIndicatorIsBusy = 1;
+			
+			// aapt resource value: 2
+			public const int SfBusyIndicator_busyIndicatorSecondaryColor = 2;
+			
+			// aapt resource value: 3
+			public const int SfBusyIndicator_busyIndicatorTextColor = 3;
+			
+			// aapt resource value: 4
+			public const int SfBusyIndicator_busyIndicatorTextSize = 4;
+			
+			// aapt resource value: 5
+			public const int SfBusyIndicator_busyIndicatorTitle = 5;
+			
+			// aapt resource value: 6
+			public const int SfBusyIndicator_busyIndicatorTitlePlacement = 6;
+			
+			// aapt resource value: 7
+			public const int SfBusyIndicator_busyIndicatorViewBoxHeight = 7;
+			
+			// aapt resource value: 8
+			public const int SfBusyIndicator_busyIndicatorViewBoxWidth = 8;
+			
+			// aapt resource value: { 0x7F0301EC,0x7F0301EF,0x7F030213,0x7F030214 }
 			public static int[] ShapeableImageView = new int[] {
-					2130903523,
-					2130903526,
-					2130903562,
-					2130903563};
+					2130903532,
+					2130903535,
+					2130903571,
+					2130903572};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_shapeAppearance = 0;
@@ -18503,18 +22447,18 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 3
 			public const int ShapeableImageView_strokeWidth = 3;
 			
-			// aapt resource value: { 0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD }
+			// aapt resource value: { 0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6 }
 			public static int[] ShapeAppearance = new int[] {
-					2130903235,
-					2130903236,
-					2130903237,
-					2130903238,
-					2130903239,
-					2130903241,
-					2130903242,
-					2130903243,
 					2130903244,
-					2130903245};
+					2130903245,
+					2130903246,
+					2130903247,
+					2130903248,
+					2130903250,
+					2130903251,
+					2130903252,
+					2130903253,
+					2130903254};
 			
 			// aapt resource value: 0
 			public const int ShapeAppearance_cornerFamily = 0;
@@ -18546,27 +22490,27 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F03012D,0x7F03012E,0x7F030168,0x7F030169,0x7F030256,0x7F030257,0x7F030258,0x7F03025C,0x7F03025D,0x7F03025E,0x7F030277,0x7F030278,0x7F030279,0x7F03027A }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F030136,0x7F030137,0x7F030171,0x7F030172,0x7F03025F,0x7F030260,0x7F030261,0x7F030265,0x7F030266,0x7F030267,0x7F030280,0x7F030281,0x7F030282,0x7F030283 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130903341,
-					2130903342,
-					2130903400,
-					2130903401,
-					2130903638,
-					2130903639,
-					2130903640,
-					2130903644,
-					2130903645,
-					2130903646,
-					2130903671,
-					2130903672,
-					2130903673,
-					2130903674};
+					2130903350,
+					2130903351,
+					2130903409,
+					2130903410,
+					2130903647,
+					2130903648,
+					2130903649,
+					2130903653,
+					2130903654,
+					2130903655,
+					2130903680,
+					2130903681,
+					2130903682,
+					2130903683};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -18625,13 +22569,13 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 18
 			public const int Slider_trackHeight = 18;
 			
-			// aapt resource value: { 0x7F0301F2,0x7F0301F3,0x7F0301F4 }
+			// aapt resource value: { 0x7F0301FB,0x7F0301FC,0x7F0301FD }
 			public static int[] Snackbar = new int[] {
-					2130903538,
-					2130903539,
-					2130903540};
+					2130903547,
+					2130903548,
+					2130903549};
 			
-			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F0300F2,0x7F0301A1 }
+			// aapt resource value: { 0x101011F,0x7F030020,0x7F03002A,0x7F03003A,0x7F03003D,0x7F03003E,0x7F0300FB,0x7F0301AA }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903072,
@@ -18639,8 +22583,8 @@ namespace FinStat.Mobile.Droid
 					2130903098,
 					2130903101,
 					2130903102,
-					2130903282,
-					2130903457};
+					2130903291,
+					2130903466};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -18675,13 +22619,13 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0301C5 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0301CE }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903493};
+					2130903502};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -18732,29 +22676,29 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F030216 }
+			// aapt resource value: { 0x7F03021F }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903574};
+					2130903583};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301EB,0x7F0301F9,0x7F030217,0x7F030218,0x7F03021A,0x7F030259,0x7F03025A,0x7F03025B,0x7F030276,0x7F03027B,0x7F03027C }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301F4,0x7F030202,0x7F030220,0x7F030221,0x7F030223,0x7F030262,0x7F030263,0x7F030264,0x7F03027F,0x7F030284,0x7F030285 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903531,
-					2130903545,
-					2130903575,
-					2130903576,
-					2130903578,
-					2130903641,
-					2130903642,
-					2130903643,
-					2130903670,
-					2130903675,
-					2130903676};
+					2130903540,
+					2130903554,
+					2130903584,
+					2130903585,
+					2130903587,
+					2130903650,
+					2130903651,
+					2130903652,
+					2130903679,
+					2130903684,
+					2130903685};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -18798,9 +22742,9 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030280 }
+			// aapt resource value: { 0x7F030289 }
 			public static int[] SwitchMaterial = new int[] {
-					2130903680};
+					2130903689};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
@@ -18820,17 +22764,8 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030232,0x7F030233,0x7F030234 }
+			// aapt resource value: { 0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023B,0x7F03023C,0x7F03023D }
 			public static int[] TabLayout = new int[] {
-					2130903579,
-					2130903580,
-					2130903581,
-					2130903582,
-					2130903583,
-					2130903584,
-					2130903585,
-					2130903586,
-					2130903587,
 					2130903588,
 					2130903589,
 					2130903590,
@@ -18844,9 +22779,18 @@ namespace FinStat.Mobile.Droid
 					2130903598,
 					2130903599,
 					2130903600,
+					2130903601,
 					2130903602,
 					2130903603,
-					2130903604};
+					2130903604,
+					2130903605,
+					2130903606,
+					2130903607,
+					2130903608,
+					2130903609,
+					2130903611,
+					2130903612,
+					2130903613};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -18923,7 +22867,7 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03011F,0x7F030127,0x7F030235,0x7F030251 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F030128,0x7F030130,0x7F03023E,0x7F03025A }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -18937,10 +22881,10 @@ namespace FinStat.Mobile.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130903327,
-					2130903335,
-					2130903605,
-					2130903633};
+					2130903336,
+					2130903344,
+					2130903614,
+					2130903642};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -18990,14 +22934,14 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x7F03024F }
+			// aapt resource value: { 0x7F030258 }
 			public static int[] TextInputEditText = new int[] {
-					2130903631};
+					2130903640};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300D3,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301E3,0x7F0301E6,0x7F0301FC,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030212,0x7F030213,0x7F030214 }
+			// aapt resource value: { 0x101000E,0x101009A,0x1010150,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301EC,0x7F0301EF,0x7F030205,0x7F030206,0x7F030207,0x7F030208,0x7F030209,0x7F03021B,0x7F03021C,0x7F03021D }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -19013,54 +22957,54 @@ namespace FinStat.Mobile.Droid
 					2130903132,
 					2130903133,
 					2130903134,
-					2130903246,
-					2130903247,
-					2130903248,
-					2130903249,
-					2130903250,
-					2130903251,
-					2130903285,
-					2130903286,
-					2130903287,
-					2130903288,
-					2130903289,
-					2130903290,
+					2130903255,
+					2130903256,
+					2130903257,
+					2130903258,
+					2130903259,
+					2130903260,
 					2130903294,
 					2130903295,
 					2130903296,
 					2130903297,
 					2130903298,
 					2130903299,
-					2130903300,
-					2130903345,
-					2130903346,
-					2130903347,
-					2130903348,
-					2130903352,
-					2130903353,
+					2130903303,
+					2130903304,
+					2130903305,
+					2130903306,
+					2130903307,
+					2130903308,
+					2130903309,
 					2130903354,
 					2130903355,
-					2130903483,
-					2130903484,
-					2130903485,
-					2130903486,
-					2130903487,
-					2130903488,
-					2130903489,
-					2130903490,
+					2130903356,
+					2130903357,
+					2130903361,
+					2130903362,
+					2130903363,
+					2130903364,
+					2130903492,
+					2130903493,
+					2130903494,
 					2130903495,
 					2130903496,
 					2130903497,
-					2130903523,
-					2130903526,
-					2130903548,
-					2130903549,
-					2130903550,
-					2130903551,
-					2130903552,
-					2130903570,
-					2130903571,
-					2130903572};
+					2130903498,
+					2130903499,
+					2130903504,
+					2130903505,
+					2130903506,
+					2130903532,
+					2130903535,
+					2130903557,
+					2130903558,
+					2130903559,
+					2130903560,
+					2130903561,
+					2130903579,
+					2130903580,
+					2130903581};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -19248,11 +23192,11 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 61
 			public const int TextInputLayout_suffixTextColor = 61;
 			
-			// aapt resource value: { 0x1010034,0x7F0300FB,0x7F0300FC }
+			// aapt resource value: { 0x1010034,0x7F030104,0x7F030105 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903291,
-					2130903292};
+					2130903300,
+					2130903301};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -19263,38 +23207,38 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030065,0x7F030098,0x7F030099,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F03018B,0x7F03018C,0x7F0301A2,0x7F0301A7,0x7F0301AA,0x7F0301AB,0x7F0301C5,0x7F03020E,0x7F03020F,0x7F030210,0x7F030264,0x7F030266,0x7F030267,0x7F030268,0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03006E,0x7F0300A1,0x7F0300A2,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F030194,0x7F030195,0x7F0301AB,0x7F0301B0,0x7F0301B3,0x7F0301B4,0x7F0301CE,0x7F030217,0x7F030218,0x7F030219,0x7F03026D,0x7F03026F,0x7F030270,0x7F030271,0x7F030272,0x7F030273,0x7F030274,0x7F030275,0x7F030276 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903141,
-					2130903192,
-					2130903193,
-					2130903221,
-					2130903222,
-					2130903223,
-					2130903224,
-					2130903225,
-					2130903226,
-					2130903435,
-					2130903436,
-					2130903458,
-					2130903463,
-					2130903466,
+					2130903150,
+					2130903201,
+					2130903202,
+					2130903230,
+					2130903231,
+					2130903232,
+					2130903233,
+					2130903234,
+					2130903235,
+					2130903444,
+					2130903445,
 					2130903467,
-					2130903493,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903652,
-					2130903654,
-					2130903655,
-					2130903656,
-					2130903657,
-					2130903658,
-					2130903659,
-					2130903660,
-					2130903661};
+					2130903472,
+					2130903475,
+					2130903476,
+					2130903502,
+					2130903575,
+					2130903576,
+					2130903577,
+					2130903661,
+					2130903663,
+					2130903664,
+					2130903665,
+					2130903666,
+					2130903667,
+					2130903668,
+					2130903669,
+					2130903670};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -19417,13 +23361,13 @@ namespace FinStat.Mobile.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301B3,0x7F0301B6,0x7F030253 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301BC,0x7F0301BF,0x7F03025C }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903475,
-					2130903478,
-					2130903635};
+					2130903484,
+					2130903487,
+					2130903644};
 			
 			// aapt resource value: { 0x10100D4,0x7F03003D,0x7F03003E }
 			public static int[] ViewBackgroundHelper = new int[] {
