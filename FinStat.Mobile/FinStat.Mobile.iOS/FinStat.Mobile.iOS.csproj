@@ -70,6 +70,7 @@
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="Configuration\OsxBootstrapper.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Localization\Localizer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
