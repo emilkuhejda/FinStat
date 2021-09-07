@@ -29,6 +29,6 @@
   </style>
 
   <style name="SplashTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
-    <item name="android:windowBackground">@drawable/background_splash</item>
+    <!--<item name="android:windowBackground">@drawable/background_splash</item>-->
   </style>
 </resources>

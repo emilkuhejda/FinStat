@@ -35,6 +35,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Components\FinStat.Business\FinStat.Business.csproj" />
     <ProjectReference Include="..\..\Components\FinStat.Common\FinStat.Common.csproj" />
+    <ProjectReference Include="..\..\Components\FinStat.DataAccess\FinStat.DataAccess.csproj" />
     <ProjectReference Include="..\..\Components\FinStat.Domain\FinStat.Domain.csproj" />
     <ProjectReference Include="..\..\Components\FinStat.Resources\FinStat.Resources.csproj" />
   </ItemGroup>
