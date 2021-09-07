@@ -37,6 +37,8 @@ namespace FinStat.Mobile.Utils
                 {
                     throw new TimeoutException("Possible deadlock detected.");
                 }
+
+                resetEvent.Close();
             }
         }
 
@@ -62,10 +64,13 @@ namespace FinStat.Mobile.Utils
                     resetEvent.Set();
                 }
             });
+
             if (!resetEvent.WaitOne(Timeout))
             {
                 throw new TimeoutException("Possible deadlock detected.");
             }
+
+            resetEvent.Close();
             return result;
         }
     }
