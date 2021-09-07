@@ -10,6 +10,7 @@ namespace FinStat.Mobile.iOS.Configuration
     {
         protected override void RegisterPlatformServices(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterSingleton<IApplicationVersionProvider, ApplicationVersionProvider>();
             containerRegistry.RegisterSingleton<ILocalizer, Localizer>();
             containerRegistry.RegisterSingleton<IDirectoryProvider, DirectoryProvider>();
         }
