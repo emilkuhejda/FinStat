@@ -11,25 +11,25 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using FinStat.Domain.Exceptions;
+using FinStat.Domain.Interfaces.Http;
 using FinStat.Domain.Models;
 using Newtonsoft.Json;
 
 namespace FinStat.Business.Http
 {
-    public class FinStatClient
+    public class FinStatClient : IWebClient
     {
+        private readonly string _baseUrl = "https://financialmodelingprep.com/";
         private readonly HttpClient _httpClient;
-        private readonly string _baseUrl;
         private readonly string _apiKey;
 
-        public FinStatClient(HttpClient httpClient, string baseUrl, string apiKey)
+        public FinStatClient(HttpClient httpClient, string apiKey)
         {
             _httpClient = httpClient;
-            _baseUrl = baseUrl;
             _apiKey = apiKey;
         }
 
-        public Task<IncomeStatement[]> GetIncomeStatement(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken = default)
+        public Task<IncomeStatement[]> GetIncomeStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken)
         {
             var urlBuilder = new StringBuilder();
             urlBuilder.Append(_baseUrl.TrimEnd('/')).Append("/api/v3/income-statement/{ticker}?limit={limit}");

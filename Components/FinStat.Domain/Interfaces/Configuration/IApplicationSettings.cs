@@ -2,6 +2,8 @@
 {
     public interface IApplicationSettings
     {
+        string ApiKey { get; }
+
         string SyncfusionKey { get; }
     }
 }
