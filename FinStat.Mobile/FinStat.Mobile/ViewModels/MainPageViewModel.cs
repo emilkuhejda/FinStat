@@ -1,4 +1,6 @@
-﻿using Prism.Navigation;
+﻿using System.Threading.Tasks;
+using FinStat.Common.Utils;
+using Prism.Navigation;
 
 namespace FinStat.Mobile.ViewModels
 {
@@ -8,6 +10,14 @@ namespace FinStat.Mobile.ViewModels
             : base(navigationService)
         {
             HasBottomNavigation = true;
+        }
+
+        protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
+        {
+            using (new OperationMonitor(OperationScope))
+            {
+                await Task.CompletedTask;
+            }
         }
     }
 }
