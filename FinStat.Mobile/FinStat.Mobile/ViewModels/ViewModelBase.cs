@@ -2,11 +2,15 @@
 using System.Threading.Tasks;
 using System.Windows.Input;
 using FinStat.Common.Utils;
+using FinStat.Domain.Enums;
+using FinStat.Domain.Http;
 using FinStat.Mobile.Commands;
 using FinStat.Mobile.Extensions;
+using FinStat.Mobile.Utils;
 using FinStat.Resources.Localization;
 using Prism.Mvvm;
 using Prism.Navigation;
+using Xamarin.Forms;
 
 namespace FinStat.Mobile.ViewModels
 {
@@ -87,6 +91,34 @@ namespace FinStat.Mobile.ViewModels
         public async void OnNavigatedTo(INavigationParameters parameters)
         {
             await LoadDataAsync(parameters).ConfigureAwait(false);
+        }
+
+        protected async Task<(bool success, T payload)> HandleWebCallAsync<T>(Func<Task<HttpRequestResult<T>>> action) where T : class
+        {
+            var httpRequestResult = await action().ConfigureAwait(false);
+            if (httpRequestResult.State == HttpRequestState.Success)
+                return (true, httpRequestResult.Payload);
+
+            if (httpRequestResult.State == HttpRequestState.Offline)
+                await DisplayAlertAsync(string.Empty, Loc.Text(TranslationKeys.OfflineErrorMessage)).ConfigureAwait(false);
+
+            await DisplayAlertAsync(string.Empty, Loc.Text(TranslationKeys.GeneralErrorMessage)).ConfigureAwait(false);
+            return (false, null);
+        }
+
+        protected Task DisplayAlertAsync(string title, string message)
+        {
+            return ThreadHelper.InvokeOnUiThread(() => DisplayAlertAsync(title, message, Loc.Text(TranslationKeys.Ok)));
+        }
+
+        protected Task DisplayAlertAsync(string title, string message, string ok)
+        {
+            return ThreadHelper.InvokeOnUiThread(() => Application.Current.MainPage.DisplayAlert(title, message, ok));
+        }
+
+        protected Task<bool> DisplayAlertAsync(string title, string message, string ok, string cancel)
+        {
+            return ThreadHelper.InvokeOnUiThread(() => Application.Current.MainPage.DisplayAlert(title, message, ok, cancel));
         }
 
         protected virtual async Task LoadDataAsync(INavigationParameters navigationParameters)

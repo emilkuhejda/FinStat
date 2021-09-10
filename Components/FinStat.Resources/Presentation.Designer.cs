@@ -61,6 +61,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Accept.
+        /// </summary>
+        public static string Accept {
+            get {
+                return ResourceManager.GetString("Accept", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Loading....
         /// </summary>
         public static string ActivityIndicatorCaptionText {
@@ -79,11 +88,29 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        public static string Cancel {
+            get {
+                return ResourceManager.GetString("Cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to English.
         /// </summary>
         public static string English {
             get {
                 return ResourceManager.GetString("English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Oops! Something bad happened. Please try it later or contact us..
+        /// </summary>
+        public static string GeneralErrorMessage {
+            get {
+                return ResourceManager.GetString("GeneralErrorMessage", resourceCulture);
             }
         }
         
@@ -111,6 +138,33 @@ namespace FinStat.Resources {
         public static string NoAccessToPage {
             get {
                 return ResourceManager.GetString("NoAccessToPage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to It seems you are offline. Please check your internet connection..
+        /// </summary>
+        public static string OfflineErrorMessage {
+            get {
+                return ResourceManager.GetString("OfflineErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ok.
+        /// </summary>
+        public static string Ok {
+            get {
+                return ResourceManager.GetString("Ok", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Company name.
+        /// </summary>
+        public static string SearchBarPlaceholder {
+            get {
+                return ResourceManager.GetString("SearchBarPlaceholder", resourceCulture);
             }
         }
     }

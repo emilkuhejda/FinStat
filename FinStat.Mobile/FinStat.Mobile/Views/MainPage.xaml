@@ -2,10 +2,13 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.MainPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+                          xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
-    <StackLayout>
-        <Label HorizontalOptions="CenterAndExpand"
-               Text="Welcome to Main Page!"
-               VerticalOptions="CenterAndExpand" />
+    <StackLayout Padding="{StaticResource StandardPadding}">
+        <SearchBar x:Name="SearchBar"
+                   Placeholder="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.SearchBarPlaceholder}}"
+                   SearchCommand="{Binding SearchCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference SearchBar}}" />
     </StackLayout>
 </views:BaseNavigationPage>

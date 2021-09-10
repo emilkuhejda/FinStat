@@ -117,4 +117,22 @@
   <data name="More" xml:space="preserve">
     <value>More</value>
   </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SearchBarPlaceholder" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="OfflineErrorMessage" xml:space="preserve">
+    <value>It seems you are offline. Please check your internet connection.</value>
+  </data>
+  <data name="GeneralErrorMessage" xml:space="preserve">
+    <value>Oops! Something bad happened. Please try it later or contact us.</value>
+  </data>
 </root>
