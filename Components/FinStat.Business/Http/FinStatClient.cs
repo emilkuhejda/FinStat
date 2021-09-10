@@ -10,6 +10,8 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using FinStat.Business.Extensions;
+using FinStat.Domain.Enums;
 using FinStat.Domain.Exceptions;
 using FinStat.Domain.Interfaces.Http;
 using FinStat.Domain.Models;
@@ -27,6 +29,18 @@ namespace FinStat.Business.Http
         {
             _httpClient = httpClient;
             _apiKey = apiKey;
+        }
+
+        public Task<SearchResult[]> SearchCompanyAsync(string query, Exchange exchange, int limit, CancellationToken cancellationToken)
+        {
+            var urlBuilder = new StringBuilder();
+            urlBuilder.Append(_baseUrl.TrimEnd('/')).Append("/api/v3/search/?query={query}&exchange={exchange}&limit={limit}");
+            urlBuilder.Append($"&apikey={_apiKey}");
+            urlBuilder.Replace("{query}", Uri.EscapeDataString(ConvertToString(query, CultureInfo.InvariantCulture)));
+            urlBuilder.Replace("{exchange}", Uri.EscapeDataString(ConvertToString(exchange.ToValue(), CultureInfo.InvariantCulture)));
+            urlBuilder.Replace("{limit}", Uri.EscapeDataString(ConvertToString(limit, CultureInfo.InvariantCulture)));
+
+            return SendRequestAsync<SearchResult[]>(urlBuilder, cancellationToken);
         }
 
         public Task<IncomeStatement[]> GetIncomeStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken)

@@ -1,18 +1,14 @@
 ﻿using System.Threading.Tasks;
 using FinStat.Common.Utils;
-using FinStat.Domain.Interfaces.Services;
 using Prism.Navigation;
 
 namespace FinStat.Mobile.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-        private readonly IWebService _webService;
-
-        public MainPageViewModel(INavigationService navigationService, IWebService webService)
+        public MainPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
-            _webService = webService;
             HasBottomNavigation = true;
         }
 
@@ -20,7 +16,7 @@ namespace FinStat.Mobile.ViewModels
         {
             using (new OperationMonitor(OperationScope))
             {
-                var result = await _webService.GetIncomeStatementsAsync("AAPL", false, 120).ConfigureAwait(false);
+                await Task.CompletedTask;
             }
         }
     }
