@@ -2,13 +2,22 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.MainPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
                           xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
     <StackLayout Padding="{StaticResource StandardPadding}">
         <SearchBar x:Name="SearchBar"
+                   Margin="0,0,0,10"
                    Placeholder="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.SearchBarPlaceholder}}"
                    SearchCommand="{Binding SearchCommand}"
                    SearchCommandParameter="{Binding Text, Source={x:Reference SearchBar}}" />
+
+        <buttons:SfSegmentedControl Margin="0,0,0,10"
+                                    BorderColor="{StaticResource ColorPrimary}"
+                                    ItemsSource="{Binding ExchangeNames, Mode=OneWay}"
+                                    SegmentHeight="30"
+                                    SelectedIndex="{Binding SelectedExchange}"
+                                    VisibleSegmentsCount="5" />
     </StackLayout>
 </views:BaseNavigationPage>

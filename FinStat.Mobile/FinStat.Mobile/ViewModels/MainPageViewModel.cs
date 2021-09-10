@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Input;
 using FinStat.Common.Utils;
 using FinStat.Domain.Enums;
@@ -15,6 +17,8 @@ namespace FinStat.Mobile.ViewModels
 
         private readonly IWebService _webService;
 
+        private int _selectedExchange;
+
         public MainPageViewModel(
             IWebService webService,
             INavigationService navigationService)
@@ -26,9 +30,27 @@ namespace FinStat.Mobile.ViewModels
             HasBottomNavigation = true;
 
             Title = Loc.Text(TranslationKeys.ApplicationTitle);
+            SelectedExchange = 1;
 
             SearchCommand = new AsyncCommand<string>(ExecuteSearchCommandAsync);
         }
+
+        private ExchangeViewModel[] Exchanges { get; } = new[]
+        {
+            new ExchangeViewModel(Exchange.Amex),
+            new ExchangeViewModel(Exchange.Nasdaq),
+            new ExchangeViewModel(Exchange.Nyse),
+            new ExchangeViewModel(Exchange.Euronext),
+            new ExchangeViewModel(Exchange.Lse)
+        };
+
+        public int SelectedExchange
+        {
+            get => _selectedExchange;
+            set => SetProperty(ref _selectedExchange, value);
+        }
+
+        public IEnumerable<string> ExchangeNames => Exchanges.Select(x => x.Text).ToList();
 
         public ICommand SearchCommand { get; }
 
@@ -45,7 +67,8 @@ namespace FinStat.Mobile.ViewModels
             if (string.IsNullOrWhiteSpace(query))
                 return;
 
-            var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, Exchange.Nasdaq, SearchLimit));
+            var exchange = Exchanges[SelectedExchange];
+            var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value, SearchLimit));
             if (!result.success)
                 return;
         }

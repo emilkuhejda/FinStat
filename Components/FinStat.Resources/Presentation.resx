@@ -135,4 +135,47 @@
   <data name="GeneralErrorMessage" xml:space="preserve">
     <value>Oops! Something bad happened. Please try it later or contact us.</value>
   </data>
+
+  <data name="Exchange_Etf" xml:space="preserve">
+    <value>ETF</value>
+  </data>
+  <data name="Exchange_MutualFund" xml:space="preserve">
+    <value>Mutual Fund</value>
+  </data>
+  <data name="Exchange_Commodity" xml:space="preserve">
+    <value>Commodity</value>
+  </data>
+  <data name="Exchange_Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Exchange_Crypto" xml:space="preserve">
+    <value>Crypto</value>
+  </data>
+  <data name="Exchange_Forex" xml:space="preserve">
+    <value>Forex</value>
+  </data>
+  <data name="Exchange_Tsx" xml:space="preserve">
+    <value>TSX</value>
+  </data>
+  <data name="Exchange_Amex" xml:space="preserve">
+    <value>AMEX</value>
+  </data>
+  <data name="Exchange_Nasdaq" xml:space="preserve">
+    <value>NASDAQ</value>
+  </data>
+  <data name="Exchange_Nyse" xml:space="preserve">
+    <value>NYSE</value>
+  </data>
+  <data name="Exchange_Euronext" xml:space="preserve">
+    <value>Euronext</value>
+  </data>
+  <data name="Exchange_Xetra" xml:space="preserve">
+    <value>Xetra</value>
+  </data>
+  <data name="Exchange_Nse" xml:space="preserve">
+    <value>NSE</value>
+  </data>
+  <data name="Exchange_Lse" xml:space="preserve">
+    <value>LSE</value>
+  </data>
 </root>

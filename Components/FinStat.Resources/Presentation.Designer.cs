@@ -106,6 +106,132 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to AMEX.
+        /// </summary>
+        public static string Exchange_Amex {
+            get {
+                return ResourceManager.GetString("Exchange_Amex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Commodity.
+        /// </summary>
+        public static string Exchange_Commodity {
+            get {
+                return ResourceManager.GetString("Exchange_Commodity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Crypto.
+        /// </summary>
+        public static string Exchange_Crypto {
+            get {
+                return ResourceManager.GetString("Exchange_Crypto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ETF.
+        /// </summary>
+        public static string Exchange_Etf {
+            get {
+                return ResourceManager.GetString("Exchange_Etf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Euronext.
+        /// </summary>
+        public static string Exchange_Euronext {
+            get {
+                return ResourceManager.GetString("Exchange_Euronext", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forex.
+        /// </summary>
+        public static string Exchange_Forex {
+            get {
+                return ResourceManager.GetString("Exchange_Forex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Index.
+        /// </summary>
+        public static string Exchange_Index {
+            get {
+                return ResourceManager.GetString("Exchange_Index", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to LSE.
+        /// </summary>
+        public static string Exchange_Lse {
+            get {
+                return ResourceManager.GetString("Exchange_Lse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mutual Fund.
+        /// </summary>
+        public static string Exchange_MutualFund {
+            get {
+                return ResourceManager.GetString("Exchange_MutualFund", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NASDAQ.
+        /// </summary>
+        public static string Exchange_Nasdaq {
+            get {
+                return ResourceManager.GetString("Exchange_Nasdaq", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NSE.
+        /// </summary>
+        public static string Exchange_Nse {
+            get {
+                return ResourceManager.GetString("Exchange_Nse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NYSE.
+        /// </summary>
+        public static string Exchange_Nyse {
+            get {
+                return ResourceManager.GetString("Exchange_Nyse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TSX.
+        /// </summary>
+        public static string Exchange_Tsx {
+            get {
+                return ResourceManager.GetString("Exchange_Tsx", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Xetra.
+        /// </summary>
+        public static string Exchange_Xetra {
+            get {
+                return ResourceManager.GetString("Exchange_Xetra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Oops! Something bad happened. Please try it later or contact us..
         /// </summary>
         public static string GeneralErrorMessage {
