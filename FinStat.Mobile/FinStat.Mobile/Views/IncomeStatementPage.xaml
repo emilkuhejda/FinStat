@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BaseNavigationPage x:Class="FinStat.Mobile.Views.IncomeStatementPage"
+                          xmlns="http://xamarin.com/schemas/2014/forms"
+                          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+                          xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+                          xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
+                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
+    <StackLayout HorizontalOptions="Center"
+                 IsVisible="{Binding NoDataToPlot}"
+                 Orientation="Vertical">
+        <forms:SvgCachedImage Margin="0,20,0,20"
+                              Aspect="AspectFit"
+                              HeightRequest="150"
+                              HorizontalOptions="Center"
+                              Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                              VerticalOptions="End" />
+
+        <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAvailableData}}" />
+    </StackLayout>
+</views:BaseNavigationPage>

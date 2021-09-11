@@ -18,6 +18,7 @@ namespace FinStat.Mobile.Configuration
             containerRegistry.RegisterForNavigation<FinStatNavigationPage>(Pages.Navigation);
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(Pages.Main);
             containerRegistry.RegisterForNavigation<MorePage, MorePageViewModel>(Pages.More);
+            containerRegistry.RegisterForNavigation<IncomeStatementPage, IncomeStatementPageViewModel>(Pages.IncomeStatement);
         }
     }
 }

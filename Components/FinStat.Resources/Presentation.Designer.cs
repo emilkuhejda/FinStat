@@ -268,6 +268,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No available data.
+        /// </summary>
+        public static string NoAvailableData {
+            get {
+                return ResourceManager.GetString("NoAvailableData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to It seems you are offline. Please check your internet connection..
         /// </summary>
         public static string OfflineErrorMessage {
