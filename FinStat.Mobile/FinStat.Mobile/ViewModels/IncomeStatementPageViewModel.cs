@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using FinStat.Common.Utils;
 using FinStat.Domain.Interfaces.Services;
@@ -28,8 +29,16 @@ namespace FinStat.Mobile.ViewModels
         public IEnumerable<IncomeStatement> IncomeStatements
         {
             get => _incomeStatements;
-            set => SetProperty(ref _incomeStatements, value);
+            set
+            {
+                if (SetProperty(ref _incomeStatements, value))
+                {
+                    RaisePropertyChanged(nameof(NoDataToPlot));
+                }
+            }
         }
+
+        public bool NoDataToPlot => IncomeStatements == null || !IncomeStatements.Any();
 
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {

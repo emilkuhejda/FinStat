@@ -7,6 +7,7 @@
         public static string ApplicationTitle => "ApplicationTitle";
         public static string ActivityIndicatorCaptionText => "ActivityIndicatorCaptionText";
         public static string NoAccessToPage => "NoAccessToPage";
+        public static string NoAvailableData => "NoAvailableData";
 
         public static string Main => "Main";
         public static string More => "More";

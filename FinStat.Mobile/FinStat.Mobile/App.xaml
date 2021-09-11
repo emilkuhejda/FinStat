@@ -143,6 +143,14 @@
                 <Setter Property="FontFamily" Value="QuicksandBold" />
             </Style>
 
+            <Style x:Key="NoItemsLabelStyle"
+                   BasedOn="{StaticResource LabelStyle}"
+                   TargetType="Label">
+                <Setter Property="FontFamily" Value="QuicksandMedium" />
+                <Setter Property="FontSize" Value="{StaticResource LargeSize}" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+            </Style>
+
             <Style x:Key="DrillDownItemLabelStyle"
                    BasedOn="{StaticResource LabelStyle}"
                    TargetType="Label">

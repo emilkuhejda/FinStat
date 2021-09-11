@@ -111,6 +111,9 @@
   <data name="NoAccessToPage" xml:space="preserve">
     <value>You don’t have permission to access this page.</value>
   </data>
+  <data name="NoAvailableData" xml:space="preserve">
+    <value>No available data</value>
+  </data>
   <data name="Main" xml:space="preserve">
     <value>Main</value>
   </data>

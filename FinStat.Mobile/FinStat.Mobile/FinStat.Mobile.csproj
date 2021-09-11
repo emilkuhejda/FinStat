@@ -20,6 +20,7 @@
     <None Remove="Resources\Images\More-Active.svg" />
     <None Remove="Resources\Images\More.svg" />
     <None Remove="Resources\Images\NoAccess.svg" />
+    <None Remove="Resources\Images\NoAvailableData.svg" />
     <None Remove="Resources\Images\Stock.svg" />
   </ItemGroup>
 
@@ -34,6 +35,7 @@
     <EmbeddedResource Include="Resources\Images\More-Active.svg" />
     <EmbeddedResource Include="Resources\Images\More.svg" />
     <EmbeddedResource Include="Resources\Images\NoAccess.svg" />
+    <EmbeddedResource Include="Resources\Images\NoAvailableData.svg" />
     <EmbeddedResource Include="Resources\Images\Stock.svg" />
   </ItemGroup>
 
