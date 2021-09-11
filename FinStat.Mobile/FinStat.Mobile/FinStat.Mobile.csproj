@@ -10,21 +10,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Fonts\Quicksand-Bold.ttf" />
+    <None Remove="Resources\Fonts\Quicksand-Light.ttf" />
+    <None Remove="Resources\Fonts\Quicksand-Medium.ttf" />
+    <None Remove="Resources\Fonts\Quicksand-Regular.ttf" />
     <None Remove="Resources\Images\Back.svg" />
     <None Remove="Resources\Images\Main-Active.svg" />
     <None Remove="Resources\Images\Main.svg" />
     <None Remove="Resources\Images\More-Active.svg" />
     <None Remove="Resources\Images\More.svg" />
     <None Remove="Resources\Images\NoAccess.svg" />
+    <None Remove="Resources\Images\Stock.svg" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Resources\Fonts\Quicksand-Bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Quicksand-Light.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Quicksand-Medium.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Quicksand-Regular.ttf" />
     <EmbeddedResource Include="Resources\Images\Back.svg" />
     <EmbeddedResource Include="Resources\Images\Main-Active.svg" />
     <EmbeddedResource Include="Resources\Images\Main.svg" />
     <EmbeddedResource Include="Resources\Images\More-Active.svg" />
     <EmbeddedResource Include="Resources\Images\More.svg" />
     <EmbeddedResource Include="Resources\Images\NoAccess.svg" />
+    <EmbeddedResource Include="Resources\Images\Stock.svg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,7 +47,9 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="19.2.0.60" />
     <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="19.2.0.59" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="19.2.0.60" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  

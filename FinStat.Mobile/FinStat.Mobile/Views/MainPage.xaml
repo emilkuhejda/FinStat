@@ -2,10 +2,66 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.MainPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
-    <StackLayout>
-        <Label HorizontalOptions="CenterAndExpand"
-               Text="Welcome to Main Page!"
-               VerticalOptions="CenterAndExpand" />
+                          xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+                          xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+                          xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+                          xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
+                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
+                          xmlns:xForms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms">
+    <StackLayout Padding="{StaticResource StandardPadding}">
+        <SearchBar x:Name="SearchBar"
+                   Margin="0,0,0,10"
+                   Placeholder="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.SearchBarPlaceholder}}"
+                   SearchCommand="{Binding SearchCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference SearchBar}}" />
+
+        <buttons:SfSegmentedControl Margin="0,0,0,10"
+                                    BorderColor="{StaticResource ColorPrimary}"
+                                    ItemsSource="{Binding ExchangeNames, Mode=OneWay}"
+                                    SegmentHeight="30"
+                                    SelectedIndex="{Binding SelectedExchange}"
+                                    VisibleSegmentsCount="5" />
+
+        <xForms:SfListView FocusBorderColor="Transparent"
+                           IsScrollBarVisible="False"
+                           ItemSize="60"
+                           ItemSpacing="4"
+                           ItemsSource="{Binding SearchResults}"
+                           SelectionBackgroundColor="Transparent">
+            <xForms:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal">
+                        <forms:SvgCachedImage Margin="0,0,10,0"
+                                              Aspect="AspectFit"
+                                              BackgroundColor="Transparent"
+                                              HeightRequest="40"
+                                              HorizontalOptions="Center"
+                                              InputTransparent="True"
+                                              Source="resource://FinStat.Mobile.Resources.Images.Stock.svg"
+                                              VerticalOptions="Center" />
+
+                        <StackLayout Padding="10,10,10,10" Orientation="Vertical">
+                            <Label Style="{StaticResource LabelBoldStyle}" Text="{Binding Name}" />
+                            <Label FontSize="{StaticResource MidMediumSize}"
+                                   Style="{StaticResource LabelStyle}"
+                                   Text="{Binding Symbol}" />
+                        </StackLayout>
+                        <Frame BorderColor="{StaticResource ColorPrimary}"
+                               CornerRadius="40"
+                               HeightRequest="40"
+                               HorizontalOptions="EndAndExpand"
+                               IsVisible="{Binding Currency, Converter={StaticResource NullToBoolConverter}}"
+                               VerticalOptions="Center"
+                               WidthRequest="40">
+                            <Label FontFamily="QuicksandLight"
+                                   FontSize="{StaticResource LittleSize}"
+                                   HorizontalOptions="Center"
+                                   Text="{Binding Currency}"
+                                   VerticalOptions="Center" />
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </xForms:SfListView.ItemTemplate>
+        </xForms:SfListView>
     </StackLayout>
 </views:BaseNavigationPage>

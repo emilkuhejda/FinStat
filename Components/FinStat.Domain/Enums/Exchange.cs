@@ -2,7 +2,7 @@
 {
     public enum Exchange
     {
-        Etf,
+        Etf = 0,
         MutualFund,
         Commodity,
         Index,
