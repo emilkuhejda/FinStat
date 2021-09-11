@@ -27,7 +27,9 @@
                            ItemSize="60"
                            ItemSpacing="4"
                            ItemsSource="{Binding SearchResults}"
-                           SelectionBackgroundColor="Transparent">
+                           SelectedItem="{Binding SelectedSearchResult}"
+                           SelectionBackgroundColor="Transparent"
+                           SelectionChangedCommand="{Binding NavigateToIncomeStatementCommand}">
             <xForms:SfListView.ItemTemplate>
                 <DataTemplate>
                     <StackLayout Orientation="Horizontal">

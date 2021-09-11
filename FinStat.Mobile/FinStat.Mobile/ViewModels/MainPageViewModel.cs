@@ -7,6 +7,8 @@ using FinStat.Domain.Enums;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
 using FinStat.Mobile.Commands;
+using FinStat.Mobile.Extensions;
+using FinStat.Mobile.Navigation;
 using FinStat.Resources.Localization;
 using Prism.Navigation;
 
@@ -20,6 +22,7 @@ namespace FinStat.Mobile.ViewModels
 
         private string _searchQuery;
         private int _selectedExchange;
+        private SearchResult _selectedSearchResult;
         private IEnumerable<SearchResult> _searchResults;
 
         public MainPageViewModel(
@@ -36,6 +39,7 @@ namespace FinStat.Mobile.ViewModels
             SelectedExchange = 1;
 
             SearchCommand = new AsyncCommand<string>(ExecuteSearchCommandAsync);
+            NavigateToIncomeStatementCommand = new AsyncCommand(ExecuteNavigateToIncomeStatementCommandAsync);
         }
 
         private ExchangeViewModel[] Exchanges { get; } = new[]
@@ -59,6 +63,12 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
+        public SearchResult SelectedSearchResult
+        {
+            get => _selectedSearchResult;
+            set => SetProperty(ref _selectedSearchResult, value);
+        }
+
         public IEnumerable<SearchResult> SearchResults
         {
             get => _searchResults;
@@ -68,6 +78,8 @@ namespace FinStat.Mobile.ViewModels
         public IEnumerable<string> ExchangeNames => Exchanges.Select(x => x.Text).ToList();
 
         public ICommand SearchCommand { get; }
+
+        public ICommand NavigateToIncomeStatementCommand { get; }
 
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
@@ -98,6 +110,13 @@ namespace FinStat.Mobile.ViewModels
 
                 SearchResults = result.payload;
             }
+        }
+
+        private Task ExecuteNavigateToIncomeStatementCommandAsync()
+        {
+            var navigationParameters = new NavigationParameters();
+            navigationParameters.Add<SearchResult>(SelectedSearchResult);
+            return NavigationService.NavigateWithoutAnimationAsync(Pages.IncomeStatement, navigationParameters);
         }
     }
 }
