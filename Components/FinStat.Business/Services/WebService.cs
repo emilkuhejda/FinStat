@@ -17,12 +17,12 @@ namespace FinStat.Business.Services
             _webServiceErrorHandler = webServiceErrorHandler;
         }
 
-        public Task<HttpRequestResult<SearchResult[]>> SearchCompanyAsync(string query, Exchange exchange, int limit, CancellationToken cancellationToken = default)
+        public Task<HttpRequestResult<SearchResult[]>> SearchCompanyAsync(string query, Exchange exchange, int limit = 20, CancellationToken cancellationToken = default)
         {
             return _webServiceErrorHandler.HandleResponseAsync(client => client.SearchCompanyAsync(query, exchange, limit, cancellationToken));
         }
 
-        public Task<HttpRequestResult<IncomeStatement[]>> GetIncomeStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken = default)
+        public Task<HttpRequestResult<IncomeStatement[]>> GetIncomeStatementsAsync(string ticker, bool isQuarterPeriod, int limit = 120, CancellationToken cancellationToken = default)
         {
             return _webServiceErrorHandler.HandleResponseAsync(client => client.GetIncomeStatementsAsync(ticker, isQuarterPeriod, limit, cancellationToken));
         }

@@ -16,8 +16,6 @@ namespace FinStat.Mobile.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-        private const int SearchLimit = 20;
-
         private readonly IWebService _webService;
 
         private string _searchQuery;
@@ -104,7 +102,7 @@ namespace FinStat.Mobile.ViewModels
             using (new OperationMonitor(OperationScope))
             {
                 var exchange = Exchanges[SelectedExchange];
-                var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value, SearchLimit));
+                var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value));
                 if (!result.success)
                     return;
 
