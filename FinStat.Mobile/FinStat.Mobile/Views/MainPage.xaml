@@ -23,6 +23,7 @@
                                     VisibleSegmentsCount="5" />
 
         <xForms:SfListView FocusBorderColor="Transparent"
+                           IsScrollBarVisible="False"
                            ItemSize="60"
                            ItemSpacing="4"
                            ItemsSource="{Binding SearchResults}"
@@ -45,6 +46,19 @@
                                    Style="{StaticResource LabelStyle}"
                                    Text="{Binding Symbol}" />
                         </StackLayout>
+                        <Frame BorderColor="{StaticResource ColorPrimary}"
+                               CornerRadius="40"
+                               HeightRequest="40"
+                               HorizontalOptions="EndAndExpand"
+                               IsVisible="{Binding Currency, Converter={StaticResource NullToBoolConverter}}"
+                               VerticalOptions="Center"
+                               WidthRequest="40">
+                            <Label FontFamily="QuicksandLight"
+                                   FontSize="{StaticResource LittleSize}"
+                                   HorizontalOptions="Center"
+                                   Text="{Binding Currency}"
+                                   VerticalOptions="Center" />
+                        </Frame>
                     </StackLayout>
                 </DataTemplate>
             </xForms:SfListView.ItemTemplate>
