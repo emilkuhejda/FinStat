@@ -5,6 +5,7 @@ using System.Windows.Input;
 using FinStat.Common.Utils;
 using FinStat.Domain.Enums;
 using FinStat.Domain.Interfaces.Services;
+using FinStat.Domain.Models;
 using FinStat.Mobile.Commands;
 using FinStat.Resources.Localization;
 using Prism.Navigation;
@@ -13,11 +14,13 @@ namespace FinStat.Mobile.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {
-        private const int SearchLimit = 10;
+        private const int SearchLimit = 20;
 
         private readonly IWebService _webService;
 
+        private string _searchQuery;
         private int _selectedExchange;
+        private IEnumerable<SearchResult> _searchResults;
 
         public MainPageViewModel(
             IWebService webService,
@@ -47,7 +50,19 @@ namespace FinStat.Mobile.ViewModels
         public int SelectedExchange
         {
             get => _selectedExchange;
-            set => SetProperty(ref _selectedExchange, value);
+            set
+            {
+                if (SetProperty(ref _selectedExchange, value))
+                {
+                    AsyncHelper.RunSync(() => SearchCompanyAsync(_searchQuery));
+                }
+            }
+        }
+
+        public IEnumerable<SearchResult> SearchResults
+        {
+            get => _searchResults;
+            set => SetProperty(ref _searchResults, value);
         }
 
         public IEnumerable<string> ExchangeNames => Exchanges.Select(x => x.Text).ToList();
@@ -62,15 +77,27 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        private async Task ExecuteSearchCommandAsync(string query)
+        private Task ExecuteSearchCommandAsync(string query)
+        {
+            _searchQuery = query;
+
+            return SearchCompanyAsync(query);
+        }
+
+        private async Task SearchCompanyAsync(string query)
         {
             if (string.IsNullOrWhiteSpace(query))
                 return;
 
-            var exchange = Exchanges[SelectedExchange];
-            var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value, SearchLimit));
-            if (!result.success)
-                return;
+            using (new OperationMonitor(OperationScope))
+            {
+                var exchange = Exchanges[SelectedExchange];
+                var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value, SearchLimit));
+                if (!result.success)
+                    return;
+
+                SearchResults = result.payload;
+            }
         }
     }
 }
