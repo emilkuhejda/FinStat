@@ -11,6 +11,7 @@ using FinStat.Mobile.Extensions;
 using FinStat.Mobile.Navigation;
 using FinStat.Resources.Localization;
 using Prism.Navigation;
+using ItemTappedEventArgs = Syncfusion.ListView.XForms.ItemTappedEventArgs;
 
 namespace FinStat.Mobile.ViewModels
 {
@@ -20,7 +21,6 @@ namespace FinStat.Mobile.ViewModels
 
         private string _searchQuery;
         private int _selectedExchange;
-        private SearchResult _selectedSearchResult;
         private IEnumerable<SearchResult> _searchResults;
 
         public MainPageViewModel(
@@ -37,7 +37,7 @@ namespace FinStat.Mobile.ViewModels
             SelectedExchange = 1;
 
             SearchCommand = new AsyncCommand<string>(ExecuteSearchCommandAsync);
-            NavigateToIncomeStatementCommand = new AsyncCommand(ExecuteNavigateToIncomeStatementCommandAsync);
+            NavigateToIncomeStatementCommand = new AsyncCommand<ItemTappedEventArgs>(ExecuteNavigateToIncomeStatementCommandAsync);
         }
 
         private ExchangeViewModel[] Exchanges { get; } = new[]
@@ -59,12 +59,6 @@ namespace FinStat.Mobile.ViewModels
                     AsyncHelper.RunSync(() => SearchCompanyAsync(_searchQuery));
                 }
             }
-        }
-
-        public SearchResult SelectedSearchResult
-        {
-            get => _selectedSearchResult;
-            set => SetProperty(ref _selectedSearchResult, value);
         }
 
         public IEnumerable<SearchResult> SearchResults
@@ -110,10 +104,14 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        private Task ExecuteNavigateToIncomeStatementCommandAsync()
+        private Task ExecuteNavigateToIncomeStatementCommandAsync(ItemTappedEventArgs args)
         {
+            var searchResult = args.ItemData as SearchResult;
+            if (searchResult == null)
+                return DisplayAlertAsync(string.Empty, Loc.Text(TranslationKeys.GeneralErrorMessage));
+
             var navigationParameters = new NavigationParameters();
-            navigationParameters.Add<SearchResult>(SelectedSearchResult);
+            navigationParameters.Add<SearchResult>(searchResult);
             return NavigationService.NavigateWithoutAnimationAsync(Pages.IncomeStatement, navigationParameters);
         }
     }
