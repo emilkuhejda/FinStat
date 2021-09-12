@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:BaseNavigationPage x:Class="FinStat.Mobile.Views.StatementsPage"
+                          xmlns="http://xamarin.com/schemas/2014/forms"
+                          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+                          xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
+                          xmlns:statementViews="clr-namespace:FinStat.Mobile.Views.StatementViews;assembly=FinStat.Mobile"
+                          xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
+    <tabView:SfTabView SelectedIndex="{Binding SelectedIndex}"
+                       TabHeaderBackgroundColor="{StaticResource GreyBackgroundColor}"
+                       TabHeaderPosition="Bottom"
+                       VisibleHeaderCount="3">
+        <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}">
+            <tabView:SfTabItem.Content>
+                <statementViews:IncomeStatementView />
+            </tabView:SfTabItem.Content>
+        </tabView:SfTabItem>
+
+        <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.BalanceSheetStatement}}">
+            <tabView:SfTabItem.Content>
+                <Label>Balance sheet</Label>
+            </tabView:SfTabItem.Content>
+        </tabView:SfTabItem>
+
+        <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.CashFlowStatement}}">
+            <tabView:SfTabItem.Content>
+                <Label>Cash flow</Label>
+            </tabView:SfTabItem.Content>
+        </tabView:SfTabItem>
+    </tabView:SfTabView>
+</views:BaseNavigationPage>

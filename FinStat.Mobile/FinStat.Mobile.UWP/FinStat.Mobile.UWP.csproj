@@ -185,6 +185,9 @@
     <PackageReference Include="Syncfusion.Xamarin.SfListView">
       <Version>19.2.0.60</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfTabView">
+      <Version>19.2.0.60</Version>
+    </PackageReference>
     <PackageReference Include="Xam.Plugin.LatestVersion">
       <Version>2.1.0</Version>
     </PackageReference>

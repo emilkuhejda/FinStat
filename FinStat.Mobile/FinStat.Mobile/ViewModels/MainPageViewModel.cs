@@ -112,7 +112,7 @@ namespace FinStat.Mobile.ViewModels
 
             var navigationParameters = new NavigationParameters();
             navigationParameters.Add<SearchResult>(searchResult);
-            return NavigationService.NavigateWithoutAnimationAsync(Pages.IncomeStatement, navigationParameters);
+            return NavigationService.NavigateWithoutAnimationAsync(Pages.Statements, navigationParameters);
         }
     }
 }

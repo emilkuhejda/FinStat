@@ -4,17 +4,17 @@ using FinStat.Mobile.ViewModels.DataGrid;
 using Syncfusion.SfDataGrid.XForms;
 using Xamarin.Forms.Xaml;
 
-namespace FinStat.Mobile.Views
+namespace FinStat.Mobile.Views.StatementViews
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class IncomeStatementPage
+    public partial class IncomeStatementView
     {
-        public IncomeStatementPage()
+        public IncomeStatementView()
         {
             InitializeComponent();
         }
 
-        private void SfDataGrid_OnItemsSourceChanged(object sender, GridItemsSourceChangedEventArgs e)
+        private void DataGridOnItemsSourceChanged(object sender, GridItemsSourceChangedEventArgs e)
         {
             if (e.NewItemSource is IList<RowViewModel> rows)
             {

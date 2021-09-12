@@ -8,6 +8,6 @@
 
         public static string More { get; } = "More";
 
-        public static string IncomeStatement { get; } = "IncomeStatement";
+        public static string Statements { get; } = "Statements";
     }
 }
