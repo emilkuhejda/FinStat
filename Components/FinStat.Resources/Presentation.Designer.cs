@@ -79,11 +79,47 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to After-Tax Earning Per Share.
+        /// </summary>
+        public static string AfterTaxEarningPerShare {
+            get {
+                return ResourceManager.GetString("AfterTaxEarningPerShare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All numbers in {0}.
+        /// </summary>
+        public static string AllNumbersInUnit {
+            get {
+                return ResourceManager.GetString("AllNumbersInUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Annual.
+        /// </summary>
+        public static string Annual {
+            get {
+                return ResourceManager.GetString("Annual", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to FinStat.
         /// </summary>
         public static string ApplicationTitle {
             get {
                 return ResourceManager.GetString("ApplicationTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Balance sheet statement.
+        /// </summary>
+        public static string BalanceSheetStatement {
+            get {
+                return ResourceManager.GetString("BalanceSheetStatement", resourceCulture);
             }
         }
         
@@ -97,11 +133,110 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cash flow statement.
+        /// </summary>
+        public static string CashFlowStatement {
+            get {
+                return ResourceManager.GetString("CashFlowStatement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cost Of Goods Sold.
+        /// </summary>
+        public static string CostOfGoodsSold {
+            get {
+                return ResourceManager.GetString("CostOfGoodsSold", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cost Of Goods Sold Ratio.
+        /// </summary>
+        public static string CostOfGoodsSoldRatio {
+            get {
+                return ResourceManager.GetString("CostOfGoodsSoldRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Depreciation &amp; Amortization.
+        /// </summary>
+        public static string DepreciationAmortization {
+            get {
+                return ResourceManager.GetString("DepreciationAmortization", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Depreciation &amp; Amortization Ratio.
+        /// </summary>
+        public static string DepreciationAmortizationRatio {
+            get {
+                return ResourceManager.GetString("DepreciationAmortizationRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Billions.
+        /// </summary>
+        public static string DisplayUnit_Billion {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Billion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Single units.
+        /// </summary>
+        public static string DisplayUnit_Default {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Millions.
+        /// </summary>
+        public static string DisplayUnit_Million {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Million", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thousands.
+        /// </summary>
+        public static string DisplayUnit_Thousand {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Thousand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to English.
         /// </summary>
         public static string English {
             get {
                 return ResourceManager.GetString("English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EPS.
+        /// </summary>
+        public static string EPS {
+            get {
+                return ResourceManager.GetString("EPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EPS Diluted.
+        /// </summary>
+        public static string EPSDiluted {
+            get {
+                return ResourceManager.GetString("EPSDiluted", resourceCulture);
             }
         }
         
@@ -241,6 +376,60 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Gross Profit.
+        /// </summary>
+        public static string GrossProfit {
+            get {
+                return ResourceManager.GetString("GrossProfit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gross Profit Ratio.
+        /// </summary>
+        public static string GrossProfitRatio {
+            get {
+                return ResourceManager.GetString("GrossProfitRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Income statement.
+        /// </summary>
+        public static string IncomeStatement {
+            get {
+                return ResourceManager.GetString("IncomeStatement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Income Taxes.
+        /// </summary>
+        public static string IncomeTaxes {
+            get {
+                return ResourceManager.GetString("IncomeTaxes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Interest Expense.
+        /// </summary>
+        public static string InterestExpense {
+            get {
+                return ResourceManager.GetString("InterestExpense", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Interest Expense Ratio.
+        /// </summary>
+        public static string InterestExpenseRatio {
+            get {
+                return ResourceManager.GetString("InterestExpenseRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Main.
         /// </summary>
         public static string Main {
@@ -255,6 +444,24 @@ namespace FinStat.Resources {
         public static string More {
             get {
                 return ResourceManager.GetString("More", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Net Earnings.
+        /// </summary>
+        public static string NetEarnings {
+            get {
+                return ResourceManager.GetString("NetEarnings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Net Earnings Ratio.
+        /// </summary>
+        public static string NetEarningsRatio {
+            get {
+                return ResourceManager.GetString("NetEarningsRatio", resourceCulture);
             }
         }
         
@@ -295,11 +502,137 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Operating Expenses.
+        /// </summary>
+        public static string OperatingExpenses {
+            get {
+                return ResourceManager.GetString("OperatingExpenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operating Income.
+        /// </summary>
+        public static string OperatingIncome {
+            get {
+                return ResourceManager.GetString("OperatingIncome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operating Income Ratio.
+        /// </summary>
+        public static string OperatingIncomeRatio {
+            get {
+                return ResourceManager.GetString("OperatingIncomeRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pre-Tax Earning Per Share.
+        /// </summary>
+        public static string PreTaxEarningPerShare {
+            get {
+                return ResourceManager.GetString("PreTaxEarningPerShare", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pre-Tax Income.
+        /// </summary>
+        public static string PreTaxIncome {
+            get {
+                return ResourceManager.GetString("PreTaxIncome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quarterly.
+        /// </summary>
+        public static string Quarterly {
+            get {
+                return ResourceManager.GetString("Quarterly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to R&amp;D Expenses.
+        /// </summary>
+        public static string RADExpenses {
+            get {
+                return ResourceManager.GetString("RADExpenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to R&amp;D Expenses Ratio.
+        /// </summary>
+        public static string RADExpensesRatio {
+            get {
+                return ResourceManager.GetString("RADExpensesRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Revenue.
+        /// </summary>
+        public static string Revenue {
+            get {
+                return ResourceManager.GetString("Revenue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Company name.
         /// </summary>
         public static string SearchBarPlaceholder {
             get {
                 return ResourceManager.GetString("SearchBarPlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SG&amp;A Expenses.
+        /// </summary>
+        public static string SGAExpenses {
+            get {
+                return ResourceManager.GetString("SGAExpenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SG&amp;A Expenses Ratio.
+        /// </summary>
+        public static string SGAExpensesRatio {
+            get {
+                return ResourceManager.GetString("SGAExpensesRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shares Outstanding.
+        /// </summary>
+        public static string SharesOutstanding {
+            get {
+                return ResourceManager.GetString("SharesOutstanding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stock Price.
+        /// </summary>
+        public static string StockPrice {
+            get {
+                return ResourceManager.GetString("StockPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Taxes Ratio.
+        /// </summary>
+        public static string TaxesRatio {
+            get {
+                return ResourceManager.GetString("TaxesRatio", resourceCulture);
             }
         }
     }

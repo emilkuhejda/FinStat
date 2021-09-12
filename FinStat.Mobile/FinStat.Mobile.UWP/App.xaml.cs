@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -15,6 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using FFImageLoading.Forms.Platform;
+using Syncfusion.XForms.UWP.Border;
 
 namespace FinStat.Mobile.UWP
 {
@@ -58,7 +60,9 @@ namespace FinStat.Mobile.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
                 global::Xamarin.Forms.Forms.SetFlags("Shell_UWP_Experimental");
-                Xamarin.Forms.Forms.Init(args);
+
+                var assembliesToInclude = InitializeSyncfusionAssemblies();
+                Xamarin.Forms.Forms.Init(args, assembliesToInclude);
 
                 CachedImageRenderer.Init();
 
@@ -104,6 +108,13 @@ namespace FinStat.Mobile.UWP
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
             deferral.Complete();
+        }
+
+        private IList<Assembly> InitializeSyncfusionAssemblies()
+        {
+            var assembliesToInclude = new List<Assembly>();
+            assembliesToInclude.Add(typeof(SfBorderRenderer).GetTypeInfo().Assembly);
+            return assembliesToInclude;
         }
     }
 }

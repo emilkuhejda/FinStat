@@ -1,5 +1,6 @@
 ﻿using FinStat.Mobile.UWP.Configuration;
 using Syncfusion.ListView.XForms.UWP;
+using Syncfusion.SfDataGrid.XForms.UWP;
 using Application = FinStat.Mobile.App;
 
 namespace FinStat.Mobile.UWP
@@ -17,6 +18,7 @@ namespace FinStat.Mobile.UWP
 
         private void InitializeSyncfusionControls()
         {
+            SfDataGridRenderer.Init();
             SfListViewRenderer.Init();
         }
     }

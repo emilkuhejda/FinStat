@@ -129,8 +129,107 @@
   <data name="Cancel" xml:space="preserve">
     <value>Cancel</value>
   </data>
+  <data name="IncomeStatement" xml:space="preserve">
+    <value>Income statement</value>
+  </data>
+  <data name="BalanceSheetStatement" xml:space="preserve">
+    <value>Balance sheet statement</value>
+  </data>
+  <data name="CashFlowStatement" xml:space="preserve">
+    <value>Cash flow statement</value>
+  </data>
   <data name="SearchBarPlaceholder" xml:space="preserve">
     <value>Company name</value>
+  </data>
+  <data name="AllNumbersInUnit" xml:space="preserve">
+    <value>All numbers in {0}</value>
+  </data>
+  <data name="Annual" xml:space="preserve">
+    <value>Annual</value>
+  </data>
+  <data name="Quarterly" xml:space="preserve">
+    <value>Quarterly</value>
+  </data>
+  <data name="Revenue" xml:space="preserve">
+    <value>Revenue</value>
+  </data>
+  <data name="CostOfGoodsSold" xml:space="preserve">
+    <value>Cost Of Goods Sold</value>
+  </data>
+  <data name="CostOfGoodsSoldRatio" xml:space="preserve">
+    <value>Cost Of Goods Sold Ratio</value>
+  </data>
+  <data name="GrossProfit" xml:space="preserve">
+    <value>Gross Profit</value>
+  </data>
+  <data name="GrossProfitRatio" xml:space="preserve">
+    <value>Gross Profit Ratio</value>
+  </data>
+  <data name="SGAExpenses" xml:space="preserve">
+    <value>SG&amp;A Expenses</value>
+  </data>
+  <data name="SGAExpensesRatio" xml:space="preserve">
+    <value>SG&amp;A Expenses Ratio</value>
+  </data>
+  <data name="RADExpenses" xml:space="preserve">
+    <value>R&amp;D Expenses</value>
+  </data>
+  <data name="RADExpensesRatio" xml:space="preserve">
+    <value>R&amp;D Expenses Ratio</value>
+  </data>
+  <data name="DepreciationAmortization" xml:space="preserve">
+    <value>Depreciation &amp; Amortization</value>
+  </data>
+  <data name="DepreciationAmortizationRatio" xml:space="preserve">
+    <value>Depreciation &amp; Amortization Ratio</value>
+  </data>
+  <data name="OperatingExpenses" xml:space="preserve">
+    <value>Operating Expenses</value>
+  </data>
+  <data name="OperatingIncome" xml:space="preserve">
+    <value>Operating Income</value>
+  </data>
+  <data name="OperatingIncomeRatio" xml:space="preserve">
+    <value>Operating Income Ratio</value>
+  </data>
+  <data name="InterestExpense" xml:space="preserve">
+    <value>Interest Expense</value>
+  </data>
+  <data name="InterestExpenseRatio" xml:space="preserve">
+    <value>Interest Expense Ratio</value>
+  </data>
+  <data name="PreTaxIncome" xml:space="preserve">
+    <value>Pre-Tax Income</value>
+  </data>
+  <data name="IncomeTaxes" xml:space="preserve">
+    <value>Income Taxes</value>
+  </data>
+  <data name="TaxesRatio" xml:space="preserve">
+    <value>Taxes Ratio</value>
+  </data>
+  <data name="NetEarnings" xml:space="preserve">
+    <value>Net Earnings</value>
+  </data>
+  <data name="NetEarningsRatio" xml:space="preserve">
+    <value>Net Earnings Ratio</value>
+  </data>
+  <data name="EPS" xml:space="preserve">
+    <value>EPS</value>
+  </data>
+  <data name="EPSDiluted" xml:space="preserve">
+    <value>EPS Diluted</value>
+  </data>
+  <data name="SharesOutstanding" xml:space="preserve">
+    <value>Shares Outstanding</value>
+  </data>
+  <data name="StockPrice" xml:space="preserve">
+    <value>Stock Price</value>
+  </data>
+  <data name="PreTaxEarningPerShare" xml:space="preserve">
+    <value>Pre-Tax Earning Per Share</value>
+  </data>
+  <data name="AfterTaxEarningPerShare" xml:space="preserve">
+    <value>After-Tax Earning Per Share</value>
   </data>
   <data name="OfflineErrorMessage" xml:space="preserve">
     <value>It seems you are offline. Please check your internet connection.</value>
@@ -180,5 +279,17 @@
   </data>
   <data name="Exchange_Lse" xml:space="preserve">
     <value>LSE</value>
+  </data>
+  <data name="DisplayUnit_Default" xml:space="preserve">
+    <value>Single units</value>
+  </data>
+  <data name="DisplayUnit_Thousand" xml:space="preserve">
+    <value>Thousands</value>
+  </data>
+  <data name="DisplayUnit_Million" xml:space="preserve">
+    <value>Millions</value>
+  </data>
+  <data name="DisplayUnit_Billion" xml:space="preserve">
+    <value>Billions</value>
   </data>
 </root>

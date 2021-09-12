@@ -2,20 +2,68 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.IncomeStatementPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
                           xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
                           xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
-                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
-    <StackLayout HorizontalOptions="Center"
-                 IsVisible="{Binding NoDataToPlot}"
-                 Orientation="Vertical">
-        <forms:SvgCachedImage Margin="0,20,0,20"
-                              Aspect="AspectFit"
-                              HeightRequest="150"
-                              HorizontalOptions="Center"
-                              Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
-                              VerticalOptions="End" />
+                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
+                          xmlns:xForms="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+    <Grid Padding="{StaticResource StandardPadding}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
-        <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAvailableData}}" />
-    </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label FontSize="{StaticResource LargerSize}"
+                   HorizontalOptions="Start"
+                   Style="{StaticResource LabelBoldStyle}"
+                   Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}"
+                   VerticalOptions="End" />
+            <Label FontSize="{StaticResource LittleSize}"
+                   HorizontalOptions="StartAndExpand"
+                   Text="{Binding DisplayUnitsText}"
+                   VerticalOptions="End" />
+
+            <StackLayout HorizontalOptions="End"
+                         Orientation="Horizontal"
+                         Spacing="0">
+                <buttons:SfButton Command="{Binding LoadAnnualDataCommand}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding AnnualData}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Annual}}" />
+                <Label Style="{StaticResource LabelStyle}" Text="|" />
+                <buttons:SfButton BackgroundColor="Transparent"
+                                  Command="{Binding LoadQuarterlyDataCommand}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding QuarterlyData}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Quarterly}}" />
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" IsVisible="{Binding NoDataToPlot, Converter={StaticResource InvertedBoolConverter}}">
+            <xForms:SfDataGrid x:Name="DataGrid"
+                               AutoGenerateColumns="False"
+                               ColumnSizer="Auto"
+                               FrozenColumnsCount="1"
+                               ItemsSource="{Binding Rows}"
+                               ItemsSourceChanged="SfDataGrid_OnItemsSourceChanged" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="1"
+                     HorizontalOptions="Center"
+                     IsVisible="{Binding NoDataToPlot}"
+                     Orientation="Vertical">
+            <forms:SvgCachedImage Margin="0,20,0,20"
+                                  Aspect="AspectFit"
+                                  HeightRequest="150"
+                                  HorizontalOptions="Center"
+                                  Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                  VerticalOptions="End" />
+
+            <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAvailableData}}" />
+        </StackLayout>
+    </Grid>
 </views:BaseNavigationPage>
