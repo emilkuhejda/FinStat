@@ -35,7 +35,7 @@ namespace FinStat.Mobile.ViewModels
 
             CanGoBack = true;
             HasTitleBar = true;
-            HasBottomNavigation = true;
+            HasBottomNavigation = false;
 
             AnnualData = true;
             QuarterlyData = false;
