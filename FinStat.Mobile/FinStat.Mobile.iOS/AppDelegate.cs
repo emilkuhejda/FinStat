@@ -47,6 +47,7 @@ namespace FinStat.Mobile.iOS
             SfSegmentedControlRenderer.Init();
             SfDataGridRenderer.Init();
             SfListViewRenderer.Init();
+            SfSwitchRenderer.Init();
 
             using (var busyIndicatorRenderer = new SfBusyIndicatorRenderer()) { }
         }
