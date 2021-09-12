@@ -16,11 +16,13 @@
         public static string Accept => "Accept";
         public static string Cancel => "Cancel";
 
-        public static string SearchBarPlaceholder => "SearchBarPlaceholder";
-        public static string AllNumbersInUnit => "AllNumbersInUnit";
         public static string IncomeStatement => "IncomeStatement";
         public static string BalanceSheetStatement => "BalanceSheetStatement";
         public static string CashFlowStatement => "CashFlowStatement";
+        public static string SearchBarPlaceholder => "SearchBarPlaceholder";
+        public static string AllNumbersInUnit => "AllNumbersInUnit";
+        public static string Annual => "Annual";
+        public static string Quarterly => "Quarterly";
 
         public static string Revenue => "Revenue";
         public static string CostOfGoodsSold => "CostOfGoodsSold";

@@ -97,6 +97,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Annual.
+        /// </summary>
+        public static string Annual {
+            get {
+                return ResourceManager.GetString("Annual", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to FinStat.
         /// </summary>
         public static string ApplicationTitle {
@@ -534,6 +543,15 @@ namespace FinStat.Resources {
         public static string PreTaxIncome {
             get {
                 return ResourceManager.GetString("PreTaxIncome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quarterly.
+        /// </summary>
+        public static string Quarterly {
+            get {
+                return ResourceManager.GetString("Quarterly", resourceCulture);
             }
         }
         

@@ -129,12 +129,6 @@
   <data name="Cancel" xml:space="preserve">
     <value>Cancel</value>
   </data>
-  <data name="SearchBarPlaceholder" xml:space="preserve">
-    <value>Company name</value>
-  </data>
-  <data name="AllNumbersInUnit" xml:space="preserve">
-    <value>All numbers in {0}</value>
-  </data>
   <data name="IncomeStatement" xml:space="preserve">
     <value>Income statement</value>
   </data>
@@ -143,6 +137,18 @@
   </data>
   <data name="CashFlowStatement" xml:space="preserve">
     <value>Cash flow statement</value>
+  </data>
+  <data name="SearchBarPlaceholder" xml:space="preserve">
+    <value>Company name</value>
+  </data>
+  <data name="AllNumbersInUnit" xml:space="preserve">
+    <value>All numbers in {0}</value>
+  </data>
+  <data name="Annual" xml:space="preserve">
+    <value>Annual</value>
+  </data>
+  <data name="Quarterly" xml:space="preserve">
+    <value>Quarterly</value>
   </data>
   <data name="Revenue" xml:space="preserve">
     <value>Revenue</value>

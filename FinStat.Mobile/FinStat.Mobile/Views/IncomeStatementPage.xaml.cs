@@ -18,6 +18,10 @@ namespace FinStat.Mobile.Views
         {
             if (e.NewItemSource is IList<RowViewModel> rows)
             {
+                if (!rows.Any())
+                    return;
+
+                DataGrid.Columns.Clear();
                 var columns = rows.First().Cells.ToList();
                 for (var i = 0; i < columns.Count; i++)
                 {

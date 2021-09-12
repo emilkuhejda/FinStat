@@ -159,6 +159,22 @@
                 <Setter Property="FontFamily" Value="QuicksandRegular" />
             </Style>
 
+            <Style x:Key="ToggleButtonStyle" TargetType="buttons:SfButton">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="PressedBackgroundColor" Value="Transparent" />
+                <Setter Property="BorderColor" Value="Transparent" />
+                <Setter Property="Margin" Value="0" />
+                <Setter Property="FontFamily" Value="QuicksandRegular" />
+                <Style.Triggers>
+                    <Trigger TargetType="buttons:SfButton" Property="IsChecked" Value="True">
+                        <Setter Property="TextColor" Value="{StaticResource ColorPrimary}" />
+                    </Trigger>
+                    <Trigger TargetType="buttons:SfButton" Property="IsChecked" Value="False">
+                        <Setter Property="TextColor" Value="{StaticResource ColorGrey500}" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
             <Style x:Key="CustomButtonStyle" TargetType="controls:CustomButton">
                 <Setter Property="BorderWidth" Value="2" />
                 <Setter Property="BorderRadius" Value="6" />
