@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<views:BaseNavigationPage x:Class="FinStat.Mobile.Views.IncomeStatementPage"
+<views:BaseNavigationPage x:Class="FinStat.Mobile.Views.StatementsPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                           xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
@@ -55,7 +55,7 @@
                                            ColumnSizer="Auto"
                                            FrozenColumnsCount="1"
                                            ItemsSource="{Binding Rows}"
-                                           ItemsSourceChanged="SfDataGrid_OnItemsSourceChanged" />
+                                           ItemsSourceChanged="DataGridOnItemsSourceChanged" />
                     </StackLayout>
 
                     <StackLayout Grid.Row="1"

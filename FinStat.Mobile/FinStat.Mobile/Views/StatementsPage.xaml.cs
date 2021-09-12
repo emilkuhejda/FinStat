@@ -7,14 +7,14 @@ using Xamarin.Forms.Xaml;
 namespace FinStat.Mobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class IncomeStatementPage
+    public partial class StatementsPage
     {
-        public IncomeStatementPage()
+        public StatementsPage()
         {
             InitializeComponent();
         }
 
-        private void SfDataGrid_OnItemsSourceChanged(object sender, GridItemsSourceChangedEventArgs e)
+        private void DataGridOnItemsSourceChanged(object sender, GridItemsSourceChangedEventArgs e)
         {
             if (e.NewItemSource is IList<RowViewModel> rows)
             {
