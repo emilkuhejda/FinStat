@@ -132,6 +132,9 @@
   <data name="SearchBarPlaceholder" xml:space="preserve">
     <value>Company name</value>
   </data>
+  <data name="AllNumbersInUnit" xml:space="preserve">
+    <value>All numbers in {0}</value>
+  </data>
   <data name="IncomeStatement" xml:space="preserve">
     <value>Income statement</value>
   </data>
@@ -270,5 +273,17 @@
   </data>
   <data name="Exchange_Lse" xml:space="preserve">
     <value>LSE</value>
+  </data>
+  <data name="DisplayUnit_Default" xml:space="preserve">
+    <value>Single units</value>
+  </data>
+  <data name="DisplayUnit_Thousand" xml:space="preserve">
+    <value>Thousands</value>
+  </data>
+  <data name="DisplayUnit_Million" xml:space="preserve">
+    <value>Millions</value>
+  </data>
+  <data name="DisplayUnit_Billion" xml:space="preserve">
+    <value>Billions</value>
   </data>
 </root>

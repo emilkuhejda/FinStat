@@ -1,9 +1,13 @@
-﻿namespace FinStat.Domain.Interfaces.Configuration
+﻿using FinStat.Domain.Enums;
+
+namespace FinStat.Domain.Interfaces.Configuration
 {
     public interface IApplicationSettings
     {
         string ApiKey { get; }
 
         string SyncfusionKey { get; }
+
+        DisplayUnit DisplayUnit { get; }
     }
 }

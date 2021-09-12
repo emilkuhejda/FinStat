@@ -9,6 +9,16 @@
                           xmlns:xForms="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
     <Grid>
         <StackLayout Padding="{StaticResource StandardPadding}" IsVisible="{Binding NoDataToPlot, Converter={StaticResource InvertedBoolConverter}}">
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="{StaticResource LargerSize}"
+                       HorizontalOptions="Start"
+                       Style="{StaticResource LabelBoldStyle}"
+                       Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}" />
+                <Label FontSize="{StaticResource LittleSize}"
+                       HorizontalOptions="StartAndExpand"
+                       Text="{Binding DisplayUnitsText}"
+                       VerticalOptions="End" />
+            </StackLayout>
             <xForms:SfDataGrid x:Name="DataGrid"
                                AutoGenerateColumns="False"
                                ColumnSizer="Auto"

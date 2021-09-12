@@ -17,6 +17,7 @@
         public static string Cancel => "Cancel";
 
         public static string SearchBarPlaceholder => "SearchBarPlaceholder";
+        public static string AllNumbersInUnit => "AllNumbersInUnit";
         public static string IncomeStatement => "IncomeStatement";
         public static string BalanceSheetStatement => "BalanceSheetStatement";
         public static string CashFlowStatement => "CashFlowStatement";

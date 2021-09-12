@@ -88,6 +88,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to All numbers in {0}.
+        /// </summary>
+        public static string AllNumbersInUnit {
+            get {
+                return ResourceManager.GetString("AllNumbersInUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to FinStat.
         /// </summary>
         public static string ApplicationTitle {
@@ -156,6 +165,42 @@ namespace FinStat.Resources {
         public static string DepreciationAmortizationRatio {
             get {
                 return ResourceManager.GetString("DepreciationAmortizationRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Billions.
+        /// </summary>
+        public static string DisplayUnit_Billion {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Billion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Single units.
+        /// </summary>
+        public static string DisplayUnit_Default {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Millions.
+        /// </summary>
+        public static string DisplayUnit_Million {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Million", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thousands.
+        /// </summary>
+        public static string DisplayUnit_Thousand {
+            get {
+                return ResourceManager.GetString("DisplayUnit_Thousand", resourceCulture);
             }
         }
         

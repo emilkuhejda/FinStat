@@ -85,15 +85,15 @@ namespace FinStat.Mobile.ViewModels.DataGrid
 
         private static string FormatNumber(long value, DisplayUnit displayUnit)
         {
-            return (value / displayUnit.ToUnit()).ToString(CultureInfo.InvariantCulture);
+            return (value / displayUnit.ToUnit()).ToString("N0", CultureInfo.InvariantCulture);
         }
 
         private static string FormatNumber(double value, uint decimals)
         {
             if (decimals == 0)
-                return Math.Round(value).ToString(CultureInfo.InvariantCulture);
+                return Math.Round(value).ToString("N0", CultureInfo.InvariantCulture);
 
-            return (Math.Round(value * Math.Pow(10, decimals)) / Math.Pow(10, decimals)).ToString(CultureInfo.InvariantCulture);
+            return (Math.Round(value * Math.Pow(10, decimals)) / Math.Pow(10, decimals)).ToString($"N{decimals}", CultureInfo.InvariantCulture);
         }
 
         private static string FormatPercentage(double value)
