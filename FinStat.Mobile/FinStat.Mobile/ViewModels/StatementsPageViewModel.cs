@@ -11,9 +11,10 @@ namespace FinStat.Mobile.ViewModels
 {
     public class StatementsPageViewModel : ViewModelBase
     {
+        private IncomeStatementPageViewModel _incomeStatementPage;
+        private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
-        private IncomeStatementPageViewModel _incomeStatementPage;
 
         public StatementsPageViewModel(
             IWebService webService,
@@ -40,6 +41,12 @@ namespace FinStat.Mobile.ViewModels
         {
             get => _incomeStatementPage;
             set => SetProperty(ref _incomeStatementPage, value);
+        }
+
+        public int SelectedIndex
+        {
+            get => _selectedIndex;
+            set => SetProperty(ref _selectedIndex, value);
         }
 
         public bool AnnualData

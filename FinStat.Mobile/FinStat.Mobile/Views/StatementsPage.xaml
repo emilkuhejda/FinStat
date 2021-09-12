@@ -7,7 +7,8 @@
                           xmlns:statementViews="clr-namespace:FinStat.Mobile.Views.StatementViews;assembly=FinStat.Mobile"
                           xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
-    <tabView:SfTabView TabHeaderBackgroundColor="{StaticResource GreyBackgroundColor}"
+    <tabView:SfTabView SelectedIndex="{Binding SelectedIndex}"
+                       TabHeaderBackgroundColor="{StaticResource GreyBackgroundColor}"
                        TabHeaderPosition="Bottom"
                        VisibleHeaderCount="3">
         <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}">
