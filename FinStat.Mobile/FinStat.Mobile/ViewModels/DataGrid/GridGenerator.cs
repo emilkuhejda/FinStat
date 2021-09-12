@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using FinStat.Business.Extensions;
+using FinStat.Domain.Enums;
 using FinStat.Domain.Models;
 using FinStat.Resources.Localization;
 
@@ -8,16 +10,16 @@ namespace FinStat.Mobile.ViewModels.DataGrid
 {
     public class GridGenerator
     {
-        private readonly IEnumerable<RowDefinition> _rowDefinitions = new List<RowDefinition>
+        private readonly IEnumerable<ParameterDefinition> _parameterDefinitions = new List<ParameterDefinition>
         {
-            new RowDefinition(Loc.Text(TranslationKeys.Revenue), i => FormatNumber(i.Revenue)),
-            new RowDefinition(Loc.Text(TranslationKeys.CostOfGoodsSold), i => FormatNumber(i.CostOfRevenue)),
-            new RowDefinition(Loc.Text(TranslationKeys.CostOfGoodsSoldRatio), i => FormatPercentage(i.CostOfRevenue / (i.Revenue * 1.0))),
+            new ParameterDefinition(Loc.Text(TranslationKeys.Revenue), (i, u) => FormatNumber(i.Revenue, u)),
+            new ParameterDefinition(Loc.Text(TranslationKeys.CostOfGoodsSold), (i, u) => FormatNumber(i.CostOfRevenue, u)),
+            new ParameterDefinition(Loc.Text(TranslationKeys.CostOfGoodsSoldRatio), (i, _) => FormatPercentage(i.CostOfRevenue / (i.Revenue * 1.0))),
         };
 
-        private static string FormatNumber(long value)
+        private static string FormatNumber(long value, DisplayUnit displayUnit)
         {
-            return (value / 1000000).ToString(CultureInfo.InvariantCulture);
+            return (value / displayUnit.ToUnit()).ToString(CultureInfo.InvariantCulture);
         }
 
         private static string FormatPercentage(double value)
@@ -25,16 +27,16 @@ namespace FinStat.Mobile.ViewModels.DataGrid
             return $"{Math.Round(value * 10000.0) / 100}%";
         }
 
-        public IEnumerable<RowViewModel> GenerateIncomeStatements(string companyName, IList<IncomeStatement> incomeStatements)
+        public IEnumerable<RowViewModel> GenerateIncomeStatements(string companyName, IList<IncomeStatement> incomeStatements, DisplayUnit displayUnit)
         {
             var rows = new List<RowViewModel>();
-            foreach (var rowDefinition in _rowDefinitions)
+            foreach (var parameterDefinition in _parameterDefinitions)
             {
                 var cells = new List<CellViewModel>();
-                cells.Add(new CellViewModel(companyName, rowDefinition.Title));
+                cells.Add(new CellViewModel(companyName, parameterDefinition.Title));
                 foreach (var incomeStatement in incomeStatements)
                 {
-                    cells.Add(new CellViewModel(incomeStatement.Date, rowDefinition.Value(incomeStatement)));
+                    cells.Add(new CellViewModel(incomeStatement.Date, parameterDefinition.Value(incomeStatement, displayUnit)));
                 }
                 rows.Add(new RowViewModel(cells));
             }
@@ -42,9 +44,9 @@ namespace FinStat.Mobile.ViewModels.DataGrid
             return rows;
         }
 
-        private class RowDefinition
+        private class ParameterDefinition
         {
-            public RowDefinition(string title, Func<IncomeStatement, string> value)
+            public ParameterDefinition(string title, Func<IncomeStatement, DisplayUnit, string> value)
             {
                 Title = title;
                 Value = value;
@@ -52,7 +54,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
 
             public string Title { get; }
 
-            public Func<IncomeStatement, string> Value { get; }
+            public Func<IncomeStatement, DisplayUnit, string> Value { get; }
         }
     }
 }

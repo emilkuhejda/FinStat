@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using FinStat.Common.Utils;
+using FinStat.Domain.Enums;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
 using FinStat.Mobile.Extensions;
@@ -53,7 +54,7 @@ namespace FinStat.Mobile.ViewModels
                 if (result.success)
                 {
                     var gridGenerator = new GridGenerator();
-                    Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload);
+                    Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload, DisplayUnit.Million);
                 }
             }
         }
