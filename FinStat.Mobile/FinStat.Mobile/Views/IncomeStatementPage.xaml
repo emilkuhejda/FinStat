@@ -5,17 +5,28 @@
                           xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
                           xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
-                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
-    <StackLayout HorizontalOptions="Center"
-                 IsVisible="{Binding NoDataToPlot}"
-                 Orientation="Vertical">
-        <forms:SvgCachedImage Margin="0,20,0,20"
-                              Aspect="AspectFit"
-                              HeightRequest="150"
-                              HorizontalOptions="Center"
-                              Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
-                              VerticalOptions="End" />
+                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
+                          xmlns:xForms="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+    <Grid>
+        <StackLayout Padding="{StaticResource StandardPadding}" IsVisible="{Binding NoDataToPlot, Converter={StaticResource InvertedBoolConverter}}">
+            <xForms:SfDataGrid x:Name="DataGrid"
+                               AutoGenerateColumns="False"
+                               ColumnSizer="Auto"
+                               FrozenColumnsCount="1"
+                               ItemsSource="{Binding Rows}"
+                               ItemsSourceChanged="SfDataGrid_OnItemsSourceChanged" />
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center"
+                     IsVisible="{Binding NoDataToPlot}"
+                     Orientation="Vertical">
+            <forms:SvgCachedImage Margin="0,20,0,20"
+                                  Aspect="AspectFit"
+                                  HeightRequest="150"
+                                  HorizontalOptions="Center"
+                                  Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                  VerticalOptions="End" />
 
-        <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAvailableData}}" />
-    </StackLayout>
+            <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAvailableData}}" />
+        </StackLayout>
+    </Grid>
 </views:BaseNavigationPage>

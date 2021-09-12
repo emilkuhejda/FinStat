@@ -5,6 +5,7 @@ using FinStat.Common.Utils;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
 using FinStat.Mobile.Extensions;
+using FinStat.Mobile.ViewModels.DataGrid;
 using Prism.Navigation;
 
 namespace FinStat.Mobile.ViewModels
@@ -12,7 +13,8 @@ namespace FinStat.Mobile.ViewModels
     public class IncomeStatementPageViewModel : ViewModelBase
     {
         private readonly IWebService _webService;
-        private IEnumerable<IncomeStatement> _incomeStatements;
+
+        private IEnumerable<RowViewModel> _rows;
 
         public IncomeStatementPageViewModel(
             IWebService webService,
@@ -26,19 +28,19 @@ namespace FinStat.Mobile.ViewModels
             HasBottomNavigation = true;
         }
 
-        public IEnumerable<IncomeStatement> IncomeStatements
+        public bool NoDataToPlot => Rows == null || !Rows.Any();
+
+        public IEnumerable<RowViewModel> Rows
         {
-            get => _incomeStatements;
+            get => _rows;
             set
             {
-                if (SetProperty(ref _incomeStatements, value))
+                if (SetProperty(ref _rows, value))
                 {
                     RaisePropertyChanged(nameof(NoDataToPlot));
                 }
             }
         }
-
-        public bool NoDataToPlot => IncomeStatements == null || !IncomeStatements.Any();
 
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
@@ -50,7 +52,8 @@ namespace FinStat.Mobile.ViewModels
                 var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(searchResult.Symbol, false));
                 if (result.success)
                 {
-                    IncomeStatements = result.payload;
+                    var gridGenerator = new GridGenerator();
+                    Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload);
                 }
             }
         }
