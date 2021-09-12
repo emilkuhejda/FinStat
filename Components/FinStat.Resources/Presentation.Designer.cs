@@ -106,15 +106,6 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Basic EPS.
-        /// </summary>
-        public static string BasicEPS {
-            get {
-                return ResourceManager.GetString("BasicEPS", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
         public static string Cancel {
@@ -183,6 +174,15 @@ namespace FinStat.Resources {
         public static string EPS {
             get {
                 return ResourceManager.GetString("EPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to EPS Diluted.
+        /// </summary>
+        public static string EPSDiluted {
+            get {
+                return ResourceManager.GetString("EPSDiluted", resourceCulture);
             }
         }
         
@@ -462,6 +462,15 @@ namespace FinStat.Resources {
         public static string OperatingIncome {
             get {
                 return ResourceManager.GetString("OperatingIncome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operating Income Ratio.
+        /// </summary>
+        public static string OperatingIncomeRatio {
+            get {
+                return ResourceManager.GetString("OperatingIncomeRatio", resourceCulture);
             }
         }
         

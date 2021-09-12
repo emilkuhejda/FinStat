@@ -180,6 +180,9 @@
   <data name="OperatingIncome" xml:space="preserve">
     <value>Operating Income</value>
   </data>
+  <data name="OperatingIncomeRatio" xml:space="preserve">
+    <value>Operating Income Ratio</value>
+  </data>
   <data name="InterestExpense" xml:space="preserve">
     <value>Interest Expense</value>
   </data>
@@ -201,11 +204,11 @@
   <data name="NetEarningsRatio" xml:space="preserve">
     <value>Net Earnings Ratio</value>
   </data>
-  <data name="BasicEPS" xml:space="preserve">
-    <value>Basic EPS</value>
-  </data>
   <data name="EPS" xml:space="preserve">
     <value>EPS</value>
+  </data>
+  <data name="EPSDiluted" xml:space="preserve">
+    <value>EPS Diluted</value>
   </data>
   <data name="SharesOutstanding" xml:space="preserve">
     <value>Shares Outstanding</value>

@@ -34,6 +34,7 @@
         public static string DepreciationAmortizationRatio => "DepreciationAmortizationRatio";
         public static string OperatingExpenses => "OperatingExpenses";
         public static string OperatingIncome => "OperatingIncome";
+        public static string OperatingIncomeRatio => "OperatingIncomeRatio";
         public static string InterestExpense => "InterestExpense";
         public static string InterestExpenseRatio => "InterestExpenseRatio";
         public static string PreTaxIncome => "PreTaxIncome";
@@ -41,8 +42,8 @@
         public static string TaxesPercentage => "TaxesRatio";
         public static string NetEarnings => "NetEarnings";
         public static string NetEarningsRatio => "NetEarningsRatio";
-        public static string BasicEPS => "BasicEPS";
         public static string EPS => "EPS";
+        public static string EPSDiluted => "EPSDiluted";
         public static string SharesOutstanding => "SharesOutstanding";
         public static string StockPrice => "StockPrice";
         public static string PreTaxEarningPerShare => "PreTaxEarningPerShare";
