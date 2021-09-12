@@ -1,28 +1,19 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows.Input;
-using FinStat.Common.Utils;
 using FinStat.Domain.Interfaces.Configuration;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
 using FinStat.Mobile.Commands;
 using FinStat.Mobile.Extensions;
-using FinStat.Mobile.ViewModels.DataGrid;
-using FinStat.Resources.Localization;
 using Prism.Navigation;
 
 namespace FinStat.Mobile.ViewModels
 {
     public class StatementsPageViewModel : ViewModelBase
     {
-        private readonly IWebService _webService;
-        private readonly IApplicationSettings _applicationSettings;
-
-        private IEnumerable<RowViewModel> _rows;
         private bool _annualData;
         private bool _quarterlyData;
-        private string _displayUnitsText;
+        private IncomeStatementPageViewModel _incomeStatementPage;
 
         public StatementsPageViewModel(
             IWebService webService,
@@ -30,9 +21,6 @@ namespace FinStat.Mobile.ViewModels
             INavigationService navigationService)
             : base(navigationService)
         {
-            _webService = webService;
-            _applicationSettings = applicationSettings;
-
             CanGoBack = true;
             HasTitleBar = true;
             HasBottomNavigation = false;
@@ -40,7 +28,7 @@ namespace FinStat.Mobile.ViewModels
             AnnualData = true;
             QuarterlyData = false;
 
-            DisplayUnitsText = Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(_applicationSettings.DisplayUnit));
+            IncomeStatementPage = new IncomeStatementPageViewModel(webService, applicationSettings, navigationService);
 
             LoadAnnualDataCommand = new AsyncCommand(ExecuteLoadAnnualDataCommandAsync);
             LoadQuarterlyDataCommand = new AsyncCommand(ExecuteLoadQuarterlyDataCommandAsync);
@@ -48,18 +36,10 @@ namespace FinStat.Mobile.ViewModels
 
         private SearchResult SearchResult { get; set; }
 
-        public bool NoDataToPlot => Rows == null || !Rows.Any();
-
-        public IEnumerable<RowViewModel> Rows
+        public IncomeStatementPageViewModel IncomeStatementPage
         {
-            get => _rows;
-            set
-            {
-                if (SetProperty(ref _rows, value))
-                {
-                    RaisePropertyChanged(nameof(NoDataToPlot));
-                }
-            }
+            get => _incomeStatementPage;
+            set => SetProperty(ref _incomeStatementPage, value);
         }
 
         public bool AnnualData
@@ -74,12 +54,6 @@ namespace FinStat.Mobile.ViewModels
             set => SetProperty(ref _quarterlyData, value);
         }
 
-        public string DisplayUnitsText
-        {
-            get => _displayUnitsText;
-            set => SetProperty(ref _displayUnitsText, value);
-        }
-
         public ICommand LoadAnnualDataCommand { get; }
 
         public ICommand LoadQuarterlyDataCommand { get; }
@@ -90,23 +64,6 @@ namespace FinStat.Mobile.ViewModels
             Title = SearchResult.Name;
 
             return InitializeAsync();
-        }
-
-        private async Task InitializeAsync()
-        {
-            using (new OperationMonitor(OperationScope))
-            {
-                var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(SearchResult.Symbol, QuarterlyData));
-                if (result.success)
-                {
-                    var gridGenerator = new GridGenerator();
-                    Rows = gridGenerator.GenerateIncomeStatements(SearchResult.Name, result.payload, _applicationSettings.DisplayUnit);
-                }
-                else
-                {
-                    Rows = new List<RowViewModel>();
-                }
-            }
         }
 
         private Task ExecuteLoadAnnualDataCommandAsync()
@@ -131,6 +88,11 @@ namespace FinStat.Mobile.ViewModels
 
             AnnualData = false;
             return InitializeAsync();
+        }
+
+        private Task InitializeAsync()
+        {
+            return IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
         }
     }
 }

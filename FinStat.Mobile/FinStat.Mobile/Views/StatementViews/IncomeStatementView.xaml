@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView x:Class="FinStat.Mobile.Views.StatementViews.IncomeStatementView"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+             xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
+             xmlns:xForms="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             xmlns:xForms1="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms">
+    <Grid>
+        <StackLayout Grid.Row="0" Padding="{StaticResource StandardPadding}">
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="{StaticResource LargerSize}"
+                       HorizontalOptions="Start"
+                       Style="{StaticResource LabelBoldStyle}"
+                       Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}"
+                       VerticalOptions="End" />
+                <Label FontSize="{StaticResource LittleSize}"
+                       HorizontalOptions="StartAndExpand"
+                       Text="{Binding IncomeStatementPage.DisplayUnitsText}"
+                       VerticalOptions="End" />
+
+                <StackLayout HorizontalOptions="End"
+                             Orientation="Horizontal"
+                             Spacing="0">
+                    <buttons:SfButton Command="{Binding LoadAnnualDataCommand}"
+                                      IsCheckable="True"
+                                      IsChecked="{Binding AnnualData}"
+                                      Style="{StaticResource ToggleButtonStyle}"
+                                      Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Annual}}" />
+                    <Label Style="{StaticResource LabelStyle}" Text="|" />
+                    <buttons:SfButton BackgroundColor="Transparent"
+                                      Command="{Binding LoadQuarterlyDataCommand}"
+                                      IsCheckable="True"
+                                      IsChecked="{Binding QuarterlyData}"
+                                      Style="{StaticResource ToggleButtonStyle}"
+                                      Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Quarterly}}" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout IsVisible="{Binding IncomeStatementPage.NoDataToPlot, Converter={StaticResource InvertedBoolConverter}}">
+                <xForms:SfDataGrid x:Name="DataGrid"
+                                   AutoGenerateColumns="False"
+                                   ColumnSizer="Auto"
+                                   FrozenColumnsCount="1"
+                                   ItemsSource="{Binding IncomeStatementPage.Rows}"
+                                   ItemsSourceChanged="DataGridOnItemsSourceChanged" />
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Grid.Row="0"
+                     HorizontalOptions="Center"
+                     IsVisible="{Binding IncomeStatementPage.NoDataToPlot}"
+                     Orientation="Vertical">
+            <forms:SvgCachedImage Margin="0,20,0,20"
+                                  Aspect="AspectFit"
+                                  HeightRequest="150"
+                                  HorizontalOptions="Center"
+                                  Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                  VerticalOptions="End" />
+
+            <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAvailableData}}" />
+        </StackLayout>
+
+        <Grid Grid.Row="0" IsVisible="{Binding IncomeStatementPage.OperationScope.IsBusy}">
+            <xForms1:SfBusyIndicator Title="{Binding IndicatorCaption}"
+                                     AnimationType="Gear"
+                                     BackgroundColor="{StaticResource ColorBlack}"
+                                     IsBusy="{Binding IncomeStatementPage.OperationScope.IsBusy}"
+                                     IsVisible="{Binding IncomeStatementPage.OperationScope.IsBusy}"
+                                     Opacity="0.6"
+                                     TextColor="{StaticResource ColorWhite}"
+                                     ViewBoxHeight="50"
+                                     ViewBoxWidth="50" />
+        </Grid>
+    </Grid>
+</ContentView>
