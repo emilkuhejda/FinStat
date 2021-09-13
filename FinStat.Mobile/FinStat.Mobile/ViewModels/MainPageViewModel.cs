@@ -90,8 +90,16 @@ namespace FinStat.Mobile.ViewModels
         public IEnumerable<SearchResult> SearchResults
         {
             get => _searchResults;
-            set => SetProperty(ref _searchResults, value);
+            set
+            {
+                if (SetProperty(ref _searchResults, value))
+                {
+                    RaisePropertyChanged(nameof(AnySearchResults));
+                }
+            }
         }
+
+        public bool AnySearchResults => SearchResults != null && SearchResults.Any();
 
         public IEnumerable<SearchResult> RecentlyVisitedCompanies
         {
