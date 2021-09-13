@@ -628,6 +628,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Start searching your favorite companies.
+        /// </summary>
+        public static string StartSearchingCompanies {
+            get {
+                return ResourceManager.GetString("StartSearchingCompanies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Stock Price.
         /// </summary>
         public static string StockPrice {

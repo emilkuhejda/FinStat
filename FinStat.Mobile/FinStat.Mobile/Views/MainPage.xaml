@@ -60,6 +60,27 @@
 
         <StackLayout IsVisible="{Binding IsSearchingActive, Converter={StaticResource InvertedBoolConverter}}">
             <Label Style="{StaticResource LabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.RecentlyOpened}}" />
+
+            <StackLayout IsVisible="{Binding AnyRecentlyVisitedCompanies, Converter={StaticResource InvertedBoolConverter}}" Orientation="Vertical">
+                <forms:SvgCachedImage Margin="0,20,0,20"
+                                      Aspect="AspectFit"
+                                      HeightRequest="150"
+                                      HorizontalOptions="Center"
+                                      Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                      VerticalOptions="End" />
+
+                <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.StartSearchingCompanies}}" />
+            </StackLayout>
+
+            <xForms:SfListView FocusBorderColor="Transparent"
+                               IsScrollBarVisible="False"
+                               IsVisible="{Binding AnyRecentlyVisitedCompanies}"
+                               ItemSize="60"
+                               ItemSpacing="4"
+                               ItemTemplate="{StaticResource SearchResultItemTemplate}"
+                               ItemsSource="{Binding RecentlyVisitedCompanies}"
+                               SelectionBackgroundColor="Transparent"
+                               TapCommand="{Binding NavigateToIncomeStatementCommand}" />
         </StackLayout>
 
         <xForms:SfListView FocusBorderColor="Transparent"
