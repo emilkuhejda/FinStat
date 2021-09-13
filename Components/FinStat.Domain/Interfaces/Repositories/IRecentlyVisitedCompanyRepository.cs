@@ -8,5 +8,7 @@ namespace FinStat.Domain.Interfaces.Repositories
         Task InsertOrUpdateAsync(RecentlyVisitedCompany recentlyVisitedCompany);
 
         Task<RecentlyVisitedCompany[]> GetAllAsync();
+
+        Task<RecentlyVisitedCompany[]> GetLastRecordsAsync(int limit);
     }
 }

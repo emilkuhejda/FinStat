@@ -1,7 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using System.Windows.Input;
+using FinStat.Business.Extensions;
 using FinStat.Common.Utils;
 using FinStat.Domain.Interfaces.Configuration;
+using FinStat.Domain.Interfaces.Repositories;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
 using FinStat.Mobile.Commands;
@@ -13,6 +16,8 @@ namespace FinStat.Mobile.ViewModels
 {
     public class StatementsPageViewModel : ViewModelBase
     {
+        private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
+
         private IncomeStatementPageViewModel _incomeStatementPage;
         private int _selectedIndex;
         private bool _annualData;
@@ -20,11 +25,14 @@ namespace FinStat.Mobile.ViewModels
         private string _displayUnitsText;
 
         public StatementsPageViewModel(
+            IRecentlyVisitedCompanyRepository recentlyVisitedCompanyRepository,
             IWebService webService,
             IApplicationSettings applicationSettings,
             INavigationService navigationService)
             : base(navigationService)
         {
+            _recentlyVisitedCompanyRepository = recentlyVisitedCompanyRepository;
+
             CanGoBack = true;
             HasTitleBar = true;
             HasBottomNavigation = false;
@@ -76,12 +84,17 @@ namespace FinStat.Mobile.ViewModels
 
         public ICommand LoadQuarterlyDataCommand { get; }
 
-        protected override Task LoadDataAsync(INavigationParameters navigationParameters)
+        protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
             SearchResult = navigationParameters.GetValue<SearchResult>();
             Title = SearchResult.Name;
 
-            return InitializeAsync();
+            using (new OperationMonitor(OperationScope))
+            {
+                var recentlyVisitedCompany = SearchResult.ToRecentlyVisitedCompany(DateTime.Now);
+                await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany).ConfigureAwait(false);
+                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData).ConfigureAwait(false);
+            }
         }
 
         private Task ExecuteLoadAnnualDataCommandAsync()
@@ -93,7 +106,7 @@ namespace FinStat.Mobile.ViewModels
             }
 
             QuarterlyData = false;
-            return InitializeAsync();
+            return ReloadDataAsync();
         }
 
         private Task ExecuteLoadQuarterlyDataCommandAsync()
@@ -105,10 +118,10 @@ namespace FinStat.Mobile.ViewModels
             }
 
             AnnualData = false;
-            return InitializeAsync();
+            return ReloadDataAsync();
         }
 
-        private async Task InitializeAsync()
+        private async Task ReloadDataAsync()
         {
             using (new OperationMonitor(OperationScope))
             {

@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using FinStat.DataAccess.DataAdapters;
 using FinStat.DataAccess.Providers;
 using FinStat.Domain.Interfaces.Repositories;
 using FinStat.Domain.Models;
@@ -16,12 +18,23 @@ namespace FinStat.DataAccess.Repositories
 
         public Task InsertOrUpdateAsync(RecentlyVisitedCompany recentlyVisitedCompany)
         {
-            throw new System.NotImplementedException();
+            return _contextProvider.Context.InsertOrReplaceAsync(recentlyVisitedCompany);
         }
 
-        public Task<RecentlyVisitedCompany[]> GetAllAsync()
+        public async Task<RecentlyVisitedCompany[]> GetAllAsync()
         {
-            throw new System.NotImplementedException();
+            var entities = await _contextProvider.Context.RecentlyVisitedCompanies.ToListAsync();
+            return entities.Select(x => x.ToDomainObject()).ToArray();
+        }
+
+        public async Task<RecentlyVisitedCompany[]> GetLastRecordsAsync(int limit)
+        {
+            var entities = await _contextProvider.Context.RecentlyVisitedCompanies
+                .OrderByDescending(x => x.LastVisited)
+                .Take(limit)
+                .ToArrayAsync();
+
+            return entities.Select(x => x.ToDomainObject()).ToArray();
         }
     }
 }
