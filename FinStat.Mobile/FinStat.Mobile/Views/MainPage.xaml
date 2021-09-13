@@ -66,7 +66,7 @@
                                       Aspect="AspectFit"
                                       HeightRequest="150"
                                       HorizontalOptions="Center"
-                                      Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                      Source="resource://FinStat.Mobile.Resources.Images.NoRecents.svg"
                                       VerticalOptions="End" />
 
                 <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.StartSearchingCompanies}}" />
