@@ -574,6 +574,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Recently opened.
+        /// </summary>
+        public static string RecentlyOpened {
+            get {
+                return ResourceManager.GetString("RecentlyOpened", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Revenue.
         /// </summary>
         public static string Revenue {

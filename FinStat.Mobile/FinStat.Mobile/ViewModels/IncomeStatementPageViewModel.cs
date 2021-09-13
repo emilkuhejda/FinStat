@@ -42,7 +42,7 @@ namespace FinStat.Mobile.ViewModels
 
         public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData)
         {
-            var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(searchResult.Symbol, quarterlyData));
+            var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();

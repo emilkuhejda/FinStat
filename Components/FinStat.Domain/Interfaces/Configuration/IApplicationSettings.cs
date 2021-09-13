@@ -9,5 +9,9 @@ namespace FinStat.Domain.Interfaces.Configuration
         string SyncfusionKey { get; }
 
         DisplayUnit DisplayUnit { get; }
+
+        int SearchLimit { get; }
+
+        int StatementsLimit { get; }
     }
 }

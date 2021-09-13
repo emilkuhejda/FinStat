@@ -2,8 +2,11 @@
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using FinStat.Business.Extensions;
 using FinStat.Common.Utils;
 using FinStat.Domain.Enums;
+using FinStat.Domain.Interfaces.Configuration;
+using FinStat.Domain.Interfaces.Repositories;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
 using FinStat.Mobile.Commands;
@@ -18,17 +21,24 @@ namespace FinStat.Mobile.ViewModels
     public class MainPageViewModel : ViewModelBase
     {
         private readonly IWebService _webService;
+        private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
+        private readonly IApplicationSettings _applicationSettings;
 
-        private string _searchQuery;
         private int _selectedExchange;
+        private string _searchQuery;
         private IEnumerable<SearchResult> _searchResults;
+        private IEnumerable<SearchResult> _recentlyVisitedCompanies;
 
         public MainPageViewModel(
             IWebService webService,
+            IRecentlyVisitedCompanyRepository recentlyVisitedCompanyRepository,
+            IApplicationSettings applicationSettings,
             INavigationService navigationService)
             : base(navigationService)
         {
             _webService = webService;
+            _recentlyVisitedCompanyRepository = recentlyVisitedCompanyRepository;
+            _applicationSettings = applicationSettings;
 
             HasTitleBar = true;
             HasBottomNavigation = true;
@@ -49,6 +59,8 @@ namespace FinStat.Mobile.ViewModels
             new ExchangeViewModel(Exchange.Lse)
         };
 
+        public IEnumerable<string> ExchangeNames => Exchanges.Select(x => x.Text).ToList();
+
         public int SelectedExchange
         {
             get => _selectedExchange;
@@ -56,10 +68,24 @@ namespace FinStat.Mobile.ViewModels
             {
                 if (SetProperty(ref _selectedExchange, value))
                 {
-                    AsyncHelper.RunSync(() => SearchCompanyAsync(_searchQuery));
+                    AsyncHelper.RunSync(() => SearchCompanyAsync(SearchQuery));
                 }
             }
         }
+
+        private string SearchQuery
+        {
+            get => _searchQuery;
+            set
+            {
+                if (SetProperty(ref _searchQuery, value))
+                {
+                    RaisePropertyChanged(nameof(IsSearchingActive));
+                }
+            }
+        }
+
+        public bool IsSearchingActive => !string.IsNullOrWhiteSpace(SearchQuery);
 
         public IEnumerable<SearchResult> SearchResults
         {
@@ -67,7 +93,19 @@ namespace FinStat.Mobile.ViewModels
             set => SetProperty(ref _searchResults, value);
         }
 
-        public IEnumerable<string> ExchangeNames => Exchanges.Select(x => x.Text).ToList();
+        public IEnumerable<SearchResult> RecentlyVisitedCompanies
+        {
+            get => _recentlyVisitedCompanies;
+            set
+            {
+                if (SetProperty(ref _recentlyVisitedCompanies, value))
+                {
+                    RaisePropertyChanged(nameof(AnyRecentlyVisitedCompanies));
+                }
+            }
+        }
+
+        public bool AnyRecentlyVisitedCompanies => RecentlyVisitedCompanies != null && RecentlyVisitedCompanies.Any();
 
         public ICommand SearchCommand { get; }
 
@@ -77,13 +115,14 @@ namespace FinStat.Mobile.ViewModels
         {
             using (new OperationMonitor(OperationScope))
             {
-                await Task.CompletedTask;
+                var recentlyVisitedCompanies = await _recentlyVisitedCompanyRepository.GetLastRecordsAsync(_applicationSettings.SearchLimit);
+                RecentlyVisitedCompanies = recentlyVisitedCompanies.Select(x => x.ToSearchResult());
             }
         }
 
         private Task ExecuteSearchCommandAsync(string query)
         {
-            _searchQuery = query;
+            SearchQuery = query;
 
             return SearchCompanyAsync(query);
         }
@@ -96,7 +135,7 @@ namespace FinStat.Mobile.ViewModels
             using (new OperationMonitor(OperationScope))
             {
                 var exchange = Exchanges[SelectedExchange];
-                var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value));
+                var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value, _applicationSettings.SearchLimit));
                 if (!result.success)
                     return;
 
