@@ -24,6 +24,7 @@ namespace FinStat.Mobile.ViewModels
         private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
         private readonly IApplicationSettings _applicationSettings;
 
+        private bool _searchExecuted;
         private int _selectedExchange;
         private string _searchQuery;
         private IEnumerable<SearchResult> _searchResults;
@@ -68,24 +69,29 @@ namespace FinStat.Mobile.ViewModels
             {
                 if (SetProperty(ref _selectedExchange, value))
                 {
-                    AsyncHelper.RunSync(() => SearchCompanyAsync(SearchQuery));
+                    AsyncHelper.RunSync(SearchCompanyAsync);
                 }
             }
         }
 
-        private string SearchQuery
+        public string SearchQuery
         {
             get => _searchQuery;
             set
             {
                 if (SetProperty(ref _searchQuery, value))
                 {
+                    if (string.IsNullOrWhiteSpace(value))
+                    {
+                        _searchExecuted = false;
+                    }
+
                     RaisePropertyChanged(nameof(IsSearchingActive));
                 }
             }
         }
 
-        public bool IsSearchingActive => !string.IsNullOrWhiteSpace(SearchQuery);
+        public bool IsSearchingActive => _searchExecuted && !string.IsNullOrWhiteSpace(SearchQuery);
 
         public IEnumerable<SearchResult> SearchResults
         {
@@ -94,6 +100,7 @@ namespace FinStat.Mobile.ViewModels
             {
                 if (SetProperty(ref _searchResults, value))
                 {
+                    RaisePropertyChanged(nameof(IsSearchingActive));
                     RaisePropertyChanged(nameof(AnySearchResults));
                 }
             }
@@ -130,20 +137,20 @@ namespace FinStat.Mobile.ViewModels
 
         private Task ExecuteSearchCommandAsync(string query)
         {
-            SearchQuery = query;
+            _searchExecuted = true;
 
-            return SearchCompanyAsync(query);
+            return SearchCompanyAsync();
         }
 
-        private async Task SearchCompanyAsync(string query)
+        private async Task SearchCompanyAsync()
         {
-            if (string.IsNullOrWhiteSpace(query))
+            if (string.IsNullOrWhiteSpace(SearchQuery))
                 return;
 
             using (new OperationMonitor(OperationScope))
             {
                 var exchange = Exchanges[SelectedExchange];
-                var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(query, exchange.Value, _applicationSettings.SearchLimit));
+                var result = await HandleWebCallAsync(() => _webService.SearchCompanyAsync(SearchQuery, exchange.Value, _applicationSettings.SearchLimit));
                 if (!result.success)
                     return;
 
