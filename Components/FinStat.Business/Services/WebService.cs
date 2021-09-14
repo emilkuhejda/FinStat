@@ -26,5 +26,10 @@ namespace FinStat.Business.Services
         {
             return _webServiceErrorHandler.HandleResponseAsync(client => client.GetIncomeStatementsAsync(ticker, isQuarterPeriod, limit, cancellationToken));
         }
+
+        public Task<HttpRequestResult<BalanceSheet[]>> GetBalanceSheetStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken = default)
+        {
+            return _webServiceErrorHandler.HandleResponseAsync(client => client.GetBalanceSheetStatementsAsync(ticker, isQuarterPeriod, limit, cancellationToken));
+        }
     }
 }

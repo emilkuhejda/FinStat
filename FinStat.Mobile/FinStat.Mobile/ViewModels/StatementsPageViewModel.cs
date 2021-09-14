@@ -18,7 +18,6 @@ namespace FinStat.Mobile.ViewModels
     {
         private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
 
-        private IncomeStatementPageViewModel _incomeStatementPage;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
@@ -43,6 +42,7 @@ namespace FinStat.Mobile.ViewModels
             DisplayUnitsText = Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(applicationSettings.DisplayUnit));
 
             IncomeStatementPage = new IncomeStatementPageViewModel(webService, applicationSettings, navigationService);
+            BalanceSheetPage = new BalanceSheetPageViewModel(webService, applicationSettings, navigationService);
 
             LoadAnnualDataCommand = new AsyncCommand(ExecuteLoadAnnualDataCommandAsync);
             LoadQuarterlyDataCommand = new AsyncCommand(ExecuteLoadQuarterlyDataCommandAsync);
@@ -50,11 +50,9 @@ namespace FinStat.Mobile.ViewModels
 
         private SearchResult SearchResult { get; set; }
 
-        public IncomeStatementPageViewModel IncomeStatementPage
-        {
-            get => _incomeStatementPage;
-            set => SetProperty(ref _incomeStatementPage, value);
-        }
+        private IncomeStatementPageViewModel IncomeStatementPage { get; }
+
+        private BalanceSheetPageViewModel BalanceSheetPage { get; }
 
         public int SelectedIndex
         {
