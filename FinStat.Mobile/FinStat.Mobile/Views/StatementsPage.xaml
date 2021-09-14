@@ -47,6 +47,7 @@
         </StackLayout>
 
         <tabView:SfTabView SelectedIndex="{Binding SelectedIndex}"
+                           SelectionChanged="OnTabViewSelectionChanged"
                            TabHeaderBackgroundColor="{StaticResource GreyBackgroundColor}"
                            TabHeaderPosition="Bottom"
                            TabHeight="50"

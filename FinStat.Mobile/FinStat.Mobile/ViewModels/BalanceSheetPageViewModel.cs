@@ -15,6 +15,7 @@ namespace FinStat.Mobile.ViewModels
         private readonly IApplicationSettings _applicationSettings;
 
         private IEnumerable<RowViewModel> _rows;
+        private bool _isInitialized;
 
         public BalanceSheetPageViewModel(
             IWebService webService,
@@ -40,12 +41,17 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData)
+        public async Task InitializeAsync(IEnumerable<IncomeStatement> incomeStatements, SearchResult searchResult, bool quarterlyData)
         {
+            if (_isInitialized)
+                return;
+
+            var statements = incomeStatements;
             var result = await HandleWebCallAsync(() => _webService.GetBalanceSheetStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();
+                _isInitialized = true;
             }
             else
             {

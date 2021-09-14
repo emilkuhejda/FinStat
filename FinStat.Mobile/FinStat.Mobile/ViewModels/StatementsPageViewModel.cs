@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using FinStat.Business.Extensions;
@@ -48,6 +49,8 @@ namespace FinStat.Mobile.ViewModels
             LoadQuarterlyDataCommand = new AsyncCommand(ExecuteLoadQuarterlyDataCommandAsync);
         }
 
+        private IncomeStatement[] IncomeStatements { get; set; } = Enumerable.Empty<IncomeStatement>().ToArray();
+
         private SearchResult SearchResult { get; set; }
 
         private IncomeStatementPageViewModel IncomeStatementPage { get; }
@@ -82,6 +85,17 @@ namespace FinStat.Mobile.ViewModels
 
         public ICommand LoadQuarterlyDataCommand { get; }
 
+        public async Task TabItemChangedAsync(int index)
+        {
+            using (new OperationMonitor(OperationScope))
+            {
+                if (index == 1)
+                {
+                    await BalanceSheetPage.InitializeAsync(IncomeStatements, SearchResult, QuarterlyData);
+                }
+            }
+        }
+
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
             SearchResult = navigationParameters.GetValue<SearchResult>();
@@ -90,8 +104,8 @@ namespace FinStat.Mobile.ViewModels
             using (new OperationMonitor(OperationScope))
             {
                 var recentlyVisitedCompany = SearchResult.ToRecentlyVisitedCompany(DateTime.Now);
-                await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany).ConfigureAwait(false);
-                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData).ConfigureAwait(false);
+                await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany);
+                IncomeStatements = await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
             }
         }
 
@@ -123,7 +137,7 @@ namespace FinStat.Mobile.ViewModels
         {
             using (new OperationMonitor(OperationScope))
             {
-                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData).ConfigureAwait(false);
+                IncomeStatements = await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
             }
         }
     }

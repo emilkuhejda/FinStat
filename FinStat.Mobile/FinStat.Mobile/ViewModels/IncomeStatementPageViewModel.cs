@@ -40,18 +40,18 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData)
+        public async Task<IncomeStatement[]> InitializeAsync(SearchResult searchResult, bool quarterlyData)
         {
             var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();
                 Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload, _applicationSettings.DisplayUnit);
+                return result.payload;
             }
-            else
-            {
-                Rows = new List<RowViewModel>();
-            }
+
+            Rows = new List<RowViewModel>();
+            return Enumerable.Empty<IncomeStatement>().ToArray();
         }
     }
 }
