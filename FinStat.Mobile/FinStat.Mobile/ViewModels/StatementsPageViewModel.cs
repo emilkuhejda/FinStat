@@ -138,6 +138,15 @@ namespace FinStat.Mobile.ViewModels
             using (new OperationMonitor(OperationScope))
             {
                 IncomeStatements = await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
+                if (IncomeStatements.Any())
+                {
+                    BalanceSheetPage.ClearData();
+
+                    if (SelectedIndex == 1)
+                    {
+                        await BalanceSheetPage.InitializeAsync(IncomeStatements, SearchResult, QuarterlyData);
+                    }
+                }
             }
         }
     }

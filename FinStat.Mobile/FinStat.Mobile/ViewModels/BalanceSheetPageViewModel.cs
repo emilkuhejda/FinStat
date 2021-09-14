@@ -58,5 +58,11 @@ namespace FinStat.Mobile.ViewModels
                 Rows = new List<RowViewModel>();
             }
         }
+
+        public void ClearData()
+        {
+            _isInitialized = false;
+            Rows = new List<RowViewModel>();
+        }
     }
 }
