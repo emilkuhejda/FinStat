@@ -138,6 +138,15 @@
   <data name="CashFlowStatement" xml:space="preserve">
     <value>Cash flow statement</value>
   </data>
+  <data name="RecentlyOpened" xml:space="preserve">
+    <value>Recently opened</value>
+  </data>
+  <data name="StartSearchingCompanies" xml:space="preserve">
+    <value>Start searching your favorite companies</value>
+  </data>
+  <data name="NoSearchResults" xml:space="preserve">
+    <value>No results</value>
+  </data>
   <data name="SearchBarPlaceholder" xml:space="preserve">
     <value>Company name</value>
   </data>

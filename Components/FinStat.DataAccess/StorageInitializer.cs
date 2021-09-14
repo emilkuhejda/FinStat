@@ -19,7 +19,8 @@ namespace FinStat.DataAccess
         {
             var tables = new[]
             {
-                typeof(InternalValueEntity)
+                typeof(InternalValueEntity),
+                typeof(RecentlyVisitedCompanyEntity)
             };
 
             var versionNumber = await _contextProvider.Context.GetVersionNumberAsync().ConfigureAwait(false);

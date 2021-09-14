@@ -8,12 +8,47 @@
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
                           xmlns:xForms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms">
+    <views:BaseNavigationPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="SearchResultItemTemplate">
+                <StackLayout Orientation="Horizontal">
+                    <forms:SvgCachedImage Margin="0,0,10,0"
+                                          Aspect="AspectFit"
+                                          BackgroundColor="Transparent"
+                                          HeightRequest="40"
+                                          HorizontalOptions="Center"
+                                          InputTransparent="True"
+                                          Source="resource://FinStat.Mobile.Resources.Images.Stock.svg"
+                                          VerticalOptions="Center" />
+
+                    <StackLayout Padding="10,10,10,10" Orientation="Vertical">
+                        <Label Style="{StaticResource LabelBoldStyle}" Text="{Binding Name}" />
+                        <Label FontSize="{StaticResource MidMediumSize}"
+                               Style="{StaticResource LabelStyle}"
+                               Text="{Binding Symbol}" />
+                    </StackLayout>
+                    <Frame BorderColor="{StaticResource ColorPrimary}"
+                           CornerRadius="40"
+                           HeightRequest="40"
+                           HorizontalOptions="EndAndExpand"
+                           IsVisible="{Binding Currency, Converter={StaticResource NullToBoolConverter}}"
+                           VerticalOptions="Center"
+                           WidthRequest="40">
+                        <Label FontFamily="QuicksandLight"
+                               FontSize="{StaticResource LittleSize}"
+                               HorizontalOptions="Center"
+                               Text="{Binding Currency}"
+                               VerticalOptions="Center" />
+                    </Frame>
+                </StackLayout>
+            </DataTemplate>
+        </ResourceDictionary>
+    </views:BaseNavigationPage.Resources>
     <StackLayout Padding="{StaticResource StandardPadding}">
-        <SearchBar x:Name="SearchBar"
-                   Margin="0,0,0,10"
+        <SearchBar Margin="0,0,0,10"
                    Placeholder="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.SearchBarPlaceholder}}"
                    SearchCommand="{Binding SearchCommand}"
-                   SearchCommandParameter="{Binding Text, Source={x:Reference SearchBar}}" />
+                   Text="{Binding SearchQuery}" />
 
         <buttons:SfSegmentedControl Margin="0,0,0,10"
                                     BorderColor="{StaticResource ColorPrimary}"
@@ -22,47 +57,52 @@
                                     SelectedIndex="{Binding SelectedExchange}"
                                     VisibleSegmentsCount="5" />
 
-        <xForms:SfListView FocusBorderColor="Transparent"
-                           IsScrollBarVisible="False"
-                           ItemSize="60"
-                           ItemSpacing="4"
-                           ItemsSource="{Binding SearchResults}"
-                           SelectionBackgroundColor="Transparent"
-                           TapCommand="{Binding NavigateToIncomeStatementCommand}">
-            <xForms:SfListView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Orientation="Horizontal">
-                        <forms:SvgCachedImage Margin="0,0,10,0"
-                                              Aspect="AspectFit"
-                                              BackgroundColor="Transparent"
-                                              HeightRequest="40"
-                                              HorizontalOptions="Center"
-                                              InputTransparent="True"
-                                              Source="resource://FinStat.Mobile.Resources.Images.Stock.svg"
-                                              VerticalOptions="Center" />
+        <StackLayout IsVisible="{Binding IsSearchingActive, Converter={StaticResource InvertedBoolConverter}}">
+            <Label Style="{StaticResource LabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.RecentlyOpened}}" />
 
-                        <StackLayout Padding="10,10,10,10" Orientation="Vertical">
-                            <Label Style="{StaticResource LabelBoldStyle}" Text="{Binding Name}" />
-                            <Label FontSize="{StaticResource MidMediumSize}"
-                                   Style="{StaticResource LabelStyle}"
-                                   Text="{Binding Symbol}" />
-                        </StackLayout>
-                        <Frame BorderColor="{StaticResource ColorPrimary}"
-                               CornerRadius="40"
-                               HeightRequest="40"
-                               HorizontalOptions="EndAndExpand"
-                               IsVisible="{Binding Currency, Converter={StaticResource NullToBoolConverter}}"
-                               VerticalOptions="Center"
-                               WidthRequest="40">
-                            <Label FontFamily="QuicksandLight"
-                                   FontSize="{StaticResource LittleSize}"
-                                   HorizontalOptions="Center"
-                                   Text="{Binding Currency}"
-                                   VerticalOptions="Center" />
-                        </Frame>
-                    </StackLayout>
-                </DataTemplate>
-            </xForms:SfListView.ItemTemplate>
-        </xForms:SfListView>
+            <StackLayout IsVisible="{Binding AnyRecentlyVisitedCompanies, Converter={StaticResource InvertedBoolConverter}}" Orientation="Vertical">
+                <forms:SvgCachedImage Margin="0,20,0,20"
+                                      Aspect="AspectFit"
+                                      HeightRequest="150"
+                                      HorizontalOptions="Center"
+                                      Source="resource://FinStat.Mobile.Resources.Images.NoRecents.svg"
+                                      VerticalOptions="End" />
+
+                <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.StartSearchingCompanies}}" />
+            </StackLayout>
+
+            <xForms:SfListView FocusBorderColor="Transparent"
+                               IsScrollBarVisible="False"
+                               IsVisible="{Binding AnyRecentlyVisitedCompanies}"
+                               ItemSize="60"
+                               ItemSpacing="4"
+                               ItemTemplate="{StaticResource SearchResultItemTemplate}"
+                               ItemsSource="{Binding RecentlyVisitedCompanies}"
+                               SelectionBackgroundColor="Transparent"
+                               TapCommand="{Binding NavigateToIncomeStatementCommand}" />
+        </StackLayout>
+
+        <StackLayout IsVisible="{Binding IsSearchingActive}">
+            <xForms:SfListView FocusBorderColor="Transparent"
+                               IsScrollBarVisible="False"
+                               IsVisible="{Binding AnySearchResults}"
+                               ItemSize="60"
+                               ItemSpacing="4"
+                               ItemTemplate="{StaticResource SearchResultItemTemplate}"
+                               ItemsSource="{Binding SearchResults}"
+                               SelectionBackgroundColor="Transparent"
+                               TapCommand="{Binding NavigateToIncomeStatementCommand}" />
+
+            <StackLayout IsVisible="{Binding AnySearchResults, Converter={StaticResource InvertedBoolConverter}}" Orientation="Vertical">
+                <forms:SvgCachedImage Margin="0,20,0,20"
+                                      Aspect="AspectFit"
+                                      HeightRequest="150"
+                                      HorizontalOptions="Center"
+                                      Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                      VerticalOptions="End" />
+
+                <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoSearchResults}}" />
+            </StackLayout>
+        </StackLayout>
     </StackLayout>
 </views:BaseNavigationPage>

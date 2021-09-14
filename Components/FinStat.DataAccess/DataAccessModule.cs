@@ -13,6 +13,8 @@ namespace FinStat.DataAccess
             containerRegistry.RegisterSingleton<IAppDbContext, AppDbContext>();
             containerRegistry.RegisterSingleton<IAppDbContextProvider, AppDbContextProvider>();
             containerRegistry.RegisterSingleton<IStorageInitializer, StorageInitializer>();
+
+            containerRegistry.RegisterSingleton<IRecentlyVisitedCompanyRepository, RecentlyVisitedCompanyRepository>();
             containerRegistry.RegisterSingleton<IInternalValueRepository, InternalValueRepository>();
         }
     }

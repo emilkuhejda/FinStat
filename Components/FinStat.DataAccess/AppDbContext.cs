@@ -23,6 +23,8 @@ namespace FinStat.DataAccess
 
         public AsyncTableQuery<InternalValueEntity> InternalValues => Database.Table<InternalValueEntity>();
 
+        public AsyncTableQuery<RecentlyVisitedCompanyEntity> RecentlyVisitedCompanies => Database.Table<RecentlyVisitedCompanyEntity>();
+
         public async Task RunInTransactionAsync(Action<SQLiteConnection> action)
         {
             await SemaphoreSlim.WaitAsync().ConfigureAwait(true);

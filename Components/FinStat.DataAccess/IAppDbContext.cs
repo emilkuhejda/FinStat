@@ -12,6 +12,8 @@ namespace FinStat.DataAccess
     {
         AsyncTableQuery<InternalValueEntity> InternalValues { get; }
 
+        AsyncTableQuery<RecentlyVisitedCompanyEntity> RecentlyVisitedCompanies { get; }
+
         Task RunInTransactionAsync(Action<SQLiteConnection> action);
 
         Task<int> GetVersionNumberAsync();

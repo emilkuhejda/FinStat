@@ -2,31 +2,73 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.StatementsPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
                           xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:statementViews="clr-namespace:FinStat.Mobile.Views.StatementViews;assembly=FinStat.Mobile"
                           xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
-    <tabView:SfTabView SelectedIndex="{Binding SelectedIndex}"
-                       TabHeaderBackgroundColor="{StaticResource GreyBackgroundColor}"
-                       TabHeaderPosition="Bottom"
-                       VisibleHeaderCount="3">
-        <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}">
-            <tabView:SfTabItem.Content>
-                <statementViews:IncomeStatementView />
-            </tabView:SfTabItem.Content>
-        </tabView:SfTabItem>
+    <StackLayout>
+        <StackLayout.Resources>
+            <Thickness x:Key="TitlePadding"
+                       Bottom="0"
+                       Left="{StaticResource StandardSpacing}"
+                       Right="{StaticResource StandardSpacing}"
+                       Top="{StaticResource StandardSpacing}" />
+        </StackLayout.Resources>
 
-        <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.BalanceSheetStatement}}">
-            <tabView:SfTabItem.Content>
-                <Label>Balance sheet</Label>
-            </tabView:SfTabItem.Content>
-        </tabView:SfTabItem>
+        <StackLayout Padding="{StaticResource TitlePadding}" Orientation="Horizontal">
+            <Label FontSize="{StaticResource LargerSize}"
+                   HorizontalOptions="Start"
+                   Style="{StaticResource LabelBoldStyle}"
+                   Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}"
+                   VerticalOptions="End" />
+            <Label FontSize="{StaticResource LittleSize}"
+                   HorizontalOptions="StartAndExpand"
+                   Text="{Binding DisplayUnitsText}"
+                   VerticalOptions="End" />
 
-        <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.CashFlowStatement}}">
-            <tabView:SfTabItem.Content>
-                <Label>Cash flow</Label>
-            </tabView:SfTabItem.Content>
-        </tabView:SfTabItem>
-    </tabView:SfTabView>
+            <StackLayout HorizontalOptions="End"
+                         Orientation="Horizontal"
+                         Spacing="0">
+                <buttons:SfButton Command="{Binding LoadAnnualDataCommand}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding AnnualData}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Annual}}" />
+                <Label Style="{StaticResource LabelStyle}" Text="|" />
+                <buttons:SfButton BackgroundColor="Transparent"
+                                  Command="{Binding LoadQuarterlyDataCommand}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding QuarterlyData}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Quarterly}}" />
+            </StackLayout>
+        </StackLayout>
+
+        <tabView:SfTabView SelectedIndex="{Binding SelectedIndex}"
+                           TabHeaderBackgroundColor="{StaticResource GreyBackgroundColor}"
+                           TabHeaderPosition="Bottom"
+                           TabHeight="50"
+                           VerticalOptions="FillAndExpand"
+                           VisibleHeaderCount="3">
+            <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}">
+                <tabView:SfTabItem.Content>
+                    <statementViews:IncomeStatementView />
+                </tabView:SfTabItem.Content>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.BalanceSheetStatement}}">
+                <tabView:SfTabItem.Content>
+                    <Label>Balance sheet</Label>
+                </tabView:SfTabItem.Content>
+            </tabView:SfTabItem>
+
+            <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.CashFlowStatement}}">
+                <tabView:SfTabItem.Content>
+                    <Label>Cash flow</Label>
+                </tabView:SfTabItem.Content>
+            </tabView:SfTabItem>
+        </tabView:SfTabView>
+    </StackLayout>
 </views:BaseNavigationPage>

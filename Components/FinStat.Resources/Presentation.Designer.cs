@@ -484,6 +484,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No results.
+        /// </summary>
+        public static string NoSearchResults {
+            get {
+                return ResourceManager.GetString("NoSearchResults", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to It seems you are offline. Please check your internet connection..
         /// </summary>
         public static string OfflineErrorMessage {
@@ -574,6 +583,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Recently opened.
+        /// </summary>
+        public static string RecentlyOpened {
+            get {
+                return ResourceManager.GetString("RecentlyOpened", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Revenue.
         /// </summary>
         public static string Revenue {
@@ -615,6 +633,15 @@ namespace FinStat.Resources {
         public static string SharesOutstanding {
             get {
                 return ResourceManager.GetString("SharesOutstanding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Start searching your favorite companies.
+        /// </summary>
+        public static string StartSearchingCompanies {
+            get {
+                return ResourceManager.GetString("StartSearchingCompanies", resourceCulture);
             }
         }
         

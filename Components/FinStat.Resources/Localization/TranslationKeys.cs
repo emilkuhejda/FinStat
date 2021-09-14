@@ -19,6 +19,9 @@
         public static string IncomeStatement => "IncomeStatement";
         public static string BalanceSheetStatement => "BalanceSheetStatement";
         public static string CashFlowStatement => "CashFlowStatement";
+        public static string RecentlyOpened => "RecentlyOpened";
+        public static string StartSearchingCompanies => "StartSearchingCompanies";
+        public static string NoSearchResults => "NoSearchResults";
         public static string SearchBarPlaceholder => "SearchBarPlaceholder";
         public static string AllNumbersInUnit => "AllNumbersInUnit";
         public static string Annual => "Annual";
