@@ -19,6 +19,8 @@ namespace FinStat.Mobile.ViewModels
     {
         private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
 
+        private IncomeStatementPageViewModel _incomeStatementPage;
+        private BalanceSheetPageViewModel _balanceSheetPage;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
@@ -49,13 +51,19 @@ namespace FinStat.Mobile.ViewModels
             LoadQuarterlyDataCommand = new AsyncCommand(ExecuteLoadQuarterlyDataCommandAsync);
         }
 
-        private IncomeStatement[] IncomeStatements { get; set; } = Enumerable.Empty<IncomeStatement>().ToArray();
-
         private SearchResult SearchResult { get; set; }
 
-        private IncomeStatementPageViewModel IncomeStatementPage { get; }
+        public IncomeStatementPageViewModel IncomeStatementPage
+        {
+            get => _incomeStatementPage;
+            set => SetProperty(ref _incomeStatementPage, value);
+        }
 
-        private BalanceSheetPageViewModel BalanceSheetPage { get; }
+        public BalanceSheetPageViewModel BalanceSheetPage
+        {
+            get => _balanceSheetPage;
+            set => SetProperty(ref _balanceSheetPage, value);
+        }
 
         public int SelectedIndex
         {
@@ -91,7 +99,7 @@ namespace FinStat.Mobile.ViewModels
             {
                 if (index == 1)
                 {
-                    await BalanceSheetPage.InitializeAsync(IncomeStatements, SearchResult, QuarterlyData);
+                    await BalanceSheetPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
                 }
             }
         }
@@ -105,7 +113,7 @@ namespace FinStat.Mobile.ViewModels
             {
                 var recentlyVisitedCompany = SearchResult.ToRecentlyVisitedCompany(DateTime.Now);
                 await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany);
-                IncomeStatements = await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
+                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
             }
         }
 
@@ -137,14 +145,15 @@ namespace FinStat.Mobile.ViewModels
         {
             using (new OperationMonitor(OperationScope))
             {
-                IncomeStatements = await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
-                if (IncomeStatements.Any())
+                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
+                var incomeStatements = IncomeStatementPage.IncomeStatements.ToArray();
+                if (incomeStatements.Any())
                 {
                     BalanceSheetPage.ClearData();
 
                     if (SelectedIndex == 1)
                     {
-                        await BalanceSheetPage.InitializeAsync(IncomeStatements, SearchResult, QuarterlyData);
+                        await BalanceSheetPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
                     }
                 }
             }

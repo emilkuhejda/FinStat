@@ -26,6 +26,8 @@ namespace FinStat.Mobile.ViewModels
             _applicationSettings = applicationSettings;
         }
 
+        public IEnumerable<IncomeStatement> IncomeStatements { get; private set; } = Enumerable.Empty<IncomeStatement>().ToList();
+
         public bool NoDataToPlot => Rows == null || !Rows.Any();
 
         public IEnumerable<RowViewModel> Rows
@@ -40,18 +42,20 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        public async Task<IncomeStatement[]> InitializeAsync(SearchResult searchResult, bool quarterlyData)
+        public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData)
         {
             var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();
+                IncomeStatements = result.payload;
                 Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload, _applicationSettings.DisplayUnit);
-                return result.payload;
             }
-
-            Rows = new List<RowViewModel>();
-            return Enumerable.Empty<IncomeStatement>().ToArray();
+            else
+            {
+                IncomeStatements = Enumerable.Empty<IncomeStatement>().ToList();
+                Rows = new List<RowViewModel>();
+            }
         }
     }
 }
