@@ -76,7 +76,13 @@ namespace FinStat.Mobile.ViewModels
         public int SelectedIndex
         {
             get => _selectedIndex;
-            set => SetProperty(ref _selectedIndex, value);
+            set
+            {
+                if (SetProperty(ref _selectedIndex, value))
+                {
+                    RaisePropertyChanged(nameof(StatementTitle));
+                }
+            }
         }
 
         public bool AnnualData
@@ -95,6 +101,24 @@ namespace FinStat.Mobile.ViewModels
         {
             get => _displayUnitsText;
             set => SetProperty(ref _displayUnitsText, value);
+        }
+
+        public string StatementTitle
+        {
+            get
+            {
+                switch (SelectedIndex)
+                {
+                    case 0:
+                        return Loc.Text(TranslationKeys.IncomeStatement);
+                    case 1:
+                        return Loc.Text(TranslationKeys.BalanceSheetStatement);
+                    case 2:
+                        return Loc.Text(TranslationKeys.CashFlowStatement);
+                    default:
+                        return string.Empty;
+                }
+            }
         }
 
         public ICommand LoadAnnualDataCommand { get; }
