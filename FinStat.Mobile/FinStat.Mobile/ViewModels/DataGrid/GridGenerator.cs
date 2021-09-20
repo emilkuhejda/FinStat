@@ -19,6 +19,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                 {
                     cells.Add(new CellViewModel(incomeStatement.Date, parameterDefinition.Value(incomeStatement, displayUnit)));
                 }
+
                 rows.Add(new RowViewModel(cells));
             }
 
@@ -38,6 +39,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     var balanceSheetWrapper = new BalanceSheetWrapper(balanceSheet, incomeStatement);
                     cells.Add(new CellViewModel(balanceSheet.Date, parameterDefinition.Value(balanceSheetWrapper, displayUnit)));
                 }
+
                 rows.Add(new RowViewModel(cells));
             }
 

@@ -103,9 +103,9 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     (b, u) => FormatNumber(b.BalanceSheet.NetReceivables, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.ReceivablesRatio),
-                    (b, u) => b.IncomeStatement == null
-                        ? EmptyFieldValue
-                        : FormatPercentage(b.BalanceSheet.NetReceivables / (b.IncomeStatement.GrossProfit * 1.0))),
+                    (b, u) => HandleValue(
+                        () => b.IncomeStatement == null,
+                        () => FormatPercentage(b.BalanceSheet.NetReceivables / (b.IncomeStatement.GrossProfit * 1.0)))),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.Inventory),
                     (b, u) => FormatNumber(b.BalanceSheet.Inventory, u)),
@@ -212,6 +212,14 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     Loc.Text(TranslationKeys.CommonStock),
                     (b, u) => FormatNumber(b.BalanceSheet.CommonStock, u))
             };
+
+        private static string HandleValue(Func<bool> conditionFunc, Func<string> defaultValueFunc)
+        {
+            if (conditionFunc())
+                return EmptyFieldValue;
+
+            return defaultValueFunc();
+        }
 
         private static string FormatNumber(double value, DisplayUnit displayUnit)
         {
