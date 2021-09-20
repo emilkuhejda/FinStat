@@ -11,5 +11,7 @@ namespace FinStat.Domain.Interfaces.Services
         Task<HttpRequestResult<SearchResult[]>> SearchCompanyAsync(string query, Exchange exchange, int limit, CancellationToken cancellationToken = default);
 
         Task<HttpRequestResult<IncomeStatement[]>> GetIncomeStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken = default);
+
+        Task<HttpRequestResult<BalanceSheet[]>> GetBalanceSheetStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken = default);
     }
 }

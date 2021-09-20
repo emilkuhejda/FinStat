@@ -9,14 +9,15 @@ using Prism.Navigation;
 
 namespace FinStat.Mobile.ViewModels
 {
-    public class IncomeStatementPageViewModel : ViewModelBase
+    public class BalanceSheetPageViewModel : ViewModelBase
     {
         private readonly IWebService _webService;
         private readonly IApplicationSettings _applicationSettings;
 
         private IEnumerable<RowViewModel> _rows;
+        private bool _isInitialized;
 
-        public IncomeStatementPageViewModel(
+        public BalanceSheetPageViewModel(
             IWebService webService,
             IApplicationSettings applicationSettings,
             INavigationService navigationService)
@@ -25,8 +26,6 @@ namespace FinStat.Mobile.ViewModels
             _webService = webService;
             _applicationSettings = applicationSettings;
         }
-
-        public IEnumerable<IncomeStatement> IncomeStatements { get; private set; } = Enumerable.Empty<IncomeStatement>().ToList();
 
         public bool NoDataToPlot => Rows == null || !Rows.Any();
 
@@ -42,20 +41,28 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData)
+        public async Task InitializeAsync(IEnumerable<IncomeStatement> incomeStatements, SearchResult searchResult, bool quarterlyData)
         {
-            var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
+            if (_isInitialized)
+                return;
+
+            var result = await HandleWebCallAsync(() => _webService.GetBalanceSheetStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();
-                IncomeStatements = result.payload;
-                Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload, _applicationSettings.DisplayUnit);
+                Rows = gridGenerator.GenerateBalanceSheetStatements(searchResult.Name, result.payload, incomeStatements.ToList(), _applicationSettings.DisplayUnit);
+                _isInitialized = true;
             }
             else
             {
-                IncomeStatements = Enumerable.Empty<IncomeStatement>().ToList();
                 Rows = new List<RowViewModel>();
             }
+        }
+
+        public void ClearData()
+        {
+            _isInitialized = false;
+            Rows = new List<RowViewModel>();
         }
     }
 }

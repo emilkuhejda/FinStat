@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using FinStat.Business.Extensions;
@@ -19,6 +20,7 @@ namespace FinStat.Mobile.ViewModels
         private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
 
         private IncomeStatementPageViewModel _incomeStatementPage;
+        private BalanceSheetPageViewModel _balanceSheetPage;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
@@ -43,6 +45,7 @@ namespace FinStat.Mobile.ViewModels
             DisplayUnitsText = Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(applicationSettings.DisplayUnit));
 
             IncomeStatementPage = new IncomeStatementPageViewModel(webService, applicationSettings, navigationService);
+            BalanceSheetPage = new BalanceSheetPageViewModel(webService, applicationSettings, navigationService);
 
             LoadAnnualDataCommand = new AsyncCommand(ExecuteLoadAnnualDataCommandAsync);
             LoadQuarterlyDataCommand = new AsyncCommand(ExecuteLoadQuarterlyDataCommandAsync);
@@ -54,6 +57,12 @@ namespace FinStat.Mobile.ViewModels
         {
             get => _incomeStatementPage;
             set => SetProperty(ref _incomeStatementPage, value);
+        }
+
+        public BalanceSheetPageViewModel BalanceSheetPage
+        {
+            get => _balanceSheetPage;
+            set => SetProperty(ref _balanceSheetPage, value);
         }
 
         public int SelectedIndex
@@ -84,6 +93,17 @@ namespace FinStat.Mobile.ViewModels
 
         public ICommand LoadQuarterlyDataCommand { get; }
 
+        public async Task TabItemChangedAsync(int index)
+        {
+            using (new OperationMonitor(OperationScope))
+            {
+                if (index == 1)
+                {
+                    await BalanceSheetPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
+                }
+            }
+        }
+
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
             SearchResult = navigationParameters.GetValue<SearchResult>();
@@ -92,8 +112,8 @@ namespace FinStat.Mobile.ViewModels
             using (new OperationMonitor(OperationScope))
             {
                 var recentlyVisitedCompany = SearchResult.ToRecentlyVisitedCompany(DateTime.Now);
-                await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany).ConfigureAwait(false);
-                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData).ConfigureAwait(false);
+                await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany);
+                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
             }
         }
 
@@ -125,7 +145,17 @@ namespace FinStat.Mobile.ViewModels
         {
             using (new OperationMonitor(OperationScope))
             {
-                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData).ConfigureAwait(false);
+                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
+                var incomeStatements = IncomeStatementPage.IncomeStatements.ToArray();
+                if (incomeStatements.Any())
+                {
+                    BalanceSheetPage.ClearData();
+
+                    if (SelectedIndex == 1)
+                    {
+                        await BalanceSheetPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
+                    }
+                }
             }
         }
     }

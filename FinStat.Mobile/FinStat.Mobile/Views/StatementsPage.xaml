@@ -47,6 +47,7 @@
         </StackLayout>
 
         <tabView:SfTabView SelectedIndex="{Binding SelectedIndex}"
+                           SelectionChanged="OnTabViewSelectionChanged"
                            TabHeaderBackgroundColor="{StaticResource GreyBackgroundColor}"
                            TabHeaderPosition="Bottom"
                            TabHeight="50"
@@ -60,7 +61,7 @@
 
             <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.BalanceSheetStatement}}">
                 <tabView:SfTabItem.Content>
-                    <Label>Balance sheet</Label>
+                    <statementViews:BalanceSheetView />
                 </tabView:SfTabItem.Content>
             </tabView:SfTabItem>
 
