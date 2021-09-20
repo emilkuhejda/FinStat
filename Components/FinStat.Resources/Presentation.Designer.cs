@@ -799,6 +799,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Receivables Ratio.
+        /// </summary>
+        public static string ReceivablesRatio {
+            get {
+                return ResourceManager.GetString("ReceivablesRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Recently opened.
         /// </summary>
         public static string RecentlyOpened {
@@ -813,6 +822,24 @@ namespace FinStat.Resources {
         public static string RetainedEarnings {
             get {
                 return ResourceManager.GetString("RetainedEarnings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Retained Earnings Ratio.
+        /// </summary>
+        public static string RetainedEarningsRatio {
+            get {
+                return ResourceManager.GetString("RetainedEarningsRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Return On Shareholders Equity.
+        /// </summary>
+        public static string ReturnOnShareholdersEquity {
+            get {
+                return ResourceManager.GetString("ReturnOnShareholdersEquity", resourceCulture);
             }
         }
         
@@ -849,6 +876,15 @@ namespace FinStat.Resources {
         public static string SGAExpensesRatio {
             get {
                 return ResourceManager.GetString("SGAExpensesRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shareholder Equity Ratio.
+        /// </summary>
+        public static string ShareholderEquityRatio {
+            get {
+                return ResourceManager.GetString("ShareholderEquityRatio", resourceCulture);
             }
         }
         
@@ -921,6 +957,24 @@ namespace FinStat.Resources {
         public static string TaxPayables {
             get {
                 return ResourceManager.GetString("TaxPayables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Current Ratio.
+        /// </summary>
+        public static string TheCurrentRatio {
+            get {
+                return ResourceManager.GetString("TheCurrentRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Return On Total Assets.
+        /// </summary>
+        public static string TheReturnOnTotalAssets {
+            get {
+                return ResourceManager.GetString("TheReturnOnTotalAssets", resourceCulture);
             }
         }
         

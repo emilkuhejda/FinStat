@@ -357,7 +357,25 @@
   <data name="NetDebt" xml:space="preserve">
     <value>Net Debt</value>
   </data>
-  
+  <data name="ReceivablesRatio" xml:space="preserve">
+    <value>Receivables Ratio</value>
+  </data>
+  <data name="RetainedEarningsRatio" xml:space="preserve">
+    <value>Retained Earnings Ratio</value>
+  </data>
+  <data name="TheCurrentRatio" xml:space="preserve">
+    <value>The Current Ratio</value>
+  </data>
+  <data name="TheReturnOnTotalAssets" xml:space="preserve">
+    <value>The Return On Total Assets</value>
+  </data>
+  <data name="ShareholderEquityRatio" xml:space="preserve">
+    <value>Shareholder Equity Ratio</value>
+  </data>
+  <data name="ReturnOnShareholdersEquity" xml:space="preserve">
+    <value>Return On Shareholders Equity</value>
+  </data>
+
   <data name="OfflineErrorMessage" xml:space="preserve">
     <value>It seems you are offline. Please check your internet connection.</value>
   </data>

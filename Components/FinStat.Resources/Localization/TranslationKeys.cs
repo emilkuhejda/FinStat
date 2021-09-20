@@ -93,6 +93,12 @@
         public static string TotalInvestments => "TotalInvestments";
         public static string TotalDebt => "TotalDebt";
         public static string NetDebt => "NetDebt";
+        public static string ReceivablesRatio => "ReceivablesRatio";
+        public static string RetainedEarningsRatio => "RetainedEarningsRatio";
+        public static string TheCurrentRatio => "TheCurrentRatio";
+        public static string TheReturnOnTotalAssets => "TheReturnOnTotalAssets";
+        public static string ShareholderEquityRatio => "ShareholderEquityRatio";
+        public static string ReturnOnShareholdersEquity => "ReturnOnShareholdersEquity";
 
         public static string OfflineErrorMessage => "OfflineErrorMessage";
         public static string GeneralErrorMessage => "GeneralErrorMessage";
