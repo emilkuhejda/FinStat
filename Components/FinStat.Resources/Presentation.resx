@@ -240,6 +240,10 @@
   <data name="AfterTaxEarningPerShare" xml:space="preserve">
     <value>After-Tax Earning Per Share</value>
   </data>
+  <data name="CashAndCashEquivalents" xml:space="preserve">
+    <value>Cash And Cash Equivalents</value>
+  </data>
+
   <data name="OfflineErrorMessage" xml:space="preserve">
     <value>It seems you are offline. Please check your internet connection.</value>
   </data>

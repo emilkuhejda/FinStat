@@ -133,6 +133,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cash And Cash Equivalents.
+        /// </summary>
+        public static string CashAndCashEquivalents {
+            get {
+                return ResourceManager.GetString("CashAndCashEquivalents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cash flow statement.
         /// </summary>
         public static string CashFlowStatement {

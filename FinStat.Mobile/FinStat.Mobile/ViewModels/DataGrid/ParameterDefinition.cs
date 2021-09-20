@@ -1,12 +1,11 @@
 ﻿using System;
 using FinStat.Domain.Enums;
-using FinStat.Domain.Models;
 
 namespace FinStat.Mobile.ViewModels.DataGrid
 {
-    public class ParameterDefinition
+    public class ParameterDefinition<T>
     {
-        public ParameterDefinition(string title, Func<IncomeStatement, DisplayUnit, string> value)
+        public ParameterDefinition(string title, Func<T, DisplayUnit, string> value)
         {
             Title = title;
             Value = value;
@@ -14,6 +13,6 @@ namespace FinStat.Mobile.ViewModels.DataGrid
 
         public string Title { get; }
 
-        public Func<IncomeStatement, DisplayUnit, string> Value { get; }
+        public Func<T, DisplayUnit, string> Value { get; }
     }
 }

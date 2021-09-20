@@ -46,11 +46,13 @@ namespace FinStat.Mobile.ViewModels
             if (_isInitialized)
                 return;
 
+            // TODO
             var statements = incomeStatements;
             var result = await HandleWebCallAsync(() => _webService.GetBalanceSheetStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();
+                Rows = gridGenerator.GenerateBalanceSheetStatements(searchResult.Name, result.payload, _applicationSettings.DisplayUnit);
                 _isInitialized = true;
             }
             else

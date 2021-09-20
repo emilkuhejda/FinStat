@@ -54,6 +54,7 @@
         public static string StockPrice => "StockPrice";
         public static string PreTaxEarningPerShare => "PreTaxEarningPerShare";
         public static string AfterTaxEarningPerShare => "AfterTaxEarningPerShare";
+        public static string CashAndCashEquivalents => "CashAndCashEquivalents";
 
         public static string OfflineErrorMessage => "OfflineErrorMessage";
         public static string GeneralErrorMessage => "GeneralErrorMessage";
