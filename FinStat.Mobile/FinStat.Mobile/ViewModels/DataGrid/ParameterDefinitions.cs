@@ -241,6 +241,14 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                         () => FormatNumber(b.IncomeStatement.NetIncome / (b.BalanceSheet.CommonStock * 1.0), 2))),
             };
 
+        public static IEnumerable<ParameterDefinition<CashFlowWrapper>> CashFlowDefinitions { get; } =
+            new List<ParameterDefinition<CashFlowWrapper>>
+            {
+                new ParameterDefinition<CashFlowWrapper>(
+                    "Net income",
+                    (c, u) => FormatNumber(c.CashFlow.NetIncome, u)),
+            };
+
         private static string HandleValue(Func<bool> conditionFunc, Func<string> defaultValueFunc)
         {
             if (conditionFunc())

@@ -45,5 +45,25 @@ namespace FinStat.Mobile.ViewModels.DataGrid
 
             return rows;
         }
+
+        public IEnumerable<RowViewModel> GenerateCashFlowStatements(string companyName, IList<CashFlow> cashFlows, IList<IncomeStatement> incomeStatements, DisplayUnit displayUnit)
+        {
+            var rows = new List<RowViewModel>();
+            foreach (var parameterDefinition in ParameterDefinitions.CashFlowDefinitions)
+            {
+                var cells = new List<CellViewModel>();
+                cells.Add(new CellViewModel(companyName, parameterDefinition.Title));
+                foreach (var cashFlow in cashFlows)
+                {
+                    var incomeStatement = incomeStatements.SingleOrDefault(x => Convert.ToDateTime(cashFlow.FillingDate).Equals(Convert.ToDateTime(x.FillingDate)));
+                    var cashFlowWrapper = new CashFlowWrapper(cashFlow, incomeStatement);
+                    cells.Add(new CellViewModel(cashFlow.Date, parameterDefinition.Value(cashFlowWrapper, displayUnit)));
+                }
+
+                rows.Add(new RowViewModel(cells));
+            }
+
+            return rows;
+        }
     }
 }

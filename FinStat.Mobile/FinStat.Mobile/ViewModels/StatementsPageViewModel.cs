@@ -21,6 +21,7 @@ namespace FinStat.Mobile.ViewModels
 
         private IncomeStatementPageViewModel _incomeStatementPage;
         private BalanceSheetPageViewModel _balanceSheetPage;
+        private CashFlowPageViewModel _cashFlowPage;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
@@ -46,6 +47,7 @@ namespace FinStat.Mobile.ViewModels
 
             IncomeStatementPage = new IncomeStatementPageViewModel(webService, applicationSettings, navigationService);
             BalanceSheetPage = new BalanceSheetPageViewModel(webService, applicationSettings, navigationService);
+            CashFlowPage = new CashFlowPageViewModel(webService, applicationSettings, navigationService);
 
             LoadAnnualDataCommand = new AsyncCommand(ExecuteLoadAnnualDataCommandAsync);
             LoadQuarterlyDataCommand = new AsyncCommand(ExecuteLoadQuarterlyDataCommandAsync);
@@ -63,6 +65,12 @@ namespace FinStat.Mobile.ViewModels
         {
             get => _balanceSheetPage;
             set => SetProperty(ref _balanceSheetPage, value);
+        }
+
+        public CashFlowPageViewModel CashFlowPage
+        {
+            get => _cashFlowPage;
+            set => SetProperty(ref _cashFlowPage, value);
         }
 
         public int SelectedIndex
@@ -100,6 +108,10 @@ namespace FinStat.Mobile.ViewModels
                 if (index == 1)
                 {
                     await BalanceSheetPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
+                }
+                else if (index == 2)
+                {
+                    await CashFlowPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
                 }
             }
         }
@@ -150,10 +162,15 @@ namespace FinStat.Mobile.ViewModels
                 if (incomeStatements.Any())
                 {
                     BalanceSheetPage.ClearData();
+                    CashFlowPage.ClearData();
 
                     if (SelectedIndex == 1)
                     {
                         await BalanceSheetPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
+                    }
+                    else if (SelectedIndex == 2)
+                    {
+                        await CashFlowPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
                     }
                 }
             }

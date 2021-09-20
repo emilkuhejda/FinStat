@@ -67,7 +67,7 @@
 
             <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.CashFlowStatement}}">
                 <tabView:SfTabItem.Content>
-                    <Label>Cash flow</Label>
+                    <statementViews:CashFlowPageView />
                 </tabView:SfTabItem.Content>
             </tabView:SfTabItem>
         </tabView:SfTabView>

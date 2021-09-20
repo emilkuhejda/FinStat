@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView x:Class="FinStat.Mobile.Views.StatementViews.CashFlowPageView"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+             xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
+             xmlns:xForms="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms">
+    <ContentView.Resources>
+        <Thickness x:Key="ContentPadding"
+                   Bottom="{StaticResource StandardSpacing}"
+                   Left="{StaticResource StandardSpacing}"
+                   Right="{StaticResource StandardSpacing}"
+                   Top="0" />
+    </ContentView.Resources>
+
+    <StackLayout Padding="{StaticResource ContentPadding}">
+        <StackLayout IsVisible="{Binding CashFlowPage.NoDataToPlot, Converter={StaticResource InvertedBoolConverter}}">
+            <xForms:SfDataGrid x:Name="DataGrid"
+                               AutoGenerateColumns="False"
+                               ColumnSizer="Auto"
+                               FrozenColumnsCount="1"
+                               ItemsSource="{Binding CashFlowPage.Rows}"
+                               ItemsSourceChanged="DataGridOnItemsSourceChanged" />
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center"
+                     IsVisible="{Binding CashFlowPage.NoDataToPlot}"
+                     Orientation="Vertical">
+            <forms:SvgCachedImage Margin="0,20,0,20"
+                                  Aspect="AspectFit"
+                                  HeightRequest="150"
+                                  HorizontalOptions="Center"
+                                  Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                  VerticalOptions="End" />
+
+            <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoAvailableData}}" />
+        </StackLayout>
+    </StackLayout>
+</ContentView>
