@@ -83,7 +83,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     (i, _) => FormatNumber(i.Eps, 2)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.EPSDiluted),
-                    (i, _) => FormatNumber(i.Epsdiluted, 2))
+                    (i, _) => FormatNumber(i.Epsdiluted, 2)),
             };
 
         public static IEnumerable<ParameterDefinition<BalanceSheetWrapper>> BalanceSheetDefinitions { get; } =
@@ -209,8 +209,36 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     Loc.Text(TranslationKeys.NetDebt),
                     (b, u) => FormatNumber(b.BalanceSheet.NetDebt, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.TheCurrentRatio),
+                    (b, u) => FormatNumber(
+                        b.BalanceSheet.TotalCurrentAssets / (b.BalanceSheet.TotalCurrentLiabilities * 1.0), 2)),
+                new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.TheReturnOnTotalAssets),
+                    (b, u) => HandleValue(
+                        () => b.IncomeStatement == null,
+                        () => FormatPercentage(b.IncomeStatement.NetIncome / (b.BalanceSheet.TotalAssets * 1.0)))),
+                new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.ShareholderEquityRatio),
+                    (b, u) => FormatNumber(
+                        b.BalanceSheet.TotalLiabilities / (b.BalanceSheet.TotalStockholdersEquity * 1.0), 2)),
+                new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.ReturnOnShareholdersEquity),
+                    (b, u) => HandleValue(
+                        () => b.IncomeStatement == null,
+                        () => FormatPercentage(b.IncomeStatement.NetIncome / (b.BalanceSheet.TotalStockholdersEquity * 1.0)))),
+                new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.CommonStock),
-                    (b, u) => FormatNumber(b.BalanceSheet.CommonStock, u))
+                    (b, u) => FormatNumber(b.BalanceSheet.CommonStock, u)),
+                new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.PreTaxEarningPerShare),
+                    (b, u) => HandleValue(
+                        () => b.IncomeStatement == null,
+                        () => FormatNumber(b.IncomeStatement.IncomeBeforeTax / (b.BalanceSheet.CommonStock * 1.0), 2))),
+                new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.PreTaxEarningPerShare),
+                    (b, u) => HandleValue(
+                        () => b.IncomeStatement == null,
+                        () => FormatNumber(b.IncomeStatement.NetIncome / (b.BalanceSheet.CommonStock * 1.0), 2))),
             };
 
         private static string HandleValue(Func<bool> conditionFunc, Func<string> defaultValueFunc)
