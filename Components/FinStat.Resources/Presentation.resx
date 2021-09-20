@@ -243,7 +243,121 @@
   <data name="CashAndCashEquivalents" xml:space="preserve">
     <value>Cash And Cash Equivalents</value>
   </data>
-
+  <data name="ShortTermInvestments" xml:space="preserve">
+    <value>Short Term Investments</value>
+  </data>
+  <data name="CashAndShortTermInvestments" xml:space="preserve">
+    <value>Cash And Short Term Investments</value>
+  </data>
+  <data name="NetReceivables" xml:space="preserve">
+    <value>Net Receivables</value>
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="OtherCurrentAssets" xml:space="preserve">
+    <value>Other Current Assets</value>
+  </data>
+  <data name="TotalCurrentAssets" xml:space="preserve">
+    <value>Total Current Assets</value>
+  </data>
+  <data name="NetPropertyPlantEquipment" xml:space="preserve">
+    <value>Net Property Plant Equipment</value>
+  </data>
+  <data name="Goodwill" xml:space="preserve">
+    <value>Goodwill</value>
+  </data>
+  <data name="IntangibleAssets" xml:space="preserve">
+    <value>Intangible Assets</value>
+  </data>
+  <data name="GoodwillAndIntangibleAssets" xml:space="preserve">
+    <value>Goodwill And Intangible Assets</value>
+  </data>
+  <data name="LongTermInvestments" xml:space="preserve">
+    <value>Long Term Investments</value>
+  </data>
+  <data name="TaxAssets" xml:space="preserve">
+    <value>Tax Assets</value>
+  </data>
+  <data name="OtherNonCurrentAssets" xml:space="preserve">
+    <value>Other Non-Current Assets</value>
+  </data>
+  <data name="TotalNonCurrentAssets" xml:space="preserve">
+    <value>Total Non-Current Assets</value>
+  </data>
+  <data name="OtherAssets" xml:space="preserve">
+    <value>Other Assets</value>
+  </data>
+  <data name="TotalAssets" xml:space="preserve">
+    <value>Total Assets</value>
+  </data>
+  <data name="AccountPayables" xml:space="preserve">
+    <value>Account Payables</value>
+  </data>
+  <data name="ShortTermDebt" xml:space="preserve">
+    <value>Short Term Debt</value>
+  </data>
+  <data name="TaxPayables" xml:space="preserve">
+    <value>Tax Payables</value>
+  </data>
+  <data name="DeferredRevenue" xml:space="preserve">
+    <value>Deferred Revenue</value>
+  </data>
+  <data name="OtherCurrentLiabilities" xml:space="preserve">
+    <value>Other Current Liabilities</value>
+  </data>
+  <data name="TotalCurrentLiabilities" xml:space="preserve">
+    <value>Total Current Liabilities</value>
+  </data>
+  <data name="LongTermDebt" xml:space="preserve">
+    <value>Long Term Debt</value>
+  </data>
+  <data name="NonCurrentDeferredRevenue" xml:space="preserve">
+    <value>Non-Current Deferred Revenue</value>
+  </data>
+  <data name="NonCurrentDeferredTaxLiabilities" xml:space="preserve">
+    <value>Non-Current Deferred Tax Liabilities</value>
+  </data>
+  <data name="OtherNonCurrentLiabilities" xml:space="preserve">
+    <value>Other Non-Current Liabilities</value>
+  </data>
+  <data name="TotalNonCurrentLiabilities" xml:space="preserve">
+    <value>Total Non-Current Liabilities</value>
+  </data>
+  <data name="OtherLiabilities" xml:space="preserve">
+    <value>Other Liabilities</value>
+  </data>
+  <data name="TotalLiabilities" xml:space="preserve">
+    <value>Total Liabilities</value>
+  </data>
+  <data name="CommonStock" xml:space="preserve">
+    <value>Common Stock</value>
+  </data>
+  <data name="RetainedEarnings" xml:space="preserve">
+    <value>Retained Earnings</value>
+  </data>
+  <data name="AccumulatedOtherComprehensiveIncomeLoss" xml:space="preserve">
+    <value>Accumulated Other Comprehensive Income/Loss</value>
+  </data>
+  <data name="OtherTotalStockholdersEquity" xml:space="preserve">
+    <value>Other Total Stockholders Equity</value>
+  </data>
+  <data name="TotalStockholdersEquity" xml:space="preserve">
+    <value>Total Stockholders Equity</value>
+  </data>
+  <data name="TotalLiabilitiesAndStockholdersEquity" xml:space="preserve">
+    <value>Total Liabilities And Stockholders Equity</value>
+  </data>
+  <data name="TotalInvestments" xml:space="preserve">
+    <value>Total Investments</value>
+  </data>
+  <data name="TotalDebt" xml:space="preserve">
+    <value>Total Debt</value>
+  </data>
+  <data name="NetDebt" xml:space="preserve">
+    <value>Net Debt</value>
+  </data>
+  
   <data name="OfflineErrorMessage" xml:space="preserve">
     <value>It seems you are offline. Please check your internet connection.</value>
   </data>

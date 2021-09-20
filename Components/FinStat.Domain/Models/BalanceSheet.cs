@@ -80,7 +80,7 @@
 
         public long AccumulatedOtherComprehensiveIncomeLoss { get; set; }
 
-        public double OthertotalStockholdersEquity { get; set; }
+        public double OtherTotalStockholdersEquity { get; set; }
 
         public long TotalStockholdersEquity { get; set; }
 

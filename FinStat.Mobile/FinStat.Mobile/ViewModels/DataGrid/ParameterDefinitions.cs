@@ -89,8 +89,127 @@ namespace FinStat.Mobile.ViewModels.DataGrid
             {
                 new ParameterDefinition<BalanceSheet>(
                     Loc.Text(TranslationKeys.CashAndCashEquivalents),
-                    (b, u) => FormatNumber(b.CashAndCashEquivalents, u))
+                    (b, u) => FormatNumber(b.CashAndCashEquivalents, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.ShortTermInvestments),
+                    (b, u) => FormatNumber(b.ShortTermInvestments, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.CashAndShortTermInvestments),
+                    (b, u) => FormatNumber(b.CashAndShortTermInvestments, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.NetReceivables),
+                    (b, u) => FormatNumber(b.NetReceivables, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.Inventory),
+                    (b, u) => FormatNumber(b.Inventory, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.OtherCurrentAssets),
+                    (b, u) => FormatNumber(b.OtherCurrentAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalCurrentAssets),
+                    (b, u) => FormatNumber(b.TotalCurrentAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.NetPropertyPlantEquipment),
+                    (b, u) => FormatNumber(b.PropertyPlantEquipmentNet, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.Goodwill),
+                    (b, u) => FormatNumber(b.Goodwill, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.IntangibleAssets),
+                    (b, u) => FormatNumber(b.IntangibleAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.GoodwillAndIntangibleAssets),
+                    (b, u) => FormatNumber(b.GoodwillAndIntangibleAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.LongTermInvestments),
+                    (b, u) => FormatNumber(b.LongTermInvestments, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TaxAssets),
+                    (b, u) => FormatNumber(b.TaxAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.OtherNonCurrentAssets),
+                    (b, u) => FormatNumber(b.OtherNonCurrentAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalNonCurrentAssets),
+                    (b, u) => FormatNumber(b.TotalNonCurrentAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.OtherAssets),
+                    (b, u) => FormatNumber(b.OtherAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalAssets),
+                    (b, u) => FormatNumber(b.TotalAssets, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.AccountPayables),
+                    (b, u) => FormatNumber(b.AccountPayables, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.ShortTermDebt),
+                    (b, u) => FormatNumber(b.ShortTermDebt, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TaxPayables),
+                    (b, u) => FormatNumber(b.TaxPayables, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.DeferredRevenue),
+                    (b, u) => FormatNumber(b.DeferredRevenue, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.OtherCurrentLiabilities),
+                    (b, u) => FormatNumber(b.OtherCurrentLiabilities, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalCurrentLiabilities),
+                    (b, u) => FormatNumber(b.TotalCurrentLiabilities, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.LongTermDebt),
+                    (b, u) => FormatNumber(b.LongTermDebt, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.NonCurrentDeferredRevenue),
+                    (b, u) => FormatNumber(b.DeferredRevenueNonCurrent, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.NonCurrentDeferredTaxLiabilities),
+                    (b, u) => FormatNumber(b.DeferredTaxLiabilitiesNonCurrent, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.OtherNonCurrentLiabilities),
+                    (b, u) => FormatNumber(b.OtherNonCurrentLiabilities, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalNonCurrentLiabilities),
+                    (b, u) => FormatNumber(b.TotalNonCurrentLiabilities, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.OtherLiabilities),
+                    (b, u) => FormatNumber(b.OtherLiabilities, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalLiabilities),
+                    (b, u) => FormatNumber(b.TotalLiabilities, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.RetainedEarnings),
+                    (b, u) => FormatNumber(b.RetainedEarnings, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.AccumulatedOtherComprehensiveIncomeLoss),
+                    (b, u) => FormatNumber(b.AccumulatedOtherComprehensiveIncomeLoss, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.OtherTotalStockholdersEquity),
+                    (b, u) => FormatNumber(b.OtherTotalStockholdersEquity, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalStockholdersEquity),
+                    (b, u) => FormatNumber(b.TotalStockholdersEquity, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalLiabilitiesAndStockholdersEquity),
+                    (b, u) => FormatNumber(b.TotalLiabilitiesAndStockholdersEquity, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalInvestments),
+                    (b, u) => FormatNumber(b.TotalInvestments, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.TotalDebt),
+                    (b, u) => FormatNumber(b.TotalDebt, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.NetDebt),
+                    (b, u) => FormatNumber(b.NetDebt, u)),
+                new ParameterDefinition<BalanceSheet>(
+                    Loc.Text(TranslationKeys.CommonStock),
+                    (b, u) => FormatNumber(b.CommonStock, u))
             };
+
+        private static string FormatNumber(double value, DisplayUnit displayUnit)
+        {
+            return FormatNumber(Convert.ToInt64(value), displayUnit);
+        }
 
         private static string FormatNumber(long value, DisplayUnit displayUnit)
         {
