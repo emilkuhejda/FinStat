@@ -187,6 +187,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Capital Expenditure Ratio.
+        /// </summary>
+        public static string CapitalExpenditureRatio {
+            get {
+                return ResourceManager.GetString("CapitalExpenditureRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cash And Cash Equivalents.
         /// </summary>
         public static string CashAndCashEquivalents {
@@ -340,7 +349,7 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Depreciation AndAmortization.
+        ///   Looks up a localized string similar to Depreciation And Amortization.
         /// </summary>
         public static string DepreciationAndAmortization {
             get {

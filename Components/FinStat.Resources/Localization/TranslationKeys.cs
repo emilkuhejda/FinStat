@@ -127,6 +127,7 @@
         public static string CashAtBeginningOfPeriod => "CashAtBeginningOfPeriod";
         public static string OperatingCashFlow => "OperatingCashFlow";
         public static string CapitalExpenditure => "CapitalExpenditure";
+        public static string CapitalExpenditureRatio => "CapitalExpenditureRatio";
         public static string FreeCashFlow => "FreeCashFlow";
 
         public static string OfflineErrorMessage => "OfflineErrorMessage";

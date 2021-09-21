@@ -376,7 +376,7 @@
     <value>Net Income</value>
   </data>
   <data name="DepreciationAndAmortization" xml:space="preserve">
-    <value>Depreciation AndAmortization</value>
+    <value>Depreciation And Amortization</value>
   </data>
   <data name="DeferredIncomeTax" xml:space="preserve">
     <value>Deferred Income Tax</value>
@@ -458,6 +458,9 @@
   </data>
   <data name="CapitalExpenditure" xml:space="preserve">
     <value>Capital Expenditure</value>
+  </data>
+  <data name="CapitalExpenditureRatio" xml:space="preserve">
+    <value>Capital Expenditure Ratio</value>
   </data>
   <data name="FreeCashFlow" xml:space="preserve">
     <value>Free Cash Flow</value>
