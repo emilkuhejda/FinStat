@@ -242,7 +242,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                         () => b.IncomeStatement == null,
                         () => FormatNumber(b.IncomeStatement.IncomeBeforeTax / (b.BalanceSheet.CommonStock * 1.0), 2))),
                 new ParameterDefinition<BalanceSheetWrapper>(
-                    Loc.Text(TranslationKeys.PreTaxEarningPerShare),
+                    Loc.Text(TranslationKeys.AfterTaxEarningPerShare),
                     (b, u) => HandleValue(
                         () => b.IncomeStatement == null,
                         () => FormatNumber(b.IncomeStatement.NetIncome / (b.BalanceSheet.CommonStock * 1.0), 2))),
@@ -252,7 +252,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
             new List<ParameterDefinition<CashFlowWrapper>>
             {
                 new ParameterDefinition<CashFlowWrapper>(
-                    "Net income",
+                    Loc.Text(TranslationKeys.NetIncome),
                     (c, u) => FormatNumber(c.CashFlow.NetIncome, u)),
             };
 

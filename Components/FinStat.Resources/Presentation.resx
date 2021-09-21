@@ -228,9 +228,6 @@
   <data name="EPSDiluted" xml:space="preserve">
     <value>EPS Diluted</value>
   </data>
-  <data name="SharesOutstanding" xml:space="preserve">
-    <value>Shares Outstanding</value>
-  </data>
   <data name="StockPrice" xml:space="preserve">
     <value>Stock Price</value>
   </data>
@@ -375,7 +372,97 @@
   <data name="ReturnOnShareholdersEquity" xml:space="preserve">
     <value>Return On Shareholders Equity</value>
   </data>
-
+  <data name="NetIncome" xml:space="preserve">
+    <value>Net Income</value>
+  </data>
+  <data name="DepreciationAndAmortization" xml:space="preserve">
+    <value>Depreciation AndAmortization</value>
+  </data>
+  <data name="DeferredIncomeTax" xml:space="preserve">
+    <value>Deferred Income Tax</value>
+  </data>
+  <data name="StockBasedCompensation" xml:space="preserve">
+    <value>Stock Based Compensation</value>
+  </data>
+  <data name="ChangeInWorkingCapital" xml:space="preserve">
+    <value>Change In Working Capital</value>
+  </data>
+  <data name="AccountsReceivables" xml:space="preserve">
+    <value>Accounts Receivables</value>
+  </data>
+  <data name="AccountsPayables" xml:space="preserve">
+    <value>Accounts Payables</value>
+  </data>
+  <data name="OtherWorkingCapital" xml:space="preserve">
+    <value>Other Working Capital</value>
+  </data>
+  <data name="OtherNonCashItems" xml:space="preserve">
+    <value>Other Non Cash Items</value>
+  </data>
+  <data name="NetCashProvidedByOperatingActivities" xml:space="preserve">
+    <value>Net Cash Provided By Operating Activities</value>
+  </data>
+  <data name="InvestmentsInPropertyPlantAndEquipment" xml:space="preserve">
+    <value>Investments In Property, Plant And Equipment</value>
+  </data>
+  <data name="AcquisitionsNet" xml:space="preserve">
+    <value>Acquisitions Net</value>
+  </data>
+  <data name="PurchasesOfInvestments" xml:space="preserve">
+    <value>Purchases Of Investments</value>
+  </data>
+  <data name="SalesMaturitiesOfInvestments" xml:space="preserve">
+    <value>Sales Maturities Of Investments</value>
+  </data>
+  <data name="OtherInvestingActivites" xml:space="preserve">
+    <value>Other Investing Activites</value>
+  </data>
+  <data name="NetCashUsedForInvestingActivites" xml:space="preserve">
+    <value>Net Cash Used For Investing Activites</value>
+  </data>
+  <data name="DebtRepayment" xml:space="preserve">
+    <value>Debt Repayment</value>
+  </data>
+  <data name="CommonStockIssued" xml:space="preserve">
+    <value>Common Stock Issued</value>
+  </data>
+  <data name="CommonStockRepurchased" xml:space="preserve">
+    <value>Common Stock Repurchased</value>
+  </data>
+  <data name="CommonStockIssuedRepurchased" xml:space="preserve">
+    <value>Common Stock Issued / Repurchased</value>
+  </data>
+  <data name="DividendsPaid" xml:space="preserve">
+    <value>Dividends Paid</value>
+  </data>
+  <data name="OtherFinancingActivites" xml:space="preserve">
+    <value>Other Financing Activites</value>
+  </data>
+  <data name="NetCashUsedProvidedByFinancingActivities" xml:space="preserve">
+    <value>Net Cash Used Provided By Financing Activities</value>
+  </data>
+  <data name="EffectOfForexChangesOnCash" xml:space="preserve">
+    <value>Effect Of Forex Changes On Cash</value>
+  </data>
+  <data name="NetChangeInCash" xml:space="preserve">
+    <value>Net Change In Cash</value>
+  </data>
+  <data name="CashAtEndOfPeriod" xml:space="preserve">
+    <value>Cash At End Of Period</value>
+  </data>
+  <data name="CashAtBeginningOfPeriod" xml:space="preserve">
+    <value>Cash At Beginning Of Period</value>
+  </data>
+  <data name="OperatingCashFlow" xml:space="preserve">
+    <value>Operating Cash Flow</value>
+  </data>
+  <data name="CapitalExpenditure" xml:space="preserve">
+    <value>Capital Expenditure</value>
+  </data>
+  <data name="FreeCashFlow" xml:space="preserve">
+    <value>Free Cash Flow</value>
+  </data>
+  
   <data name="OfflineErrorMessage" xml:space="preserve">
     <value>It seems you are offline. Please check your internet connection.</value>
   </data>
