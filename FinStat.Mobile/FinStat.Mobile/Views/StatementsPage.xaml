@@ -21,7 +21,7 @@
             <Label FontSize="{StaticResource LargerSize}"
                    HorizontalOptions="Start"
                    Style="{StaticResource LabelBoldStyle}"
-                   Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.IncomeStatement}}"
+                   Text="{Binding StatementTitle}"
                    VerticalOptions="End" />
             <Label FontSize="{StaticResource LittleSize}"
                    HorizontalOptions="StartAndExpand"
@@ -67,7 +67,7 @@
 
             <tabView:SfTabItem Title="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.CashFlowStatement}}">
                 <tabView:SfTabItem.Content>
-                    <Label>Cash flow</Label>
+                    <statementViews:CashFlowPageView />
                 </tabView:SfTabItem.Content>
             </tabView:SfTabItem>
         </tabView:SfTabView>

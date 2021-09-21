@@ -79,11 +79,38 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Accounts Payables.
+        /// </summary>
+        public static string AccountsPayables {
+            get {
+                return ResourceManager.GetString("AccountsPayables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Accounts Receivables.
+        /// </summary>
+        public static string AccountsReceivables {
+            get {
+                return ResourceManager.GetString("AccountsReceivables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Accumulated Other Comprehensive Income/Loss.
         /// </summary>
         public static string AccumulatedOtherComprehensiveIncomeLoss {
             get {
                 return ResourceManager.GetString("AccumulatedOtherComprehensiveIncomeLoss", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Acquisitions Net.
+        /// </summary>
+        public static string AcquisitionsNet {
+            get {
+                return ResourceManager.GetString("AcquisitionsNet", resourceCulture);
             }
         }
         
@@ -151,6 +178,24 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Capital Expenditure.
+        /// </summary>
+        public static string CapitalExpenditure {
+            get {
+                return ResourceManager.GetString("CapitalExpenditure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Capital Expenditure Ratio.
+        /// </summary>
+        public static string CapitalExpenditureRatio {
+            get {
+                return ResourceManager.GetString("CapitalExpenditureRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cash And Cash Equivalents.
         /// </summary>
         public static string CashAndCashEquivalents {
@@ -169,6 +214,24 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cash At Beginning Of Period.
+        /// </summary>
+        public static string CashAtBeginningOfPeriod {
+            get {
+                return ResourceManager.GetString("CashAtBeginningOfPeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cash At End Of Period.
+        /// </summary>
+        public static string CashAtEndOfPeriod {
+            get {
+                return ResourceManager.GetString("CashAtEndOfPeriod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cash flow statement.
         /// </summary>
         public static string CashFlowStatement {
@@ -178,11 +241,47 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Change In Working Capital.
+        /// </summary>
+        public static string ChangeInWorkingCapital {
+            get {
+                return ResourceManager.GetString("ChangeInWorkingCapital", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Common Stock.
         /// </summary>
         public static string CommonStock {
             get {
                 return ResourceManager.GetString("CommonStock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Common Stock Issued.
+        /// </summary>
+        public static string CommonStockIssued {
+            get {
+                return ResourceManager.GetString("CommonStockIssued", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Common Stock Issued / Repurchased.
+        /// </summary>
+        public static string CommonStockIssuedRepurchased {
+            get {
+                return ResourceManager.GetString("CommonStockIssuedRepurchased", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Common Stock Repurchased.
+        /// </summary>
+        public static string CommonStockRepurchased {
+            get {
+                return ResourceManager.GetString("CommonStockRepurchased", resourceCulture);
             }
         }
         
@@ -201,6 +300,24 @@ namespace FinStat.Resources {
         public static string CostOfGoodsSoldRatio {
             get {
                 return ResourceManager.GetString("CostOfGoodsSoldRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Debt Repayment.
+        /// </summary>
+        public static string DebtRepayment {
+            get {
+                return ResourceManager.GetString("DebtRepayment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deferred Income Tax.
+        /// </summary>
+        public static string DeferredIncomeTax {
+            get {
+                return ResourceManager.GetString("DeferredIncomeTax", resourceCulture);
             }
         }
         
@@ -228,6 +345,15 @@ namespace FinStat.Resources {
         public static string DepreciationAmortizationRatio {
             get {
                 return ResourceManager.GetString("DepreciationAmortizationRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Depreciation And Amortization.
+        /// </summary>
+        public static string DepreciationAndAmortization {
+            get {
+                return ResourceManager.GetString("DepreciationAndAmortization", resourceCulture);
             }
         }
         
@@ -264,6 +390,24 @@ namespace FinStat.Resources {
         public static string DisplayUnit_Thousand {
             get {
                 return ResourceManager.GetString("DisplayUnit_Thousand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dividends Paid.
+        /// </summary>
+        public static string DividendsPaid {
+            get {
+                return ResourceManager.GetString("DividendsPaid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Effect Of Forex Changes On Cash.
+        /// </summary>
+        public static string EffectOfForexChangesOnCash {
+            get {
+                return ResourceManager.GetString("EffectOfForexChangesOnCash", resourceCulture);
             }
         }
         
@@ -421,6 +565,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Free Cash Flow.
+        /// </summary>
+        public static string FreeCashFlow {
+            get {
+                return ResourceManager.GetString("FreeCashFlow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Oops! Something bad happened. Please try it later or contact us..
         /// </summary>
         public static string GeneralErrorMessage {
@@ -520,6 +673,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Investments In Property, Plant And Equipment.
+        /// </summary>
+        public static string InvestmentsInPropertyPlantAndEquipment {
+            get {
+                return ResourceManager.GetString("InvestmentsInPropertyPlantAndEquipment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Long Term Debt.
         /// </summary>
         public static string LongTermDebt {
@@ -556,6 +718,42 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Net Cash Provided By Operating Activities.
+        /// </summary>
+        public static string NetCashProvidedByOperatingActivities {
+            get {
+                return ResourceManager.GetString("NetCashProvidedByOperatingActivities", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Net Cash Used For Investing Activites.
+        /// </summary>
+        public static string NetCashUsedForInvestingActivites {
+            get {
+                return ResourceManager.GetString("NetCashUsedForInvestingActivites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Net Cash Used Provided By Financing Activities.
+        /// </summary>
+        public static string NetCashUsedProvidedByFinancingActivities {
+            get {
+                return ResourceManager.GetString("NetCashUsedProvidedByFinancingActivities", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Net Change In Cash.
+        /// </summary>
+        public static string NetChangeInCash {
+            get {
+                return ResourceManager.GetString("NetChangeInCash", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Net Debt.
         /// </summary>
         public static string NetDebt {
@@ -579,6 +777,15 @@ namespace FinStat.Resources {
         public static string NetEarningsRatio {
             get {
                 return ResourceManager.GetString("NetEarningsRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Net Income.
+        /// </summary>
+        public static string NetIncome {
+            get {
+                return ResourceManager.GetString("NetIncome", resourceCulture);
             }
         }
         
@@ -664,6 +871,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Operating Cash Flow.
+        /// </summary>
+        public static string OperatingCashFlow {
+            get {
+                return ResourceManager.GetString("OperatingCashFlow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Operating Expenses.
         /// </summary>
         public static string OperatingExpenses {
@@ -718,11 +934,38 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Other Financing Activites.
+        /// </summary>
+        public static string OtherFinancingActivites {
+            get {
+                return ResourceManager.GetString("OtherFinancingActivites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Other Investing Activites.
+        /// </summary>
+        public static string OtherInvestingActivites {
+            get {
+                return ResourceManager.GetString("OtherInvestingActivites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Other Liabilities.
         /// </summary>
         public static string OtherLiabilities {
             get {
                 return ResourceManager.GetString("OtherLiabilities", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Other Non Cash Items.
+        /// </summary>
+        public static string OtherNonCashItems {
+            get {
+                return ResourceManager.GetString("OtherNonCashItems", resourceCulture);
             }
         }
         
@@ -754,6 +997,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Other Working Capital.
+        /// </summary>
+        public static string OtherWorkingCapital {
+            get {
+                return ResourceManager.GetString("OtherWorkingCapital", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pre-Tax Earning Per Share.
         /// </summary>
         public static string PreTaxEarningPerShare {
@@ -768,6 +1020,15 @@ namespace FinStat.Resources {
         public static string PreTaxIncome {
             get {
                 return ResourceManager.GetString("PreTaxIncome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purchases Of Investments.
+        /// </summary>
+        public static string PurchasesOfInvestments {
+            get {
+                return ResourceManager.GetString("PurchasesOfInvestments", resourceCulture);
             }
         }
         
@@ -853,6 +1114,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sales Maturities Of Investments.
+        /// </summary>
+        public static string SalesMaturitiesOfInvestments {
+            get {
+                return ResourceManager.GetString("SalesMaturitiesOfInvestments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Company name.
         /// </summary>
         public static string SearchBarPlaceholder {
@@ -889,15 +1159,6 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Shares Outstanding.
-        /// </summary>
-        public static string SharesOutstanding {
-            get {
-                return ResourceManager.GetString("SharesOutstanding", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Short Term Debt.
         /// </summary>
         public static string ShortTermDebt {
@@ -921,6 +1182,15 @@ namespace FinStat.Resources {
         public static string StartSearchingCompanies {
             get {
                 return ResourceManager.GetString("StartSearchingCompanies", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stock Based Compensation.
+        /// </summary>
+        public static string StockBasedCompensation {
+            get {
+                return ResourceManager.GetString("StockBasedCompensation", resourceCulture);
             }
         }
         

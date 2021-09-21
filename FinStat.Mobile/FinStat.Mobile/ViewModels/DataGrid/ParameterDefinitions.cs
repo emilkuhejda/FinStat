@@ -103,7 +103,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     (b, u) => FormatNumber(b.BalanceSheet.NetReceivables, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.ReceivablesRatio),
-                    (b, u) => HandleValue(
+                    (b, u) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
                         () => FormatPercentage(b.BalanceSheet.NetReceivables / (b.IncomeStatement.GrossProfit * 1.0)))),
                 new ParameterDefinition<BalanceSheetWrapper>(
@@ -188,6 +188,12 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     Loc.Text(TranslationKeys.RetainedEarnings),
                     (b, u) => FormatNumber(b.BalanceSheet.RetainedEarnings, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.RetainedEarningsRatio),
+                    (b, u) => HandleEmptyValue(
+                        () => b.RecentBalanceSheet == null,
+                        () => FormatNumber(
+                            b.BalanceSheet.RetainedEarnings / (b.RecentBalanceSheet.RetainedEarnings * 1.0), 2))),
+                new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.AccumulatedOtherComprehensiveIncomeLoss),
                     (b, u) => FormatNumber(b.BalanceSheet.AccumulatedOtherComprehensiveIncomeLoss, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
@@ -214,7 +220,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                         b.BalanceSheet.TotalCurrentAssets / (b.BalanceSheet.TotalCurrentLiabilities * 1.0), 2)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.TheReturnOnTotalAssets),
-                    (b, u) => HandleValue(
+                    (b, u) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
                         () => FormatPercentage(b.IncomeStatement.NetIncome / (b.BalanceSheet.TotalAssets * 1.0)))),
                 new ParameterDefinition<BalanceSheetWrapper>(
@@ -223,25 +229,129 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                         b.BalanceSheet.TotalLiabilities / (b.BalanceSheet.TotalStockholdersEquity * 1.0), 2)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.ReturnOnShareholdersEquity),
-                    (b, u) => HandleValue(
+                    (b, u) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
-                        () => FormatPercentage(b.IncomeStatement.NetIncome / (b.BalanceSheet.TotalStockholdersEquity * 1.0)))),
+                        () => FormatPercentage(b.IncomeStatement.NetIncome /
+                                               (b.BalanceSheet.TotalStockholdersEquity * 1.0)))),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.CommonStock),
                     (b, u) => FormatNumber(b.BalanceSheet.CommonStock, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.PreTaxEarningPerShare),
-                    (b, u) => HandleValue(
+                    (b, u) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
                         () => FormatNumber(b.IncomeStatement.IncomeBeforeTax / (b.BalanceSheet.CommonStock * 1.0), 2))),
                 new ParameterDefinition<BalanceSheetWrapper>(
-                    Loc.Text(TranslationKeys.PreTaxEarningPerShare),
-                    (b, u) => HandleValue(
+                    Loc.Text(TranslationKeys.AfterTaxEarningPerShare),
+                    (b, u) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
                         () => FormatNumber(b.IncomeStatement.NetIncome / (b.BalanceSheet.CommonStock * 1.0), 2))),
             };
 
-        private static string HandleValue(Func<bool> conditionFunc, Func<string> defaultValueFunc)
+        public static IEnumerable<ParameterDefinition<CashFlowWrapper>> CashFlowDefinitions { get; } =
+            new List<ParameterDefinition<CashFlowWrapper>>
+            {
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.NetIncome),
+                    (c, u) => FormatNumber(c.CashFlow.NetIncome, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.DepreciationAndAmortization),
+                    (c, u) => FormatNumber(c.CashFlow.DepreciationAndAmortization, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.DeferredIncomeTax),
+                    (c, u) => FormatNumber(c.CashFlow.DeferredIncomeTax, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.StockBasedCompensation),
+                    (c, u) => FormatNumber(c.CashFlow.StockBasedCompensation, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.ChangeInWorkingCapital),
+                    (c, u) => FormatNumber(c.CashFlow.ChangeInWorkingCapital, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.AccountsReceivables),
+                    (c, u) => FormatNumber(c.CashFlow.AccountsReceivables, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.Inventory),
+                    (c, u) => FormatNumber(c.CashFlow.Inventory, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.AccountsPayables),
+                    (c, u) => FormatNumber(c.CashFlow.AccountsPayables, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.OtherWorkingCapital),
+                    (c, u) => FormatNumber(c.CashFlow.OtherWorkingCapital, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.OtherNonCashItems),
+                    (c, u) => FormatNumber(c.CashFlow.OtherNonCashItems, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.NetCashProvidedByOperatingActivities),
+                    (c, u) => FormatNumber(c.CashFlow.NetCashProvidedByOperatingActivities, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.InvestmentsInPropertyPlantAndEquipment),
+                    (c, u) => FormatNumber(c.CashFlow.InvestmentsInPropertyPlantAndEquipment, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.AcquisitionsNet),
+                    (c, u) => FormatNumber(c.CashFlow.AcquisitionsNet, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.PurchasesOfInvestments),
+                    (c, u) => FormatNumber(c.CashFlow.PurchasesOfInvestments, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.SalesMaturitiesOfInvestments),
+                    (c, u) => FormatNumber(c.CashFlow.SalesMaturitiesOfInvestments, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.OtherInvestingActivites),
+                    (c, u) => FormatNumber(c.CashFlow.OtherInvestingActivites, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.NetCashUsedForInvestingActivites),
+                    (c, u) => FormatNumber(c.CashFlow.NetCashUsedForInvestingActivites, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.DebtRepayment),
+                    (c, u) => FormatNumber(c.CashFlow.DebtRepayment, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.CommonStockIssued),
+                    (c, u) => FormatNumber(c.CashFlow.CommonStockIssued, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.CommonStockRepurchased),
+                    (c, u) => FormatNumber(c.CashFlow.CommonStockRepurchased, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.CommonStockIssuedRepurchased),
+                    (c, u) => FormatNumber(c.CashFlow.CommonStockIssued - c.CashFlow.CommonStockRepurchased, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.DividendsPaid),
+                    (c, u) => FormatNumber(c.CashFlow.DividendsPaid, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.OtherFinancingActivites),
+                    (c, u) => FormatNumber(c.CashFlow.OtherFinancingActivites, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.NetCashUsedProvidedByFinancingActivities),
+                    (c, u) => FormatNumber(c.CashFlow.NetCashUsedProvidedByFinancingActivities, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.EffectOfForexChangesOnCash),
+                    (c, u) => FormatNumber(c.CashFlow.EffectOfForexChangesOnCash, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.NetChangeInCash),
+                    (c, u) => FormatNumber(c.CashFlow.NetChangeInCash, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.CashAtEndOfPeriod),
+                    (c, u) => FormatNumber(c.CashFlow.CashAtEndOfPeriod, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.CashAtBeginningOfPeriod),
+                    (c, u) => FormatNumber(c.CashFlow.CashAtBeginningOfPeriod, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.OperatingCashFlow),
+                    (c, u) => FormatNumber(c.CashFlow.OperatingCashFlow, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.CapitalExpenditure),
+                    (c, u) => FormatNumber(c.CashFlow.CapitalExpenditure, u)),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.CapitalExpenditureRatio),
+                    (c, u) => HandleEmptyValue(
+                        () => c.IncomeStatement == null,
+                        () => FormatPercentage(c.CashFlow.CapitalExpenditure / (c.IncomeStatement.NetIncome * 1.0)))),
+                new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.FreeCashFlow),
+                    (c, u) => FormatNumber(c.CashFlow.FreeCashFlow, u)),
+            };
+
+        private static string HandleEmptyValue(Func<bool> conditionFunc, Func<string> defaultValueFunc)
         {
             if (conditionFunc())
                 return EmptyFieldValue;

@@ -21,6 +21,7 @@ namespace FinStat.Mobile.ViewModels
 
         private IncomeStatementPageViewModel _incomeStatementPage;
         private BalanceSheetPageViewModel _balanceSheetPage;
+        private CashFlowPageViewModel _cashFlowPage;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
@@ -46,6 +47,7 @@ namespace FinStat.Mobile.ViewModels
 
             IncomeStatementPage = new IncomeStatementPageViewModel(webService, applicationSettings, navigationService);
             BalanceSheetPage = new BalanceSheetPageViewModel(webService, applicationSettings, navigationService);
+            CashFlowPage = new CashFlowPageViewModel(webService, applicationSettings, navigationService);
 
             LoadAnnualDataCommand = new AsyncCommand(ExecuteLoadAnnualDataCommandAsync);
             LoadQuarterlyDataCommand = new AsyncCommand(ExecuteLoadQuarterlyDataCommandAsync);
@@ -65,10 +67,22 @@ namespace FinStat.Mobile.ViewModels
             set => SetProperty(ref _balanceSheetPage, value);
         }
 
+        public CashFlowPageViewModel CashFlowPage
+        {
+            get => _cashFlowPage;
+            set => SetProperty(ref _cashFlowPage, value);
+        }
+
         public int SelectedIndex
         {
             get => _selectedIndex;
-            set => SetProperty(ref _selectedIndex, value);
+            set
+            {
+                if (SetProperty(ref _selectedIndex, value))
+                {
+                    RaisePropertyChanged(nameof(StatementTitle));
+                }
+            }
         }
 
         public bool AnnualData
@@ -89,6 +103,24 @@ namespace FinStat.Mobile.ViewModels
             set => SetProperty(ref _displayUnitsText, value);
         }
 
+        public string StatementTitle
+        {
+            get
+            {
+                switch (SelectedIndex)
+                {
+                    case 0:
+                        return Loc.Text(TranslationKeys.IncomeStatement);
+                    case 1:
+                        return Loc.Text(TranslationKeys.BalanceSheetStatement);
+                    case 2:
+                        return Loc.Text(TranslationKeys.CashFlowStatement);
+                    default:
+                        return string.Empty;
+                }
+            }
+        }
+
         public ICommand LoadAnnualDataCommand { get; }
 
         public ICommand LoadQuarterlyDataCommand { get; }
@@ -100,6 +132,10 @@ namespace FinStat.Mobile.ViewModels
                 if (index == 1)
                 {
                     await BalanceSheetPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
+                }
+                else if (index == 2)
+                {
+                    await CashFlowPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
                 }
             }
         }
@@ -150,10 +186,15 @@ namespace FinStat.Mobile.ViewModels
                 if (incomeStatements.Any())
                 {
                     BalanceSheetPage.ClearData();
+                    CashFlowPage.ClearData();
 
                     if (SelectedIndex == 1)
                     {
                         await BalanceSheetPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
+                    }
+                    else if (SelectedIndex == 2)
+                    {
+                        await CashFlowPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
                     }
                 }
             }

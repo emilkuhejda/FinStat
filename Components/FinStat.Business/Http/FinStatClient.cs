@@ -73,6 +73,21 @@ namespace FinStat.Business.Http
             return SendRequestAsync<BalanceSheet[]>(urlBuilder, cancellationToken);
         }
 
+        public Task<CashFlow[]> GetCashFlowStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken)
+        {
+            var urlBuilder = new StringBuilder();
+            urlBuilder.Append(_baseUrl.TrimEnd('/')).Append("/api/v3/cash-flow-statement/{ticker}?limit={limit}");
+            urlBuilder.Append($"&apikey={_apiKey}");
+            urlBuilder.Replace("{ticker}", Uri.EscapeDataString(ConvertToString(ticker, CultureInfo.InvariantCulture)));
+            urlBuilder.Replace("{limit}", Uri.EscapeDataString(ConvertToString(limit, CultureInfo.InvariantCulture)));
+            if (isQuarterPeriod)
+            {
+                urlBuilder.Append("&period=quarter");
+            }
+
+            return SendRequestAsync<CashFlow[]>(urlBuilder, cancellationToken);
+        }
+
         private async Task<T> SendRequestAsync<T>(StringBuilder urlBuilder, CancellationToken cancellationToken)
         {
             var client = _httpClient;
