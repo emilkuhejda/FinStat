@@ -188,6 +188,12 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     Loc.Text(TranslationKeys.RetainedEarnings),
                     (b, u) => FormatNumber(b.BalanceSheet.RetainedEarnings, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
+                    Loc.Text(TranslationKeys.RetainedEarningsRatio),
+                    (b, u) => HandleValue(
+                        () => b.RecentBalanceSheet == null,
+                        () => FormatPercentage(b.BalanceSheet.RetainedEarnings /
+                                               (b.RecentBalanceSheet.RetainedEarnings * 1.0)))),
+                new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.AccumulatedOtherComprehensiveIncomeLoss),
                     (b, u) => FormatNumber(b.BalanceSheet.AccumulatedOtherComprehensiveIncomeLoss, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
@@ -225,7 +231,8 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     Loc.Text(TranslationKeys.ReturnOnShareholdersEquity),
                     (b, u) => HandleValue(
                         () => b.IncomeStatement == null,
-                        () => FormatPercentage(b.IncomeStatement.NetIncome / (b.BalanceSheet.TotalStockholdersEquity * 1.0)))),
+                        () => FormatPercentage(b.IncomeStatement.NetIncome /
+                                               (b.BalanceSheet.TotalStockholdersEquity * 1.0)))),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.CommonStock),
                     (b, u) => FormatNumber(b.BalanceSheet.CommonStock, u)),

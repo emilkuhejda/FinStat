@@ -1,16 +1,18 @@
-﻿namespace FinStat.Domain.Models
+﻿using System;
+
+namespace FinStat.Domain.Models
 {
     public class CashFlow
     {
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
 
         public string Symbol { get; set; }
 
         public string ReportedCurrency { get; set; }
 
-        public string FillingDate { get; set; }
+        public DateTime FillingDate { get; set; }
 
-        public string AcceptedDate { get; set; }
+        public DateTime AcceptedDate { get; set; }
 
         public string Period { get; set; }
 
