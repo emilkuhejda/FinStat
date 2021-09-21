@@ -49,6 +49,7 @@ namespace FinStat.Mobile.ViewModels
 
             SearchCommand = new AsyncCommand<string>(ExecuteSearchCommandAsync);
             NavigateToIncomeStatementCommand = new AsyncCommand<ItemTappedEventArgs>(ExecuteNavigateToIncomeStatementCommandAsync);
+            DeleteCompanyCommand = new AsyncCommand<SearchResult>(ExecuteDeleteCompanyCommandAsync);
         }
 
         private ExchangeViewModel[] Exchanges { get; } = new[]
@@ -126,13 +127,20 @@ namespace FinStat.Mobile.ViewModels
 
         public ICommand NavigateToIncomeStatementCommand { get; }
 
+        public ICommand DeleteCompanyCommand { get; }
+
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
             using (new OperationMonitor(OperationScope))
             {
-                var recentlyVisitedCompanies = await _recentlyVisitedCompanyRepository.GetLastRecordsAsync(_applicationSettings.SearchLimit);
-                RecentlyVisitedCompanies = recentlyVisitedCompanies.Select(x => x.ToSearchResult());
+                await InitializeRecentlyVisitedCompaniesAsync();
             }
+        }
+
+        private async Task InitializeRecentlyVisitedCompaniesAsync()
+        {
+            var recentlyVisitedCompanies = await _recentlyVisitedCompanyRepository.GetLastRecordsAsync(_applicationSettings.SearchLimit);
+            RecentlyVisitedCompanies = recentlyVisitedCompanies.Select(x => x.ToSearchResult());
         }
 
         private Task ExecuteSearchCommandAsync(string query)
@@ -167,6 +175,15 @@ namespace FinStat.Mobile.ViewModels
             var navigationParameters = new NavigationParameters();
             navigationParameters.Add<SearchResult>(searchResult);
             return NavigationService.NavigateWithoutAnimationAsync(Pages.Statements, navigationParameters);
+        }
+
+        private async Task ExecuteDeleteCompanyCommandAsync(SearchResult searchResult)
+        {
+            using (new OperationMonitor(OperationScope))
+            {
+                await _recentlyVisitedCompanyRepository.DeleteAsync(searchResult.Symbol);
+                await InitializeRecentlyVisitedCompaniesAsync();
+            }
         }
     }
 }

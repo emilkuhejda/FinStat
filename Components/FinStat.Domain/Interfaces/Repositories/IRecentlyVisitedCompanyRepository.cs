@@ -10,5 +10,7 @@ namespace FinStat.Domain.Interfaces.Repositories
         Task<RecentlyVisitedCompany[]> GetAllAsync();
 
         Task<RecentlyVisitedCompany[]> GetLastRecordsAsync(int limit);
+
+        Task DeleteAsync(string symbol);
     }
 }
