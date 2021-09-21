@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 using FinStat.DataAccess.DataAdapters;
+using FinStat.DataAccess.Entities;
 using FinStat.DataAccess.Providers;
 using FinStat.Domain.Interfaces.Repositories;
 using FinStat.Domain.Models;
@@ -35,6 +36,11 @@ namespace FinStat.DataAccess.Repositories
                 .ToArrayAsync();
 
             return entities.Select(x => x.ToDomainObject()).ToArray();
+        }
+
+        public Task DeleteAsync(string symbol)
+        {
+            return _contextProvider.Context.DeleteAsync<RecentlyVisitedCompanyEntity>(symbol);
         }
     }
 }

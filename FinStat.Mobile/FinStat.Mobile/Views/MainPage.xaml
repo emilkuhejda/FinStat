@@ -7,7 +7,8 @@
                           xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
-                          xmlns:xForms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms">
+                          xmlns:xForms="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+                          x:Name="Page">
     <views:BaseNavigationPage.Resources>
         <ResourceDictionary>
             <DataTemplate x:Key="SearchResultItemTemplate">
@@ -71,7 +72,8 @@
                 <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.StartSearchingCompanies}}" />
             </StackLayout>
 
-            <xForms:SfListView FocusBorderColor="Transparent"
+            <xForms:SfListView AllowSwiping="True"
+                               FocusBorderColor="Transparent"
                                IsScrollBarVisible="False"
                                IsVisible="{Binding AnyRecentlyVisitedCompanies}"
                                ItemSize="60"
@@ -79,7 +81,27 @@
                                ItemTemplate="{StaticResource SearchResultItemTemplate}"
                                ItemsSource="{Binding RecentlyVisitedCompanies}"
                                SelectionBackgroundColor="Transparent"
-                               TapCommand="{Binding NavigateToIncomeStatementCommand}" />
+                               TapCommand="{Binding NavigateToIncomeStatementCommand}">
+                <xForms:SfListView.RightSwipeTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Frame Padding="10,10,10,10" BackgroundColor="{StaticResource ColorPrimary}">
+                                <forms:SvgCachedImage Margin="0"
+                                                      Aspect="AspectFit"
+                                                      HeightRequest="50"
+                                                      HorizontalOptions="Center"
+                                                      Source="resource://FinStat.Mobile.Resources.Images.Delete.svg"
+                                                      VerticalOptions="End"
+                                                      WidthRequest="50" />
+                            </Frame>
+
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BindingContext.DeleteCompanyCommand, Source={x:Reference Page}}" CommandParameter="{Binding}" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+                    </DataTemplate>
+                </xForms:SfListView.RightSwipeTemplate>
+            </xForms:SfListView>
         </StackLayout>
 
         <StackLayout IsVisible="{Binding IsSearchingActive}">
