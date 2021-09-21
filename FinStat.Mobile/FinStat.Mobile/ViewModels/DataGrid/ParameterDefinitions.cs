@@ -191,8 +191,8 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     Loc.Text(TranslationKeys.RetainedEarningsRatio),
                     (b, u) => HandleValue(
                         () => b.RecentBalanceSheet == null,
-                        () => FormatPercentage(b.BalanceSheet.RetainedEarnings /
-                                               (b.RecentBalanceSheet.RetainedEarnings * 1.0)))),
+                        () => FormatNumber(
+                            b.BalanceSheet.RetainedEarnings / (b.RecentBalanceSheet.RetainedEarnings * 1.0), 2))),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.AccumulatedOtherComprehensiveIncomeLoss),
                     (b, u) => FormatNumber(b.BalanceSheet.AccumulatedOtherComprehensiveIncomeLoss, u)),
