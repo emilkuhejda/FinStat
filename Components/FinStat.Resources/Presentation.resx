@@ -159,6 +159,15 @@
   <data name="Quarterly" xml:space="preserve">
     <value>Quarterly</value>
   </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="ContactUsApplicationVersion" xml:space="preserve">
+    <value>Application version: {0} ({1})</value>
+  </data>
+  <data name="ContactUsTimeStamp" xml:space="preserve">
+    <value>Time stamp: {0}</value>
+  </data>
   <data name="Revenue" xml:space="preserve">
     <value>Revenue</value>
   </data>

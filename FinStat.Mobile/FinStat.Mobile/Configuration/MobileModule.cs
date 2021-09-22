@@ -1,5 +1,7 @@
 ﻿using FinStat.Common;
+using FinStat.Domain.Interfaces.Services;
 using FinStat.Mobile.Navigation;
+using FinStat.Mobile.Services;
 using FinStat.Mobile.ViewModels;
 using FinStat.Mobile.Views;
 using Prism.Ioc;
@@ -11,6 +13,8 @@ namespace FinStat.Mobile.Configuration
         public void RegisterServices(IContainerRegistry containerRegistry)
         {
             RegisterPages(containerRegistry);
+
+            containerRegistry.RegisterSingleton<IEmailService, EmailService>();
         }
 
         private static void RegisterPages(IContainerRegistry containerRegistry)

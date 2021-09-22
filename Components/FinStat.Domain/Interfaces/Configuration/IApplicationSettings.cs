@@ -8,6 +8,8 @@ namespace FinStat.Domain.Interfaces.Configuration
 
         string SyncfusionKey { get; }
 
+        string SupportMailAddress { get; }
+
         DisplayUnit DisplayUnit { get; }
 
         int SearchLimit { get; }

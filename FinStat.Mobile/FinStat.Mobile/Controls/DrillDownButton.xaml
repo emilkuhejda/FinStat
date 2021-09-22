@@ -3,7 +3,9 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:FinStat.Mobile.Converters;assembly=FinStat.Mobile"
-             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms">
+             xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+             x:Name="Control"
+             HeightRequest="{Binding RowHeight, Source={x:Reference Control}}">
     <ContentView.Resources>
         <ResourceDictionary>
             <converters:ColumnSpanConverter x:Key="ColumnSpanConverter" />

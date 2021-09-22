@@ -286,6 +286,33 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Contact us.
+        /// </summary>
+        public static string ContactUs {
+            get {
+                return ResourceManager.GetString("ContactUs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Application version: {0} ({1}).
+        /// </summary>
+        public static string ContactUsApplicationVersion {
+            get {
+                return ResourceManager.GetString("ContactUsApplicationVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Time stamp: {0}.
+        /// </summary>
+        public static string ContactUsTimeStamp {
+            get {
+                return ResourceManager.GetString("ContactUsTimeStamp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cost Of Goods Sold.
         /// </summary>
         public static string CostOfGoodsSold {
