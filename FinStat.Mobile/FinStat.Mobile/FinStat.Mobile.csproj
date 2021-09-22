@@ -16,6 +16,7 @@
     <None Remove="Resources\Fonts\Quicksand-Regular.ttf" />
     <None Remove="Resources\Images\Back.svg" />
     <None Remove="Resources\Images\Delete.svg" />
+    <None Remove="Resources\Images\Forward.svg" />
     <None Remove="Resources\Images\Main-Active.svg" />
     <None Remove="Resources\Images\Main.svg" />
     <None Remove="Resources\Images\More-Active.svg" />
@@ -33,6 +34,7 @@
     <EmbeddedResource Include="Resources\Fonts\Quicksand-Regular.ttf" />
     <EmbeddedResource Include="Resources\Images\Back.svg" />
     <EmbeddedResource Include="Resources\Images\Delete.svg" />
+    <EmbeddedResource Include="Resources\Images\Forward.svg" />
     <EmbeddedResource Include="Resources\Images\Main-Active.svg" />
     <EmbeddedResource Include="Resources\Images\Main.svg" />
     <EmbeddedResource Include="Resources\Images\More-Active.svg" />

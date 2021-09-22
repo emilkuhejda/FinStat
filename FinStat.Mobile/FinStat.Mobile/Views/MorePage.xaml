@@ -2,10 +2,22 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.MorePage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:controls="clr-namespace:FinStat.Mobile.Controls;assembly=FinStat.Mobile"
+                          xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+                          xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
-    <StackLayout>
-        <Label HorizontalOptions="CenterAndExpand"
-               Text="Welcome to More Page!"
-               VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0">
+            <!--  Contact us  -->
+            <controls:DrillDownButton Command="{Binding NavigateToEmailCommand}"
+                                      ImageSource="resource://FinStat.Mobile.Resources.Images.Forward.svg"
+                                      Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.ContactUs}}" />
+            <controls:Divider />
+        </StackLayout>
+    </Grid>
 </views:BaseNavigationPage>
