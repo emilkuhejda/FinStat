@@ -366,7 +366,8 @@ namespace FinStat.Mobile.ViewModels.DataGrid
 
         private static string FormatNumber(long value, DisplayUnit displayUnit)
         {
-            return (value / displayUnit.ToUnit()).ToString("N0", CultureInfo.InvariantCulture);
+            var format = displayUnit == DisplayUnit.Billion ? "N3" : "N0";
+            return (value / displayUnit.ToUnit()).ToString(format, CultureInfo.InvariantCulture);
         }
 
         private static string FormatNumber(double value, uint decimals)
