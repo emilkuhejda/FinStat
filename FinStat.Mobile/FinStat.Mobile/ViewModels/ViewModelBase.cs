@@ -90,19 +90,19 @@ namespace FinStat.Mobile.ViewModels
 
         public async void OnNavigatedTo(INavigationParameters parameters)
         {
-            await LoadDataAsync(parameters).ConfigureAwait(false);
+            await LoadDataAsync(parameters);
         }
 
         protected async Task<(bool success, T payload)> HandleWebCallAsync<T>(Func<Task<HttpRequestResult<T>>> action) where T : class
         {
-            var httpRequestResult = await action().ConfigureAwait(false);
+            var httpRequestResult = await action();
             if (httpRequestResult.State == HttpRequestState.Success)
                 return (true, httpRequestResult.Payload);
 
             if (httpRequestResult.State == HttpRequestState.Offline)
-                await DisplayAlertAsync(string.Empty, Loc.Text(TranslationKeys.OfflineErrorMessage)).ConfigureAwait(false);
+                await DisplayAlertAsync(string.Empty, Loc.Text(TranslationKeys.OfflineErrorMessage));
 
-            await DisplayAlertAsync(string.Empty, Loc.Text(TranslationKeys.GeneralErrorMessage)).ConfigureAwait(false);
+            await DisplayAlertAsync(string.Empty, Loc.Text(TranslationKeys.GeneralErrorMessage));
             return (false, null);
         }
 
@@ -123,12 +123,12 @@ namespace FinStat.Mobile.ViewModels
 
         protected virtual async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
-            await Task.CompletedTask.ConfigureAwait(false);
+            await Task.CompletedTask;
         }
 
         private async Task ExecuteNavigateBackCommandAsync()
         {
-            await NavigationService.GoBackWithoutAnimationAsync().ConfigureAwait(false);
+            await NavigationService.GoBackWithoutAnimationAsync();
         }
 
         public void Dispose()

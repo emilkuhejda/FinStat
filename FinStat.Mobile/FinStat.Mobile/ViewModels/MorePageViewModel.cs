@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using FinStat.Common.Utils;
+using FinStat.Domain.Configuration;
 using FinStat.Domain.Enums;
 using FinStat.Domain.Interfaces.Configuration;
 using FinStat.Domain.Interfaces.Required;
@@ -22,6 +23,7 @@ namespace FinStat.Mobile.ViewModels
     public class MorePageViewModel : ViewModelBase
     {
         private readonly IEmailService _emailService;
+        private readonly IInternalValueService _internalValueService;
         private readonly IApplicationVersionProvider _applicationVersionProvider;
         private readonly IApplicationSettings _applicationSettings;
 
@@ -30,12 +32,14 @@ namespace FinStat.Mobile.ViewModels
 
         public MorePageViewModel(
             IEmailService emailService,
+            IInternalValueService internalValueService,
             IApplicationVersionProvider applicationVersionProvider,
             IApplicationSettings applicationSettings,
             INavigationService navigationService)
             : base(navigationService)
         {
             _emailService = emailService;
+            _internalValueService = internalValueService;
             _applicationVersionProvider = applicationVersionProvider;
             _applicationSettings = applicationSettings;
 
@@ -70,8 +74,37 @@ namespace FinStat.Mobile.ViewModels
             {
                 Version = _applicationVersionProvider.GetInstalledVersionNumber();
 
-                await Task.CompletedTask;
+                if (navigationParameters.GetNavigationMode() == NavigationMode.New)
+                {
+                    SelectedDisplayUnit = await _internalValueService.GetValueAsync(InternalValues.DefaultDisplayUnit);
+                }
+                else if (navigationParameters.GetNavigationMode() == NavigationMode.Back)
+                {
+                    var dropDownListViewModel = navigationParameters.GetValue<DropDownListViewModel>();
+                    await HandleSelectionAsync(dropDownListViewModel);
+                }
             }
+        }
+
+        private Task HandleSelectionAsync(DropDownListViewModel dropDownListViewModel)
+        {
+            if (dropDownListViewModel == null)
+                return Task.CompletedTask;
+
+            switch (dropDownListViewModel.Type)
+            {
+                case nameof(SelectedDisplayUnit):
+                    return HandleDisplayUnitSelectionAsync((DisplayUnit)dropDownListViewModel.Value);
+                default:
+                    throw new NotSupportedException(nameof(dropDownListViewModel.Type));
+            }
+        }
+
+        private Task HandleDisplayUnitSelectionAsync(DisplayUnit displayUnit)
+        {
+            SelectedDisplayUnit = displayUnit;
+
+            return _internalValueService.UpdateValueAsync(InternalValues.DefaultDisplayUnit, displayUnit);
         }
 
         private Task ExecuteNavigateToDisplayUnitCommandAsync()
@@ -82,7 +115,7 @@ namespace FinStat.Mobile.ViewModels
                 Text = Loc.Text(x),
                 Value = x,
                 Type = nameof(SelectedDisplayUnit),
-                IsSelected = false
+                IsSelected = x == SelectedDisplayUnit
             });
 
             var navigationParameters = new NavigationParameters();

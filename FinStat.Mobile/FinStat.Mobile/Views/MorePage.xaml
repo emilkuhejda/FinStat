@@ -17,7 +17,7 @@
             <controls:DrillDownButton Command="{Binding NavigateToDisplayUnitCommand}"
                                       ImageSource="resource://VsuSokol.Mobile.Resources.Images.Forward.svg"
                                       Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.DisplayUnit}}">
-                <Label Style="{StaticResource DrillDownItemLabelStyle}" Text="{Binding SelectedDisplayUnit}" />
+                <Label Style="{StaticResource DrillDownItemLabelStyle}" Text="{Binding SelectedDisplayUnit, Converter={StaticResource EnumToLocalizedTextConverter}}" />
             </controls:DrillDownButton>
             <controls:Divider />
 
