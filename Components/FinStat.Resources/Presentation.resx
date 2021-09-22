@@ -168,6 +168,9 @@
   <data name="ContactUsTimeStamp" xml:space="preserve">
     <value>Time stamp: {0}</value>
   </data>
+  <data name="DisplayUnit" xml:space="preserve">
+    <value>Display unit</value>
+  </data>
   <data name="Revenue" xml:space="preserve">
     <value>Revenue</value>
   </data>

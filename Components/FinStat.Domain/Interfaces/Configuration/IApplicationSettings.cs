@@ -1,6 +1,4 @@
-﻿using FinStat.Domain.Enums;
-
-namespace FinStat.Domain.Interfaces.Configuration
+﻿namespace FinStat.Domain.Interfaces.Configuration
 {
     public interface IApplicationSettings
     {
@@ -9,8 +7,6 @@ namespace FinStat.Domain.Interfaces.Configuration
         string SyncfusionKey { get; }
 
         string SupportMailAddress { get; }
-
-        DisplayUnit DisplayUnit { get; }
 
         int SearchLimit { get; }
 

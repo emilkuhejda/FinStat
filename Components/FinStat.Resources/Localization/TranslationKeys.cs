@@ -29,6 +29,7 @@
         public static string ContactUs => "ContactUs";
         public static string ContactUsApplicationVersion => "ContactUsApplicationVersion";
         public static string ContactUsTimeStamp => "ContactUsTimeStamp";
+        public static string DisplayUnit => "DisplayUnit";
 
         public static string Revenue => "Revenue";
         public static string CostOfGoodsSold => "CostOfGoodsSold";

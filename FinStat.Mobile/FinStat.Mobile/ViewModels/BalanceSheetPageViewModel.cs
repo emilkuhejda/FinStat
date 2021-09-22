@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FinStat.Domain.Enums;
 using FinStat.Domain.Interfaces.Configuration;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
@@ -41,7 +42,7 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        public async Task InitializeAsync(IEnumerable<IncomeStatement> incomeStatements, SearchResult searchResult, bool quarterlyData)
+        public async Task InitializeAsync(IEnumerable<IncomeStatement> incomeStatements, SearchResult searchResult, bool quarterlyData, DisplayUnit displayUnit)
         {
             if (_isInitialized)
                 return;
@@ -50,7 +51,7 @@ namespace FinStat.Mobile.ViewModels
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();
-                Rows = gridGenerator.GenerateBalanceSheetStatements(searchResult.Name, result.payload, incomeStatements.ToList(), _applicationSettings.DisplayUnit);
+                Rows = gridGenerator.GenerateBalanceSheetStatements(searchResult.Name, result.payload, incomeStatements.ToList(), displayUnit);
                 _isInitialized = true;
             }
             else

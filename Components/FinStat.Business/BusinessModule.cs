@@ -13,6 +13,7 @@ namespace FinStat.Business
     {
         public void RegisterServices(IContainerRegistry containerRegistry)
         {
+            containerRegistry.RegisterSingleton<IInternalValueService, InternalValueService>();
             containerRegistry.RegisterSingleton<IConnectivityService, ConnectivityService>();
             containerRegistry.RegisterSingleton<IWebService, WebService>();
 
