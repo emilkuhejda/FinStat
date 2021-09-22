@@ -68,7 +68,7 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        public string DisplayUnitsText => Loc.Text(Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(DisplayUnit)));
+        public string DisplayUnitsText => Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(DisplayUnit));
 
         public IncomeStatementPageViewModel IncomeStatementPage
         {
