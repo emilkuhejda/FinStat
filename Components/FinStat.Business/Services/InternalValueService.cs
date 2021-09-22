@@ -19,7 +19,7 @@ namespace FinStat.Business.Services
         public async Task<T> GetValueAsync<T>(InternalValue<T> internalValue)
         {
             var key = internalValue.Key;
-            var result = await _internalValueRepository.GetValue(key).ConfigureAwait(false);
+            var result = await _internalValueRepository.GetValue(key);
             if (result == null)
                 return internalValue.DefaultValue;
 
@@ -30,6 +30,10 @@ namespace FinStat.Business.Services
         {
             try
             {
+                var type = typeof(T);
+                if (type.IsEnum)
+                    return (T)Enum.Parse(type, value);
+
                 var result = (T)Convert.ChangeType(value, typeof(T), CultureInfo.InvariantCulture);
                 return result;
             }

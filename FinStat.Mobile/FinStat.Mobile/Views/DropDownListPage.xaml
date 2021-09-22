@@ -49,6 +49,7 @@
     <ContentPage.Content>
         <StackLayout>
             <xForms:SfListView x:Name="ItemList"
+                               FocusBorderColor="Transparent"
                                ItemSize="50"
                                ItemTemplate="{StaticResource GenericListItemCell}"
                                ItemsSource="{Binding Items, Mode=OneWay}"
