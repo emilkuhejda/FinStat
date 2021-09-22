@@ -36,7 +36,7 @@ namespace FinStat.Mobile.ViewModels
             HasTitleBar = true;
             HasBottomNavigation = true;
 
-            Title = Loc.Text(TranslationKeys.ApplicationTitle);
+            Title = Loc.Text(TranslationKeys.More);
 
             NavigateToEmailCommand = new AsyncCommand(ExecuteNavigateToEmailCommandAsync);
         }
