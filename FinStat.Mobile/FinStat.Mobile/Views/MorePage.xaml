@@ -19,5 +19,16 @@
                                       Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.ContactUs}}" />
             <controls:Divider />
         </StackLayout>
+
+        <!--  Version  -->
+        <Grid Grid.Row="1"
+              BackgroundColor="{StaticResource ColorGrey300}"
+              HeightRequest="70">
+            <Label FontSize="{StaticResource LittleSize}"
+                   HorizontalTextAlignment="Center"
+                   Text="{Binding Version}"
+                   TextColor="{StaticResource ColorGrey900}"
+                   VerticalTextAlignment="Center" />
+        </Grid>
     </Grid>
 </views:BaseNavigationPage>
