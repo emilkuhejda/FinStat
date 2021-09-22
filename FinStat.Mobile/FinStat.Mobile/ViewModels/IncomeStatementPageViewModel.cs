@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FinStat.Domain.Enums;
 using FinStat.Domain.Interfaces.Configuration;
 using FinStat.Domain.Interfaces.Services;
 using FinStat.Domain.Models;
@@ -42,14 +43,14 @@ namespace FinStat.Mobile.ViewModels
             }
         }
 
-        public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData)
+        public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData, DisplayUnit displayUnit)
         {
             var result = await HandleWebCallAsync(() => _webService.GetIncomeStatementsAsync(searchResult.Symbol, quarterlyData, _applicationSettings.StatementsLimit));
             if (result.success)
             {
                 var gridGenerator = new GridGenerator();
                 IncomeStatements = result.payload;
-                Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload, _applicationSettings.DisplayUnit);
+                Rows = gridGenerator.GenerateIncomeStatements(searchResult.Name, result.payload, displayUnit);
             }
             else
             {

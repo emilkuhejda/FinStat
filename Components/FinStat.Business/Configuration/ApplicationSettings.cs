@@ -1,5 +1,4 @@
-﻿using FinStat.Domain.Enums;
-using FinStat.Domain.Interfaces.Configuration;
+﻿using FinStat.Domain.Interfaces.Configuration;
 
 namespace FinStat.Business.Configuration
 {
@@ -10,8 +9,6 @@ namespace FinStat.Business.Configuration
         public string SyncfusionKey { get; } = "NDk3NjQ1QDMxMzkyZTMyMmUzMElmeGJoMDJYN1lnZ0p4VTRJSkhSRExTMWN2TUdablBjMmNQTDV6VkJ0dFE9";
 
         public string SupportMailAddress { get; } = "emil.kuhejda@gmail.com";
-
-        public DisplayUnit DisplayUnit { get; } = DisplayUnit.Million;
 
         public int SearchLimit { get; } = 20;
 

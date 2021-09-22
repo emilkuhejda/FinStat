@@ -4,6 +4,8 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using FinStat.Business.Extensions;
 using FinStat.Common.Utils;
+using FinStat.Domain.Configuration;
+using FinStat.Domain.Enums;
 using FinStat.Domain.Interfaces.Configuration;
 using FinStat.Domain.Interfaces.Repositories;
 using FinStat.Domain.Interfaces.Services;
@@ -17,23 +19,26 @@ namespace FinStat.Mobile.ViewModels
 {
     public class StatementsPageViewModel : ViewModelBase
     {
+        private readonly IInternalValueService _internalValueService;
         private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
 
         private IncomeStatementPageViewModel _incomeStatementPage;
         private BalanceSheetPageViewModel _balanceSheetPage;
         private CashFlowPageViewModel _cashFlowPage;
+        private DisplayUnit _displayUnit;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
-        private string _displayUnitsText;
 
         public StatementsPageViewModel(
+            IInternalValueService internalValueService,
             IRecentlyVisitedCompanyRepository recentlyVisitedCompanyRepository,
             IWebService webService,
             IApplicationSettings applicationSettings,
             INavigationService navigationService)
             : base(navigationService)
         {
+            _internalValueService = internalValueService;
             _recentlyVisitedCompanyRepository = recentlyVisitedCompanyRepository;
 
             CanGoBack = true;
@@ -42,8 +47,6 @@ namespace FinStat.Mobile.ViewModels
 
             AnnualData = true;
             QuarterlyData = false;
-
-            DisplayUnitsText = Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(applicationSettings.DisplayUnit));
 
             IncomeStatementPage = new IncomeStatementPageViewModel(webService, applicationSettings, navigationService);
             BalanceSheetPage = new BalanceSheetPageViewModel(webService, applicationSettings, navigationService);
@@ -54,6 +57,21 @@ namespace FinStat.Mobile.ViewModels
         }
 
         private SearchResult SearchResult { get; set; }
+
+        private DisplayUnit DisplayUnit
+        {
+            get => _displayUnit;
+            set
+            {
+                _displayUnit = value;
+                RaisePropertyChanged(nameof(DisplayUnitsText));
+            }
+        }
+
+        public string DisplayUnitsText
+        {
+            get => Loc.Text(Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(DisplayUnit)));
+        }
 
         public IncomeStatementPageViewModel IncomeStatementPage
         {
@@ -97,12 +115,6 @@ namespace FinStat.Mobile.ViewModels
             set => SetProperty(ref _quarterlyData, value);
         }
 
-        public string DisplayUnitsText
-        {
-            get => _displayUnitsText;
-            set => SetProperty(ref _displayUnitsText, value);
-        }
-
         public string StatementTitle
         {
             get
@@ -131,11 +143,11 @@ namespace FinStat.Mobile.ViewModels
             {
                 if (index == 1)
                 {
-                    await BalanceSheetPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
+                    await BalanceSheetPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData, DisplayUnit);
                 }
                 else if (index == 2)
                 {
-                    await CashFlowPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData);
+                    await CashFlowPage.InitializeAsync(IncomeStatementPage.IncomeStatements, SearchResult, QuarterlyData, DisplayUnit);
                 }
             }
         }
@@ -147,9 +159,11 @@ namespace FinStat.Mobile.ViewModels
 
             using (new OperationMonitor(OperationScope))
             {
+                DisplayUnit = await _internalValueService.GetValueAsync(InternalValues.DefaultDisplayUnit);
+
                 var recentlyVisitedCompany = SearchResult.ToRecentlyVisitedCompany(DateTime.Now);
                 await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany);
-                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
+                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData, DisplayUnit);
             }
         }
 
@@ -181,7 +195,7 @@ namespace FinStat.Mobile.ViewModels
         {
             using (new OperationMonitor(OperationScope))
             {
-                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData);
+                await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData, DisplayUnit);
                 var incomeStatements = IncomeStatementPage.IncomeStatements.ToArray();
                 if (incomeStatements.Any())
                 {
@@ -190,11 +204,11 @@ namespace FinStat.Mobile.ViewModels
 
                     if (SelectedIndex == 1)
                     {
-                        await BalanceSheetPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
+                        await BalanceSheetPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData, DisplayUnit);
                     }
                     else if (SelectedIndex == 2)
                     {
-                        await CashFlowPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData);
+                        await CashFlowPage.InitializeAsync(incomeStatements, SearchResult, QuarterlyData, DisplayUnit);
                     }
                 }
             }
