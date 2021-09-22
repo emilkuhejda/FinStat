@@ -385,6 +385,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Display unit.
+        /// </summary>
+        public static string DisplayUnit {
+            get {
+                return ResourceManager.GetString("DisplayUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Billions.
         /// </summary>
         public static string DisplayUnit_Billion {

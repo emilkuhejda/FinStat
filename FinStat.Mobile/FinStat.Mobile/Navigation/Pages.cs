@@ -9,5 +9,7 @@
         public static string More { get; } = "More";
 
         public static string Statements { get; } = "Statements";
+
+        public static string DropDownListPage { get; } = "DropDownListPage";
     }
 }
