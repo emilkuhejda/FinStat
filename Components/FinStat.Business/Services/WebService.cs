@@ -36,5 +36,10 @@ namespace FinStat.Business.Services
         {
             return _webServiceErrorHandler.HandleResponseAsync(client => client.GetCashFlowStatementsAsync(ticker, isQuarterPeriod, limit, cancellationToken));
         }
+
+        public Task<HttpRequestResult<StockPrice[]>> GetStockPriceAsync(string ticker, CancellationToken cancellationToken = default)
+        {
+            return _webServiceErrorHandler.HandleResponseAsync(client => client.GetStockPriceAsync(ticker, cancellationToken));
+        }
     }
 }

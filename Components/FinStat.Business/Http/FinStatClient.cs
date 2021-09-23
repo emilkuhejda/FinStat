@@ -88,6 +88,16 @@ namespace FinStat.Business.Http
             return SendRequestAsync<CashFlow[]>(urlBuilder, cancellationToken);
         }
 
+        public Task<StockPrice[]> GetStockPriceAsync(string ticker, CancellationToken cancellationToken)
+        {
+            var urlBuilder = new StringBuilder();
+            urlBuilder.Append(_baseUrl.TrimEnd('/')).Append("/api/v3/quote-short/{ticker}");
+            urlBuilder.Append($"?apikey={_apiKey}");
+            urlBuilder.Replace("{ticker}", Uri.EscapeDataString(ConvertToString(ticker, CultureInfo.InvariantCulture)));
+
+            return SendRequestAsync<StockPrice[]>(urlBuilder, cancellationToken);
+        }
+
         private async Task<T> SendRequestAsync<T>(StringBuilder urlBuilder, CancellationToken cancellationToken)
         {
             var client = _httpClient;
