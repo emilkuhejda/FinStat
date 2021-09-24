@@ -20,8 +20,11 @@
                                AutoGenerateColumns="False"
                                ColumnSizer="Auto"
                                FrozenColumnsCount="1"
+                               GridDoubleTapped="DataGridOnGridDoubleTapped"
                                ItemsSource="{Binding BalanceSheetPage.Rows}"
-                               ItemsSourceChanged="DataGridOnItemsSourceChanged" />
+                               ItemsSourceChanged="DataGridOnItemsSourceChanged"
+                               SelectionMode="Single"
+                               SelectionUnit="Row" />
         </StackLayout>
 
         <StackLayout HorizontalOptions="Center"

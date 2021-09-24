@@ -17,11 +17,14 @@
     <StackLayout Padding="{StaticResource ContentPadding}">
         <StackLayout IsVisible="{Binding IncomeStatementPage.NoDataToPlot, Converter={StaticResource InvertedBoolConverter}}">
             <xForms:SfDataGrid x:Name="DataGrid"
-                               AutoGenerateColumns="False"
+                               AutoGenerateColumns="True"
                                ColumnSizer="Auto"
                                FrozenColumnsCount="1"
+                               GridDoubleTapped="DataGridOnGridDoubleTapped"
                                ItemsSource="{Binding IncomeStatementPage.Rows}"
-                               ItemsSourceChanged="DataGridOnItemsSourceChanged" />
+                               ItemsSourceChanged="DataGridOnItemsSourceChanged"
+                               SelectionMode="Single"
+                               SelectionUnit="Row" />
         </StackLayout>
 
         <StackLayout HorizontalOptions="Center"

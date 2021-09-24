@@ -10,12 +10,10 @@ using Prism.Navigation;
 
 namespace FinStat.Mobile.ViewModels
 {
-    public class IncomeStatementPageViewModel : ViewModelBase
+    public class IncomeStatementPageViewModel : StatementPageViewModelBase
     {
         private readonly IWebService _webService;
         private readonly IApplicationSettings _applicationSettings;
-
-        private IEnumerable<RowViewModel> _rows;
 
         public IncomeStatementPageViewModel(
             IWebService webService,
@@ -28,20 +26,6 @@ namespace FinStat.Mobile.ViewModels
         }
 
         public IEnumerable<IncomeStatement> IncomeStatements { get; private set; } = Enumerable.Empty<IncomeStatement>().ToList();
-
-        public bool NoDataToPlot => Rows == null || !Rows.Any();
-
-        public IEnumerable<RowViewModel> Rows
-        {
-            get => _rows;
-            set
-            {
-                if (SetProperty(ref _rows, value))
-                {
-                    RaisePropertyChanged(nameof(NoDataToPlot));
-                }
-            }
-        }
 
         public async Task InitializeAsync(SearchResult searchResult, bool quarterlyData, DisplayUnit displayUnit)
         {

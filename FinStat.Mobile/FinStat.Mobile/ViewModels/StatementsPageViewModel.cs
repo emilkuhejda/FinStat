@@ -167,6 +167,9 @@ namespace FinStat.Mobile.ViewModels
 
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
+            if (navigationParameters.GetNavigationMode() == NavigationMode.Back)
+                return;
+
             SearchResult = navigationParameters.GetValue<SearchResult>();
             Title = SearchResult.Name;
             Currency = SearchResult.Currency;
