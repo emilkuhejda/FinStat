@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 using FinStat.Domain.Enums;
 using FinStat.Domain.Models;
@@ -17,6 +18,6 @@ namespace FinStat.Domain.Interfaces.Http
 
         Task<StockPrice[]> GetStockPriceAsync(string ticker, CancellationToken cancellationToken);
 
-        Task<HistoricalDailyPrice> GetHistoricalDailyPricesAsync(string ticker, CancellationToken cancellationToken);
+        Task<HistoricalDailyPrice> GetHistoricalDailyPricesAsync(string ticker, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken);
     }
 }

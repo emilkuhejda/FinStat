@@ -98,12 +98,14 @@ namespace FinStat.Business.Http
             return SendRequestAsync<StockPrice[]>(urlBuilder, cancellationToken);
         }
 
-        public Task<HistoricalDailyPrice> GetHistoricalDailyPricesAsync(string ticker, CancellationToken cancellationToken)
+        public Task<HistoricalDailyPrice> GetHistoricalDailyPricesAsync(string ticker, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken)
         {
             var urlBuilder = new StringBuilder();
-            urlBuilder.Append(_baseUrl.TrimEnd('/')).Append("/api/v3/historical-price-full/{ticker}?serietype=line");
+            urlBuilder.Append(_baseUrl.TrimEnd('/')).Append("/api/v3/historical-price-full/{ticker}?serietype=line&from={from}&to={to}");
             urlBuilder.Append($"&apikey={_apiKey}");
             urlBuilder.Replace("{ticker}", Uri.EscapeDataString(ConvertToString(ticker, CultureInfo.InvariantCulture)));
+            urlBuilder.Replace("{from}", Uri.EscapeDataString(fromDate.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture)));
+            urlBuilder.Replace("{to}", Uri.EscapeDataString(toDate.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture)));
 
             return SendRequestAsync<HistoricalDailyPrice>(urlBuilder, cancellationToken);
         }
