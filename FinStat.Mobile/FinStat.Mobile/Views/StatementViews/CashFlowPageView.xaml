@@ -21,7 +21,9 @@
                                ColumnSizer="Auto"
                                FrozenColumnsCount="1"
                                ItemsSource="{Binding CashFlowPage.Rows}"
-                               ItemsSourceChanged="DataGridOnItemsSourceChanged" />
+                               ItemsSourceChanged="DataGridOnItemsSourceChanged"
+                               SelectionMode="Single"
+                               SelectionUnit="Row" />
         </StackLayout>
 
         <StackLayout HorizontalOptions="Center"
