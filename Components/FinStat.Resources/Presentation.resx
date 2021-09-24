@@ -186,6 +186,12 @@
   <data name="GrossProfitRatio" xml:space="preserve">
     <value>Gross Profit Ratio</value>
   </data>
+  <data name="GeneralAndAdministrativeExpenses" xml:space="preserve">
+    <value>General And Administrative Expenses</value>
+  </data>
+  <data name="SellingAndMarketingExpenses" xml:space="preserve">
+    <value>Selling And Marketing Expenses</value>
+  </data>
   <data name="SGAExpenses" xml:space="preserve">
     <value>SG&amp;A Expenses</value>
   </data>
@@ -204,6 +210,9 @@
   <data name="DepreciationAmortizationRatio" xml:space="preserve">
     <value>Depreciation &amp; Amortization Ratio</value>
   </data>
+  <data name="OtherExpenses" xml:space="preserve">
+    <value>Other Expenses</value>
+  </data>
   <data name="OperatingExpenses" xml:space="preserve">
     <value>Operating Expenses</value>
   </data>
@@ -213,14 +222,23 @@
   <data name="OperatingIncomeRatio" xml:space="preserve">
     <value>Operating Income Ratio</value>
   </data>
+  <data name="CostAndExpenses" xml:space="preserve">
+    <value>Cost And Expenses</value>
+  </data>
   <data name="InterestExpense" xml:space="preserve">
     <value>Interest Expense</value>
   </data>
   <data name="InterestExpenseRatio" xml:space="preserve">
     <value>Interest Expense Ratio</value>
   </data>
+  <data name="TotalOtherIncomeExpensesNet" xml:space="preserve">
+    <value>Net Total Other Income Expenses</value>
+  </data>
   <data name="PreTaxIncome" xml:space="preserve">
-    <value>Pre-Tax Income</value>
+    <value>Pre Tax Income</value>
+  </data>
+  <data name="IncomeBeforeTaxRatio" xml:space="preserve">
+    <value>Income Before Tax Ratio</value>
   </data>
   <data name="IncomeTaxes" xml:space="preserve">
     <value>Income Taxes</value>
@@ -233,6 +251,12 @@
   </data>
   <data name="NetEarningsRatio" xml:space="preserve">
     <value>Net Earnings Ratio</value>
+  </data>
+  <data name="Ebitda" xml:space="preserve">
+    <value>Ebitda</value>
+  </data>
+  <data name="EbitdaRatio" xml:space="preserve">
+    <value>Ebitda Ratio</value>
   </data>
   <data name="EPS" xml:space="preserve">
     <value>EPS</value>

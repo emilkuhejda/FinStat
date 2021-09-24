@@ -313,6 +313,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cost And Expenses.
+        /// </summary>
+        public static string CostAndExpenses {
+            get {
+                return ResourceManager.GetString("CostAndExpenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cost Of Goods Sold.
         /// </summary>
         public static string CostOfGoodsSold {
@@ -435,6 +444,24 @@ namespace FinStat.Resources {
         public static string DividendsPaid {
             get {
                 return ResourceManager.GetString("DividendsPaid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ebitda.
+        /// </summary>
+        public static string Ebitda {
+            get {
+                return ResourceManager.GetString("Ebitda", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ebitda Ratio.
+        /// </summary>
+        public static string EbitdaRatio {
+            get {
+                return ResourceManager.GetString("EbitdaRatio", resourceCulture);
             }
         }
         
@@ -610,6 +637,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to General And Administrative Expenses.
+        /// </summary>
+        public static string GeneralAndAdministrativeExpenses {
+            get {
+                return ResourceManager.GetString("GeneralAndAdministrativeExpenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Oops! Something bad happened. Please try it later or contact us..
         /// </summary>
         public static string GeneralErrorMessage {
@@ -651,6 +687,15 @@ namespace FinStat.Resources {
         public static string GrossProfitRatio {
             get {
                 return ResourceManager.GetString("GrossProfitRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Income Before Tax Ratio.
+        /// </summary>
+        public static string IncomeBeforeTaxRatio {
+            get {
+                return ResourceManager.GetString("IncomeBeforeTaxRatio", resourceCulture);
             }
         }
         
@@ -970,6 +1015,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Other Expenses.
+        /// </summary>
+        public static string OtherExpenses {
+            get {
+                return ResourceManager.GetString("OtherExpenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Other Financing Activites.
         /// </summary>
         public static string OtherFinancingActivites {
@@ -1051,7 +1105,7 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pre-Tax Income.
+        ///   Looks up a localized string similar to Pre Tax Income.
         /// </summary>
         public static string PreTaxIncome {
             get {
@@ -1164,6 +1218,15 @@ namespace FinStat.Resources {
         public static string SearchBarPlaceholder {
             get {
                 return ResourceManager.GetString("SearchBarPlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Selling And Marketing Expenses.
+        /// </summary>
+        public static string SellingAndMarketingExpenses {
+            get {
+                return ResourceManager.GetString("SellingAndMarketingExpenses", resourceCulture);
             }
         }
         
@@ -1362,6 +1425,15 @@ namespace FinStat.Resources {
         public static string TotalNonCurrentLiabilities {
             get {
                 return ResourceManager.GetString("TotalNonCurrentLiabilities", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Net Total Other Income Expenses.
+        /// </summary>
+        public static string TotalOtherIncomeExpensesNet {
+            get {
+                return ResourceManager.GetString("TotalOtherIncomeExpensesNet", resourceCulture);
             }
         }
         

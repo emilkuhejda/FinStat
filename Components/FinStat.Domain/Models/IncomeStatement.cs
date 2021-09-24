@@ -44,7 +44,7 @@ namespace FinStat.Domain.Models
 
         public long Ebitda { get; set; }
 
-        public double Ebitdaratio { get; set; }
+        public double EbitdaRatio { get; set; }
 
         public long OperatingIncome { get; set; }
 

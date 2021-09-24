@@ -29,25 +29,34 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     (i, u) => FormatNumber(i.GrossProfit, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.GrossProfitRatio),
-                    (i, u) => FormatPercentage(i.GrossProfitRatio)),
+                    (i, _) => FormatPercentage(i.GrossProfitRatio)),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.GeneralAndAdministrativeExpenses),
+                    (i, u) => FormatNumber(i.GeneralAndAdministrativeExpenses, u)),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.SellingAndMarketingExpenses),
+                    (i, u) => FormatNumber(i.SellingAndMarketingExpenses, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.SGAExpenses),
                     (i, u) => FormatNumber(i.SellingGeneralAndAdministrativeExpenses, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.SGAExpensesRatio),
-                    (i, u) => FormatPercentage(i.SellingGeneralAndAdministrativeExpenses / (i.GrossProfit * 1.0))),
+                    (i, _) => FormatPercentage(i.SellingGeneralAndAdministrativeExpenses / (i.GrossProfit * 1.0))),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.RADExpenses),
                     (i, u) => FormatNumber(i.ResearchAndDevelopmentExpenses, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.RADExpensesRatio),
-                    (i, u) => FormatPercentage(i.ResearchAndDevelopmentExpenses / (i.GrossProfit * 1.0))),
+                    (i, _) => FormatPercentage(i.ResearchAndDevelopmentExpenses / (i.GrossProfit * 1.0))),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.DepreciationAmortization),
                     (i, u) => FormatNumber(i.DepreciationAndAmortization, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.DepreciationAmortizationRatio),
-                    (i, u) => FormatPercentage(i.DepreciationAndAmortization / (i.GrossProfit * 1.0))),
+                    (i, _) => FormatPercentage(i.DepreciationAndAmortization / (i.GrossProfit * 1.0))),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.OtherExpenses),
+                    (i, u) => FormatNumber(i.OtherExpenses, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.OperatingExpenses),
                     (i, u) => FormatNumber(i.OperatingExpenses, u)),
@@ -56,28 +65,43 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     (i, u) => FormatNumber(i.OperatingIncome, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.OperatingIncomeRatio),
-                    (i, u) => FormatPercentage(i.OperatingIncomeRatio)),
+                    (i, _) => FormatPercentage(i.OperatingIncomeRatio)),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.CostAndExpenses),
+                    (i, u) => FormatNumber(i.CostAndExpenses, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.InterestExpense),
                     (i, u) => FormatNumber(i.InterestExpense, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.InterestExpenseRatio),
-                    (i, u) => FormatPercentage(i.InterestExpense / (i.OperatingIncome * 1.0))),
+                    (i, _) => FormatPercentage(i.InterestExpense / (i.OperatingIncome * 1.0))),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.TotalOtherIncomeExpensesNet),
+                    (i, u) => FormatNumber(i.TotalOtherIncomeExpensesNet, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.PreTaxIncome),
                     (i, u) => FormatNumber(i.IncomeBeforeTax, u)),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.IncomeBeforeTaxRatio),
+                    (i, _) => FormatPercentage(i.IncomeBeforeTaxRatio)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.IncomeTaxes),
                     (i, u) => FormatNumber(i.IncomeTaxExpense, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.TaxesPercentage),
-                    (i, u) => FormatPercentage(i.IncomeTaxExpense / (i.IncomeBeforeTax * 1.0))),
+                    (i, _) => FormatPercentage(i.IncomeTaxExpense / (i.IncomeBeforeTax * 1.0))),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.NetEarnings),
                     (i, u) => FormatNumber(i.NetIncome, u)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.NetEarningsRatio),
-                    (i, u) => FormatPercentage(i.NetIncomeRatio)),
+                    (i, _) => FormatPercentage(i.NetIncomeRatio)),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.Ebitda),
+                    (i, u) => FormatNumber(i.Ebitda, u)),
+                new ParameterDefinition<IncomeStatement>(
+                    Loc.Text(TranslationKeys.EbitdaRatio),
+                    (i, _) => FormatPercentage(i.EbitdaRatio)),
                 new ParameterDefinition<IncomeStatement>(
                     Loc.Text(TranslationKeys.EPS),
                     (i, _) => FormatNumber(i.Eps, 2)),
@@ -103,7 +127,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     (b, u) => FormatNumber(b.BalanceSheet.NetReceivables, u)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.ReceivablesRatio),
-                    (b, u) => HandleEmptyValue(
+                    (b, _) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
                         () => FormatPercentage(b.BalanceSheet.NetReceivables / (b.IncomeStatement.GrossProfit * 1.0)))),
                 new ParameterDefinition<BalanceSheetWrapper>(
@@ -220,7 +244,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                         b.BalanceSheet.TotalCurrentAssets / (b.BalanceSheet.TotalCurrentLiabilities * 1.0), 2)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.TheReturnOnTotalAssets),
-                    (b, u) => HandleEmptyValue(
+                    (b, _) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
                         () => FormatPercentage(b.IncomeStatement.NetIncome / (b.BalanceSheet.TotalAssets * 1.0)))),
                 new ParameterDefinition<BalanceSheetWrapper>(
@@ -229,7 +253,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                         b.BalanceSheet.TotalLiabilities / (b.BalanceSheet.TotalStockholdersEquity * 1.0), 2)),
                 new ParameterDefinition<BalanceSheetWrapper>(
                     Loc.Text(TranslationKeys.ReturnOnShareholdersEquity),
-                    (b, u) => HandleEmptyValue(
+                    (b, _) => HandleEmptyValue(
                         () => b.IncomeStatement == null,
                         () => FormatPercentage(b.IncomeStatement.NetIncome /
                                                (b.BalanceSheet.TotalStockholdersEquity * 1.0)))),
@@ -343,7 +367,7 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     (c, u) => FormatNumber(c.CashFlow.CapitalExpenditure, u)),
                 new ParameterDefinition<CashFlowWrapper>(
                     Loc.Text(TranslationKeys.CapitalExpenditureRatio),
-                    (c, u) => HandleEmptyValue(
+                    (c, _) => HandleEmptyValue(
                         () => c.IncomeStatement == null,
                         () => FormatPercentage(c.CashFlow.CapitalExpenditure / (c.IncomeStatement.NetIncome * 1.0)))),
                 new ParameterDefinition<CashFlowWrapper>(
