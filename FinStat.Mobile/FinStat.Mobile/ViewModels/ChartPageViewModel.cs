@@ -1,4 +1,8 @@
-﻿using Prism.Navigation;
+﻿using System.Threading.Tasks;
+using FinStat.Common.Utils;
+using FinStat.Mobile.Extensions;
+using FinStat.Mobile.ViewModels.DataGrid;
+using Prism.Navigation;
 
 namespace FinStat.Mobile.ViewModels
 {
@@ -7,6 +11,17 @@ namespace FinStat.Mobile.ViewModels
         public ChartPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
+            CanGoBack = true;
+            HasTitleBar = true;
+        }
+
+        protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
+        {
+            using (new OperationMonitor(OperationScope))
+            {
+                var rowViewModel = navigationParameters.GetValue<RowViewModel>();
+                await Task.CompletedTask;
+            }
         }
     }
 }

@@ -20,6 +20,7 @@
                                AutoGenerateColumns="True"
                                ColumnSizer="Auto"
                                FrozenColumnsCount="1"
+                               GridDoubleTapped="DataGridOnGridDoubleTapped"
                                ItemsSource="{Binding IncomeStatementPage.Rows}"
                                ItemsSourceChanged="DataGridOnItemsSourceChanged"
                                SelectionMode="Single"

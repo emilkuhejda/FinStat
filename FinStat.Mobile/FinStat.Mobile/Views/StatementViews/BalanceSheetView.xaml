@@ -20,6 +20,7 @@
                                AutoGenerateColumns="False"
                                ColumnSizer="Auto"
                                FrozenColumnsCount="1"
+                               GridDoubleTapped="DataGridOnGridDoubleTapped"
                                ItemsSource="{Binding BalanceSheetPage.Rows}"
                                ItemsSourceChanged="DataGridOnItemsSourceChanged"
                                SelectionMode="Single"
