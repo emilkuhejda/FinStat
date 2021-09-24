@@ -41,5 +41,10 @@ namespace FinStat.Business.Services
         {
             return _webServiceErrorHandler.HandleResponseAsync(client => client.GetStockPriceAsync(ticker, cancellationToken));
         }
+
+        public Task<HttpRequestResult<HistoricalDailyPrice>> GetHistoricalDailyPricesAsync(string ticker, CancellationToken cancellationToken = default)
+        {
+            return _webServiceErrorHandler.HandleResponseAsync(client => client.GetHistoricalDailyPricesAsync(ticker, cancellationToken));
+        }
     }
 }
