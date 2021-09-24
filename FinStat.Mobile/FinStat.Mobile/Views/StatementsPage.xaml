@@ -17,33 +17,69 @@
                        Top="{StaticResource StandardSpacing}" />
         </StackLayout.Resources>
 
-        <StackLayout Padding="{StaticResource TitlePadding}" Orientation="Horizontal">
-            <Label FontSize="{StaticResource LargerSize}"
-                   HorizontalOptions="Start"
-                   Style="{StaticResource LabelBoldStyle}"
-                   Text="{Binding StatementTitle}"
-                   VerticalOptions="End" />
-            <Label FontSize="{StaticResource LittleSize}"
-                   HorizontalOptions="StartAndExpand"
-                   Text="{Binding DisplayUnitsText}"
-                   VerticalOptions="End" />
+        <StackLayout Padding="{StaticResource StandardPadding}">
+            <StackLayout Orientation="Horizontal">
+                <Label FontSize="{StaticResource LargerSize}"
+                       HorizontalOptions="Start"
+                       Style="{StaticResource LabelBoldStyle}"
+                       Text="{Binding StatementTitle}"
+                       VerticalOptions="End" />
+                <Label FontSize="{StaticResource LittleSize}"
+                       HorizontalOptions="StartAndExpand"
+                       Text="{Binding DisplayUnitsText}"
+                       VerticalOptions="End" />
 
-            <StackLayout HorizontalOptions="End"
-                         Orientation="Horizontal"
-                         Spacing="0">
-                <buttons:SfButton Command="{Binding LoadAnnualDataCommand}"
-                                  IsCheckable="True"
-                                  IsChecked="{Binding AnnualData}"
-                                  Style="{StaticResource ToggleButtonStyle}"
-                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Annual}}" />
-                <Label Style="{StaticResource LabelStyle}" Text="|" />
-                <buttons:SfButton BackgroundColor="Transparent"
-                                  Command="{Binding LoadQuarterlyDataCommand}"
-                                  IsCheckable="True"
-                                  IsChecked="{Binding QuarterlyData}"
-                                  Style="{StaticResource ToggleButtonStyle}"
-                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Quarterly}}" />
+                <StackLayout HorizontalOptions="End"
+                             Orientation="Horizontal"
+                             Spacing="0">
+                    <buttons:SfButton Command="{Binding LoadAnnualDataCommand}"
+                                      IsCheckable="True"
+                                      IsChecked="{Binding AnnualData}"
+                                      Style="{StaticResource ToggleButtonStyle}"
+                                      Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Annual}}" />
+                    <Label Style="{StaticResource LabelStyle}" Text="|" />
+                    <buttons:SfButton BackgroundColor="Transparent"
+                                      Command="{Binding LoadQuarterlyDataCommand}"
+                                      IsCheckable="True"
+                                      IsChecked="{Binding QuarterlyData}"
+                                      Style="{StaticResource ToggleButtonStyle}"
+                                      Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Quarterly}}" />
+                </StackLayout>
             </StackLayout>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0"
+                       Grid.Column="0"
+                       FontSize="{StaticResource MidMediumSize}"
+                       Style="{StaticResource LabelBoldStyle}"
+                       Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.StockPrice}}" />
+
+                <Label Grid.Row="0"
+                       Grid.Column="1"
+                       FontSize="{StaticResource MidMediumSize}"
+                       Text="{Binding StockPrice}" />
+
+                <Label Grid.Row="1"
+                       Grid.Column="0"
+                       FontSize="{StaticResource MidMediumSize}"
+                       Style="{StaticResource LabelBoldStyle}"
+                       Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Currency}}" />
+
+                <Label Grid.Row="1"
+                       Grid.Column="1"
+                       FontSize="{StaticResource MidMediumSize}"
+                       Text="{Binding Currency}" />
+            </Grid>
         </StackLayout>
 
         <tabView:SfTabView SelectedIndex="{Binding SelectedIndex}"

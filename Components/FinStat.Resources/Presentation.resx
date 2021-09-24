@@ -159,6 +159,9 @@
   <data name="Quarterly" xml:space="preserve">
     <value>Quarterly</value>
   </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
   <data name="ContactUs" xml:space="preserve">
     <value>Contact us</value>
   </data>

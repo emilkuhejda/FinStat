@@ -26,6 +26,7 @@
         public static string AllNumbersInUnit => "AllNumbersInUnit";
         public static string Annual => "Annual";
         public static string Quarterly => "Quarterly";
+        public static string Currency => "Currency";
         public static string ContactUs => "ContactUs";
         public static string ContactUsApplicationVersion => "ContactUsApplicationVersion";
         public static string ContactUsTimeStamp => "ContactUsTimeStamp";
