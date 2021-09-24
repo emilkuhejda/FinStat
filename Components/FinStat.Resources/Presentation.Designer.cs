@@ -250,6 +250,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Closing Stock Price.
+        /// </summary>
+        public static string ClosingStockPrice {
+            get {
+                return ResourceManager.GetString("ClosingStockPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Common Stock.
         /// </summary>
         public static string CommonStock {

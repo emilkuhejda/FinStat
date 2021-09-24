@@ -159,6 +159,12 @@
   <data name="Quarterly" xml:space="preserve">
     <value>Quarterly</value>
   </data>
+  <data name="StockPrice" xml:space="preserve">
+    <value>Stock Price</value>
+  </data>
+  <data name="ClosingStockPrice" xml:space="preserve">
+    <value>Closing Stock Price</value>
+  </data>
   <data name="Currency" xml:space="preserve">
     <value>Currency</value>
   </data>
@@ -266,9 +272,6 @@
   </data>
   <data name="EPSDiluted" xml:space="preserve">
     <value>EPS Diluted</value>
-  </data>
-  <data name="StockPrice" xml:space="preserve">
-    <value>Stock Price</value>
   </data>
   <data name="PreTaxEarningPerShare" xml:space="preserve">
     <value>Pre-Tax Earning Per Share</value>
@@ -504,7 +507,7 @@
   <data name="FreeCashFlow" xml:space="preserve">
     <value>Free Cash Flow</value>
   </data>
-  
+
   <data name="OfflineErrorMessage" xml:space="preserve">
     <value>It seems you are offline. Please check your internet connection.</value>
   </data>

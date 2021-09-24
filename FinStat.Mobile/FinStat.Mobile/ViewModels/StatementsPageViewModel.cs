@@ -28,7 +28,7 @@ namespace FinStat.Mobile.ViewModels
         private CashFlowPageViewModel _cashFlowPage;
         private DisplayUnit _displayUnit;
         private string _currency;
-        private double _stockPrice;
+        private double _closingStockPrice;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
@@ -80,10 +80,10 @@ namespace FinStat.Mobile.ViewModels
             set => SetProperty(ref _currency, value);
         }
 
-        public double StockPrice
+        public double ClosingStockPrice
         {
-            get => _stockPrice;
-            set => SetProperty(ref _stockPrice, value);
+            get => _closingStockPrice;
+            set => SetProperty(ref _closingStockPrice, value);
         }
 
         public IncomeStatementPageViewModel IncomeStatementPage
@@ -190,7 +190,7 @@ namespace FinStat.Mobile.ViewModels
                 var stockPrice = httpRequestResult.Payload.Historical.OrderByDescending(x => x.Date).FirstOrDefault();
                 if (stockPrice != null)
                 {
-                    StockPrice = stockPrice.Close;
+                    ClosingStockPrice = stockPrice.Close;
                 }
             }
         }

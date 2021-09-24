@@ -26,6 +26,8 @@
         public static string AllNumbersInUnit => "AllNumbersInUnit";
         public static string Annual => "Annual";
         public static string Quarterly => "Quarterly";
+        public static string StockPrice => "StockPrice";
+        public static string ClosingStockPrice => "ClosingStockPrice";
         public static string Currency => "Currency";
         public static string ContactUs => "ContactUs";
         public static string ContactUsApplicationVersion => "ContactUsApplicationVersion";
@@ -63,7 +65,6 @@
         public static string EbitdaRatio => "EbitdaRatio";
         public static string EPS => "EPS";
         public static string EPSDiluted => "EPSDiluted";
-        public static string StockPrice => "StockPrice";
         public static string PreTaxEarningPerShare => "PreTaxEarningPerShare";
         public static string AfterTaxEarningPerShare => "AfterTaxEarningPerShare";
         public static string CashAndCashEquivalents => "CashAndCashEquivalents";
