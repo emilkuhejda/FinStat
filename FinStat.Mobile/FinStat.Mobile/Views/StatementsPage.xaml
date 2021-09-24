@@ -9,14 +9,6 @@
                           xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
     <StackLayout>
-        <StackLayout.Resources>
-            <Thickness x:Key="TitlePadding"
-                       Bottom="0"
-                       Left="{StaticResource StandardSpacing}"
-                       Right="{StaticResource StandardSpacing}"
-                       Top="{StaticResource StandardSpacing}" />
-        </StackLayout.Resources>
-
         <StackLayout Padding="{StaticResource StandardPadding}">
             <StackLayout Orientation="Horizontal">
                 <Label FontSize="{StaticResource LargerSize}"

@@ -114,6 +114,9 @@
   <data name="NoAvailableData" xml:space="preserve">
     <value>No available data</value>
   </data>
+  <data name="NoDataToPlot" xml:space="preserve">
+    <value>No Data To Plot</value>
+  </data>
   <data name="Main" xml:space="preserve">
     <value>Main</value>
   </data>

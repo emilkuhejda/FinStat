@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using FinStat.Common.Utils;
 using FinStat.Mobile.Extensions;
 using FinStat.Mobile.ViewModels.DataGrid;
+using FinStat.Resources.Localization;
 using Prism.Navigation;
 using Syncfusion.SfChart.XForms;
 
@@ -12,22 +13,29 @@ namespace FinStat.Mobile.ViewModels
 {
     public class ChartPageViewModel : ViewModelBase
     {
-        private IEnumerable<ChartDataPoint> _chartData;
+        private IEnumerable<ChartDataPoint> _chartData = new List<ChartDataPoint>();
 
         public ChartPageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
             CanGoBack = true;
             HasTitleBar = true;
-
-            ChartData = new List<ChartDataPoint>();
+            Title = Loc.Text(TranslationKeys.NoAvailableData);
         }
 
         public IEnumerable<ChartDataPoint> ChartData
         {
             get => _chartData;
-            set => SetProperty(ref _chartData, value);
+            set
+            {
+                if (SetProperty(ref _chartData, value))
+                {
+                    RaisePropertyChanged(nameof(HasDataToPlot));
+                }
+            }
         }
+
+        public bool HasDataToPlot => ChartData.Any();
 
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
@@ -36,13 +44,20 @@ namespace FinStat.Mobile.ViewModels
             using (new OperationMonitor(OperationScope))
             {
                 var rowViewModel = navigationParameters.GetValue<RowViewModel>();
-                var titleCell = rowViewModel.Cells.FirstOrDefault();
+                var cellViewModels = rowViewModel.Cells.ToList();
+                if (!cellViewModels.Any())
+                    return;
+
+                var titleCell = cellViewModels.FirstOrDefault();
                 if (titleCell != null)
                 {
                     Title = titleCell.Value;
                 }
 
-                ChartData = rowViewModel.Cells.Skip(1).Reverse().Select(x => new ChartDataPoint(x.Title, Convert.ToDouble(x.Value.Replace("%", string.Empty))));
+                if (cellViewModels.Count < 2)
+                    return;
+
+                ChartData = cellViewModels.Skip(1).Reverse().Select(x => new ChartDataPoint(x.Title, Convert.ToDouble(x.Value.Replace("%", string.Empty))));
             }
         }
     }

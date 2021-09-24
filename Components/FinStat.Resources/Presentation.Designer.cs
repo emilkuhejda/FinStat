@@ -925,6 +925,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to No Data To Plot.
+        /// </summary>
+        public static string NoDataToPlot {
+            get {
+                return ResourceManager.GetString("NoDataToPlot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Non-Current Deferred Revenue.
         /// </summary>
         public static string NonCurrentDeferredRevenue {

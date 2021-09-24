@@ -2,11 +2,27 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.ChartPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+                          xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
+                          xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
                           xmlns:xForms="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms">
     <Grid Padding="{StaticResource StandardPadding}">
-        <xForms:SfChart>
+        <xForms:SfChart IsVisible="{Binding HasDataToPlot}">
             <xForms:LineSeries ItemsSource="{Binding ChartData}" Color="{StaticResource ColorPrimary}" />
         </xForms:SfChart>
+
+        <StackLayout HorizontalOptions="Center"
+                     IsVisible="{Binding HasDataToPlot, Converter={StaticResource InvertedBoolConverter}}"
+                     Orientation="Vertical">
+            <forms:SvgCachedImage Margin="0,20,0,20"
+                                  Aspect="AspectFit"
+                                  HeightRequest="150"
+                                  HorizontalOptions="Center"
+                                  Source="resource://FinStat.Mobile.Resources.Images.NoAvailableData.svg"
+                                  VerticalOptions="End" />
+
+            <Label Style="{StaticResource NoItemsLabelStyle}" Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.NoDataToPlot}}" />
+        </StackLayout>
     </Grid>
 </views:BaseNavigationPage>
