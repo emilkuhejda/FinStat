@@ -23,6 +23,7 @@ namespace FinStat.Mobile.Configuration
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>(Pages.Main);
             containerRegistry.RegisterForNavigation<MorePage, MorePageViewModel>(Pages.More);
             containerRegistry.RegisterForNavigation<StatementsPage, StatementsPageViewModel>(Pages.Statements);
+            containerRegistry.RegisterForNavigation<ChartPage, ChartPageViewModel>(Pages.Chart);
             containerRegistry.RegisterForNavigation<DropDownListPage, DropDownListPageViewModel>(Pages.DropDownListPage);
         }
     }

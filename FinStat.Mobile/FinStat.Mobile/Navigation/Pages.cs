@@ -10,6 +10,8 @@
 
         public static string Statements { get; } = "Statements";
 
+        public static string Chart { get; } = "Chart";
+
         public static string DropDownListPage { get; } = "DropDownListPage";
     }
 }
