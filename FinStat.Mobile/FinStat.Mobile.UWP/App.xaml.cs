@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using FFImageLoading.Forms.Platform;
+using Syncfusion.SfChart.XForms.UWP;
 using Syncfusion.XForms.UWP.Border;
 
 namespace FinStat.Mobile.UWP
@@ -114,6 +115,7 @@ namespace FinStat.Mobile.UWP
         {
             var assembliesToInclude = new List<Assembly>();
             assembliesToInclude.Add(typeof(SfBorderRenderer).GetTypeInfo().Assembly);
+            assembliesToInclude.Add(typeof(SfChartRenderer).GetTypeInfo().Assembly);
             return assembliesToInclude;
         }
     }

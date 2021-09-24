@@ -3,6 +3,7 @@ using FinStat.Mobile.iOS.Configuration;
 using Foundation;
 using Syncfusion.ListView.XForms.iOS;
 using Syncfusion.SfBusyIndicator.XForms.iOS;
+using Syncfusion.SfChart.XForms.iOS.Renderers;
 using Syncfusion.SfDataGrid.XForms.iOS;
 using Syncfusion.XForms.iOS.Buttons;
 using Syncfusion.XForms.iOS.TabView;
@@ -50,6 +51,7 @@ namespace FinStat.Mobile.iOS
             SfListViewRenderer.Init();
             SfSwitchRenderer.Init();
             SfTabViewRenderer.Init();
+            SfChartRenderer.Init();
 
             using (var busyIndicatorRenderer = new SfBusyIndicatorRenderer()) { }
         }
