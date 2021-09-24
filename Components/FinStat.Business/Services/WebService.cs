@@ -1,4 +1,5 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 using FinStat.Domain.Enums;
 using FinStat.Domain.Http;
@@ -35,6 +36,16 @@ namespace FinStat.Business.Services
         public Task<HttpRequestResult<CashFlow[]>> GetCashFlowStatementsAsync(string ticker, bool isQuarterPeriod, int limit, CancellationToken cancellationToken = default)
         {
             return _webServiceErrorHandler.HandleResponseAsync(client => client.GetCashFlowStatementsAsync(ticker, isQuarterPeriod, limit, cancellationToken));
+        }
+
+        public Task<HttpRequestResult<StockPrice[]>> GetStockPriceAsync(string ticker, CancellationToken cancellationToken = default)
+        {
+            return _webServiceErrorHandler.HandleResponseAsync(client => client.GetStockPriceAsync(ticker, cancellationToken));
+        }
+
+        public Task<HttpRequestResult<HistoricalDailyPrice>> GetHistoricalDailyPricesAsync(string ticker, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken = default)
+        {
+            return _webServiceErrorHandler.HandleResponseAsync(client => client.GetHistoricalDailyPricesAsync(ticker, fromDate, toDate, cancellationToken));
         }
     }
 }

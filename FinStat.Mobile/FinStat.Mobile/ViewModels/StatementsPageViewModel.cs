@@ -19,6 +19,7 @@ namespace FinStat.Mobile.ViewModels
 {
     public class StatementsPageViewModel : ViewModelBase
     {
+        private readonly IWebService _webService;
         private readonly IInternalValueService _internalValueService;
         private readonly IRecentlyVisitedCompanyRepository _recentlyVisitedCompanyRepository;
 
@@ -26,18 +27,21 @@ namespace FinStat.Mobile.ViewModels
         private BalanceSheetPageViewModel _balanceSheetPage;
         private CashFlowPageViewModel _cashFlowPage;
         private DisplayUnit _displayUnit;
+        private string _currency;
+        private double _closingStockPrice;
         private int _selectedIndex;
         private bool _annualData;
         private bool _quarterlyData;
 
         public StatementsPageViewModel(
+            IWebService webService,
             IInternalValueService internalValueService,
             IRecentlyVisitedCompanyRepository recentlyVisitedCompanyRepository,
-            IWebService webService,
             IApplicationSettings applicationSettings,
             INavigationService navigationService)
             : base(navigationService)
         {
+            _webService = webService;
             _internalValueService = internalValueService;
             _recentlyVisitedCompanyRepository = recentlyVisitedCompanyRepository;
 
@@ -69,6 +73,18 @@ namespace FinStat.Mobile.ViewModels
         }
 
         public string DisplayUnitsText => Loc.Text(TranslationKeys.AllNumbersInUnit, Loc.Text(DisplayUnit));
+
+        public string Currency
+        {
+            get => _currency;
+            set => SetProperty(ref _currency, value);
+        }
+
+        public double ClosingStockPrice
+        {
+            get => _closingStockPrice;
+            set => SetProperty(ref _closingStockPrice, value);
+        }
 
         public IncomeStatementPageViewModel IncomeStatementPage
         {
@@ -153,6 +169,7 @@ namespace FinStat.Mobile.ViewModels
         {
             SearchResult = navigationParameters.GetValue<SearchResult>();
             Title = SearchResult.Name;
+            Currency = SearchResult.Currency;
 
             using (new OperationMonitor(OperationScope))
             {
@@ -161,6 +178,20 @@ namespace FinStat.Mobile.ViewModels
                 var recentlyVisitedCompany = SearchResult.ToRecentlyVisitedCompany(DateTime.Now);
                 await _recentlyVisitedCompanyRepository.InsertOrUpdateAsync(recentlyVisitedCompany);
                 await IncomeStatementPage.InitializeAsync(SearchResult, QuarterlyData, DisplayUnit);
+                await InitializeStockPriceAsync();
+            }
+        }
+
+        private async Task InitializeStockPriceAsync()
+        {
+            var httpRequestResult = await _webService.GetHistoricalDailyPricesAsync(SearchResult.Symbol, DateTime.Now.AddDays(-10), DateTime.Now);
+            if (httpRequestResult.State == HttpRequestState.Success)
+            {
+                var stockPrice = httpRequestResult.Payload.Historical.OrderByDescending(x => x.Date).FirstOrDefault();
+                if (stockPrice != null)
+                {
+                    ClosingStockPrice = stockPrice.Close;
+                }
             }
         }
 
