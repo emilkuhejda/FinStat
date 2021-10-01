@@ -10,7 +10,7 @@ namespace FinStat.Business.Extensions
             return new RecentlyVisitedCompany
             {
                 Symbol = searchResult.Symbol,
-                Name = searchResult.Symbol,
+                Name = searchResult.Name,
                 Currency = searchResult.Currency,
                 StockExchange = searchResult.StockExchange,
                 ExchangeShortName = searchResult.ExchangeShortName,

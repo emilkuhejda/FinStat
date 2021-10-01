@@ -19,7 +19,7 @@ namespace FinStat.DataAccess.Repositories
 
         public Task InsertOrUpdateAsync(RecentlyVisitedCompany recentlyVisitedCompany)
         {
-            return _contextProvider.Context.InsertOrReplaceAsync(recentlyVisitedCompany);
+            return _contextProvider.Context.InsertOrReplaceAsync(recentlyVisitedCompany.ToEntity());
         }
 
         public async Task<RecentlyVisitedCompany[]> GetAllAsync()

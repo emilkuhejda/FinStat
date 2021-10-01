@@ -5,8 +5,26 @@
                           xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
                           xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
-                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile">
+                          xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
+                          xmlns:xForms="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms">
     <Grid Padding="{StaticResource StandardPadding}">
+        <xForms:SfChart IsVisible="{Binding HasDataToPlot}">
+            <xForms:SfChart.PrimaryAxis>
+                <xForms:CategoryAxis />
+            </xForms:SfChart.PrimaryAxis>
+
+            <xForms:SfChart.SecondaryAxis>
+                <xForms:NumericalAxis />
+            </xForms:SfChart.SecondaryAxis>
+
+            <xForms:HiLoOpenCloseSeries Close="Close"
+                                        High="High"
+                                        ItemsSource="{Binding ChartData}"
+                                        Low="Low"
+                                        Open="Open"
+                                        XBindingPath="Title" />
+        </xForms:SfChart>
+
         <StackLayout HorizontalOptions="Center"
                      IsVisible="{Binding HasDataToPlot, Converter={StaticResource InvertedBoolConverter}}"
                      Orientation="Vertical">

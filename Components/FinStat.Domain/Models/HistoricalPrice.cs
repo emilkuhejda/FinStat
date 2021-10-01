@@ -1,8 +1,10 @@
-﻿namespace FinStat.Domain.Models
+﻿using System;
+
+namespace FinStat.Domain.Models
 {
     public class HistoricalPrice
     {
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
 
         public double Open { get; set; }
 
