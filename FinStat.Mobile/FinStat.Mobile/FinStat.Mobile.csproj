@@ -24,6 +24,7 @@
     <None Remove="Resources\Images\NoAccess.svg" />
     <None Remove="Resources\Images\NoAvailableData.svg" />
     <None Remove="Resources\Images\NoRecents.svg" />
+    <None Remove="Resources\Images\Stock-Chart.svg" />
     <None Remove="Resources\Images\Stock.svg" />
   </ItemGroup>
 
@@ -42,6 +43,7 @@
     <EmbeddedResource Include="Resources\Images\NoAccess.svg" />
     <EmbeddedResource Include="Resources\Images\NoAvailableData.svg" />
     <EmbeddedResource Include="Resources\Images\NoRecents.svg" />
+    <EmbeddedResource Include="Resources\Images\Stock-Chart.svg" />
     <EmbeddedResource Include="Resources\Images\Stock.svg" />
   </ItemGroup>
 
@@ -108,6 +110,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\MorePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PriceChartPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\StatementsPage.xaml">

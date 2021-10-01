@@ -1,4 +1,6 @@
-﻿namespace FinStat.Domain.Interfaces.Configuration
+﻿using FinStat.Domain.Enums;
+
+namespace FinStat.Domain.Interfaces.Configuration
 {
     public interface IApplicationSettings
     {
@@ -11,5 +13,7 @@
         int SearchLimit { get; }
 
         int StatementsLimit { get; }
+
+        TimeFrame DefaultTimeFrame { get; }
     }
 }

@@ -10,7 +10,7 @@ namespace FinStat.DataAccess.DataAdapters
             return new RecentlyVisitedCompany
             {
                 Symbol = entity.Symbol,
-                Name = entity.Symbol,
+                Name = entity.Name,
                 Currency = entity.Currency,
                 StockExchange = entity.StockExchange,
                 ExchangeShortName = entity.ExchangeShortName,
@@ -23,7 +23,7 @@ namespace FinStat.DataAccess.DataAdapters
             return new RecentlyVisitedCompanyEntity
             {
                 Symbol = recentlyVisitedCompany.Symbol,
-                Name = recentlyVisitedCompany.Symbol,
+                Name = recentlyVisitedCompany.Name,
                 Currency = recentlyVisitedCompany.Currency,
                 StockExchange = recentlyVisitedCompany.StockExchange,
                 ExchangeShortName = recentlyVisitedCompany.ExchangeShortName,

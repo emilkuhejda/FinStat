@@ -385,6 +385,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you really want to delete &apos;{0}&apos; record?.
+        /// </summary>
+        public static string DeleteSearchResultMessage {
+            get {
+                return ResourceManager.GetString("DeleteSearchResultMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Depreciation &amp; Amortization.
         /// </summary>
         public static string DepreciationAmortization {
@@ -709,6 +718,24 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 1 hour.
+        /// </summary>
+        public static string Hour1 {
+            get {
+                return ResourceManager.GetString("Hour1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 4 hours.
+        /// </summary>
+        public static string Hour4 {
+            get {
+                return ResourceManager.GetString("Hour4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Income Before Tax Ratio.
         /// </summary>
         public static string IncomeBeforeTaxRatio {
@@ -808,6 +835,42 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 1 min.
+        /// </summary>
+        public static string Min1 {
+            get {
+                return ResourceManager.GetString("Min1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 15 min.
+        /// </summary>
+        public static string Min15 {
+            get {
+                return ResourceManager.GetString("Min15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 min.
+        /// </summary>
+        public static string Min30 {
+            get {
+                return ResourceManager.GetString("Min30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5 min.
+        /// </summary>
+        public static string Min5 {
+            get {
+                return ResourceManager.GetString("Min5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to More.
         /// </summary>
         public static string More {
@@ -903,6 +966,15 @@ namespace FinStat.Resources {
         public static string NetReceivables {
             get {
                 return ResourceManager.GetString("NetReceivables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
             }
         }
         
@@ -1470,6 +1542,15 @@ namespace FinStat.Resources {
         public static string TotalStockholdersEquity {
             get {
                 return ResourceManager.GetString("TotalStockholdersEquity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
             }
         }
     }

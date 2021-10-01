@@ -49,6 +49,7 @@ namespace FinStat.Mobile.ViewModels
 
             SearchCommand = new AsyncCommand<string>(ExecuteSearchCommandAsync);
             NavigateToIncomeStatementCommand = new AsyncCommand<ItemTappedEventArgs>(ExecuteNavigateToIncomeStatementCommandAsync);
+            NavigateToPriceChartCommand = new AsyncCommand<SearchResult>(ExecuteNavigateToPriceChartCommandAsync);
             DeleteCompanyCommand = new AsyncCommand<SearchResult>(ExecuteDeleteCompanyCommandAsync);
         }
 
@@ -127,6 +128,8 @@ namespace FinStat.Mobile.ViewModels
 
         public ICommand NavigateToIncomeStatementCommand { get; }
 
+        public ICommand NavigateToPriceChartCommand { get; }
+
         public ICommand DeleteCompanyCommand { get; }
 
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
@@ -177,8 +180,23 @@ namespace FinStat.Mobile.ViewModels
             return NavigationService.NavigateWithoutAnimationAsync(Pages.Statements, navigationParameters);
         }
 
+        private Task ExecuteNavigateToPriceChartCommandAsync(SearchResult searchResult)
+        {
+            var navigationParameters = new NavigationParameters();
+            navigationParameters.Add<SearchResult>(searchResult);
+            return NavigationService.NavigateWithoutAnimationAsync(Pages.PriceChart, navigationParameters);
+        }
+
         private async Task ExecuteDeleteCompanyCommandAsync(SearchResult searchResult)
         {
+            var result = await DisplayAlertAsync(
+                string.Empty,
+                Loc.Text(TranslationKeys.DeleteSearchResultMessage, searchResult.Name),
+                Loc.Text(TranslationKeys.Yes),
+                Loc.Text(TranslationKeys.No));
+            if (!result)
+                return;
+
             using (new OperationMonitor(OperationScope))
             {
                 await _recentlyVisitedCompanyRepository.DeleteAsync(searchResult.Symbol);

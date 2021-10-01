@@ -101,6 +101,7 @@
             <Color x:Key="PrimaryTextColor">#616161</Color>
             <Color x:Key="GreyBackgroundColor">#F2F3F4</Color>
             <Color x:Key="Divider">#EEEEEE</Color>
+            <Color x:Key="DeleteButtonColor">#DC595F</Color>
 
             <!--  Styles  -->
             <Style TargetType="Label">
@@ -166,6 +167,7 @@
                 <Setter Property="BorderColor" Value="Transparent" />
                 <Setter Property="Margin" Value="0" />
                 <Setter Property="FontFamily" Value="QuicksandRegular" />
+                <Setter Property="BorderWidth" Value="0" />
                 <Style.Triggers>
                     <Trigger TargetType="buttons:SfButton" Property="IsChecked" Value="True">
                         <Setter Property="TextColor" Value="{StaticResource ColorPrimary}" />

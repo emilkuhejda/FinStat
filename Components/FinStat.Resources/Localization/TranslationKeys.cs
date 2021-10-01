@@ -16,6 +16,8 @@
         public static string Ok => "Ok";
         public static string Accept => "Accept";
         public static string Cancel => "Cancel";
+        public static string Yes => "Yes";
+        public static string No => "No";
 
         public static string IncomeStatement => "IncomeStatement";
         public static string BalanceSheetStatement => "BalanceSheetStatement";
@@ -27,6 +29,12 @@
         public static string AllNumbersInUnit => "AllNumbersInUnit";
         public static string Annual => "Annual";
         public static string Quarterly => "Quarterly";
+        public static string Min1 => "Min1";
+        public static string Min5 => "Min5";
+        public static string Min15 => "Min15";
+        public static string Min30 => "Min30";
+        public static string Hour1 => "Hour1";
+        public static string Hour4 => "Hour4";
         public static string StockPrice => "StockPrice";
         public static string ClosingStockPrice => "ClosingStockPrice";
         public static string Currency => "Currency";
@@ -145,6 +153,7 @@
         public static string CapitalExpenditureRatio => "CapitalExpenditureRatio";
         public static string FreeCashFlow => "FreeCashFlow";
 
+        public static string DeleteSearchResultMessage => "DeleteSearchResultMessage";
         public static string OfflineErrorMessage => "OfflineErrorMessage";
         public static string GeneralErrorMessage => "GeneralErrorMessage";
     }
