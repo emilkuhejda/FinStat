@@ -518,7 +518,7 @@
   </data>
   
   <data name="DeleteSearchResultMessage" xml:space="preserve">
-    <value>Do you really want to delete this record?</value>
+    <value>Do you really want to delete '{0}' record?</value>
   </data>
   <data name="OfflineErrorMessage" xml:space="preserve">
     <value>It seems you are offline. Please check your internet connection.</value>

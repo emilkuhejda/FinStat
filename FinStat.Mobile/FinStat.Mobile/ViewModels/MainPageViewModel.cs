@@ -191,7 +191,7 @@ namespace FinStat.Mobile.ViewModels
         {
             var result = await DisplayAlertAsync(
                 string.Empty,
-                Loc.Text(TranslationKeys.DeleteSearchResultMessage),
+                Loc.Text(TranslationKeys.DeleteSearchResultMessage, searchResult.Name),
                 Loc.Text(TranslationKeys.Yes),
                 Loc.Text(TranslationKeys.No));
             if (!result)

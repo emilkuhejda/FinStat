@@ -385,7 +385,7 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Do you really want to delete this record?.
+        ///   Looks up a localized string similar to Do you really want to delete &apos;{0}&apos; record?.
         /// </summary>
         public static string DeleteSearchResultMessage {
             get {
