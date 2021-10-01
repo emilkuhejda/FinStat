@@ -1,4 +1,5 @@
-﻿using FinStat.Domain.Interfaces.Configuration;
+﻿using FinStat.Domain.Enums;
+using FinStat.Domain.Interfaces.Configuration;
 
 namespace FinStat.Business.Configuration
 {
@@ -13,5 +14,7 @@ namespace FinStat.Business.Configuration
         public int SearchLimit { get; } = 20;
 
         public int StatementsLimit { get; } = 10;
+
+        public TimeFrame DefaultTimeFrame { get; } = TimeFrame.Hour1;
     }
 }

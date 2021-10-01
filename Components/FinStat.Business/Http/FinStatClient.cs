@@ -110,6 +110,17 @@ namespace FinStat.Business.Http
             return SendRequestAsync<HistoricalDailyPrice>(urlBuilder, cancellationToken);
         }
 
+        public Task<HistoricalPrice[]> GetHistoricalPricesAsync(string ticker, TimeFrame timeFrame, CancellationToken cancellationToken)
+        {
+            var urlBuilder = new StringBuilder();
+            urlBuilder.Append(_baseUrl.TrimEnd('/')).Append("/api/v3/historical-chart/{timeFrame}/{ticker}");
+            urlBuilder.Append($"?apikey={_apiKey}");
+            urlBuilder.Replace("{ticker}", Uri.EscapeDataString(ConvertToString(ticker, CultureInfo.InvariantCulture)));
+            urlBuilder.Replace("{timeFrame}", Uri.EscapeDataString(ConvertToString(timeFrame.ToValue(), CultureInfo.InvariantCulture)));
+
+            return SendRequestAsync<HistoricalPrice[]>(urlBuilder, cancellationToken);
+        }
+
         private async Task<T> SendRequestAsync<T>(StringBuilder urlBuilder, CancellationToken cancellationToken)
         {
             var client = _httpClient;

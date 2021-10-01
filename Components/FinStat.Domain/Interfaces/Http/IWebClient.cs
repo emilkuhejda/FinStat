@@ -19,5 +19,7 @@ namespace FinStat.Domain.Interfaces.Http
         Task<StockPrice[]> GetStockPriceAsync(string ticker, CancellationToken cancellationToken);
 
         Task<HistoricalDailyPrice> GetHistoricalDailyPricesAsync(string ticker, DateTime fromDate, DateTime toDate, CancellationToken cancellationToken);
+
+        Task<HistoricalPrice[]> GetHistoricalPricesAsync(string ticker, TimeFrame timeFrame, CancellationToken cancellationToken);
     }
 }
