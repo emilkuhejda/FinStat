@@ -1,6 +1,6 @@
 ﻿namespace FinStat.Mobile.ViewModels.Charts
 {
-    public class PriceChartViewModel
+    public class PriceChartPointViewModel
     {
         public string Title { get; set; }
 

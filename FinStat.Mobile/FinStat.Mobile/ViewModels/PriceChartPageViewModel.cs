@@ -18,7 +18,7 @@ namespace FinStat.Mobile.ViewModels
         private readonly IWebService _webService;
         private readonly IApplicationSettings _applicationSettings;
 
-        private IEnumerable<PriceChartViewModel> _chartData = new List<PriceChartViewModel>();
+        private IEnumerable<PriceChartPointViewModel> _chartData = new List<PriceChartPointViewModel>();
 
         public PriceChartPageViewModel(
             IWebService webService,
@@ -34,7 +34,7 @@ namespace FinStat.Mobile.ViewModels
             Title = Loc.Text(TranslationKeys.NoAvailableData);
         }
 
-        public IEnumerable<PriceChartViewModel> ChartData
+        public IEnumerable<PriceChartPointViewModel> ChartData
         {
             get => _chartData;
             set
@@ -56,12 +56,12 @@ namespace FinStat.Mobile.ViewModels
                 if (searchResult == null)
                     return;
 
-                Title = searchResult.Name;
+                Title = $"{searchResult.Name} ({searchResult.Currency})";
 
                 var httpRequestResult = await _webService.GetHistoricalPricesAsync(searchResult.Symbol, _applicationSettings.DefaultTimeFrame);
                 if (httpRequestResult.State == HttpRequestState.Success)
                 {
-                    ChartData = httpRequestResult.Payload.Reverse().Select(x => new PriceChartViewModel
+                    ChartData = httpRequestResult.Payload.Reverse().Select(x => new PriceChartPointViewModel
                     {
                         Title = x.Date.ToString("dd.MM HH:mm"),
                         High = x.High,

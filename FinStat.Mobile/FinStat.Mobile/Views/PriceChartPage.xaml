@@ -22,6 +22,7 @@
             </xForms:SfChart.ChartBehaviors>
 
             <xForms:HiLoOpenCloseSeries Close="Close"
+                                        EnableTooltip="True"
                                         High="High"
                                         ItemsSource="{Binding ChartData}"
                                         Low="Low"
