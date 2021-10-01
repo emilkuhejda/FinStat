@@ -718,6 +718,24 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 1 hour.
+        /// </summary>
+        public static string Hour1 {
+            get {
+                return ResourceManager.GetString("Hour1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 4 hours.
+        /// </summary>
+        public static string Hour4 {
+            get {
+                return ResourceManager.GetString("Hour4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Income Before Tax Ratio.
         /// </summary>
         public static string IncomeBeforeTaxRatio {
@@ -813,6 +831,42 @@ namespace FinStat.Resources {
         public static string Main {
             get {
                 return ResourceManager.GetString("Main", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 min.
+        /// </summary>
+        public static string Min1 {
+            get {
+                return ResourceManager.GetString("Min1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 15 min.
+        /// </summary>
+        public static string Min15 {
+            get {
+                return ResourceManager.GetString("Min15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 30 min.
+        /// </summary>
+        public static string Min30 {
+            get {
+                return ResourceManager.GetString("Min30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5 min.
+        /// </summary>
+        public static string Min5 {
+            get {
+                return ResourceManager.GetString("Min5", resourceCulture);
             }
         }
         

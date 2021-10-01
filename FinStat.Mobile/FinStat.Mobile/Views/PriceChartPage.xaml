@@ -2,33 +2,88 @@
 <views:BaseNavigationPage x:Class="FinStat.Mobile.Views.PriceChartPage"
                           xmlns="http://xamarin.com/schemas/2014/forms"
                           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                          xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
                           xmlns:forms="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
+                          xmlns:local="clr-namespace:FinStat.Domain.Enums;assembly=FinStat.Domain"
                           xmlns:localization="clr-namespace:FinStat.Mobile.Localization;assembly=FinStat.Mobile"
                           xmlns:resourceKeys="clr-namespace:FinStat.Resources.Localization;assembly=FinStat.Resources"
                           xmlns:views="clr-namespace:FinStat.Mobile.Views;assembly=FinStat.Mobile"
                           xmlns:xForms="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms">
     <Grid Padding="{StaticResource StandardPadding}">
-        <xForms:SfChart IsVisible="{Binding HasDataToPlot}">
-            <xForms:SfChart.PrimaryAxis>
-                <xForms:CategoryAxis />
-            </xForms:SfChart.PrimaryAxis>
+        <Grid IsVisible="{Binding HasDataToPlot}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
 
-            <xForms:SfChart.SecondaryAxis>
-                <xForms:NumericalAxis />
-            </xForms:SfChart.SecondaryAxis>
+            <xForms:SfChart Grid.Row="0">
+                <xForms:SfChart.PrimaryAxis>
+                    <xForms:CategoryAxis />
+                </xForms:SfChart.PrimaryAxis>
 
-            <xForms:SfChart.ChartBehaviors>
-                <xForms:ChartZoomPanBehavior />
-            </xForms:SfChart.ChartBehaviors>
+                <xForms:SfChart.SecondaryAxis>
+                    <xForms:NumericalAxis />
+                </xForms:SfChart.SecondaryAxis>
 
-            <xForms:HiLoOpenCloseSeries Close="Close"
-                                        EnableTooltip="True"
-                                        High="High"
-                                        ItemsSource="{Binding ChartData}"
-                                        Low="Low"
-                                        Open="Open"
-                                        XBindingPath="Title" />
-        </xForms:SfChart>
+                <xForms:SfChart.ChartBehaviors>
+                    <xForms:ChartZoomPanBehavior />
+                </xForms:SfChart.ChartBehaviors>
+
+                <xForms:HiLoOpenCloseSeries Close="Close"
+                                            EnableTooltip="True"
+                                            High="High"
+                                            ItemsSource="{Binding ChartData}"
+                                            Low="Low"
+                                            Open="Open"
+                                            XBindingPath="Title" />
+            </xForms:SfChart>
+
+            <StackLayout Grid.Row="1"
+                         HorizontalOptions="EndAndExpand"
+                         Orientation="Horizontal">
+                <buttons:SfButton Command="{Binding ReloadDataCommand}"
+                                  CommandParameter="{x:Static local:TimeFrame.Min1}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding IsMin1}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Min1}}" />
+                <Label Style="{StaticResource LabelStyle}" Text="|" />
+                <buttons:SfButton Command="{Binding ReloadDataCommand}"
+                                  CommandParameter="{x:Static local:TimeFrame.Min5}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding IsMin5}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Min5}}" />
+                <Label Style="{StaticResource LabelStyle}" Text="|" />
+                <buttons:SfButton Command="{Binding ReloadDataCommand}"
+                                  CommandParameter="{x:Static local:TimeFrame.Min15}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding IsMin15}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Min15}}" />
+                <Label Style="{StaticResource LabelStyle}" Text="|" />
+                <buttons:SfButton Command="{Binding ReloadDataCommand}"
+                                  CommandParameter="{x:Static local:TimeFrame.Min30}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding IsMin30}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Min30}}" />
+                <Label Style="{StaticResource LabelStyle}" Text="|" />
+                <buttons:SfButton Command="{Binding ReloadDataCommand}"
+                                  CommandParameter="{x:Static local:TimeFrame.Hour1}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding IsHour1}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Hour1}}" />
+                <Label Style="{StaticResource LabelStyle}" Text="|" />
+                <buttons:SfButton Command="{Binding ReloadDataCommand}"
+                                  CommandParameter="{x:Static local:TimeFrame.Hour4}"
+                                  IsCheckable="True"
+                                  IsChecked="{Binding IsHour4}"
+                                  Style="{StaticResource ToggleButtonStyle}"
+                                  Text="{localization:Localization Text={x:Static resourceKeys:TranslationKeys.Hour4}}" />
+            </StackLayout>
+        </Grid>
 
         <StackLayout HorizontalOptions="Center"
                      IsVisible="{Binding HasDataToPlot, Converter={StaticResource InvertedBoolConverter}}"

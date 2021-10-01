@@ -168,6 +168,24 @@
   <data name="Quarterly" xml:space="preserve">
     <value>Quarterly</value>
   </data>
+  <data name="Min1" xml:space="preserve">
+    <value>1 min</value>
+  </data>
+  <data name="Min5" xml:space="preserve">
+    <value>5 min</value>
+  </data>
+  <data name="Min15" xml:space="preserve">
+    <value>15 min</value>
+  </data>
+  <data name="Min30" xml:space="preserve">
+    <value>30 min</value>
+  </data>
+  <data name="Hour1" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="Hour4" xml:space="preserve">
+    <value>4 hours</value>
+  </data>
   <data name="StockPrice" xml:space="preserve">
     <value>Stock Price</value>
   </data>
