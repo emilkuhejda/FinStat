@@ -100,13 +100,16 @@ namespace FinStat.Mobile.ViewModels
 
         protected override async Task LoadDataAsync(INavigationParameters navigationParameters)
         {
-            SearchResult = navigationParameters.GetValue<SearchResult>();
-            if (SearchResult == null)
-                return;
+            using (new OperationMonitor(OperationScope))
+            {
+                SearchResult = navigationParameters.GetValue<SearchResult>();
+                if (SearchResult == null)
+                    return;
 
-            Title = $"{SearchResult.Name} ({SearchResult.Currency})";
+                Title = $"{SearchResult.Name} ({SearchResult.Currency})";
 
-            await InitializeChartDataAsync(SearchResult.Symbol, _applicationSettings.DefaultTimeFrame);
+                await InitializeChartDataAsync(SearchResult.Symbol, _applicationSettings.DefaultTimeFrame);
+            }
         }
 
         private bool CanExecuteReloadDataCommand()

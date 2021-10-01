@@ -167,6 +167,7 @@
                 <Setter Property="BorderColor" Value="Transparent" />
                 <Setter Property="Margin" Value="0" />
                 <Setter Property="FontFamily" Value="QuicksandRegular" />
+                <Setter Property="BorderWidth" Value="0" />
                 <Style.Triggers>
                     <Trigger TargetType="buttons:SfButton" Property="IsChecked" Value="True">
                         <Setter Property="TextColor" Value="{StaticResource ColorPrimary}" />
