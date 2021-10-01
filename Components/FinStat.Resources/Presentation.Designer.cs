@@ -385,6 +385,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you really want to delete this record?.
+        /// </summary>
+        public static string DeleteSearchResultMessage {
+            get {
+                return ResourceManager.GetString("DeleteSearchResultMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Depreciation &amp; Amortization.
         /// </summary>
         public static string DepreciationAmortization {
@@ -903,6 +912,15 @@ namespace FinStat.Resources {
         public static string NetReceivables {
             get {
                 return ResourceManager.GetString("NetReceivables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string No {
+            get {
+                return ResourceManager.GetString("No", resourceCulture);
             }
         }
         
@@ -1470,6 +1488,15 @@ namespace FinStat.Resources {
         public static string TotalStockholdersEquity {
             get {
                 return ResourceManager.GetString("TotalStockholdersEquity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string Yes {
+            get {
+                return ResourceManager.GetString("Yes", resourceCulture);
             }
         }
     }

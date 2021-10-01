@@ -16,6 +16,8 @@
         public static string Ok => "Ok";
         public static string Accept => "Accept";
         public static string Cancel => "Cancel";
+        public static string Yes => "Yes";
+        public static string No => "No";
 
         public static string IncomeStatement => "IncomeStatement";
         public static string BalanceSheetStatement => "BalanceSheetStatement";
@@ -145,6 +147,7 @@
         public static string CapitalExpenditureRatio => "CapitalExpenditureRatio";
         public static string FreeCashFlow => "FreeCashFlow";
 
+        public static string DeleteSearchResultMessage => "DeleteSearchResultMessage";
         public static string OfflineErrorMessage => "OfflineErrorMessage";
         public static string GeneralErrorMessage => "GeneralErrorMessage";
     }
