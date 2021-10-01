@@ -56,7 +56,7 @@ namespace FinStat.Mobile.ViewModels
                 if (searchResult == null)
                     return;
 
-                Title = searchResult.Symbol;
+                Title = searchResult.Name;
 
                 var httpRequestResult = await _webService.GetHistoricalPricesAsync(searchResult.Symbol, _applicationSettings.DefaultTimeFrame);
                 if (httpRequestResult.State == HttpRequestState.Success)

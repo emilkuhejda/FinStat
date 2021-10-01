@@ -127,7 +127,8 @@
         </StackLayout>
 
         <StackLayout IsVisible="{Binding IsSearchingActive}">
-            <xForms:SfListView FocusBorderColor="Transparent"
+            <xForms:SfListView AllowSwiping="True"
+                               FocusBorderColor="Transparent"
                                IsScrollBarVisible="False"
                                IsVisible="{Binding AnySearchResults}"
                                ItemSize="60"
@@ -135,7 +136,29 @@
                                ItemTemplate="{StaticResource SearchResultItemTemplate}"
                                ItemsSource="{Binding SearchResults}"
                                SelectionBackgroundColor="Transparent"
-                               TapCommand="{Binding NavigateToIncomeStatementCommand}" />
+                               TapCommand="{Binding NavigateToIncomeStatementCommand}">
+                <xForms:SfListView.RightSwipeTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Frame Margin="5,0,0,0"
+                                   Padding="10,10,10,10"
+                                   BackgroundColor="{StaticResource ColorPrimary}">
+                                <forms:SvgCachedImage Margin="0"
+                                                      Aspect="AspectFit"
+                                                      HeightRequest="50"
+                                                      HorizontalOptions="Center"
+                                                      Source="resource://FinStat.Mobile.Resources.Images.Stock-Chart.svg"
+                                                      VerticalOptions="End"
+                                                      WidthRequest="50" />
+                            </Frame>
+
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding BindingContext.NavigateToPriceChartCommand, Source={x:Reference Page}}" CommandParameter="{Binding}" />
+                            </Grid.GestureRecognizers>
+                        </Grid>
+                    </DataTemplate>
+                </xForms:SfListView.RightSwipeTemplate>
+            </xForms:SfListView>
 
             <StackLayout IsVisible="{Binding AnySearchResults, Converter={StaticResource InvertedBoolConverter}}" Orientation="Vertical">
                 <forms:SvgCachedImage Margin="0,20,0,20"
