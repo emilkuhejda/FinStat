@@ -63,7 +63,7 @@ namespace FinStat.Mobile.ViewModels
                 {
                     ChartData = httpRequestResult.Payload.Reverse().Select(x => new PriceChartViewModel
                     {
-                        Title = x.Date.ToString("dd/MM HH:mm"),
+                        Title = x.Date.ToString("dd.MM HH:mm"),
                         High = x.High,
                         Low = x.Low,
                         Open = x.Open,

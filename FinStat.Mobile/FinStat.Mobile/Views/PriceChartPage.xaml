@@ -17,6 +17,10 @@
                 <xForms:NumericalAxis />
             </xForms:SfChart.SecondaryAxis>
 
+            <xForms:SfChart.ChartBehaviors>
+                <xForms:ChartZoomPanBehavior />
+            </xForms:SfChart.ChartBehaviors>
+
             <xForms:HiLoOpenCloseSeries Close="Close"
                                         High="High"
                                         ItemsSource="{Binding ChartData}"
