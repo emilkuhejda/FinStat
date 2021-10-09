@@ -504,6 +504,9 @@
   <data name="DividendsPaid" xml:space="preserve">
     <value>Dividends Paid</value>
   </data>
+  <data name="DividendPayoutRatio" xml:space="preserve">
+    <value>Dividend Payout Ratio</value>
+  </data>
   <data name="OtherFinancingActivites" xml:space="preserve">
     <value>Other Financing Activites</value>
   </data>
@@ -534,7 +537,7 @@
   <data name="FreeCashFlow" xml:space="preserve">
     <value>Free Cash Flow</value>
   </data>
-  
+
   <data name="DeleteSearchResultMessage" xml:space="preserve">
     <value>Do you really want to delete '{0}' record?</value>
   </data>

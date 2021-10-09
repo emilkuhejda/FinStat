@@ -342,6 +342,9 @@ namespace FinStat.Mobile.ViewModels.DataGrid
                     Loc.Text(TranslationKeys.DividendsPaid),
                     (c, u) => FormatNumber(c.CashFlow.DividendsPaid, u)),
                 new ParameterDefinition<CashFlowWrapper>(
+                    Loc.Text(TranslationKeys.DividendPayoutRatio),
+                    (c, u) => FormatPercentage((c.CashFlow.DividendsPaid * -1.0) / c.IncomeStatement.NetIncome)),
+                new ParameterDefinition<CashFlowWrapper>(
                     Loc.Text(TranslationKeys.OtherFinancingActivites),
                     (c, u) => FormatNumber(c.CashFlow.OtherFinancingActivites, u)),
                 new ParameterDefinition<CashFlowWrapper>(

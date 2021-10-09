@@ -142,6 +142,7 @@
         public static string CommonStockRepurchased => "CommonStockRepurchased";
         public static string CommonStockIssuedRepurchased => "CommonStockIssuedRepurchased";
         public static string DividendsPaid => "DividendsPaid";
+        public static string DividendPayoutRatio => "DividendPayoutRatio";
         public static string OtherFinancingActivites => "OtherFinancingActivites";
         public static string NetCashUsedProvidedByFinancingActivities => "NetCashUsedProvidedByFinancingActivities";
         public static string EffectOfForexChangesOnCash => "EffectOfForexChangesOnCash";

@@ -466,6 +466,15 @@ namespace FinStat.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dividend Payout Ratio.
+        /// </summary>
+        public static string DividendPayoutRatio {
+            get {
+                return ResourceManager.GetString("DividendPayoutRatio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dividends Paid.
         /// </summary>
         public static string DividendsPaid {
